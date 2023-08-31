@@ -31,13 +31,7 @@ a free, open source, and cross-platform media player
 **** [[https://type.cyhsu.xyz/2020/10/hypothesis-tutorial/][开源、可定制的网页批注工具——Hypothesis - neverland]]
 #Article
 *** Logseq https://logseq.com/
-:PROPERTIES:
-:collapsed: true
-:END:
-虽然本站就是用 Logseq ，但是内置了一整个 Git 我还是真的会谢
-**** [[https://hub.logseq.com/][Logseq Community Hub]]
-**** [[https://logseq.pro/][Logseq Pro 个人站点]]
-**** [[https://docs.logseq.com/#/page/publishing%20(desktop%20app%20only)][Publishing (Desktop App Only)]]
+虽然本站就是用 Logseq ，但是内置了一整个 #Git 我还是真的会谢
 *** [[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
 ** [[https://www.zotero.org/][Zotero | Your personal research assistant]]
 :PROPERTIES:
@@ -48,6 +42,7 @@ a free, open source, and cross-platform media player
 Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesetting
 *** 插件
 :PROPERTIES:
+:collapsed: true
 :END:
 **** [[https://github.com/l0o0/jasminum][l0o0/jasminum: A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据]]
 **** [[https://github.com/windingwind/zotero-pdf-translate][windingwind/zotero-pdf-translate: Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.]]
