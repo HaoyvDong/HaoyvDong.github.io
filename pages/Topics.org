@@ -98,7 +98,15 @@ After a decade of dual-booting Linux, I got tired of waiting around to change th
 :END:
 YACReader is the best comic reader and comic manager with support for cbr cbz zip rar comic files. It is available for Windows, Linux, Mac OS X
 ** [[https://workflowy.com/][WorkFlowy]]
-** [[Scoop]]
+** Scoop
+:PROPERTIES:
+:id: 64eff0ef-c0a0-496e-a27e-140a12f5570d
+:END:
+[[https://scoop.sh/][Get Scoop]]
+*** [[Article]]
+**** [[https://zhuanlan.zhihu.com/p/594363658][Scoop 安装、配置国内镜像、备份与迁移 - 知乎]]
+#Mirror 
+文中给出的 Gitee 镜像，推荐使用[[https://mirror.nju.edu.cn][南京大学镜像]]
 ** 系统管理 | System Management
 :PROPERTIES:
 :collapsed: true
@@ -131,14 +139,6 @@ We develop highest quality software to simplify Computer usage
 :PROPERTIES:
 :END:
 有智，有趣，有爱是世界上最美好的三件事。崇尚科技，网站致力于个人提升和价值分享。—— 奔跑中的奶酪
-** [[https://scoop.sh/][Get Scoop]]
-:PROPERTIES:
-:id: 64eff0ef-c0a0-496e-a27e-140a12f5570d
-:END:
-*** [[Article]]
-**** [[https://zhuanlan.zhihu.com/p/594363658][Scoop 安装、配置国内镜像、备份与迁移 - 知乎]]
-#Mirror 
-文中给出的 Gitee 镜像，推荐使用[[https://mirror.nju.edu.cn][南京大学镜像]]
 ** [[https://mcool.appinn.me/][Mcool 音乐播放器]]
 ** [[https://vb-audio.com/][VB-Audio home page]]
 :PROPERTIES:
