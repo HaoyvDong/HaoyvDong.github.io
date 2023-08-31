@@ -3,11 +3,10 @@
 * 信息收集方案
 :PROPERTIES:
 :heading: true
-:collapsed: true
 :END:
 ** 需求整理
 :PROPERTIES:
-:heading: 2
+:heading: true
 :END:
 |*输入*|*整理*|*输出*|
 |全平台|搜索筛选语法|批量导出|
@@ -15,15 +14,22 @@
 *** 导出可就麻烦了，Org-Mode 生态目前只有 Logseq 能打啊，这个问题几乎就是问哪个稍后读的 Logseq 插件做得好
 ** 候选分析
 :PROPERTIES:
-:heading: 2
+:heading: true
 :END:
-*** [[https://omnivore.app/][Omnivore 开源稍后读]]
-:PROPERTIES:
-:END:
-Omnivore is the free, open source, read-it-later app for serious readers.
+*** [[https://omnivore.app/][Omnivore]]
+*** [[https://www.dida365.com/home][滴答清单:一个帮你高效完成任务和规划时间的应用]]
 * 静态站托管记录
+:PROPERTIES:
+:heading: true
+:END:
 老实说一开始是拒绝任何 #Git 相关的方案的，就是懒嘛，结果后来还是不得不学了下。
-** Netlify
+** 废案
+*** Netlify
 刚注册就风控，也不知道是不是落地机房问题，想上传 ID 做认证都不行，Stripe 的网页不管什么姿势都卡死，走了人工申诉天晓得还要多长时间。
-**
-**
+*** 热铁盒 https://host.retiehe.com/
+想着国内站快点，也是支持直接上传文件。结果 Logseq 导出的页面“存在调用不符合核心价值观的 AI 算法的行为”，这下简中特了。
+** 记录
+*** [[Article]]
+**** [[https://zhuanlan.zhihu.com/p/138305054][初次使用git上传代码到github远程仓库 - 知乎]]
+**** [[https://zhuanlan.zhihu.com/p/467192292][简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案 - 知乎]]
+文中介绍的 Action 已经停更了，可以用官方的 [[https://github.com/logseq/publish-spa][logseq/publish-spa]]
