@@ -4,8 +4,21 @@
 :PROPERTIES:
 :heading: true
 :END:
-** ```Autohotkey
+** 基本语法速览
+```Autohotkey
+#z::	; Win+Z
+{
+	Loop 1	;循环次数
+		{
+			Send "{LButton}"	; 点击
+			Sleep 300	; 睡眠 300 毫秒
+			Send "{Shift down}{Tab}{Shift up}"	; 聚焦导航
+			Send "{Enter}"	; 确认按钮
+			Send "{Down}"	; 下拉菜单
+		}
+}
 ```
+** 思路：网页和“正常”的窗口应该都能通过 Tab 切换聚焦的
 * 信息收集方案
 :PROPERTIES:
 :heading: true
