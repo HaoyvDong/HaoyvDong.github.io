@@ -1,5 +1,0 @@
-* [[https://scoop.sh/][Get Scoop]]
-* [[Article]]
-** [[https://zhuanlan.zhihu.com/p/594363658][Scoop 安装、配置国内镜像、备份与迁移 - 知乎]]
-#Mirror 
-文中给出的 Gitee 镜像，推荐使用[[https://mirror.nju.edu.cn][南京大学镜像]]

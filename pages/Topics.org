@@ -3,7 +3,10 @@
 :heading: true
 :END:
 数字生活的基础设施
-** [[RIME]]
+** [[CJK]]
+:PROPERTIES:
+:heading: true
+:END:
 ** [[https://vivaldi.com/zh-hans/][Vivaldi 浏览器 | 强大的个性化和私密化的网络浏览器]]
 :PROPERTIES:
 :tags: Browser
@@ -20,7 +23,6 @@ a free, open source, and cross-platform media player
 :heading: true
 :END:
 『在笔记软件里记录笔记软件评测』
-** [[Anki]]
 ** [[https://calibre-ebook.com/][Calibre]]
 ** Hypothesis
 https://web.hypothes.is/
@@ -80,7 +82,6 @@ After a decade of dual-booting Linux, I got tired of waiting around to change th
 * Productivity
 :PROPERTIES:
 :heading: true
-:collapsed: true
 :END:
 磨刀不误磨刀磨刀磨刀磨刀磨刀磨刀磨刀磨刀……语义饱和没
 ** File Management
@@ -130,6 +131,14 @@ We develop highest quality software to simplify Computer usage
 :PROPERTIES:
 :END:
 有智，有趣，有爱是世界上最美好的三件事。崇尚科技，网站致力于个人提升和价值分享。—— 奔跑中的奶酪
+** [[https://scoop.sh/][Get Scoop]]
+:PROPERTIES:
+:id: 64eff0ef-c0a0-496e-a27e-140a12f5570d
+:END:
+*** [[Article]]
+**** [[https://zhuanlan.zhihu.com/p/594363658][Scoop 安装、配置国内镜像、备份与迁移 - 知乎]]
+#Mirror 
+文中给出的 Gitee 镜像，推荐使用[[https://mirror.nju.edu.cn][南京大学镜像]]
 ** [[https://mcool.appinn.me/][Mcool 音乐播放器]]
 ** [[https://vb-audio.com/][VB-Audio home page]]
 :PROPERTIES:
