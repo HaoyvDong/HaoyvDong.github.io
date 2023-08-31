@@ -1,8 +1,8 @@
 #+Description: Chinese-Japanese-Korea
 
-* [[https://www.yuque.com/deerain/gannbs/kbczzv#26d7c1b78bedd0e182b204d04c888ea9][锐评 RemNote]]
+* 为什么 CJK 需要单独对待：[[https://www.yuque.com/deerain/gannbs/kbczzv#26d7c1b78bedd0e182b204d04c888ea9][锐评 RemNote]] ，注意这里我们还没有考虑 CJK 的字体和 Unicode 编码问题。
 #+BEGIN_QUOTE
-根据我的经验，如果一个外国软件的中文支持有问题，基本上是没什么改善希望的—背后的团队再强大、经费再充足也很难改善，因为很多发达国家的开发者根本就无法想象世界上竟然存在不用空格分隔单词的语言。
+根据我的经验，如果一个外国软件的中文支持有问题，基本上是没什么改善希望的——背后的团队再强大、经费再充足也很难改善，因为很多发达国家的开发者根本就无法想象世界上竟然存在不用空格分隔单词的语言。
 #+END_QUOTE
 * RIME
 [[https://rime.im/][RIME | 中州韻輸入法引擎]]
