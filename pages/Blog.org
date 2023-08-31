@@ -20,3 +20,7 @@
 :PROPERTIES:
 :END:
 Omnivore is the free, open source, read-it-later app for serious readers.
+* 静态站托管记录
+** Netlify
+刚注册就风控，也不知道是不是
+**

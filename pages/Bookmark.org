@@ -168,6 +168,8 @@ List of websites and whether or not they support One Time Passwords (OTP) or Uni
 使用计算机科学来探索、玩耍和创造！
 ** [[https://hackway.org/docs/cs/intro][计算机专业学习路线 | HackWay技术学习路线]] 大学计算机自学
 ** #Article
+*** GitHub 初次使用
+[[https://zhuanlan.zhihu.com/p/138305054][初次使用git上传代码到github远程仓库 - 知乎]]
 *** [[https://mp.weixin.qq.com/s/q461so9lWk4FKJGZ-p7Vcg][​提问的智慧-中国版]]
 :PROPERTIES:
 :END:
