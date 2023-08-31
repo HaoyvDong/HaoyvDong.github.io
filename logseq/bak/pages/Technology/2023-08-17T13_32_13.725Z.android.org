@@ -1,0 +1,27 @@
+*
+* Hardware
+:PROPERTIES:
+:heading: 1
+:END:
+** Linux
+*** [[https://linux-hardware.org/][Linux Hardware Database]]
+** Apple Inc.
+*** [[http://mactracker.ca/][Mactracker]]
+:PROPERTIES:
+:tags: software, 
+:END:
+*** [[https://buyersguide.macrumors.com/][MacRumors Buyer's Guide: Know When to Buy iPhone, Mac, iPad]]
+#shopping
+*** [[https://everymac.com/][Mac Specs, Prices, Answers and Comparison: EveryMac.com, Est. 1996]]
+*** [[https://everyi.com/][iPod, iPhone & iPad Specs, Answers, Help, Troubleshooting & More: Everyi.com]]
+*** [[https://hubapple.cn/][Apple 苹果产品参数中心 / HubApple.cn]]
+* Software
+:PROPERTIES:
+:heading: 1
+:END:
+** RoboCopy
+:PROPERTIES:
+:DESCRIPTION: The fastest copy software on Windows.
+:tags: Windows, File, 
+:END:
+*** [[https://developer.aliyun.com/article/684435][Windows中常用文件拷贝工具的评测和对比-阿里云开发者社区]]

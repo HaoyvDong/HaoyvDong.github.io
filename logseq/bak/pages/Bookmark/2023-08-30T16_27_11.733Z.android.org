@@ -1,0 +1,319 @@
+#+description: 各种网站，从未使用，仓鼠症剪藏公墓
+
+** Demo
+:PROPERTIES:
+:tags: 
+:template: Common
+:END:
+* Apple Inc.
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+自成生态，无通用性
+** [[https://iosmfi.cn/][苹果手柄游戏 -- iosmfi.cn]]
+** [[https://mfigames.com/][MFi Games - Games with Controller support for iOS and Apple TV]]
+:PROPERTIES:
+:END:
+The BIG list of games with MFi controller support. Find the latest games that support MFi Game Controllers on iOS for iPhone, iPad, and Apple TV
+** 硬件参数
+:PROPERTIES:
+:collapsed: true
+:END:
+*** [[http://mactracker.ca/][Mactracker]]
+*** [[https://buyersguide.macrumors.com/][MacRumors Buyer's Guide: Know When to Buy iPhone, Mac, iPad]]
+#shopping
+This page provides a product summary for each Apple model. The intent is to provide our best recommendations regarding current product cycles, and to provide a summary of currently available rumors for each model. This page is based on rumors and speculation and we provide no guarantee to its accuracy.
+*** [[https://everymac.com/][Mac Specs, Prices, Answers and Comparison: EveryMac.com, Est. 1996]]
+*** [[https://everyi.com/][iPod, iPhone & iPad Specs, Answers, Help, Troubleshooting & More: Everyi.com]]
+*** [[https://hubapple.cn/][Apple 苹果产品参数中心 / HubApple.cn]]
+** Mac Software
+:PROPERTIES:
+:collapsed: true
+:END:
+软件有了，Mac 哪里领？
+*** [[https://owlocr.com/][Instant text recognition for Mac with OwlOCR]]
+:PROPERTIES:
+:END:
+OCR instantly anything on the Mac screen and digitize your scans and files, create searchable PDFs using state-of-the-art text recognition. Get started free!
+*** [[https://plentycom.jp/en/steermouse/index.html][SteerMouse]]
+*** [[https://mousefix.org/][Mac Mouse Fix - A simple way to make your mouse better.]]
+*** [[https://macopenweb.com/][Mac Open Web, by Brian Warren]]
+*** [[https://monodraw.helftone.com/][Monodraw for macOS --- Helftone ASCIIart]]
+** [[https://altstore.io/][Welcome to AltStore]]
+欧盟立法侧载，也许很快这也 #RIP
+* BT
+:PROPERTIES:
+:collapsed: true
+:heading: true
+:END:
+** [[http://www.ptyqm.com/][PT邀请码网 - mteam,ttg,hdsky,chdbits,hdchina,cmct高清电影pt站,群晖家用nas,智能家庭影院音响交流]]
+:PROPERTIES:
+:END:
+PT邀请码网(www.ptyqm.com)，发布高清片源PT站开放邀请注册信息，提供mteam、hdsky、chdbits、hdchina、TTG PT站、hdroad等高清PT邀请码，传授高清片源PT站生存策略，以及过PT站考核技巧。发布家用NAS存储、家庭影院音响、投影等设备资讯。
+** [[https://thepiratebay.org/index.html][The Pirate Bay - The galaxy's most resilient BitTorrent site. Download music, movies, games, software!]]
+:PROPERTIES:
+:END:
+Download music, movies, games, software and much more. The Pirate Bay is the galaxy's most resilient BitTorrent site.
+** [[https://fitgirl-repacks.site/][FitGirl Repacks]]
+:PROPERTIES:
+:END:
+The ONLY official site for FitGirl Repacks. Every single FG repack installer has a link inside, which leads here. Do not fall for fake and scam sites, which are using my name.
+** [[https://www.d211.cc/][磁力搜索 - 专业的磁力,磁力链接搜索引擎]]
+:PROPERTIES:
+:END:
+磁力链接搜索引擎d211磁力(d211.cc)索引了全球最新最热门的BT种子信息和磁力链接，提供磁力链接搜索、BT搜索、种子搜索等强大功能。
+** [[http://www.gebi1.com/][隔壁网]]
+打造国内NAS网络存储器最活跃的黑群晖论坛，本站是最专业的NAS交流论坛，全部讨论以NAS和PT站邀请码为核心，集聚了最活跃的一部分NAS爱好者和PT网站爱好者,家庭服务器数据中心
+* [[https://pan.baidu.com/s/1F1IUXVZ9c5dfuPHPi6zEmw?pwd=1o22][EpicRapBattle 补档]]
+[[https://space.bilibili.com/5943503/][Torchwaver的个人空间_哔哩哔哩_bilibili]]
+* [[http://www.549.tv/][影视森林——观影第一站]]
+* [[https://eja.tv/][eja.tv - Search and watch more than 4000 live iptv channels from around the world.]]
+:PROPERTIES:
+:END:
+Search and watch more than 4000 live iptv channels from around the world.
+* 一切麻烦的事
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+** 微信文件传输助手网页版
+https://filehelper.weixin.qq.com/
+https://szfilehelper.weixin.qq.com/
+** [[https://meta.appinn.net/t/topic/17302][Adobe桌面软件的替代品 - 大家的板块 / 网络黄页 - 小众软件官方论坛]]
+** PDF
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://meta.appinn.net/t/topic/383][Pdf 工具收集 - 大家的板块 / 网络黄页 - 小众软件官方论坛]]
+* Podcast | 播客
+:PROPERTIES:
+:heading: true
+:END:
+** [[https://xyzrank.com/#/][中文播客榜]]
+:PROPERTIES:
+:END:
+榜单只是一种维度，愿你找到喜欢的节目
+** [[https://pod.link/][pod.link | Share a Podcast]]
+:PROPERTIES:
+:END:
+Share a Podcast
+** [[https://tech-podcasts.github.io/it-technology-podcast/][Hello from IT 技术相关播客 | IT 技术相关播客]]
+* [[https://sspai.com/post/73698][听色盲者聊聊五彩斑斓的世界 - 少数派 - sspai.com]]
+#Article
+* 导航
+:PROPERTIES:
+:collapsed: true
+:END:
+** [[http://47.113.105.58/][少数派搜索]]
+** [[https://meta.appinn.net/][小众软件论坛]]
+#Forum
+** [[https://www.1ove.club/][1OVE导航]]
+:PROPERTIES:
+:END:
+1OVE导航，不仅囊括1ove生态的内容，还包含了其他精彩内容。
+** [[https://search.chongbuluo.com/][快搜]]
+** [[https://nav.guidebook.top/][Guidebook | 让工作学习生活更高效！]]
+:PROPERTIES:
+:END:
+Guidebook.top，致力于更好的运用互联网工具或科学方法，不断提高信息素养能力，让工作学习生活更高效。
+** [[https://shuziyimin.org/index.html][数字移民导航]]
+:PROPERTIES:
+:END:
+数字移民导航
+** [[https://www.chongbuluo.com/][虫部落 - 让搜索更简单]]
+:PROPERTIES:
+:END:
+虫部落是一个纯粹的搜索知识、技术和经验分享平台，虫部落快搜、虫部落学术搜索等搜索聚合工具均为虫部落原创出品，搜索世界的乐趣，就在虫部落！
+** [[https://zh.weatherspark.com/][地球上任何地点的全年天气 - Weather Spark]]
+:PROPERTIES:
+:END:
+获得每月、每天和每小时平均天气图形报告：每天高温和低温、下雨、多云、刮风等。对规划活动和旅行非常有用！
+** [[https://www.jetpens.com/][JetPens - The Best Pens & Stationery From Japan & Beyond]]
+#shopping 
+Fine writing instruments, office supplies and art products imported from Japan and Europe. Bestselling brands include Pilot, Uni, and Zebra. Free US domestic shipping for orders over $35!
+** [[https://my-best.tw/][mybest - 好物推薦新媒體]]
+#shopping 
+mybest 為「好物推薦新媒體」。由mybest團隊實際購入商品比較實測，專家、達人針對favlist推薦與介紹，幫助使用者挑選出最符合需求的商品，期許能讓購物選擇過程更加簡單、愉快。
+* [[http://yueyuebk.ysepan.com/][悦悦考研学习圈]]
+淘宝店买资料送的，密码 YYDS
+* 文史
+:PROPERTIES:
+:END:
+** [[https://www.cbaigui.com/][纪妖（收集中国古今妖怪）]]
+** [[http://www.zhsc.com/indexgb.htm][写作大词海2019·历代古诗文2019]]
+** [[https://www.allhistory.com/][全历史]]
+** [[https://www.ageeye.cn/][观沧海・中国历史古旧地图]]
+** [[https://digicol.dpm.org.cn/][故宫博物院数字文物库]]
+* English Learning
+** [[https://www.iyuce.com/][雅思（IELTS）_雅思培训_雅思预测_雅思机经下载-我预测出国考试系统-我预测你高分]]
+:PROPERTIES:
+:END:
+我预测出国考试系统(我预测你高分)第一时间提供有关雅思考试时间、雅思报名、雅思听力、雅思 写作、雅思阅读、雅思预测、雅思口语等雅思考试资讯方面的相关信息，同时也提供雅思 培训、雅思辅导等相关信息，并且提供雅思真题、剑桥雅思真题、雅思资料等雅思综合网 络教育门户。
+** [[https://www.phrasebank.manchester.ac.uk/][Home Page -]]
+Academic Phrasebank is a phraseological resource for academic writers organised according to the main sections of a research paper or dissertation.
+** [[https://downloads.freemdict.com/][FreeMdict 下载站]]
+** [[http://pigai.org/][批改网]]
+** [[https://byoungd.gitbook.io/english-level-up-tips/][如何高效学英语?]]
+#Article
+** [[https://wantwords.thunlp.org/][万词王 WantWords]]
+:PROPERTIES:
+:END:
+万词王wordwants是一个反向词典系统,由清华大学自然语言处理实验室出品,广泛收录了多部词典数据,通过深度学习算法,实现通过描述意思来查询词语，解决您的用词烦恼。
+** [[https://www.ielts9.me/][ielts9.me]]
+** [[https://www.writerswrite.co.za/][Writers Write]]
+** [[https://zhenti.burningvocabulary.cn/][英语在线]]
+四六级 专四专八 考研 真题
+* 音乐 | Music
+:PROPERTIES:
+:collapsed: true
+:END:
+** [[http://music.zhuolin.wang/][VIP会员付费音乐解析下载网]]
+:PROPERTIES:
+:END:
+一款在线免费下载付费VIP音乐的网站。具有音乐搜索、播放、下载、歌词同步显示、个人音乐播放列表同步等功能。
+** [[https://i.oppsu.cn/][iSearch 4.5 - iTunes搜索从此变得如此简单]]
+:PROPERTIES:
+:END:
+iSearch 是一个提供iTunes搜索,试听,高清专辑封面获取,查看最新音乐动态等综合性平台!
+** [[https://chinesealbumart.com/][Chinese Album Art – The Best Album Art Covers Web Site for Chinese Music]]
+** [[https://www.cdbao.net/][CD包音乐网]]
+CD包音乐网 - 专业的无损音乐分享论坛，分享高音质无损音乐免费下载。提供ape、flac、wav、mp3、aac等格式专辑，汽车CD、慢摇DJ、影视原声等打包CD下载以及音乐资讯、乐评、在线试听及歌曲推荐。 APE,FLAC,WAV,CD,MP3专辑网站！
+** [[https://www.cdhires.com/][醉音论坛]]
+:PROPERTIES:
+:END:
+CdHires音乐论坛提供WAV,APE,FLAC,DTS等优质真实的高采样Hires音乐资源分享！
+** [[https://www.allmusic.com/][AllMusic | Record Reviews, Streaming Songs, Genres & Bands]]
+音乐数据库
+** [[https://pan.xunlei.com/s/VMfr1EAQOMKGRvxTjj_4F85JA1?password=4mdx&path=%2F][陈奕迅迅雷网盘]]
+:PROPERTIES:
+:END:
+迅雷云盘
+* 电子数码
+:PROPERTIES:
+:collapsed: true
+:END:
+Keyboard | Radios | Routers | Other hardwares
+** Android
+:PROPERTIES:
+:heading: true
+:END:
+*** [[Forum]]
+**** [[https://bbs.letitfly.me/][LetITFly BBS]]
+LetITFly BBS（中文名: 让技术飞论坛），让 Android 回归它原本的样子。
+LetITFly BBS 的前身是 MAT BBS，但并不局限于 MyAndroidTools。
+我们致力于让 Android 的使用体验更好，同时我们也讨论 Windows 和 GNU/Linux 相关。
+**** [[https://forum.xda-developers.com/][XDA Forums]]
+Android Forum for Mobile Phones, Tablets, Hardware & App Development
+*** [[https://apkpure.com/][Apkpure]]
+*** [[https://twrp.me/Devices/][Devices-Magisk Root]]
+*** [[https://www.apktoy.com/][APK Downloader - Download APK Files Directly From Google Play - APKToy]]
+*** [[https://www.tacit.dk/foldersync][FolderSync]]
+:PROPERTIES:
+:END:
+Developer of FolderSync for Android
+** [[https://tustation.gitbook.io/tuusermanual/][客制化小站-键盘]]
+** [[https://config.slicemk.com/ergodox/][SliceMK Configurator]]
+** [[https://www.slicemk.com/][Premium wireless mechanical keyboard]]
+** [[https://www.right.com.cn/forum/][恩山无线论坛]]
+:PROPERTIES:
+:END:
+恩山无线论坛,无线路由器爱好者的乐园
+** [[https://www.panelook.cn/][【全球液晶屏交易中心 - 屏库】]]
+:PROPERTIES:
+:END:
+4万个液晶屏型号供选型、4万个液晶屏规格书下载、千万片液晶屏现货、340多个液晶屏尺寸、100多项液晶屏性能参数、90多个液晶屏品牌、40多种液晶屏应用产品。
+** [[https://forum.hamcq.cn/][HamCQ 社区]]
+:PROPERTIES:
+:END:
+HamCQ为国内业余无线电爱好者社区，一起来共建业余无线电生态吧~
+** [[https://www.hellocq.net/forum/][哈罗CQ火腿社区]]
+:PROPERTIES:
+:END:
+This is a discussion forum of China Amateur Radios. 这是一个中国业余无线电爱好者的论坛.
+** [[https://endoflife.date/][End-Of-Life, support schedule of products.]]
+#Museum 
+Check end-of-life, support schedule, and release timelines for more than 200 products at one place.
+** [[https://www.dongleauth.com/][USB Dongle Authentication]]
+:PROPERTIES:
+:END:
+List of websites and whether or not they support One Time Passwords (OTP) or Universal 2nd Factor (U2F).
+* Programming
+:PROPERTIES:
+:collapsed: true
+:END:
+** [[https://mp.weixin.qq.com/s/q461so9lWk4FKJGZ-p7Vcg][​提问的智慧-中国版]]
+:PROPERTIES:
+:END:
+中国版的提问的智慧，更懂中国程序员！
+** [[https://www.microsoft.com/zh-cn/language][搜索和下载国际术语 -Microsoft | 语言门户]]
+** [[https://martinrue.com/my-engineering-axioms/][My Engineering Axioms]]
+** [[https://pimbook.org/][A Programmer's Introduction to Mathematics]]
+** [[https://www.packtpub.com/][Packt | Programming Books, eBooks & Videos for Developers]]
+:PROPERTIES:
+:END:
+Packt is the online library and learning platform for professional developers. Learn Python, JavaScript, Angular and more with eBooks, videos and courses
+** [[https://it-ebooks.info/][IT Free eBooks]]
+:PROPERTIES:
+:END:
+IT eBooks - Free Download eBooks Library
+** [[https://ebookfoundation.github.io/free-programming-books-search/?§=books&file=free-programming-books-zh.md][free-programming-books | Freely available programming books]]
+** [[https://code.org/][学习计算机科学，改变世界！]]
+:PROPERTIES:
+:END:
+每个学校的每个学生都应该有学习计算机科学的机会。计算机科学正在改变所有的东西。
+** [[https://hourofcode.com/ca/cn][编程一小时：任何人都可以学习]]
+:PROPERTIES:
+:END:
+使用计算机科学来探索、玩耍和创造！
+** [[https://git-scm.com/book/zh/v2][Git - Book]]
+#Manual
+** [[https://www.w2solo.com/][w2solo - 独立开发者社区]]
+** [[https://hackway.org/docs/cs/intro][计算机专业学习路线 | HackWay技术学习路线]]
+对计算机科学有追求的同学（读研、想进大厂或工作之余想提升自己），非常推荐你按照本学习路线花两三年的时间去深入学习，这对你今后的发展大有裨益；不过，如果你急于找工作（只有一年以内的时间），这种“科班式”的学习方式并不适合你，建议你按照“培训班式”的方式围绕企业招聘岗位去选择前端JavaScript、Java 后端、Go 等方向。
+** [[http://www.bathome.net/index.php][批处理之家 BAT,CMD,批处理,PowerShell,VBS,DOS - Powered by Discuz!]]
+#Forum 
+ 批处理之家 国内最实用的批处理论坛，讨论和学习BAT、CMD、DOS、PowerShell、VBS等脚本，众多高手帮助你及时解决各种问题。 - Discuz! Board
+* Bookmarklet
+:PROPERTIES:
+:collapsed: true
+:END:
+** [[javascript:(function%20()%20%7B%20var%20selection%20=%20window.getSelection().toString();%20var%20anchor%20=%20selection%20?%20selection%20:%20document.title;%20void(prompt(%27%27,%20%27%5B%5B%27%20+%20location.href%20+%20%27%5D%5B%27%20+%20anchor%20+%20%27%5D%5D%27));%20%7D)();][Org-Mode]]
+** [[javascript:(function%20()%20%7B%20var%20selection%20=%20window.getSelection().toString();%20var%20anchor%20=%20selection%20?%20selection%20:%20document.title;%20void(prompt(%27%27,%20%27%5B%27%20+%20anchor%20+%20%27%5D(%27%20+%20location.href%20+%20%27)%27));%20%7D)();][Markdown]]
+** [[javascript:(function()%7Bvar%20isIe=false;/*@cc_on%20isIe=true;%20@*/function%20fe(a,fn)%7Bvar%20i,l=a.length;for(i=0;i%3Cl;i++)%7Bfn(a%5Bi%5D);%7D%7D;function%20ae(el,n,fn,ix)%7Bfunction%20wfn(ev)%7Bvar%20el=(isIe?window.event.srcElement:ev.target);if(ix%20%7C%7C%20!el.xmt)%20fn(el);%7Dif%20(isIe)%7Bn=%27on%27%20+%20n;el.attachEvent(n,%20wfn);%7D%20else%20%7Bel.addEventListener(n,%20wfn,%20false);%7Dif(!el.es)el.es=%5B%5D;el.es.push(function()%7Bif(isIe)%7Bel.detachEvent(n,wfn);%7D%20else%20%7Bel.removeEventListener(n,%20wfn,%20false);%7D%7D);el.re=function()%7Bfe(el.es,function(f)%7Bf()%7D);%7D;%7Dfunction%20sce(el)%7Bvar%20oldclick=el.onclick,oldmu=el.onmouseup,oldmd=el.onmousedown;el.onclick=function()%7Breturn%20false;%7D;el.onmouseup=function()%7Breturn%20false;%7D;el.onmousedown=function()%7Breturn%20false;%7D;el.rce=function()%7Bel.onclick=oldclick;el.onmouseup=oldmu;el.onmousedown=oldmd;%7D;%7Dif%20(!window.r_)window.r_=%5B%5D;var%20r=window.r_;var%20D=document;ae(D.body,%27mouseover%27,%20function(el)%7Bel.style.backgroundColor=%27#ffff99';%20sce(el)%7D);ae(D.body,'mouseout',%20%20function(el)%7Bel.style.backgroundColor='';if(el.rce)el.rce();%7D);ae(D.body,'click',%20%20%20%20%20function(el)%7Bel.style.display='none';%20r.push(el);%7D);function%20ac(p,tn,ih)%7Bvar%20e=D.createElement(tn);if(ih)e.innerHTML=ih;p.appendChild(e);return%20e;%7Dvar%20p=0;var%20bx=ac(D.body,'div');bx.style.cssText='position:'+(isIe?'absolute':'fixed')+';padding:2px;background-color:#99FF99;border:1px%20solid%20green;z-index:9999;font-family:sans-serif;font-size:10px';function%20sp()%7Bbx.style.top=(p&2)?'':'10px';bx.style.bottom=(p&2)?'10px':'';bx.style.left=(p&1)?'':'10px';bx.style.right=(p&1)?'10px':'';%7Dsp();var%20ul=ac(bx,'a','%20Undo%20%7C');ae(ul,'click',function()%7Bvar%20e=r.pop();%20if(e)e.style.display='';%7D,%20true);var%20ual=ac(bx,'a','%20Undo%20All%20%7C');ae(ual,'click',function()%7Bvar%20e;while(e=r.pop())e.style.display='';%7D,%20true);var%20ml=ac(bx,'a','%20Move%20%7C');ae(ml,'click',function()%7Bp++;sp();%7D,%20true);var%20xl=ac(bx,'a','%20Exit%20');ae(xl,'click',function()%7BD.body.re();bx.parentNode.removeChild(bx);%7D,%20true);fe(%5Bbx,ul,ml,xl,ual%5D,function(e)%7Be.style.cursor='pointer';e.xmt=1;%7D);%7D)()][网页清理]]
+** [[javascript:(function()%7Bconst%20rules=%7B'www.bilibili.com':%7BtestReg:/%5Ehttp(?:s)?:\/\/www\.bilibili\.com\/video\/(av\d+).*$/i,replace:%27https://www.bilibili.com/$1%27,query:%5B%27p%27%5D,hash:!0%7D,%27itunes.apple.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/itunes\.apple\.com\/(?:\w%7B2%7D\/)?(%5B%5E\/%5D+)\/(?:%5B%5E\/%5D+\/)?((?:id)\d+).*$/i,replace:%27https://itunes.apple.com/cn/$1/$2%27%7D,%27chrome.google.com/webstore%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/chrome\.google\.com\/webstore\/detail\/%5B%5E\/%5D+\/(%5Ba-z%5D%7B32%7D).*/i,replace:%27https://chrome.google.com/webstore/detail/$1%27%7D,%27s.taobao.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/s\.taobao\.com\/search.*$/i,replace:%27https://s.taobao.com/search%27,query:%5B%27q%27%5D%7D,%27list.tmall.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/list\.tmall\.com\/search_product\.htm.*$/i,replace:%27https://list.tmall.com/search_product.htm%27,query:%5B%27q%27%5D%7D,%27item.taobao.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/item\.taobao\.com\/item\.htm.*$/i,replace:%27https://item.taobao.com/item.htm%27,query:%5B%27id%27%5D%7D,%27detail.tmall.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/detail\.tmall\.com\/item\.htm.*$/i,replace:%27https://detail.tmall.com/item.htm%27,query:%5B%27id%27%5D%7D,%27taobao/tmall.com/shop%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(\w+)\.(taobao%7Ctmall)\.com\/shop\/view_shop\.htm.*$/i,replace:%27https://$1.$2.com/%27%7D,%27c.pc.qq.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/c\.pc\.qq\.com\/middle.html\?.*pfurl=(%5B%5E&%5D*)(?:&.*$%7C$)/i,replace:%27$1%27,query:%5B%5D,methods:%5B%27decodeUrl%27%5D%7D,%27item.m.jd.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/item\.m\.jd\.com\/product\/(\d+)\.html(\?.*)?$/i,replace:%27https://item.jd.com/$1.html%27%7D,%27item.m.jd.com/ware/%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/item\.m\.jd\.com\/ware\/view\.action\?.*wareId=(\d+).*$/i,replace:%27https://item.jd.com/$1.html%27%7D,%27search.jd.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/search\.jd\.com\/Search\?.*$/i,query:%5B%27keyword%27,%27enc%27%5D%7D,%27re.jd.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/re\.jd\.com\/cps\/item\/(\d+)\.html.*$/i,replace:%27https://item.jd.com/$1.html%27%7D,%27weibo.com/u%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(?:www\.)?weibo\.com\/u\/(\d+)(\?.*)?$/i,replace:%27https://m.weibo.cn/$1%27%7D,%27weibo.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(?:www\.)?weibo\.com\/(?:\d+)\/(\w+)(\?.*)?$/i,replace:%27https://m.weibo.cn/status/$1%27%7D,%27greasyfork.org%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(?:www\.)?greasyfork\.org\/(?:%5B\w-%5D*\/)?scripts\/(\d+)-.*$/i,replace:%27https://greasyfork.org/zh-CN/scripts/$1%27%7D,%27store.steampowered.com%7Csteamcommunity.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(store\.steampowered%7Csteamcommunity)\.com\/app\/(\d+).*$/i,replace:%27https://$1.com/app/$2%27%7D,%27meta.appinn.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/meta\.appinn\.net\/t(?:\/%5B%5E/%5D*)*?\/(\d+)(\/.*$%7C$)/i,replace:%27https://meta.appinn.net/t/$1%27%7D,%27amazon.co.jp%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(?:www\.)?amazon\.co\.jp\/(%5B%5E\/%5D+)\/dp\/(\w+)\/.*$/i,replace:%27https://www.amazon.co.jp/$1/dp/$2%27%7D,%27yangkeduo.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/mobile\.yangkeduo\.com\/goods.html\?.*$/i,query:%5B%27goods_id%27%5D%7D,other:%7BtestReg:/%5E(http(?:s)?:\/\/%5B%5E?#%5D*)%5B?#%5D.*$/i,query:%5B'id','tid','uid','q','wd','query','keyword'%5D%7D%7D;const%20pureUrl=function(url=window.location.href)%7Bconst%20hash=url.replace(/%5E%5B%5E#%5D*(#.*)?$/,'$1'),base=url.replace(/(\?%7C#).*$/,'');let%20pureUrl=url;const%20getQueryString=function(key)%7Blet%20ret=url.match(new%20RegExp('(?:\\?%7C&)('+key+'=%5B%5E?#&%5D*)','i'));return%20null===ret?'':ret%5B1%5D%7D,methods=%7BdecodeUrl:function(url)%7Breturn%20decodeURIComponent(url)%7D%7D;for(let%20i%20in%20rules)%7Blet%20rule=rules%5Bi%5D,reg=rule.testReg,replace=rule.replace;if(reg.test(url))%7Blet%20newQuerys='';void%200!==rule.query&&rule.query.length%3E0&&rule.query.map(query=%3E%7Bconst%20ret=getQueryString(query);''!==ret&&(newQuerys+=(newQuerys.length?'&':'?')+ret)%7D),newQuerys+=void%200!==rule.hash&&rule.hash?hash:'',pureUrl=(void%200===replace?base:url.replace(reg,replace))+newQuerys,void%200!==rule.methods&&rule.methods.length%3E0&&rule.methods.map(methodName=%3E%7BpureUrl=methods%5BmethodName%5D(pureUrl)%7D);break%7D%7Dreturn%20pureUrl%7D();let%20newnode=document.createElement('input');newnode.id='pure-url-for-copy',newnode.value=pureUrl,document.body.appendChild(newnode);let%20copyinput=document.getElementById('pure-url-for-copy');copyinput.select();try%7Bdocument.execCommand('copy');window.location.href===pureUrl?window.location.reload():window.location.href=pureUrl%7Dcatch(err)%7Bnull!=prompt('%E5%87%80%E5%8C%96%E5%90%8E%E7%9A%84%E7%BD%91%E5%9D%80%E6%98%AF%EF%BC%9A',pureUrl)&&(window.location.href=pureUrl)%7Ddocument.body.removeChild(copyinput)%7D)();][网址清理]]
+* Creativity
+:PROPERTIES:
+:collapsed: true
+:heading: true
+:END:
+** 室内设计
+:PROPERTIES:
+:collapsed: true
+:END:
+还是那句话，房子哪里领？
+*** [[https://www.yinjispace.com/][印际-发现全球室内设计之美]]
+*** [[https://www.wallpaper.com/][Wallpaper*: design, interiors, architecture, fashion, art]]
+*** [[https://www.adstyle.com.cn/][安邸AD家居生活网-创意家居,时尚生活|时尚家居生活杂志《安邸AD》官方网站]]
+** 素材
+Public Domain, copyleft, copyright
+*** [[https://meta.appinn.net/t/topic/12250][免费资源网站 - 小众软件官方论坛]]
+*** [[https://naldc.nal.usda.gov/][NALDC]]
+:PROPERTIES:
+:END:
+美国农业部水果水彩画图片
+** 色彩
+*** [[https://nipponcolors.com/][日本の伝統色]]
+*** [[http://zhongguose.com/][中国色 － 中国传统颜色]]
+*** [[https://paletton.com/][Paletton - The Color Scheme Designer]]
+** 赛博旅行
+*** [[http://www.bigpixel.cn/][千亿像素看中国]]
+:PROPERTIES:
+:END:
+放大万倍体验中国城市，展现城市特色，讲好中华文化。
+*** [[https://www.airpano.com/][Virtual Travels, 360° Aerial Panoramas, 360° Virtual Tours Around the World, Photos of the Most Interesting Places on the Earth]]
+*** [[https://globalsequencer.com/][Global Sequencer | 世界角落的声音]]
+:PROPERTIES:
+:END:
+Global Sequencer by Yuri Suzuki for Hamamatsu UNESCO Creative City of Music.
+** [[http://datav.aliyun.com/tools/atlas/index.html][地图选择器]]

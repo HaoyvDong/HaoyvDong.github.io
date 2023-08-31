@@ -1,0 +1,92 @@
+* [[https://chriszheng.science/essentials-of-academic-writing/][学术写作指要——一个技术指导(Essentials of academic writing—A technical approach) | M-x Chris-An-Emacser]]
+* 论文 | 期刊
+:PROPERTIES:
+:END:
+** [[https://onlinelibrary.wiley.com/][Wiley Online Library]]
+:PROPERTIES:
+:END:
+One of the largest and most authoritative collections of online journals, books, and research resources, covering life, health, social, and physical sciences.
+** [[https://www.sciencedirect.com/][ScienceDirect.com | Science, health and medical journals, full text articles and books.]]
+:PROPERTIES:
+:END:
+ScienceDirect is the world's leading source for scientific, technical, and medical research. Explore journals, books and articles.
+** [[https://www.oalib.com/][Open Access Library]]
+** [[https://www.las.ac.cn/][中国科学院知识服务平台]]
+** [[https://www.nstl.gov.cn/index.html][NSTL国家科技图书文献中心]]
+** [[http://www.nssd.org/][国家哲学社会科学学术期刊数据库]]
+** [[https://navi.cnki.net/knavi][出版来源导航]]
+** [[https://chn.oversea.cnki.net/kns/AdvSearch?dbcode=CJFQ][高级检索-中国知网]]
+** [[http://www.rdfybk.com/][中国人民大学复印报刊资料]]
+** 其实没用
+:PROPERTIES:
+:END:
+*** [[http://www.socolar.com/][socolar]]
+:PROPERTIES:
+:END:
+中国教育图书进出口有限公司
+*** [[https://book.sciencereading.cn/][科学文库]]
+:PROPERTIES:
+:END:
+“科学文库”是国内首创以自主知识产权高端科技学术专著为主要内容的全学科在线阅读平台，内含众多获奖的院士著作、重点丛书，代表着国内当代最高学术水平，是优秀科学家的群体智慧宝库，曾获中国出版界最高奖——“中国出版政府奖”。“科学文库”以服务于教育科研机构的专业人员为宗旨，提供专业优质的数字图书资源、高效便捷的知识服务，满足各个层次的专业人士和广大用户对权威、经典、实用科技知识的需求，有效支撑科学知识水平的提高和相关学科的发展。所有内容均未授权第三方，保证资源独有性。
+*** [[https://arxiv.org/][arXiv.org e-Print archive]]
+*** [[https://tool.yovisun.com/scihub/][SCI-Hub可用网址]]
+:PROPERTIES:
+:END:
+论文下载链接（实时更新） - YoviSun工具集
+**** [[https://www.cn-ki.net/][iData-cnki]]
+*** [[https://www.ablesci.com/][文献互助平台 - 科研通(AbleSci.com)]]
+:PROPERTIES:
+:END:
+科研通(AbleSci.com)文献互助平台，提供免费智能化文献下载服务，一键式智能识别文献信息，10秒内AI极速下载，解决各位科研学者朋友的文献下载需求。
+*** [[https://editor.citationstyles.org/about/][Zotero 引文样式]]
+:PROPERTIES:
+:END:
+Zotero 引文样式搜索下载
+*** [[https://www.researcher-app.com/][Researcher | An App For Academics]]
+:PROPERTIES:
+:END:
+Keep up-to-date with the latest papers using Researcher. Browse and discover over 15,000 academic journals and never miss important research again.
+*** [[https://www.zotero.org/groups/2489429/history_of_science_library][History of Science Library | Zotero]]
+:PROPERTIES:
+:END:
+History of Science Library (HistSciLib) is a virtual research library for history of science and knowledge. Founded in July 2020, History of Science Library currently holds a collection of more than 25,000 items, with a focus on (but not limited to) early modern European science and knowledge. The library is organised under a thematic classification system, highlighting recent scholarship in ways of knowing and practicing.
+*** [[https://www.xiaolvji.com/u/ljyandlwl][学术导航|效率集]]
+:PROPERTIES:
+:END:
+学术导航 | 效率集是一个让你聚合互联网资源,分享互联网资源,且可以高度定制的主页导航网站.你可以自定义网址导航及主页搜索引擎,还自带在线记事,在线任务.通过效率集的聚合搜索,你可以购物比价,在线看电影,在线词典,在线翻译等.通过效率集,你还可以把自己收藏的网站分享给他人
+**** [[https://www.statalist.org/][Statalist | The Stata Forum]]
+**** [[https://fsso.cnki.net/][中国知网高校/机构外部访问系统]]
+*** [[https://academic-accelerator.com/][Academic Accelerator]]
+:PROPERTIES:
+:END:
+Accelerate Your Scientific Research | Academic Accelerator includes over 600000 Journals with Journal Ranking | Journal Impact IF | Abbreviation (ISO 4) | Acceptance Rate | Review Speed | Template | Research Hotspot | Publication Fee |  Citescore | SNIP | H-Index | Self-citation Ratio | Sentence Example
+*** [[https://www.researchgate.net/][ResearchGate]]
+:PROPERTIES:
+:END:
+ResearchGate is a network dedicated to science and research. Connect, collaborate and discover scientific publications, jobs and conferences. All for free.
+*** [[https://www.webofscience.com/wos/alldb/basic-search][文献检索 - 所有数据库]]
+:PROPERTIES:
+:END:
+搜索期刊影响因子等信息
+*** [[https://socopen.org/][SocOpen: Home of SocArXiv]]
+*** [[https://www.paperpass.com/][PaperPass官网-论文查重-论文检测-免费论文查重检测系统]]
+:PROPERTIES:
+:END:
+PaperPass权威中文论文查重系统，提供职称、课题、高校毕业论文检测服务，快捷、精准、真实标红且提供详细相似来源及修改意见，并推出免费论文查重检测活动。动态指纹技术保障、权威可信赖的论文检测系统现已为超千万人提供论文查重服务。
+*** [[https://harzing.com/resources/publish-or-perish][Publish or Perish]]
+:PROPERTIES:
+:END:
+Explains the use of Publish or Perish and its metrics
+*** [[https://www.zhiyunwenxian.cn/][知云文献翻译官网-官方指定最新知云文献翻译及Xtranslator-win+mac版下载页面]]
+:PROPERTIES:
+:END:
+知云文献翻译，是由知云文献阅读公众号出品的一款科研人员和学生使用的pdf文献阅读神器。已经有数百万人使用。此网站是知云官方网站。
+*** [[https://scholar.chongbuluo.com/][学术搜索 - 站在巨人的肩膀上 - Google 学术]]
+:PROPERTIES:
+:END:
+学术搜索——虫部落出品!为广大科研工作者,高校学生,以及学术爱好者提供方便、权威的学术搜索入口,是你的学术搜索第一站!
+* [[https://www.lianxh.cn/index.html][连享会主页]]
+:PROPERTIES:
+:description: 
+:END:
+「连享会」由中山大学连玉君老师团队创办，定期分享实证分析经验。连享会每年定期分享实证分析方法的专题推文和课程，包括：Stata 初级班、Stata 高级班、Stata 学术论文班、面板数据专题、内生性专题、空间计量专题、文本分析与爬虫专题等。

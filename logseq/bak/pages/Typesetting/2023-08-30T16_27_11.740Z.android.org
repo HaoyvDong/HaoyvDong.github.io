@@ -1,0 +1,55 @@
+* #Manual #Article
+** [[https://sspai.com/post/77206][Pandoc 从入门到精通，你也可以学会这一个文本转换利器 - 少数派]]
+其实 Pandoc 最好的说明书就是
+*** #+BEGIN_QUOTE
+[[https://yihui.org/en/2017/11/thanks-tj-mahr/][No matter how many times]] I have recommended R Markdown users to read the /full/ Pandoc manual at least once, I still want to recommend it again. You won’t really appreciate how powerful Pandoc’s Markdown is until you read the full manual once.
+—— R Markdown 开发者 谢益辉
+#+END_QUOTE
+** [[https://sspai.com/post/75217][数字文具盒｜Word 写论文，也可以很好用 - 少数派]]
+* $\LaTeX$
+:PROPERTIES:
+:heading: true
+:END:
+其实唯一用到的地方是在思源笔记或 Anki 里写 $\KaTeX$
+** [[https://www.latex-project.org/][LaTeX - A document preparation system]]
+** [[Tools OL]]
+*** [[https://www.texpage.com/][TeXPage - LaTeX 在线编辑器 | LaTeX 在线编译]]
+:PROPERTIES:
+:END:
+打造好用的在线 LaTeX 写作工具，TeXPage 主要特性：1.  LaTeX 在线编辑器; 2. 在线编译 LaTeX 文档; 3. 在线协作。
+*** [[https://www.overleaf.com/][Overleaf, Online LaTeX Editor]]
+:PROPERTIES:
+:END:
+An online LaTeX editor that’s easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more.
+*** [[https://tablesgenerator.com/][TablesGenerator.com]]
+Easily create even complex LaTeX/HTML/Markdown/Text/MediaWiki tables with our online generator – you can paste data from a spreadsheet, merge cells, edit borders and more.
+*** [[https://tableconvert.com/zh-cn/][在线表格转换工具 - 让表格转换变得更容易]]
+支持转换： $\LaTeX$/Markdown/Magic/SQL/HTML/CSV/Excel/JSON/JSONLines/ASCII/MediaWiki/AsciiDoc/TracWiki/Qlik/DAX/Firebase/YAML/XML/Jira/Textile/reStructuredText/PHP/Ruby/ASP/ActionScript/BBCode/PDF/JPEG
+** [[Article]]
+*** [[https://github.com/huangxg/lnotes][huangxg/lnotes: LaTeX Notes]]
+*** [[https://book.douban.com/subject/24703731/][LaTeX入门 (豆瓣)]]
+** Math
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://www.mathjax.org/][MathJax | Beautiful math in all browsers.]]
+*** $\KaTeX$
+[[https://katex.org/index.html][KaTeX – The fastest math typesetting library for the web]]
+*** [[https://mathpix.com/][Mathpix Snip]]
+:PROPERTIES:
+:END:
+Do you spend a lot of time typing equations in LaTeX? Try Mathpix Snip for iOS, Android, macOS, Windows or Linux and start converting images to LaTeX instantly!
+* [[https://quarto.org/][Quarto]]
+:PROPERTIES:
+:END:
+Quarto® is an open-source scientific and technical publishing system built on Pandoc.
+* Font
+:PROPERTIES:
+:heading: 2
+:END:
+#CJK
+** [[https://font.gentleflow.tech/index.html][中文开源字体]]
+一个开源字体列表
+** [[http://wenq.org/wqy2/index.cgi][文泉驿]]
+** Unifont
+[[https://savannah.gnu.org/projects/unifont][Unifont - Summary [Savannah]]]

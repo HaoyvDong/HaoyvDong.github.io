@@ -1,0 +1,160 @@
+#+Description: 资源一大堆，没读几本，码住等于读了
+
+* 经史子集
+:PROPERTIES:
+:collapsed: true
+:END:
+** [[https://new.shuge.org/][书格]]
+:PROPERTIES:
+:END:
+书格是一个自由开放的在线古籍图书馆。致力于开放式分享、介绍、推荐有价值的古籍善本，并鼓励将文化艺术作品数字化归档。我们尽量挑选欣赏和在阅读价值较高的善本，所以我们更倾向于：艺术类、影像类、珍稀类以及部分刊印水平较高的书籍。
+** [[https://ctext.org/zhs][中国哲学书电子化计划]]
+中国哲学书电子化计划是一个线上开放电子图书馆，为中外学者提供中国历代传世文献，力图超越印刷媒体限制，通过电子科技探索新方式与古代文献进行沟通。收藏的文本已超过三万部著作，并有五十亿字之多，故为历代中文文献资料库最大者。
+** [[http://www.guoxue123.com/][国学导航]]
+** [[http://soufoshuo.com/][搜佛说--大藏经搜索引擎]]
+** [[https://guides.library.harvard.edu/chinese][哈佛中文图书馆]] [[https://guides.library.harvard.edu/chinese][Home - Research Guide for Chinese Studies - Research Guides at Harvard Library]]
+** [[https://sou-yun.cn/PoetLifeMap.aspx][唐宋文学编年地图]]
+** [[http://cbeta.org/][CBETA | 中華電子佛典協會]]
+** [[http://www.nlc.cn/pcab/][中国古籍保护网]]
+** [[https://www.shidianguji.com/][识典古籍]]
+:PROPERTIES:
+:END:
+识典古籍是抖音公益与北大合作共建的古籍阅读平台。致力于为用户提供免费公开、稳定、快速、方便的检索和阅读古籍的服务。
+** [[https://wenyuan.aliyun.com/home][汉典重光]]
+:PROPERTIES:
+:END:
+汉典重光古籍数字化平台，收录海外回归古籍，基于达摩院文字识别技术进行数字化古籍识别，方便古籍爱好者查阅使用
+** [[https://www.guwenxue.org/][古文学网-古代文学经典传承]]
+:PROPERTIES:
+:END:
+古文学网作为传承经典的网站，专注于古代诗词、文言文、古代小说、成语故事等服务，致力于让广大古代文学爱好者更便捷地发表及获取古代相关文学作品资料。
+** [[http://www.gudianwenxue.com.cn/][古典文学网]]
+** [[https://toneoz.com/][全文注音國語字典 拼音注音編輯器]]
+:PROPERTIES:
+:END:
+全文注音國語字典、拼音注音編輯器。全系列支援教育部辭典、標準楷體、教育審定音，可配合教學範圍切換海峽兩岸教育標準字形字音。為多屏華語教學設計，適用於各種大屏、平板、手機、桌機。
+* 英文书籍 | English Books
+:PROPERTIES:
+:END:
+** [[http://gen.lib.rus.ec/][Library Genesis]]
+** [[http://libgen.rs/][Library Genesis]]
+** [[http://www.gutenberg.org/][Project Gutenberg]]
+** [[https://archive.org/][archive.org]]
+** [[https://the-eye.eu/public/Books/][The Eye]]
+** [[https://www.marxists.org/][www.marxists.org]]
+** [[https://www.pdfdrive.com/][PDF Drive]]
+:PROPERTIES:
+:END:
+PDF Drive is your search engine for PDF files. As of today we have 79,703,453 eBooks for you to download for free. No annoying ads, no download limits, enjoy it and don't forget to bookmark and share the love!
+** [[https://standardebooks.org/][Standard Ebooks]]
+:PROPERTIES:
+:END:
+Free and liberated ebooks, carefully produced for the true book lover. Download free ebooks with professional-quality formatting and typography, in formats compatible with your ereader.
+** [[https://manybooks.net/][Manybooks]]
+:PROPERTIES:
+:END:
+50,000+ Free eBooks in the Genres you Love | Great selection of modern and classic books waiting to be discovered. All free and available in most ereader formats.
+** [[https://www.planetebook.com/][PLANET EBOOKS]]
+:PROPERTIES:
+:END:
+100% Free eBooks for All Devices
+* 图书馆 | Libraries
+:PROPERTIES:
+:END:
+** [[https://ebook.dswxyjy.org.cn/][中共中央党史和文献研究院 - 成果总库]]
+** [[http://www.nlc.cn/][中国国家图书馆]]
+** [[http://www.ucdrs.superlib.net/][全国图书馆参考咨询联盟]]
+** [[https://pdc.capub.cn/][中国版本图书馆]]
+** [[http://www.ztflh.com/][中国图书馆分类法 - 中图分类号 - 中图法 - 中图分类法 - 中图分类号查询 - 中图法分类号 - 中图分类 - 中国图书分类法简表]]
+** [[https://www.wdl.org/zh/][世界数字图书馆主页]]
+** [[https://www.ncpssd.org/][国家哲学社会科学文献中心]]
+* 待整理
+:PROPERTIES:
+:heading: true
+:END:
+** [[https://www.jiumodiary.com/][Jiumo 鸠摩搜索]]
+** 网络文学
+:PROPERTIES:
+:collapsed: true
+:END:
+*** [[http://www.zxcs.me/][知轩藏书]]
+:PROPERTIES:
+:tags: RIP
+:END:
+以下是一些高仿
+**** [[http://zxcs.info/][知轩藏书,小说排行榜-校对全本TXT小说下载网]]
+**** [[https://zxcstxt.com/][知轩藏书-精校小说排行榜-全本TXT小说下载网]]
+:PROPERTIES:
+:END:
+知轩藏书是一个给网友提供免费阅读的全集网络精校TXT全本小说的网站。本站的宗旨是为网友搜集网络上质量最高的全集精校版小说、全集校对版小说！
+*** [[https://404.bgme.bid/][404小说文库]]
+:PROPERTIES:
+:END:
+404小说文库，存档因种种原因被删除的小说。
+*** [[https://www.aixdzs.com/][爱下电子书]]
+*** [[https://www.zei8.vip/][贼吧网]]
+:PROPERTIES:
+:END:
+贼吧网,txt,txt小说,txt小说下载,txt电子书免费下载,txt电子书,电子书下载,手机电子书,小说txt下载全集
+*** [[http://www.haodoo.net/][首頁- 好讀]]
+*** [[https://legado.cn/][阅读论坛]]
+:PROPERTIES:
+:END:
+阅读论坛致力于为书迷收集阅读书源，阅读主题，实用软件以及使用教程，提供悬赏问答和综合休闲放松交流，用心打造简单实用的阅读论坛。
+*** [[http://www.1000qm.vip/][阡陌居(www.1000qm.vip)－华人地区的最大休闲文学讨论论坛 -]]
+#Forum
+阡陌居是华人地区的最大休闲文学讨论论坛
+*** [[http://www.freexiaoshuo.com/index.html][免费小说网]]
+*** [[https://www.jingjiaoba.com/][精校吧]]
+:PROPERTIES:
+:END:
+精校吧是一个给书友提供下载网络精校txt小说、完本电子书的网站。本站的宗旨是以为书友推荐网络上人气精品的完本精校版小说、完本校对版小说，是书荒者必上小说下载网站！
+*** [[https://www.horou.com/][河洛网]]
+#Forum
+河洛所提供的是一个专属于文字爱好者的互动空间，是所有爱读书写文的人展现自信风采的地方。
+*** [[http://www.12z.cn/index.html][免费小说网]]
+*** [[https://noveless.com/][书荒部落-精校全本]]
+*** [[https://www.txt80.cc/][八零电子书 - 小说 小说排行榜 TXT80电子书 全本免费完结小说]]
+:PROPERTIES:
+:END:
+八零电子书提供精彩小说阅读,各种小说排行榜,免费好看的小说,提供穿越小说,都市小说,言情小说,玄幻小说,重生小说,网游小说,武侠小说,历史小说等全本全集完结小说在线阅读及txt下载.优秀小说尽在TXT80.cc。
+*** [[https://www.sadtxt.com/][txt小说下载-全本txt电子书资源免费下载-sadTxt]]
+:PROPERTIES:
+:END:
+提供全本完结的TXT格式电子书免费下载,TXT小说下载,手机电子书下载,纯文字版小说下载,给您一个整洁舒适的小说下载环境
+** [[http://fec.mofcom.gov.cn/article/gbdqzn/indexphone.shtml#][对外投资合作国别（地区）指南]]
+** [[https://www.kongfz.com/][孔夫子旧书网]]
+** [[https://www.doi.org/][Digital Object Identifier System]]
+:PROPERTIES:
+:END:
+This is the web site of the International DOI Foundation (IDF), a not-for-profit membership organization that is the governance and management body for the federation of Registration Agencies providing Digital Object Identifier (DOI) services and registration, and is the registration authority for the ISO standard (ISO 26324) for the DOI system. The DOI system provides a technical and social infrastructure for the registration and use of persistent interoperable identifiers, called DOIs, for use on digital networks.
+** [[https://readhub.one/][读库 | 书籍]]
+** [[https://ebook2.lorefree.com/][LoreFree-去中心化免费电子书共享社区]]
+:PROPERTIES:
+:END:
+Lorefree,专业的免费电子书下载网站,支持mobi,epub,pdf,txt,azw3等阅读格式的电子书免费下载
+** [[https://www.bookzz.ren/][Bookzz - Bookzz.org Alternatives Site]]
+:PROPERTIES:
+:END:
+Electronic library. Download books free. Finding books | Bookzz. Download books for free. Find books
+** [[https://52sharing.cn/category/book][电子书籍 | 吾爱分享网]]
+** [[https://ebookfoundation.org/][Free Ebook Foundation promotes access and preservation of knowledge, literature, and culture.]]
+** [[https://readfree.net/bbs/][网上读书园地]]
+#Forum 论坛 ,网上读书园地
+** [[https://zh.annas-archive.org/][安娜的档案]]
+:PROPERTIES:
+:END:
+Search engine of shadow libraries: books, papers, comics, magazines.
+** [[http://www.fast8.cc/][快吧软件--好东西，就是要分享！ - Fast8.CC]]
+:PROPERTIES:
+:END:
+快吧软件--好东西，就是要分享！倡导互联网分享精神，致力于精品收藏与分享！人人为我，我为人人！本站分享好东西包括：电脑软件,手机应用,电子书,精品源码,最新电影,Kindle电子书,网页模版,视频教程等
+** [[https://www.haodoo.net/][首頁- 好讀]]
+Haodoo is a treasure trove of classic Chinese language books. Its collection includes over 3,300 titles in the EPUB and audio formats.
+*** [[https://haodoo.blog/][好讀二代]]
+* [[https://pan.baidu.com/s/1bpQBQph?pwd=b3p1][赤霓的ePub入门指南]]
+#Article #Manual
+* [[https://bookfere.com/][书伴 -- 为静心阅读而生]]
+:PROPERTIES:
+:END:
+书伴（bookfere.com），创建的目的是帮助您更便捷、深入地使用手中的Kindle阅读器，让读书成为生命的一部分，让灵魂永远行走在路上。

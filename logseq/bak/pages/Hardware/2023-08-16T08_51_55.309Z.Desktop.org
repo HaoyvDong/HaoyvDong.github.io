@@ -1,0 +1,17 @@
+* Apple Inc.
+** [[http://mactracker.ca/][Mactracker]]
+:PROPERTIES:
+:tags: software, 
+:END:
+** [[https://buyersguide.macrumors.com/][MacRumors Buyer's Guide: Know When to Buy iPhone, Mac, iPad]]
+#shopping
+** [[https://everymac.com/][Mac Specs, Prices, Answers and Comparison: EveryMac.com, Est. 1996]]
+** [[https://everyi.com/][iPod, iPhone & iPad Specs, Answers, Help, Troubleshooting & More: Everyi.com]]
+** [[https://hubapple.cn/][Apple 苹果产品参数中心 / HubApple.cn]]
+* Linux
+** [[https://linux-hardware.org/][Linux Hardware Database]]
+** Table Test
+| number | test | got |
+|      1 | no   | set |
+|        | no   | why |
+|        |      | seem |

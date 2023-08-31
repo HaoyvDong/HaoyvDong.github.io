@@ -1,0 +1,25 @@
+* [[https://open.163.com/][网易公开课]]
+:PROPERTIES:
+:END:
+网易公开课汇集清华、北大、哈佛、耶鲁等世界名校共上千门课程，覆盖科学、经济、人文、哲学等22个领域，在这里你可以开拓视野看世界，获取有深度的好知识。
+* [[https://www.core-econ.org/][CORE - Economics for a changing world]]
+:PROPERTIES:
+:END:
+Accessible, relevant, real-world economics teaching, available and free to everyone.
+* [[https://www.feynmanlectures.caltech.edu/][The Feynman Lectures on Physics]]
+:PROPERTIES:
+:END:
+费曼物理学讲义
+* [[https://phet.colorado.edu/zh_CN/][PhET：免费的在线物理、化学、生物、地理及数学仿真程序]]
+由诺贝尔奖获得者卡尔·威曼于2002年创立，PhET互动仿真程序计划由科罗拉多大学的团队专项运营，旨在创建免费的数学和科学互动程序。 PhET 是基于拓展型教育的[[https://phet.colorado.edu/zh_CN/research][相关研究]]并且激励学生在直观的、游戏化的环境中进行探索和发现。
+* [[https://www.marxists.org/chinese/index.html][马克思主义文库]]
+* [[Manual]]
+** [[http://www.grcdi.nl/gsb/global%20sourcebook.html][Global Sourcebook for International Data Management]]
+Global Sourcebook for International Data Management| 国际时间邮件地址等格式
+** [[https://lawrefbook.github.io/][中国法律快查手册]]
+#Law
+** [[https://www.msdmanuals.cn/home][《默沙东诊疗手册大众版》]]
+:PROPERTIES:
+:TAGS: health, 
+:END:
+现在可免费在线查阅——默沙东诊疗手册大众版（在美国和加拿大称为默克手册）是家庭医学参考书的标准——自 1899 年至今。

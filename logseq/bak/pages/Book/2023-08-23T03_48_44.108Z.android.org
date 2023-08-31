@@ -1,0 +1,69 @@
+#+Description: 资源一大堆，没读几本，码住等于读了
+
+* 经史子集
+:PROPERTIES:
+:END:
+** [[https://new.shuge.org/][书格]]
+:PROPERTIES:
+:END:
+书格是一个自由开放的在线古籍图书馆。致力于开放式分享、介绍、推荐有价值的古籍善本，并鼓励将文化艺术作品数字化归档。我们尽量挑选欣赏和在阅读价值较高的善本，所以我们更倾向于：艺术类、影像类、珍稀类以及部分刊印水平较高的书籍。
+** [[https://ctext.org/zhs][中国哲学书电子化计划]]
+中国哲学书电子化计划是一个线上开放电子图书馆，为中外学者提供中国历代传世文献，力图超越印刷媒体限制，通过电子科技探索新方式与古代文献进行沟通。收藏的文本已超过三万部著作，并有五十亿字之多，故为历代中文文献资料库最大者。
+** [[http://www.guoxue123.com/][国学导航]]
+** [[http://soufoshuo.com/][搜佛说--大藏经搜索引擎]]
+** [[https://guides.library.harvard.edu/chinese][哈佛中文图书馆]]
+** [[https://sou-yun.cn/PoetLifeMap.aspx][唐宋文学编年地图]]
+** [[http://cbeta.org/][CBETA | 中華電子佛典協會]]
+** [[http://www.nlc.cn/pcab/][中国古籍保护网]]
+** [[https://www.shidianguji.com/][识典古籍]]
+:PROPERTIES:
+:END:
+识典古籍是抖音公益与北大合作共建的古籍阅读平台。致力于为用户提供免费公开、稳定、快速、方便的检索和阅读古籍的服务。
+** [[https://www.guwenxue.org/][古文学网-古代文学经典传承]]
+:PROPERTIES:
+:END:
+古文学网作为传承经典的网站，专注于古代诗词、文言文、古代小说、成语故事等服务，致力于让广大古代文学爱好者更便捷地发表及获取古代相关文学作品资料。
+** [[http://www.gudianwenxue.com.cn/][古典文学网]]
+** [[https://toneoz.com/][全文注音國語字典 拼音注音編輯器]]
+:PROPERTIES:
+:END:
+全文注音國語字典、拼音注音編輯器。全系列支援教育部辭典、標準楷體、教育審定音，可配合教學範圍切換海峽兩岸教育標準字形字音。為多屏華語教學設計，適用於各種大屏、平板、手機、桌機。
+* 英文书籍 | English Books
+:PROPERTIES:
+:END:
+** [[http://gen.lib.rus.ec/][Library Genesis]]
+** [[http://libgen.rs/][Library Genesis]]
+** [[http://www.gutenberg.org/][Project Gutenberg]]
+** [[https://archive.org/][archive.org]]
+** [[https://the-eye.eu/public/Books/][The Eye]]
+** [[https://www.marxists.org/][www.marxists.org]]
+** [[https://www.pdfdrive.com/][PDF Drive]]
+:PROPERTIES:
+:END:
+PDF Drive is your search engine for PDF files. As of today we have 79,703,453 eBooks for you to download for free. No annoying ads, no download limits, enjoy it and don't forget to bookmark and share the love!
+** [[https://standardebooks.org/][Standard Ebooks]]
+:PROPERTIES:
+:END:
+Free and liberated ebooks, carefully produced for the true book lover. Download free ebooks with professional-quality formatting and typography, in formats compatible with your ereader.
+** [[https://manybooks.net/][Manybooks]]
+:PROPERTIES:
+:END:
+50,000+ Free eBooks in the Genres you Love | Great selection of modern and classic books waiting to be discovered. All free and available in most ereader formats.
+** [[https://www.planetebook.com/][PLANET EBOOKS]]
+:PROPERTIES:
+:END:
+100% Free eBooks for All Devices
+* 图书馆 | Libraries
+:PROPERTIES:
+:END:
+** [[https://ebook.dswxyjy.org.cn/][中共中央党史和文献研究院 - 成果总库]]
+** [[http://www.nlc.cn/][中国国家图书馆]]
+** [[http://www.ucdrs.superlib.net/][全国图书馆参考咨询联盟]]
+** [[https://pdc.capub.cn/][中国版本图书馆]]
+** [[http://www.ztflh.com/][中国图书馆分类法 - 中图分类号 - 中图法 - 中图分类法 - 中图分类号查询 - 中图法分类号 - 中图分类 - 中国图书分类法简表]]
+** [[https://www.wdl.org/zh/][世界数字图书馆主页]]
+** [[https://www.ncpssd.org/][国家哲学社会科学文献中心]]
+** [[https://www.gutenberg.org/][Project Gutenberg]]
+:PROPERTIES:
+:END:
+Project Gutenberg is a library of free eBooks.

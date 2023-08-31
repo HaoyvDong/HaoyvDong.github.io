@@ -1,0 +1,41 @@
+* [[https://meta.appinn.net/t/topic/11968][在线小工具 - 网络黄页 - 小众软件官方论坛]]
+用得少的就在小众软件提一下，这里放最常用的好了
+* [[https://web.baimiaoapp.com/][网页OCR文字识别 - 白描网页版]]
+#CJK
+免费在线图片文字识别，支持简体、繁体、英文、韩语、日语、俄语等多国语言的准确识别，识别结果可复制或下载txt或word，点击按钮选择图片、将图片拖入此虚线框、从剪切板粘贴截图，最多可选择50张，支持 JPG/PNG/BMP/GIF/SVG 格式。
+* [[https://lmstfy.net/][让我帮你谷歌一下 | Let Me Google That For You]]
+:PROPERTIES:
+:END:
+let me search that for you，让我帮你搜索一下，专治伸手党
+* Audio & Video
+** [[https://ffmpeg.guide/][FFmpeg.guide - One stop solution to all things FFmpeg]]
+:PROPERTIES:
+:END:
+FFmpeg.guide is a GUI for creating FFmpeg filters and complex commands
+** [[https://www.lalal.ai/][人声伴奏分离]]
+** [[https://mp3cut.net/cn/][Online MP3 Cutter]]
+* 文档 表格 PDF
+** [[https://fanyipdf.com/][一帆文档翻译 | PDF翻译，就用一帆]]
+** [[https://www.pdf24.org/zh/][所有 PDF 问题的解决方案 - 100% 免费 - PDF24]]
+** [[https://www.mygraphpaper.com/index.php?lang=zh-hans][图形方格纸 My Graph Paper]]
+* 画图
+** [[https://www.autodraw.com/][AutoDraw]]
+** [[http://weavesilk.com/][Silk -- Interactive Generative Art]]
+:PROPERTIES:
+:END:
+Create beautiful flowing art with Silk.
+** [[https://excalidraw.com/][Excalidraw]]
+** [[https://handraw.top/][Handraw | 中文友好的手写效果白板工具]]
+Handraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them.
+[[https://revezone.com/index.html][Revezone - alpha]]
+** [[https://www.tldraw.com/][tldraw]]
+:PROPERTIES:
+:END:
+A tiny little drawing app.
+* [[https://flipclocker.com/][FlipClocker | Flip Clock Online & iOS & iPad & Mac]]
+* [[http://test.ustc.edu.cn/][中国科学技术大学测速网站]]
+* [[https://www.yelue.com/][ChatGPT - 也略 - 一个实现ChatGPT自由的网站！ - ✅qdymys]]
+:PROPERTIES:
+:END:
+也略网，一个专注于提供ChatGPT镜像网站的免费、绿色站点!
+* [[https://ctfile.qinlili.bid/][城通网盘解析器]]

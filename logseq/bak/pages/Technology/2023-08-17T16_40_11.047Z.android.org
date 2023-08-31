@@ -1,0 +1,109 @@
+*
+* Hardware
+:PROPERTIES:
+:heading: 1
+:END:
+** Linux
+*** [[https://linux-hardware.org/][Linux Hardware Database]]
+** Apple Inc.
+*** [[http://mactracker.ca/][Mactracker]]
+:PROPERTIES:
+:tags: software, 
+:END:
+*** [[https://buyersguide.macrumors.com/][MacRumors Buyer's Guide: Know When to Buy iPhone, Mac, iPad]]
+#shopping
+*** [[https://everymac.com/][Mac Specs, Prices, Answers and Comparison: EveryMac.com, Est. 1996]]
+*** [[https://everyi.com/][iPod, iPhone & iPad Specs, Answers, Help, Troubleshooting & More: Everyi.com]]
+*** [[https://hubapple.cn/][Apple 苹果产品参数中心 / HubApple.cn]]
+* Software
+:PROPERTIES:
+:heading: 1
+:END:
+** Emacs
+:PROPERTIES:
+:tags: IDE, Editor
+:description: 
+:collapsed: true
+:END:
+*** 文章
+**** [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][陈斌：一年成为Emacs高手]]
+**** [[https://book.emacs-china.org/][子龙山人：21 天学会 Emacs]]
+*** 配置
+**** [[https://github.com/bbatsov/prelude][bbatsov/prelude: Prelude is an enhanced Emacs 25.1+ distribution that should make your experience with Emacs both more pleasant and more powerful.]]
+Prelude is an Emacs distribution that aims to enhance the default Emacs experience. Prelude alters a lot of the default settings, bundles a plethora of additional packages and adds its own core library to the mix. The final product offers an easy to use Emacs configuration for Emacs newcomers and lots of additional power for Emacs power users.
+**** [[https://github.com/rougier/nano-emacs][GitHub - rougier/nano-emacs: GNU Emacs / N Λ N O - Emacs made simple]]
+*GNU Emacs / N Λ N O* is a set of configuration files for GNU Emacs such as to provide a nice and consistent look and feel as shown below. It is based on design principles I described in the article "[[https://arxiv.org/abs/2008.06030][On the design of text Editors]]" that is available on arXiv. The light theme is based on [[https://material.io/][Material colors]] and the dark theme is based on [[https://www.nordtheme.com/][Nord colors]].
+The philosophy of nano emacs is to stick as much as possible to vanilla emacs without introducing too much dependencies (or none if possible) and to keep it modular enough. The idea is for users to copy the part they are interested in such as to include them in their own configuration.
+*** 插件
+**** [[https://braintool.org/][Go beyond Bookmarks with BrainTool, the online Topic Manager | BrainTool - Beyond Bookmarks]]
+:PROPERTIES:
+:TAGS: Browser, 
+:END:
+****
+** Vivaldi
+:PROPERTIES:
+:tags: Web, Browser
+:description: 
+:END:
+*** [[https://zhuanlan.zhihu.com/p/92618817][为什么 Vivaldi 是最好用的桌面浏览器 - 知乎]]
+** RoboCopy
+:PROPERTIES:
+:DESCRIPTION: The fastest copy software on Windows.
+:tags: Windows, File, 
+:END:
+*** [[https://developer.aliyun.com/article/684435][Windows中常用文件拷贝工具的评测和对比-阿里云开发者社区]]
+** [[https://yacreader.com/][YACReader]]
+:PROPERTIES:
+:description: YACReader is the best comic reader and comic manager with support for cbr cbz zip rar comic files. It is available for Windows, Linux, Mac OS X
+:END:
+** 系统管理 | System Management
+:PROPERTIES:
+:END:
+*** [[https://www.hirensbootcd.org/][Hiren's BootCD PE]]
+*** [[https://www.wepe.com.cn/][微PE工具箱 - 超好用的装机维护工具]]
+:PROPERTIES:
+:description: 跨时代的PE工具箱，装机维护得力的助手，最后的救命稻草。化繁为简，小材大用，一键安装，极速启动。
+:END:
+*** [[http://www.tbtool.cn/][图吧工具箱 - 最纯净的硬件工具箱]]
+*** [[https://zhs.moo0.com/][Moo0 - Windows有用的免费软件 (not MooO)]]
+:PROPERTIES:
+:description: 我们开发许多简单和有用的软件，目标是使我们的日常生活更方便。我们的大多数软件是免费的。请看一看我们的软件列表并核对列表中是否有任何有用的软件。拥有愉悦的电脑操作！
+:END:
+*** [[https://msdn.itellyou.cn/][MS镜像]]
+*** [[https://winworldpc.com/home][WinWorld: Welcome]]
+:PROPERTIES:
+:description: WinWorld is an online museum dedicated to providing free and open access to one of the largest archives of abandonware software and information on the web.
+:END:
+*** [[https://www.sordum.org/][Simplify Your computer Usage]]
+:PROPERTIES:
+:description: We develop highest quality software to simplify Computer usage
+:END:
+*** [[https://kms.cangshui.net/][沧水的KMS服务 Kms|Windows激活|Office激活|Windows下载|Office下载|搭建KMS服务器]]
+*** [[https://actionsflow.github.io/][Actionsflow - Connect your APIs, automate your work for developers]]
+:PROPERTIES:
+:description: A free IFTTT/Zapier alternative for developers, Actionsflow helps you to automate workflows. With Actionsflow, you can connect your favorite apps, data, and APIs, receive notifications of actions as they occur, sync files, collect data, and more.
+:END:
+*** [[https://www.nodesoft.com/foldermonitor?utm_source=appinn.com][Nodesoft Folder Monitor]]
+:PROPERTIES:
+:description: 文件夹修改删除重命名监控
+:END:
+*** [[https://www.wodeabc.com/][我的ABC软件工具箱---简单高效的办公文件批量处理工具]]
+:PROPERTIES:
+:description: 我的ABC软件工具箱，是一个专注于日常办公文件批量处理的软件，提供常用的 Word、Excel、PPT、PDF、JPG 等文件的批量查找替换、批量格式转换等文件的批量处理功能，努力为广大办公者省时省力。
+:END:
+*** [[https://pan.baidu.com/s/1PnpZ3Bk-lTArrajva7EVzQ?pwd=4hie][老马的原创空间 | strnghrs]]
+:PROPERTIES:
+:tags: PDF
+:END:
+*** [[https://www.runningcheese.com/][奔跑中的奶酪 - 有智，有趣，有爱]]
+:PROPERTIES:
+:description: 有智，有趣，有爱是世界上最美好的三件事。崇尚科技，网站致力于个人提升和价值分享。—— 奔跑中的奶酪
+:END:
+*** [[http://iyoung.ysepan.com/][飞扬时空 汉化软件]]
+*** [[https://www.funworld.fun/][FunWorld乐趣世界-互联网内容创作中心]]
+** Font
+:PROPERTIES:
+:heading: 2
+:END:
+*** Unifont
+[[https://savannah.gnu.org/projects/unifont][Unifont - Summary [Savannah]]]

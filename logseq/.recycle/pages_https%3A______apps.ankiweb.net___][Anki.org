@@ -1,0 +1,17 @@
+* 人生苦短，你该用 [[https://github.com/open-spaced-repetition/fsrs4anki][FSRS4Anki]]
+** [[https://zhuanlan.zhihu.com/p/636564830][FSRS4Anki 使用指北 - 知乎]]
+#Article
+* 推荐插件 2055492159 85158043 1087328706 759844606
+** [[https://ankiweb.net/shared/info/2055492159][AnkiConnect - AnkiWeb]];
+** [[https://ankiweb.net/shared/info/85158043][Minimize to tray - AnkiWeb]];
+** [[https://ankiweb.net/shared/info/1087328706][Markdown and KaTeX Support - AnkiWeb]];
+** [[https://ankiweb.net/shared/info/759844606][FSRS4Anki Helper - AnkiWeb]];
+* Anki 笔记软件论：自引
+#+BEGIN_QUOTE
+- 能直接编辑 HTML 源码的富文本编辑器
+- 能浏览所有笔记的管理界面
+- 牌组+标签的管理系统
+- 高级搜索语法
+- 自部署同步服务器
+已经比多数纯文本+文件树的笔记软件高到不知道哪里去了（笑
+#+END_QUOTE
