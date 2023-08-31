@@ -28,6 +28,8 @@ a free, open source, and cross-platform media player
 #Browser 
 网页批注定位神中神
 **** [[https://jonudell.info/h/facet/][View and export Hypothesis annotations]]
+**** [[https://type.cyhsu.xyz/2020/10/hypothesis-tutorial/][开源、可定制的网页批注工具——Hypothesis - neverland]]
+#Article
 *** Logseq https://logseq.com/
 :PROPERTIES:
 :collapsed: true
