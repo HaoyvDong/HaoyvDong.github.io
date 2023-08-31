@@ -3,6 +3,7 @@
 * 信息收集方案
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 ** 需求整理
 :PROPERTIES:
