@@ -23,19 +23,20 @@ a free, open source, and cross-platform media player
 :heading: true
 :END:
 『在笔记软件里记录笔记软件评测』
-** [[https://calibre-ebook.com/][Calibre]]
-** Hypothesis
-https://web.hypothes.is/
-*** [[https://jonudell.info/h/facet/][View and export Hypothesis annotations]]
-** [[https://logseq.com/][Logseq: A privacy-first, open-source knowledge base]]
+** Software
+*** Hypothesis https://web.hypothes.is/
+#Browser 
+网页批注定位神中神
+**** [[https://jonudell.info/h/facet/][View and export Hypothesis annotations]]
+*** Logseq https://logseq.com/
 :PROPERTIES:
 :collapsed: true
 :END:
-内置了一整个 Git 我真的会谢
-*** [[https://hub.logseq.com/][Logseq Community Hub]]
-*** [[https://logseq.pro/][Logseq Pro 个人站点]]
-*** [[https://docs.logseq.com/#/page/publishing%20(desktop%20app%20only)][Publishing (Desktop App Only)]]
-** [[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
+虽然本站就是用 Logseq ，但是内置了一整个 Git 我还是真的会谢
+**** [[https://hub.logseq.com/][Logseq Community Hub]]
+**** [[https://logseq.pro/][Logseq Pro 个人站点]]
+**** [[https://docs.logseq.com/#/page/publishing%20(desktop%20app%20only)][Publishing (Desktop App Only)]]
+*** [[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
 ** [[https://www.zotero.org/][Zotero | Your personal research assistant]]
 :PROPERTIES:
 :collapsed: true
@@ -50,7 +51,7 @@ Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesettin
 **** [[https://github.com/windingwind/zotero-pdf-translate][windingwind/zotero-pdf-translate: Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.]]
 **** [[https://github.com/windingwind/zotero-better-notes][windingwind/zotero-better-notes: Everything about note management. All in Zotero.]]
 **** [[https://github.com/018/zotcard][018/zotcard: ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, you can customize other card templates), so you can write cards quickly. In addition, it helps you sort cards and standardize card formats.]]
-** [[https://workflowy.com/][WorkFlowy]]
+** [[https://calibre-ebook.com/][Calibre]]
 ** [[Article]]
 *** [[https://www.yuque.com/deerain/gannbs/ffqk2e][双向链接时代的快速无压记录]]
 *** [[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]

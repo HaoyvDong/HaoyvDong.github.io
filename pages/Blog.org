@@ -3,6 +3,7 @@
 * #AHK 发送按键
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 ** #Manual [[https://wyagd001.github.io/v2/docs/index.htm][快速参考 | AutoHotkey v2]]
 ** 基本语法速览
@@ -43,6 +44,7 @@
 * 静态站托管记录
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 老实说一开始是拒绝任何 #Git 相关的方案的，就是懒嘛，结果后来还是不得不学了下。
 ** 废案
