@@ -1,4 +1,3 @@
-#+public: false
 #+Description: 基于中央财经大学《审计学》第六版
 
 * 第一章审计概论

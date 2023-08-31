@@ -6,7 +6,7 @@
 ** [[RIME]]
 ** [[https://vivaldi.com/zh-hans/][Vivaldi 浏览器 | 强大的个性化和私密化的网络浏览器]]
 :PROPERTIES:
-:tags: Web, Browser
+:tags: Browser
 :collapsed: true
 :END:
 *** [[https://zhuanlan.zhihu.com/p/92618817][为什么 Vivaldi 是最好用的桌面浏览器 - 知乎]]
