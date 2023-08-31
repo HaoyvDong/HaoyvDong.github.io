@@ -6,7 +6,7 @@
 —— R Markdown 开发者 谢益辉
 #+END_QUOTE
 ** [[https://sspai.com/post/75217][数字文具盒｜Word 写论文，也可以很好用 - 少数派]]
-** 为什么你不该用 Markdown：或者说你该用 CommonMark, Pandoc’s Markdown, R Markdown,GitHub-Flavored Markdown
+** 为什么你不该用 Markdown：或者说你该用 CommonMark, Pandoc’s Markdown, R Markdown or GitHub-Flavored Markdown, etc.
 [[https://yihui.org/cn/2017/08/markdown-flavors/][混乱的 Markdown 世界 - Yihui Xie | 谢益辉]]
 * $\LaTeX$
 :PROPERTIES:
