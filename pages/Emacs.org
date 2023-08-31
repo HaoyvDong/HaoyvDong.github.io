@@ -13,12 +13,14 @@ Prelude is an Emacs distribution that aims to enhance the default Emacs experien
 *GNU Emacs / N Λ N O* is a set of configuration files for GNU Emacs such as to provide a nice and consistent look and feel as shown below. It is based on design principles I described in the article "[[https://arxiv.org/abs/2008.06030][On the design of text Editors]]" that is available on arXiv. The light theme is based on [[https://material.io/][Material colors]] and the dark theme is based on [[https://www.nordtheme.com/][Nord colors]].
 The philosophy of nano emacs is to stick as much as possible to vanilla emacs without introducing too much dependencies (or none if possible) and to keep it modular enough. The idea is for users to copy the part they are interested in such as to include them in their own configuration.
 * 插件
-* [[Org-Mode]]
+** Org-Mode
 :PROPERTIES:
 :heading: true
 :END:
-** [[https://orgmode.org/worg/][Hello Worg, the Org-Mode Community!]]
-** [[https://braintool.org/][Go beyond Bookmarks with BrainTool, the online Topic Manager | BrainTool - Beyond Bookmarks]]
+*** [[https://orgmode.org/worg/][Hello Worg, the Org-Mode Community!]]
+*** [[https://braintool.org/][Go beyond Bookmarks with BrainTool, the online Topic Manager | BrainTool - Beyond Bookmarks]]
 :PROPERTIES:
 :TAGS: Browser, PKM
 :END:
+** Magit
+[[https://magit.vc/][It's Magit! A Git Porcelain inside Emacs]]

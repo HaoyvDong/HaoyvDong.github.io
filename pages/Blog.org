@@ -33,3 +33,4 @@
 **** [[https://zhuanlan.zhihu.com/p/138305054][初次使用git上传代码到github远程仓库 - 知乎]]
 **** [[https://zhuanlan.zhihu.com/p/467192292][简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案 - 知乎]]
 文中介绍的 Action 已经停更了，可以用官方的 [[https://github.com/logseq/publish-spa][logseq/publish-spa]]
+*** Magit, 用过都说好！ #Emacs
