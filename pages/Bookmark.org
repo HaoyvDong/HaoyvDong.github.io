@@ -254,6 +254,9 @@ Global Sequencer by Yuri Suzuki for Hamamatsu UNESCO Creative City of Music.
 ** [[https://www.funworld.fun/][FunWorld乐趣世界-互联网内容创作中心]]
 FunWorld乐趣世界是服务于互联网内容创作者的数字服务商。
 通过提供工具软件、教程视频、内容资源的方式，我们不断地向互联网内容创作者提供帮助与支持，在提高内容生产效率、启蒙和提升用户的创作水平等领域，获得广泛好评。
+** [[https://winworldpc.com/home][WinWorld: Welcome]]
+#Museum 
+WinWorld is an online museum dedicated to providing free and open access to one of the largest archives of abandonware software and information on the web.
 * [[https://www.jetpens.com/][JetPens - The Best Pens & Stationery From Japan & Beyond]]
 :PROPERTIES:
 :id: 64ef1658-60cb-4697-a457-13168ad397cd

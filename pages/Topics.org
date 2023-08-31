@@ -58,6 +58,7 @@ Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesettin
 :PROPERTIES:
 :id: 64defcdc-7160-43d6-88d9-e7fea8cc9394
 :END:
+** [[https://workflowy.com/][WorkFlowy]]
 * Year of /you know the system/ desktop
 :PROPERTIES:
 :heading: true
@@ -92,52 +93,56 @@ After a decade of dual-booting Linux, I got tired of waiting around to change th
 **** [[https://utgd.net/article/4972][macOS 中的阿里阿德涅之线——Deep Link - #UNTAG]]
 *** RoboCopy
 **** [[https://developer.aliyun.com/article/684435][Windows中常用文件拷贝工具的评测和对比-阿里云开发者社区]]
-** [[https://yacreader.com/][YACReader]]
+** 系统管理
+:PROPERTIES:
+:heading: true
+:END:
+*** Hardware & PE
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+**** [[http://www.tbtool.cn/][图吧工具箱 - 最纯净的硬件工具箱]]
+**** [[https://www.hirensbootcd.org/][Hiren's BootCD PE]]
+**** [[https://www.wepe.com.cn/][微PE工具箱 - 超好用的装机维护工具]]
 :PROPERTIES:
 :END:
-YACReader is the best comic reader and comic manager with support for cbr cbz zip rar comic files. It is available for Windows, Linux, Mac OS X
-** [[https://workflowy.com/][WorkFlowy]]
-** Scoop
+跨时代的PE工具箱，装机维护得力的助手，最后的救命稻草。化繁为简，小材大用，一键安装，极速启动。
+**** [[https://kms.cangshui.net/][沧水的KMS服务 Kms|Windows激活|Office激活|Windows下载|Office下载|搭建KMS服务器]]
+**** [[https://msdn.itellyou.cn/][MSDN, 我告诉你 - 做一个安静的工具站]] 
+[[https://next.itellyou.cn/][NEXT, ITELLYOU 提供可靠的原版软件]]
+*** Software
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+**** Scoop
 :PROPERTIES:
 :id: 64eff0ef-c0a0-496e-a27e-140a12f5570d
 :END:
 [[https://scoop.sh/][Get Scoop]]
-*** [[Article]]
-**** [[https://zhuanlan.zhihu.com/p/594363658][Scoop 安装、配置国内镜像、备份与迁移 - 知乎]]
+***** [[Article]]
+****** [[https://zhuanlan.zhihu.com/p/594363658][Scoop 安装、配置国内镜像、备份与迁移 - 知乎]]
 #Mirror 
 文中给出的 Gitee 镜像，推荐使用[[https://mirror.nju.edu.cn][南京大学镜像]]
-** 系统管理 | System Management
-:PROPERTIES:
-:collapsed: true
-:END:
-*** [[https://www.hirensbootcd.org/][Hiren's BootCD PE]]
-*** [[https://www.wepe.com.cn/][微PE工具箱 - 超好用的装机维护工具]]
-:PROPERTIES:
-:END:
-跨时代的PE工具箱，装机维护得力的助手，最后的救命稻草。化繁为简，小材大用，一键安装，极速启动。
-*** [[http://www.tbtool.cn/][图吧工具箱 - 最纯净的硬件工具箱]]
-*** [[https://kms.cangshui.net/][沧水的KMS服务 Kms|Windows激活|Office激活|Windows下载|Office下载|搭建KMS服务器]]
-*** [[https://msdn.itellyou.cn/][MSDN, 我告诉你 - 做一个安静的工具站]] 
-[[https://next.itellyou.cn/][NEXT, ITELLYOU 提供可靠的原版软件]]
-*** [[https://winworldpc.com/home][WinWorld: Welcome]]
-#Museum 
-WinWorld is an online museum dedicated to providing free and open access to one of the largest archives of abandonware software and information on the web.
-*** [[https://zhs.moo0.com/][Moo0 - Windows有用的免费软件 (not MooO)]]
-:PROPERTIES:
-:END:
+**** [[https://portableapps.com/][PortableApps.com - Portable software for USB, portable, and cloud drives]]
+**** [[https://zhs.moo0.com/][Moo0 - Windows有用的免费软件 (not MooO)]]
 我们开发许多简单和有用的软件，目标是使我们的日常生活更方便。我们的大多数软件是免费的。请看一看我们的软件列表并核对列表中是否有任何有用的软件。拥有愉悦的电脑操作！
-*** [[https://www.sordum.org/][Simplify Your computer Usage]]
+**** [[https://www.sordum.org/][Simplify Your computer Usage]]
 :PROPERTIES:
 :END:
 We develop highest quality software to simplify Computer usage
-*** [[https://www.nodesoft.com/][Nodesoft - No Design Software]]
-**** [[https://www.nodesoft.com/foldermonitor][Nodesoft Folder Monitor]]
+**** [[https://www.nodesoft.com/][Nodesoft - No Design Software]]
+***** [[https://www.nodesoft.com/foldermonitor][Nodesoft Folder Monitor]]
 文件夹修改删除重命名监控
-*** [[https://portableapps.com/][PortableApps.com - Portable software for USB, portable, and cloud drives]]
 *** [[https://www.runningcheese.com/][奔跑中的奶酪 - 有智，有趣，有爱]]
 :PROPERTIES:
 :END:
 有智，有趣，有爱是世界上最美好的三件事。崇尚科技，网站致力于个人提升和价值分享。—— 奔跑中的奶酪
+** [[https://yacreader.com/][YACReader]]
+:PROPERTIES:
+:END:
+YACReader is the best comic reader and comic manager with support for cbr cbz zip rar comic files. It is available for Windows, Linux, Mac OS X
 ** [[https://mcool.appinn.me/][Mcool 音乐播放器]]
 ** [[https://vb-audio.com/][VB-Audio home page]]
 :PROPERTIES:

@@ -4,6 +4,7 @@
 :PROPERTIES:
 :heading: true
 :END:
+** #Manual [[https://wyagd001.github.io/v2/docs/index.htm][快速参考 | AutoHotkey v2]]
 ** 基本语法速览
 ```Autohotkey
 #z::	; Win+Z
@@ -18,7 +19,8 @@
 		}
 }
 ```
-** 思路：网页和“正常”的窗口应该都能通过 Tab 切换聚焦的
+** 思路：网页和“正常”的窗口应该都能通过 Tab 切换聚焦的控件，结合 Enter 确认操作，方向键处理下拉菜单，多数需要重复操作的网页这样应该都能用。
+** 案例： 300000 条数据，最大只能 30 条每页，需要挨个这样点点点审核
 * 信息收集方案
 :PROPERTIES:
 :heading: true
