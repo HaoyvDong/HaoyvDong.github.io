@@ -9,9 +9,9 @@
 :END:
 ** [[https://vivaldi.com/zh-hans/][Vivaldi 浏览器 | 强大的个性化和私密化的网络浏览器]]
 :PROPERTIES:
-:tags: Browser
 :collapsed: true
 :END:
+#Browser
 *** [[https://zhuanlan.zhihu.com/p/92618817][为什么 Vivaldi 是最好用的桌面浏览器 - 知乎]]
 ** [[Emacs]]
 （目前）没开发 Org-Mode 以外的用途
@@ -45,7 +45,6 @@ https://web.hypothes.is/
 Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesetting
 *** 插件
 :PROPERTIES:
-:collapsed: true
 :END:
 **** [[https://github.com/l0o0/jasminum][l0o0/jasminum: A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据]]
 **** [[https://github.com/windingwind/zotero-pdf-translate][windingwind/zotero-pdf-translate: Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.]]
