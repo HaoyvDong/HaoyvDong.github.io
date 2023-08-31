@@ -467,7 +467,6 @@ CLOCK: [2022-08-16 Tue 17:00:18]--[2022-08-16 Tue 17:25:11] =>  00:24:53
 :PROPERTIES:
 :collapsed: true
 :END:
-[[Aug 17th, 2022]]
 **** 发行方账务处理：
 ***** 归类为权益工具的：
 借记，*利润分配一应付优先股股利、应付永续债利息等*;
@@ -489,7 +488,6 @@ CLOCK: [2022-08-16 Tue 17:00:18]--[2022-08-16 Tue 17:25:11] =>  00:24:53
 :PROPERTIES:
 :collapsed: true
 :END:
-[[Aug 17th, 2022]]
 *** 资本公积确认与计量
 :PROPERTIES:
 :collapsed: true
