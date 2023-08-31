@@ -1,7 +1,8 @@
-#+Description: 被你发现了！你看确实没写什么东西
+#+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
 
-* :PROPERTIES:
-:heading: 1
+* 信息收集方案
+:PROPERTIES:
+:heading: true
 :collapsed: true
 :END:
 ** 需求整理
@@ -21,6 +22,8 @@
 :END:
 Omnivore is the free, open source, read-it-later app for serious readers.
 * 静态站托管记录
+老实说一开始是拒绝任何 #Git 相关的方案的，就是懒嘛，结果后来还是不得不学了下。
 ** Netlify
-刚注册就风控，也不知道是不是
+刚注册就风控，也不知道是不是落地机房问题，想上传 ID 做认证都不行，Stripe 的网页不管什么姿势都卡死，走了人工申诉天晓得还要多长时间。
+**
 **
