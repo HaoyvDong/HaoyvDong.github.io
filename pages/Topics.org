@@ -49,6 +49,7 @@ Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesettin
 **** [[https://github.com/windingwind/zotero-better-notes][windingwind/zotero-better-notes: Everything about note management. All in Zotero.]]
 **** [[https://github.com/018/zotcard][018/zotcard: ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, you can customize other card templates), so you can write cards quickly. In addition, it helps you sort cards and standardize card formats.]]
 ** [[https://calibre-ebook.com/][Calibre]]
+Calibre 真
 ** [[Article]]
 *** [[https://www.yuque.com/deerain/gannbs/ffqk2e][双向链接时代的快速无压记录]]
 *** [[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
