@@ -5,13 +5,18 @@
 :END:
 [[https://www.zotero.org/][Zotero | Your personal research assistant]]
 #WebDav
-**
+** 作为阅读软件的 Zotero
+自 6.0 的 PDF 阅读器支持以及将至的 7.0[fn:beta] 的 EPUB/Webpage[fn:support] 让 Zotero 真正成为一款可以取代 MarginNote, LiquidText 等软件的阅读批注软件，而在
+
+[fn: beta] [[https://forums.zotero.org/discussion/105094/announcing-the-zotero-7-beta][Announcing the Zotero 7 Beta - Zotero Forums]]
+[fn: support] [[https://forums.zotero.org/discussion/106716/available-for-beta-testing-updated-reader-with-epub-snapshot-support-and-new-annotation-types/p1][Available for beta testing: Updated reader with EPUB/snapshot support and new annotation types - Zotero Forums]]
 ** https://editor.citationstyles.org/about/
 Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesetting
 ** #Article
 *** [[https://sspai.com/prime/story/integrated-academic-reading-writing-in-zotero][如何用 Zotero 统辖文献管理和学术笔记 ｜ 少数派会员 π+Prime]]
 ** 插件
 :PROPERTIES:
+:collapsed: true
 :END:
 *** jasminum
 [[https://github.com/l0o0/jasminum][l0o0/jasminum: A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据]]
@@ -39,6 +44,9 @@ https://apps.ankiweb.net/
 **** [[https://zhuanlan.zhihu.com/p/651179506][我的知识笔记系统——答怎样构建自己思维框架形成知识体系 - 知乎]]
 **** [[https://zhuanlan.zhihu.com/p/651347017][我的知识笔记系统-anki增量阅读之课程制作方法 - 知乎]]
 ** 推荐插件 2055492159 85158043 1087328706 759844606
+:PROPERTIES:
+:collapsed: true
+:END:
 *** [[https://ankiweb.net/shared/info/2055492159][AnkiConnect - AnkiWeb]];
 *** [[https://ankiweb.net/shared/info/85158043][Minimize to tray - AnkiWeb]];
 *** [[https://ankiweb.net/shared/info/1087328706][Markdown and KaTeX Support - AnkiWeb]];
