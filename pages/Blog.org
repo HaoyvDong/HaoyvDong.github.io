@@ -1,16 +1,22 @@
+#+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
+
+* 自制电子书
+:PROPERTIES:
+:heading: true
+:END:
+**
 * 作为阅读批注软件的 Zotero
 :PROPERTIES:
 :id: 64f1aacc-849d-4f99-acda-fc1512312067
 :heading: true
+:collapsed: true
 :END:
-自 6.0 的 PDF 阅读器支持以及将至的 7.0[fn:1] 的 EPUB/Webpage 批注[fn:2]，  Zotero 已经真正成为一款可以取代 MarginNote, LiquidText 等软件的阅读批注软件，而在 Zotero Metadata Importer[fn:3] 加持下与 Calibre 联动，书籍的元数据管理是完全不用操心的了。
+** 自 6.0 的 PDF 阅读器支持以及将至的 7.0[fn:1] 的 EPUB/Webpage 批注[fn:2]，  Zotero 已经真正成为一款可以取代 MarginNote, LiquidText 等软件的阅读批注软件，而在 Zotero Metadata Importer[fn:3] 加持下与 Calibre 联动，书籍的元数据管理是完全不用操心的了。
 当然，要想真正用好还是免不了一番折腾，例如针对知网豆瓣等书籍信息来源的 Translator、批注完成后的整理导出，需要用到各种插件，我就放到 #PKM 这一页的资源里了。 
 
 [fn:1] [[https://forums.zotero.org/discussion/105094/announcing-the-zotero-7-beta][Announcing the Zotero 7 Beta - Zotero Forums]]
 [fn:2] [[https://forums.zotero.org/discussion/106716/available-for-beta-testing-updated-reader-with-epub-snapshot-support-and-new-annotation-types/p1][Available for beta testing: Updated reader with EPUB/snapshot support and new annotation types - Zotero Forums]]
 [fn:3] [[https://www.mobileread.com/forums/showthread.php?p=3339191][[GUI Plugin] Zotero Metadata Importer - MobileRead Forums]]
-#+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
-
 * #AHK 发送按键
 :PROPERTIES:
 :heading: true
@@ -36,7 +42,6 @@
 * 静态站托管记录
 :PROPERTIES:
 :heading: true
-:collapsed: true
 :END:
 老实说一开始是拒绝任何 #Git 相关的方案的，就是懒嘛，结果后来还是不得不学了下。
 ** 废案

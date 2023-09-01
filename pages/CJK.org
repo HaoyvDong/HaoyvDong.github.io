@@ -1,9 +1,10 @@
 #+Description: Chinese-Japanese-Korea
 
-* 为什么 CJK 需要单独对待：[[https://www.yuque.com/deerain/gannbs/kbczzv#26d7c1b78bedd0e182b204d04c888ea9][锐评 RemNote]] ，注意这里我们还没有考虑 CJK 的字体和 Unicode 编码问题。
+* 为什么 CJK 需要单独对待：[[https://www.yuque.com/deerain/gannbs/kbczzv#26d7c1b78bedd0e182b204d04c888ea9][锐评 RemNote]] 
 #+BEGIN_QUOTE
 根据我的经验，如果一个外国软件的中文支持有问题，基本上是没什么改善希望的——背后的团队再强大、经费再充足也很难改善，因为很多发达国家的开发者根本就无法想象世界上竟然存在不用空格分隔单词的语言。
 #+END_QUOTE
+注意以上还没有考虑 CJK 的字体和 Unicode 编码问题。
 * RIME
 [[https://rime.im/][RIME | 中州韻輸入法引擎]]
 ** RIME 和 [[https://simpread.pro/][简悦 SimpRead]] 处在两个极端，一个文档写得太少以至于[[https://github.com/rime/squirrel/issues/421][功能要去issue找]]，一个文档写得太多以至于完全不知道需要的东西去哪查只能开issue。
