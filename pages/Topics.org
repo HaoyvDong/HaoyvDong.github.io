@@ -35,9 +35,14 @@ a free, open source, and cross-platform media player
 *** [[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
 ** Calibre https://calibre-ebook.com/
 单就功能性 Calibre 真无可替代吗？也不完全是，[[https://alfaebooks.com/][Alfa Ebooks Manager]] 也差不多能做个七七八八，可是说到插件联动生态那可就……
-*** 插件
+*** Calibre 插件
 **** Zotero Metadata Importer
 MobileRead Forums https://www.mobileread.com/forums/showthread.php?p=3339191
+*** #Article
+Calibre 的大多数功能还是比较符合直觉的，去设置菜单里逛一圈都能解决，如果懒得下载也可以看下这几篇介绍。
+- [[https://sspai.com/post/43843][最强大的本地电子书管理工具：Calibre 使用指南 - 少数派]]
+- [[https://sspai.com/post/72748][阅读批注样样通，我的 Calibre 书籍库管理方法论 - 少数派]]
+- [[https://sspai.com/post/57005][借助 Calibre 处理电子书的流程和技巧 - 少数派]]
 ** [[Article]]
 *** [[https://www.yuque.com/deerain/gannbs/ffqk2e][双向链接时代的快速无压记录]]
 *** [[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
