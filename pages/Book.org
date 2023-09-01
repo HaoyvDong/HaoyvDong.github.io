@@ -106,8 +106,6 @@ PDF Drive is your search engine for PDF files. As of today we have 79,703,453 eB
 ** [[https://www.haodoo.net/][首頁- 好讀]]
 Haodoo is a treasure trove of classic Chinese language books. Its collection includes over 3,300 titles in the EPUB and audio formats.
 *** [[https://haodoo.blog/][好讀二代 – 讓舊的好書有《好讀》這個歸宿，也讓更多的讀友能享受這些好書！]]
-** [[https://pan.baidu.com/s/1bpQBQph?pwd=b3p1][赤霓的ePub入门指南]]
-#Article #Manual
 ** [[https://bookfere.com/][书伴 -- 为静心阅读而生]]
 :PROPERTIES:
 :END:

@@ -8,6 +8,12 @@
 ** [[https://sspai.com/post/75217][数字文具盒｜Word 写论文，也可以很好用 - 少数派]]
 ** 为什么你不该用 Markdown：或者说你该用 CommonMark, Pandoc’s Markdown, R Markdown or GitHub-Flavored Markdown, etc.
 [[https://yihui.org/cn/2017/08/markdown-flavors/][混乱的 Markdown 世界 - Yihui Xie | 谢益辉]]
+** [[https://zhuanlan.zhihu.com/p/29954562][《ePub指南——从入门到放弃》编著：赤霓（第2版） - 知乎]]
+*** [[https://pan.baidu.com/s/1bpQBQph?pwd=b3p1][赤霓的ePub入门指南]]
+:PROPERTIES:
+:id: 64f02a02-685f-4734-a76e-8593424dd55d
+:END:
+#Book
 * $\LaTeX$
 :PROPERTIES:
 :heading: true
@@ -38,9 +44,7 @@ Easily create even complex LaTeX/HTML/Markdown/Text/MediaWiki tables with our on
 *** $\KaTeX$
 [[https://katex.org/index.html][KaTeX – The fastest math typesetting library for the web]]
 *** [[https://mathpix.com/][Mathpix Snip]]
-:PROPERTIES:
-:END:
-Do you spend a lot of time typing equations in LaTeX? Try Mathpix Snip for iOS, Android, macOS, Windows or Linux and start converting images to LaTeX instantly!
+Converting images to $LaTeX
 * [[https://quarto.org/][Quarto]]
 :PROPERTIES:
 :END:
