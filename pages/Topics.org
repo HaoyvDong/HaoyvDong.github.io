@@ -78,10 +78,10 @@ After a decade of dual-booting Linux, I got tired of waiting around to change th
 ** [[Article]]
 *** [[https://blog.lishun.me/openwrt-mega-post][Openwrt 路由总结：自动编译固件、正确设置旁路网关，破解迷思…… - 川叶 :: 不舍昼夜]]
 *** [[https://netnewswire.blog/2021/12/28/on-not-being.html][NetNewsWire - On Not Being the Free Alternative]]
-**** 为什么许多自由软件让人提不起兴趣：没有灵魂
-#BEGIN_QUOTE
+为什么许多自由软件让人提不起兴趣：没有灵魂
+#+BEGIN_QUOTE
 We realize that free and open source apps often do have the mission of mimicking the features of some one or several commercial apps, as if they’re Prometheus bringing features to the common computer user — but that is not our mission.
-#END_QUOTE
+#+END_QUOTE
 * Productivity
 :PROPERTIES:
 :heading: true
