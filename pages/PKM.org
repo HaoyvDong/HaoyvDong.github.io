@@ -36,8 +36,8 @@ https://apps.ankiweb.net/
 **** 译文：[[https://www.zhihu.com/question/616621310/answer/3172266680][在Anki已经有了FSRS这种新的算法后，如何通过Anki做渐进阅读？ - 知乎]]
 *** [[https://www.zhihu.com/people/sun-mo-yu-44][清锡CAE - 知乎]]
 此君把 PDF 逐页导入 Anki 后进行渐进阅读，多少有点主动选择了 /Hard Way/ 的意思，也是我提的 /Anki 笔记软件论/ 的一个生动例证了hhh
-**** [[https://zhuanlan.zhihu.com/p/651179506][我的知识笔记系统——答怎样构建自己思维框架形成知识体系 - 知乎]]
-**** [[https://zhuanlan.zhihu.com/p/651347017][我的知识笔记系统-anki增量阅读之课程制作方法 - 知乎]]
+- [[https://zhuanlan.zhihu.com/p/651179506][我的知识笔记系统——答怎样构建自己思维框架形成知识体系 - 知乎]]
+- [[https://zhuanlan.zhihu.com/p/651347017][我的知识笔记系统-anki增量阅读之课程制作方法 - 知乎]]
 ** 推荐插件 2055492159 85158043 1087328706 759844606
 :PROPERTIES:
 :collapsed: true
@@ -55,3 +55,19 @@ https://apps.ankiweb.net/
 - 自部署同步服务器
 已经比多数纯文本+文件树的笔记软件高到不知道哪里去了（笑
 #+END_QUOTE
+* Calibre
+:PROPERTIES:
+:id: 64f02a02-4cc6-4a18-873b-2f2fb2bff804
+:heading: true
+:collapsed: true
+:END:
+https://calibre-ebook.com/
+单就功能性 Calibre 真无可替代吗？也不完全是，[[https://alfaebooks.com/][Alfa Ebooks Manager]] 也差不多能做个七七八八，可是说到插件联动生态那可就……
+** Calibre 插件
+*** Zotero Metadata Importer
+MobileRead Forums https://www.mobileread.com/forums/showthread.php?p=3339191
+** #Article
+Calibre 的大多数功能还是比较符合直觉的，去设置菜单里逛一圈都能解决，如果懒得下载也可以看下这几篇介绍。
+- [[https://sspai.com/post/43843][最强大的本地电子书管理工具：Calibre 使用指南 - 少数派]]
+- [[https://sspai.com/post/72748][阅读批注样样通，我的 Calibre 书籍库管理方法论 - 少数派]]
+- [[https://sspai.com/post/57005][借助 Calibre 处理电子书的流程和技巧 - 少数派]]
