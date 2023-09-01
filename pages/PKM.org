@@ -21,7 +21,6 @@ Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesettin
 [[https://github.com/windingwind/zotero-better-notes][windingwind/zotero-better-notes: Everything about note management. All in Zotero.]]
 *** ZotCard
 [[https://github.com/018/zotcard][018/zotcard: ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, you can customize other card templates), so you can write cards quickly. In addition, it helps you sort cards and standardize card formats.]]
-*
 * Anki
 :PROPERTIES:
 :heading: true
@@ -59,7 +58,6 @@ https://apps.ankiweb.net/
 :PROPERTIES:
 :id: 64f02a02-4cc6-4a18-873b-2f2fb2bff804
 :heading: true
-:collapsed: true
 :END:
 https://calibre-ebook.com/
 单就功能性 Calibre 真无可替代吗？也不完全是，[[https://alfaebooks.com/][Alfa Ebooks Manager]] 也差不多能做个七七八八，可是说到插件联动生态那可就……
@@ -71,3 +69,4 @@ Calibre 的大多数功能还是比较符合直觉的，去设置菜单里逛一
 - [[https://sspai.com/post/43843][最强大的本地电子书管理工具：Calibre 使用指南 - 少数派]]
 - [[https://sspai.com/post/72748][阅读批注样样通，我的 Calibre 书籍库管理方法论 - 少数派]]
 - [[https://sspai.com/post/57005][借助 Calibre 处理电子书的流程和技巧 - 少数派]]
+**
