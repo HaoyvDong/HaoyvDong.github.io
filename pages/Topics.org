@@ -33,23 +33,8 @@ a free, open source, and cross-platform media player
 *** Logseq https://logseq.com/
 虽然本站就是用 Logseq ，但是内置了一整个 #Git 我还是真的会谢
 *** [[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
-** [[https://www.zotero.org/][Zotero | Your personal research assistant]]
-:PROPERTIES:
-:collapsed: true
-:END:
-#WebDav
-*** https://editor.citationstyles.org/about/
-Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesetting
-*** 插件
-:PROPERTIES:
-:collapsed: true
-:END:
-**** [[https://github.com/l0o0/jasminum][l0o0/jasminum: A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据]]
-**** [[https://github.com/windingwind/zotero-pdf-translate][windingwind/zotero-pdf-translate: Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.]]
-**** [[https://github.com/windingwind/zotero-better-notes][windingwind/zotero-better-notes: Everything about note management. All in Zotero.]]
-**** [[https://github.com/018/zotcard][018/zotcard: ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, you can customize other card templates), so you can write cards quickly. In addition, it helps you sort cards and standardize card formats.]]
-** [[https://calibre-ebook.com/][Calibre]]
-Calibre 真
+** Calibre https://calibre-ebook.com/
+单就功能性 Calibre 真无可替代吗？也不完全是，[[https://alfaebooks.com/][Alfa Ebooks Manager]] 也差不多能做个七七八八，可是说到插件联动生态那可就……
 ** [[Article]]
 *** [[https://www.yuque.com/deerain/gannbs/ffqk2e][双向链接时代的快速无压记录]]
 *** [[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]

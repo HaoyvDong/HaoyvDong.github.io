@@ -1,5 +1,31 @@
+* Zotero
+:PROPERTIES:
+:id: 64f02a02-d9fb-41ba-9c71-b5e6b66643a5
+:heading: true
+:END:
+[[https://www.zotero.org/][Zotero | Your personal research assistant]]
+#WebDav
+**
+** https://editor.citationstyles.org/about/
+Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesetting
+** #Article
+*** [[https://sspai.com/prime/story/integrated-academic-reading-writing-in-zotero][如何用 Zotero 统辖文献管理和学术笔记 ｜ 少数派会员 π+Prime]]
+** 插件
+:PROPERTIES:
+:END:
+*** jasminum
+[[https://github.com/l0o0/jasminum][l0o0/jasminum: A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据]]
+*** zotero-pdf-translate
+[[https://github.com/windingwind/zotero-pdf-translate][windingwind/zotero-pdf-translate: Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.]]
+*** zotero-better-notes
+[[https://github.com/windingwind/zotero-better-notes][windingwind/zotero-better-notes: Everything about note management. All in Zotero.]]
+*** ZotCard
+[[https://github.com/018/zotcard][018/zotcard: ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, you can customize other card templates), so you can write cards quickly. In addition, it helps you sort cards and standardize card formats.]]
 *
 * Anki
+:PROPERTIES:
+:heading: true
+:END:
 https://apps.ankiweb.net/
 ** 人生苦短，你该用 [[https://github.com/open-spaced-repetition/fsrs4anki][FSRS4Anki]]
 *** [[https://zhuanlan.zhihu.com/p/636564830][FSRS4Anki 使用指北 - 知乎]]
