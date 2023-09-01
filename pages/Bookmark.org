@@ -51,6 +51,7 @@ Share a Podcast
 ** 音乐 | Music
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 *** [[http://music.zhuolin.wang/][VIP会员付费音乐解析下载网]]
 :PROPERTIES:

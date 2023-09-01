@@ -1,7 +1,7 @@
 * #Article
 ** [[https://sspai.com/post/77206][Pandoc 从入门到精通，你也可以学会这一个文本转换利器 - 少数派]]
-其实 Pandoc 最好的说明书就是
-*** #+BEGIN_QUOTE
+*** Pandoc 最好的说明书就是
+#+BEGIN_QUOTE
 [[https://yihui.org/en/2017/11/thanks-tj-mahr/][No matter how many times]] I have recommended R Markdown users to read the /full/ Pandoc manual at least once, I still want to recommend it again. You won’t really appreciate how powerful Pandoc’s Markdown is until you read the full manual once.
 —— R Markdown 开发者 谢益辉
 #+END_QUOTE
@@ -19,8 +19,11 @@
 :heading: true
 :END:
 其实唯一用到的地方是在思源笔记或 Anki 里写 $\KaTeX$
-** [[https://www.latex-project.org/][LaTeX - A document preparation system]]
+[[https://www.latex-project.org/][LaTeX - A document preparation system]]
 ** [[Tools OL]]
+:PROPERTIES:
+:collapsed: true
+:END:
 *** [[https://www.texpage.com/][TeXPage - LaTeX 在线编辑器 | LaTeX 在线编译]]
 :PROPERTIES:
 :END:
@@ -44,7 +47,7 @@ Easily create even complex LaTeX/HTML/Markdown/Text/MediaWiki tables with our on
 *** $\KaTeX$
 [[https://katex.org/index.html][KaTeX – The fastest math typesetting library for the web]]
 *** [[https://mathpix.com/][Mathpix Snip]]
-Converting images to $LaTeX
+Converting images to $\LaTeX$
 * [[https://quarto.org/][Quarto]]
 :PROPERTIES:
 :END:
@@ -59,3 +62,9 @@ Quarto® is an open-source scientific and technical publishing system built on P
 ** [[http://wenq.org/wqy2/index.cgi][文泉驿]]
 ** Unifont
 [[https://savannah.gnu.org/projects/unifont][Unifont - Summary [Savannah]]]
+* Markup
+:PROPERTIES:
+:heading: true
+:id: 64f02a02-9072-4755-bcd8-aef9b8789080
+:END:
+** [[https://mermaid.js.org/][Mermaid | Diagramming and charting tool]]
