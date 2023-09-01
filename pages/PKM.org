@@ -6,10 +6,11 @@
 [[https://www.zotero.org/][Zotero | Your personal research assistant]]
 #WebDav
 ** 作为阅读软件的 Zotero
-自 6.0 的 PDF 阅读器支持以及将至的 7.0[fn:beta] 的 EPUB/Webpage[fn:support] 让 Zotero 真正成为一款可以取代 MarginNote, LiquidText 等软件的阅读批注软件，而在
+自 6.0 的 PDF 阅读器支持以及将至的 7.0[fn:1] 的 EPUB/Webpage 批注[fn:2] 让 Zotero 真正成为一款可以取代 MarginNote, LiquidText 等软件的阅读批注软件，而在 Zotero Metadata Importer[fn:3] 加持下书籍的元数据管理是完全不用操心的了。
 
-[fn: beta] [[https://forums.zotero.org/discussion/105094/announcing-the-zotero-7-beta][Announcing the Zotero 7 Beta - Zotero Forums]]
-[fn: support] [[https://forums.zotero.org/discussion/106716/available-for-beta-testing-updated-reader-with-epub-snapshot-support-and-new-annotation-types/p1][Available for beta testing: Updated reader with EPUB/snapshot support and new annotation types - Zotero Forums]]
+[fn:1] [[https://forums.zotero.org/discussion/105094/announcing-the-zotero-7-beta][Announcing the Zotero 7 Beta - Zotero Forums]]
+[fn:2] [[https://forums.zotero.org/discussion/106716/available-for-beta-testing-updated-reader-with-epub-snapshot-support-and-new-annotation-types/p1][Available for beta testing: Updated reader with EPUB/snapshot support and new annotation types - Zotero Forums]]
+[fn:3] [[https://www.mobileread.com/forums/showthread.php?p=3339191][[GUI Plugin] Zotero Metadata Importer - MobileRead Forums]]
 ** https://editor.citationstyles.org/about/
 Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesetting
 ** #Article
