@@ -33,6 +33,9 @@ a free, open source, and cross-platform media player
 *** Logseq https://logseq.com/
 虽然本站就是用 Logseq ，但是内置了一整个 #Git 我还是真的会谢
 *** [[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
+*** Writeathon
+- [[https://www.writeathon.cn/share/5b7cc721fbc8882f8738a78c][Writeathon - 更新日志]]
+- [[https://www.writeathon.cn/share/64e0718b26625042ba9a0a18][Writeathon - 更新日志 - 3.0]]
 ** [[Article]]
 *** [[https://www.yuque.com/deerain/gannbs/ffqk2e][双向链接时代的快速无压记录]]
 *** [[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
