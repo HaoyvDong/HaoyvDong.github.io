@@ -51,6 +51,7 @@ One of the most comprehensive sites about Tolkien's invented languages that you 
 * Referral
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 各种引荐码，试试不花钱
 ** [[https://sspai.com/prime/subscription?referral=314996267][少数派 Prime会员]]
