@@ -1,0 +1,66 @@
+* About | 关于
+:PROPERTIES:
+:heading: true
+:END:
+** What: Not a [[Blog]] , yet | 还不是博客
+:PROPERTIES:
+:heading: true
+:END:
+（目前）自己写的内容一点都没有咱就是说。
+** Why: 瞎折腾啥呢
+:PROPERTIES:
+:heading: true
+:END:
+#+BEGIN_QUOTE
+『只要它们是准确的， _+霍比特人+ /我/ 就热衷此类事由—— _+他们+ /我/ 乐于拥有这样的书籍：写满自己已经知道的事情，无可非议，毫无矛盾。』
+#+END_QUOTE
+* [[Bookmark]]
+:PROPERTIES:
+:heading: true
+:id: 64eeeded-de42-4573-a9fd-851202128d8a
+:END:
+未完工，持续施工 ing，浏览器书签解放计划
+** [[Book]]
+:PROPERTIES:
+:heading: true
+:END:
+** [[Tools OL]]
+:PROPERTIES:
+:heading: true
+:END:
+** [[Common knowledge]]
+:PROPERTIES:
+:heading: true
+:END:
+* [[Topics]]
+:PROPERTIES:
+:heading: true
+:id: 64e1667d-c990-434c-b6db-286408974f12
+:END:
+关注、实践、推荐的事物
+** [[https://tolkiengateway.net/wiki/Main_Page][Tolkien Gateway]]
+:PROPERTIES:
+:id: 64e0b29b-17ab-49be-a5b5-27806d46d38c
+:END:
+the J.R.R. Tolkien encyclopedia that anyone can edit.
+*** [[https://ardalambion.net/][Ardalambion]]
+One of the most comprehensive sites about Tolkien's invented languages that you are likely to find on the net.
+** [[https://bgm.tv/user/760218][Bangumi 番组计划 我的时光机]]
+*** [[https://sspai.com/post/70438][你的 Bangumi 番组计划增强版｜用户脚本与组件合集]]
+#Article
+* Referral
+:PROPERTIES:
+:heading: true
+:END:
+各种引荐码，试试不花钱
+** [[https://sspai.com/prime/subscription?referral=314996267][少数派 Prime会员]]
+点击加入少数派会员，立享 9 折优惠！获得专属会员内容、会员播客以及会员定制周边。在更多的领域和方向帮你打开脑洞，找到新的兴趣点，与少数派一起洞悉当下，探索新知。
+** [[https://infini-cloud.net/en/][InfiniCLOUD]] WBH9K
+#WebDav
+** [[https://dida365.com/wechatInvite?c%3D3%26p%3Dl0fcz0o7%26t%3D0=][滴答清单]]
+** [[PKM]]
+*** [[https://workflowy.com/invite/8202af67.lnx][Workflowy]]
+WorkFlowy is an organizational tool that makes life easier. It's a surprisingly powerful way to take notes, make lists, collaborate, brainstorm, plan and generally organize your brain.
+*** [[https://flowus.cn/login/?code=ERGCP8][FlowUs 息流 - 新一代生产力工具]] ERGCP8
+*** [[https://www.writeathon.cn/register?i=QBYAUX][Writeathon | 写拉松]] QBYAUX
+Writeathon is a tool for writing with minimal UI and efficient functions.Writeathon（写拉松）是一款为写作而设计、为写作而开发的工具，基于极简理念，提供简洁、高效、专注的写作体验

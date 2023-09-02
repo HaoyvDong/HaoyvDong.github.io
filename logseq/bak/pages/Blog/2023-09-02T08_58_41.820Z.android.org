@@ -1,0 +1,117 @@
+#+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
+
+* 如何批注
+:PROPERTIES:
+:heading: true
+:END:
+我是个不记笔记的人——每次开始边批注边读都会停留在第一章。以前也并不觉得有什么改正的必要，不过随着关注领域日多，也终于不能完全靠全文剪藏、或者仅收集链接每次都重新打开了。
+** [[https://utgd.net/article/20107][一种低技术的阅读批注思路 - #UNTAG]]
+通用标注体系 #Article
+*** 基础标记如何分类？
+- 高亮线：主语，关键词；
+- 下划线：谓语，理论；
+- 波浪线：宾语，案例。
+*** 多数内容应及时整理
+#+BEGIN_QUOTE
+需要强调与亟待处理之处，则尽可能融入任务管理工具（即便只是抄到便签上），总之不将后续需要整理的段落留在原始文件中。
+#+END_QUOTE
+*** 纸质书与电子书的批注交互——下划线边缘标注
+#+BEGIN_QUOTE
+《会读才会写》编制了一套阅读密码缩写，我却只标上颜色的首字母，以期削薄标注记号的语义，不关心所划线段落是事实、理论还是批驳，只管随后将使用哪种颜色标注之。盖从黑白两色的纸笔标注转换为多彩的电子标注，此步骤纯属苦工，易出疏漏，不宜再掺入关于语义的思考，只需遇“O”画橙黄高亮，见“B”画蓝线，如此而已。
+#+END_QUOTE
+*** 标签管理——避免常见词
+#+BEGIN_QUOTE
+之所以选取 *FCT* 这等晦涩拼写，并非给自己没事找事，而是为与原文区分，不得已选用英文中几不可能出现的拼写组合。又如 *VPT* 表示观点（View Point），*QST* 代表诘问（Question），不一而足。既已动用文字标注，则不必拘泥于描述高亮文本的属性，更可以指出后续处理方式，例如（1）作为论据，加入现有笔记；（2）作为联想基点，启发新的笔记；（3）难以理解，需要另外查询资料……如此，当时究竟为何划下这些句子，便了然于胸，回顾工作，也不再是自我安慰。
+#+END_QUOTE
+** [[https://sspai.com/prime/story/54211][Power+ 读书周：我们读书时会用到的辅助工具和技巧 ｜ 少数派会员  π+Prime]]
+#Article 这里摘录的作者事实上就是上文 UNTAG 的 Minja 和 沨沄极客。
+*** 三点输出法
+#+BEGIN_QUOTE
+写书评本身也有一些方法论，我比较推荐「三点输出法」，即挑三点最令人印象深刻的记下来，减轻记录压力的同时也要求阅读者惜墨如金，主动挑选精华。很多书掺着车轱辘话，读起来头头是道——比如《精要主义》前几章，大家一看书名就懂——一旦遇到三点输出的过滤网，就统统被拦在外面。
+
+很多麦肯锡派的畅销书都提到过三点输出的方法，《为什么精英都是时间控》的作者身为脑科医生也提倡过。当然和前一节的 4 色批注一样，「三点」也是不是硬性标准，如果真有很多好内容，多摘一点又有何妨。
+#+END_QUOTE
+*** 四色批注
+考虑到标准比较多，我最后用的批注方案非常直白：通过 4 种颜色来勾出 4 类重点信息。
+- 蓝色：本书理论； 
+- 橙色：经典案例； 
+- 红色：关键词、专有名词； 
+- 紫色：对我有特殊意义的内容。
+* 自制电子书
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+** 起因很简单嘛，网文下载下来不排版根本不能看（不会真的有人把一切交给阅读器吧——Kybook 系列停更痛感）。后来网文看得少了，还没有正确上网姿势的时候从公众号资源站下载一些电子书也往往排版粗劣，复杂的图文混排、来回跳转或悬浮窗的脚注且不提，许多书甚至连目录和行距段距都做不好！就算我不要那象牙箸，也不能给我双全是毛刺的吧？
+* 作为阅读批注软件的 Zotero
+:PROPERTIES:
+:id: 64f1aacc-849d-4f99-acda-fc1512312067
+:heading: true
+:collapsed: true
+:END:
+** 自 6.0 的 PDF 阅读器支持以及将至的 7.0[fn:1] 的 EPUB/Webpage 批注[fn:2]，  Zotero 已经真正成为一款可以取代 MarginNote, LiquidText 等软件的阅读批注软件，而在 Zotero Metadata Importer[fn:3] 加持下与 Calibre 联动，书籍的元数据管理是完全不用操心的了。
+当然，要想真正用好还是免不了一番折腾，例如针对知网豆瓣等书籍信息来源的 Translator、批注完成后的整理导出，需要用到各种插件，我就放到 #PKM 这一页的资源里了。 
+
+[fn:1] [[https://forums.zotero.org/discussion/105094/announcing-the-zotero-7-beta][Announcing the Zotero 7 Beta - Zotero Forums]]
+[fn:2] [[https://forums.zotero.org/discussion/106716/available-for-beta-testing-updated-reader-with-epub-snapshot-support-and-new-annotation-types/p1][Available for beta testing: Updated reader with EPUB/snapshot support and new annotation types - Zotero Forums]]
+[fn:3] [[https://www.mobileread.com/forums/showthread.php?p=3339191][[GUI Plugin] Zotero Metadata Importer - MobileRead Forums]]
+* #AHK 发送按键
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+** #Manual [[https://wyagd001.github.io/v2/docs/index.htm][快速参考 | AutoHotkey v2]]
+** 基本语法速览
+#+BEGIN_SRC Autohotkey
+#z::	; Win+Z
+{
+	Loop 1	;循环次数
+		{
+			Send "{LButton}"	; 点击
+			Sleep 300	; 睡眠 300 毫秒
+			Send "{Shift down}{Tab}{Shift up}"	; 聚焦导航
+			Send "{Enter}"	; 确认按钮
+			Send "{Down}"	; 下拉菜单
+		}
+}
+#+END_SRC
+** 思路：网页和“正常”的窗口应该都能通过 Tab 切换聚焦的控件，结合 Enter 确认操作，方向键处理下拉菜单，多数需要重复操作的网页这样应该都能用。
+** 案例： 300000 条数据，最大只能 30 条每页，需要挨个这样点点点审核
+* 静态站托管记录
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+老实说一开始是拒绝任何 #Git 相关的方案的，就是懒嘛，结果后来还是不得不学了下。
+** 废案
+*** Netlify
+刚注册就风控，也不知道是不是落地机房问题，想上传 ID 做认证都不行，Stripe 的网页不管什么姿势都卡死，走了人工申诉天晓得还要多长时间。
+*** 热铁盒 https://host.retiehe.com/
+想着国内站快点，也是支持直接上传文件。结果 Logseq 导出的页面“存在调用不符合核心价值观的 AI 算法的行为”，这下简中特了。
+** 记录
+*** #Article
+- [[https://zhuanlan.zhihu.com/p/138305054][初次使用git上传代码到github远程仓库 - 知乎]]
+- [[https://zhuanlan.zhihu.com/p/467192292][简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案 - 知乎]]，文中介绍的 Action 已经停更了，可以用官方的 
+ [https://github.com/logseq/publish-spa][logseq/publish-spa]]
+*** 过程中的新知：
+- SSH Key：[[https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5][Git - 生成 SSH 公钥]]
+*** Magit, 用过都说好！ #Emacs
+* 信息收集方案
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+** 需求整理
+:PROPERTIES:
+:heading: true
+:END:
+|*输入*|*整理*|*输出*|
+|全平台|搜索筛选语法|批量导出|
+*** 因为是输入端，不做储存信息的考虑，所以不用顾及商业产品生命周期，可以放心使用云服务
+*** 导出可就麻烦了，Org-Mode 生态目前只有 Logseq 能打啊，这个问题几乎就是问哪个稍后读的 Logseq 插件做得好
+** 候选分析
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://omnivore.app/][Omnivore]]
+*** [[https://www.dida365.com/home][滴答清单:一个帮你高效完成任务和规划时间的应用]]
