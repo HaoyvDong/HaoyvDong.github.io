@@ -183,3 +183,5 @@ This page provides a product summary for each Apple model. The intent is to prov
 *** [[https://hubapple.cn/][Apple 苹果产品参数中心 / HubApple.cn]]
 ** [[https://altstore.io/][Welcome to AltStore]]
 欧盟立法侧载，也许很快这也 #RIP
+** AirPods Desktop
+[[https://github.com/SpriteOvO/AirPodsDesktop/][SpriteOvO/AirPodsDesktop: ☄️ AirPods desktop user experience enhancement program, for Windows and Linux (WIP)]]
