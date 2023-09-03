@@ -82,3 +82,17 @@ Calibre 的大多数功能还是比较符合直觉的，去设置菜单里逛一
 |文档如何分类|学习用|干活用|
 |实践向|Tutorials|How-to|
 |理论向|Explanation|Reference|
+** [[https://utgd.net/article/9653][当代人的丛林狩猎：在线阅读 | 专栏导读]]
+:PROPERTIES:
+:id: 64f02a02-a97a-4ebe-8574-b1bda2c8b7c8
+:END:
+- RSS→浏览器→存档本地。
+- 浏览器的功能超越了所有阅读器。
+- PDF 良好的生态让其成为优秀的存档格式，至于换行导致难以搜索的缺点，可以通过及时做笔记弥补。
+** [[https://www.yuque.com/deerain/gannbs/ffqk2e][双向链接时代的快速无压记录]]
+** [[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
+** [[https://sspai.com/post/78133][把阅读作为方法：从选书到笔记的经验分享 - 少数派]]
+** [[https://noteapps.info/][NoteApps.info: 32 best note taking apps analyzed over 289 features]]
+:PROPERTIES:
+:id: 64defcdc-7160-43d6-88d9-e7fea8cc9394
+:END:

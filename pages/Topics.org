@@ -35,14 +35,6 @@ a free, open source, and cross-platform media player
 *** Writeathon
 - [[https://www.writeathon.cn/share/5b7cc721fbc8882f8738a78c][Writeathon - 更新日志]]
 - [[https://www.writeathon.cn/share/64e0718b26625042ba9a0a18][Writeathon - 更新日志 - 3.0]]
-** [[Article]]
-*** [[https://www.yuque.com/deerain/gannbs/ffqk2e][双向链接时代的快速无压记录]]
-*** [[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
-*** [[https://sspai.com/post/78133][把阅读作为方法：从选书到笔记的经验分享 - 少数派]]
-*** [[https://noteapps.info/][NoteApps.info: 32 best note taking apps analyzed over 289 features]]
-:PROPERTIES:
-:id: 64defcdc-7160-43d6-88d9-e7fea8cc9394
-:END:
 * Year of /you know the system/ desktop
 :PROPERTIES:
 :heading: true
