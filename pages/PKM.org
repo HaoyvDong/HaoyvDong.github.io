@@ -24,6 +24,7 @@ Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesettin
 * Anki
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 https://apps.ankiweb.net/
 ** 人生苦短，你该用 [[https://github.com/open-spaced-repetition/fsrs4anki][FSRS4Anki]]
@@ -58,6 +59,7 @@ https://apps.ankiweb.net/
 :PROPERTIES:
 :id: 64f02a02-4cc6-4a18-873b-2f2fb2bff804
 :heading: true
+:collapsed: true
 :END:
 https://calibre-ebook.com/
 单就功能性 Calibre 真无可替代吗？也不完全是，[[https://alfaebooks.com/][Alfa Ebooks Manager]] 也差不多能做个七七八八，可是说到插件联动生态那可就……
@@ -70,3 +72,10 @@ Calibre 的大多数功能还是比较符合直觉的，去设置菜单里逛一
 - [[https://sspai.com/post/43843][最强大的本地电子书管理工具：Calibre 使用指南 - 少数派]]
 - [[https://sspai.com/post/72748][阅读批注样样通，我的 Calibre 书籍库管理方法论 - 少数派]]
 - [[https://sspai.com/post/57005][借助 Calibre 处理电子书的流程和技巧 - 少数派]]
+* #Article
+:PROPERTIES:
+:heading: true
+:END:
+** [[https://sspai.com/post/77144][找笔记方便、写作又给力的知识库，我是这么搭建出来的 - 少数派]]
+*** 操作手册与参考指南需要更细致的分类
+重读这篇文章前我对参考类的文章乃至书籍只是粗略打上 Manual 的标签，并未考虑到二者的微妙区别，本文中提到的 How-to 和 Reference 分类也许可以帮助我更加精准地看待二者的重要性。
