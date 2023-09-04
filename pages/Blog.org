@@ -3,6 +3,7 @@
 * 合并单元格
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 #Article #Excel
 [[https://sspai.com/post/53098][玩转 Excel 中的合并单元格 - 少数派]]
