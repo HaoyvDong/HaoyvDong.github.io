@@ -1,12 +1,11 @@
 #+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
 
-* 合并单元格
+* #Excel 合并单元格
 :PROPERTIES:
 :heading: true
 :collapsed: true
 :END:
-#Article #Excel
-[[https://sspai.com/post/53098][玩转 Excel 中的合并单元格 - 少数派]]
+#Article [[https://sspai.com/post/53098][玩转 Excel 中的合并单元格 - 少数派]]
 ** 行单元格 标题居中
 右键选中区域，选择「设置单元格格式」，进入到「对齐」选项卡，将「水平对齐方式」设置为「跨列居中」
 | 方法 | 在现有表格内插入列 | 在现有表格后插入列 |
