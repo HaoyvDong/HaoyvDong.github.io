@@ -7,6 +7,8 @@
 :heading: true
 :END:
 （目前）自己写的内容一点都没有咱就是说。
+*** 无内鬼，来点博客笑话
+[[https://rakhim.org/honestly-undefined/19/][Blogging vs. blog setups - Rakhim.org]]
 ** Why: 瞎折腾啥呢
 :PROPERTIES:
 :heading: true

@@ -37,6 +37,8 @@
 :END:
 蜜柑计划：新一代的动漫下载站
 *** [[https://acg.rip/][ACG.RIP]]
+** 喵萌奶茶屋字幕
+[[https://github.com/Nekomoekissaten-SUB/Nekomoekissaten-Storage][Nekomoekissaten-SUB/Nekomoekissaten-Storage: Subtitles made by Nekomoe Kissaten.]]
 ** [[https://fantuantv.com/][ACG饭团 - 饭团动漫]]
 ** [[http://www.kudm.vip/]]
 ** [[http://www.yinghuacd.com/][樱花动漫－专注动漫的门户网站]]
