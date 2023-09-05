@@ -33,9 +33,7 @@
 :END:
 動漫花園資源網,動漫愛好者的自由交流平台，本站为动漫花园镜像站，本站不存储发布任何种子资源，仅提供搜索及动漫花园快照内容
 *** [[https://mikanani.me/][蜜柑计划 - Mikan Project]]
-:PROPERTIES:
-:END:
-蜜柑计划：新一代的动漫下载站
+订阅链接要在 https://mikanani.me/Home/MyBangumi 页面，将“我的字幕组订阅更新”列表调整至有内容的状态，才能在右下角发现个人 RSS 地址，我已经有两次找半天找不到地址了……
 *** [[https://acg.rip/][ACG.RIP]]
 ** 喵萌奶茶屋字幕
 [[https://github.com/Nekomoekissaten-SUB/Nekomoekissaten-Storage][Nekomoekissaten-SUB/Nekomoekissaten-Storage: Subtitles made by Nekomoe Kissaten.]]
