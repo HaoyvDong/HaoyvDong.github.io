@@ -1,0 +1,141 @@
+* Anime
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+** [[https://yuc.wiki/][YuC's AnimeList]]
+** #Forum
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://bbs.saraba1st.com/2b/forum.php][论坛 - stage1/s1 游戏动漫论坛]]
+:PROPERTIES:
+:id: 64defcdc-5fa8-470c-a5a6-73d262bca50a
+:END:
+**** [[http://s1vote.com/][S1漫区投票统计]]
+*** [[https://www.tsdm39.com/forum.php][天使动漫论坛-Angel Beats|TSDM字幕组|天使动漫网]]
+天使动漫论坛-梦开始的地方 一个能轻松聊天结识同好的温馨小论坛  Angel Beats|TSDM字幕组|天使动漫网
+*** [[https://bbs.acgrip.com/][Anime字幕论坛]]
+:PROPERTIES:
+:END:
+动画字幕共享站
+*** [[https://bangumi.tv/][Bangumi 番组计划]]
+** BT
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+*** [[https://share.acgnx.se/][末日動漫資源庫 - Project AcgnX Torrent Asia]]
+*** [[https://bangumi.moe/][萌番组]]
+*** [[https://dongmanhuayuan.myheartsite.com/#][动漫花园资源网-动漫花园镜像站~ 動漫花園資源網镜像站 - 動漫愛好者的自由交流平台]]
+*** [[https://www.huayuandm.com/][动漫花园资源网-动漫花园镜像站~動漫花園資源網 - 動漫愛好者的自由交流平台]]
+:PROPERTIES:
+:END:
+動漫花園資源網,動漫愛好者的自由交流平台，本站为动漫花园镜像站，本站不存储发布任何种子资源，仅提供搜索及动漫花园快照内容
+*** [[https://mikanani.me/][蜜柑计划 - Mikan Project]]
+:PROPERTIES:
+:END:
+蜜柑计划：新一代的动漫下载站
+*** [[https://acg.rip/][ACG.RIP]]
+** [[https://fantuantv.com/][ACG饭团 - 饭团动漫]]
+** [[http://www.kudm.vip/]]
+** [[http://www.yinghuacd.com/][樱花动漫－专注动漫的门户网站]]
+:PROPERTIES:
+:END:
+樱花动漫拥有上万集高清晰画质的在线动漫，观看完全免费、无须注册、高速播放、更新及时的专业在线樱花动漫站，我们致力为所有动漫迷们提供最好看的动漫。
+** [[http://fabu.galgame.net/][AGREE地址发布页]]
+** [[https://tucao.one/][吐槽弹幕网]]
+** [[http://www.dongmanwang.com/][动漫网]]
+** [[http://www.fsro.cn/][佛山RO|佛山电脑维修|粤语动漫电影]]
+** [[http://www.milimili.tv/][咪哩咪哩 - 好看的动漫,日本动漫在线观看]]
+** [[https://anime1.me/][Anime1.me 動畫線上看 -- 上百部動漫免費線上看！]]
+* Comic
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+** [[https://www.mangabz.com/][日本漫畫在線閱讀 mangabz]]
+** [[https://kox.moe/][Kox.moe [Kindle漫畫|Kobo漫畫|epub漫畫] [kox.moe]]]
+:PROPERTIES:
+:END:
+高清Kindle格式漫画下载，支持推送漫画到kindle设备。
+* Novel
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+** [[https://www.lightnovel.us/cn/][轻之国度-专注分享的NACG社群]]
+我常常疑惑汉化组是怎么忍受轻国的使用体验还不允许转载要别人一起来用的
+** [[https://www.wenku8.net/index.php][轻小说文库 - 最新最全的日本动漫轻小说在线阅读与下载基地]]
+:PROPERTIES:
+:END:
+轻小说文库(www.wenku8.com)是收录最全更新最快的动漫sf轻小说网站,提供轻小说在线阅读,TXT与电子书下载,支持手机WAP访问.
+** [[http://ritdon.com/forum.php][深夜读书会]]
+:PROPERTIES:
+:END:
+提供最新电子版轻小说下载
+** [[https://www.linovelib.com/][哔哩轻小说]]
+:PROPERTIES:
+:END:
+哔哩轻小说是收录最全更新最快的轻小说文库，动漫sf轻小说网站，提供轻小说在线阅读。
+** [[https://gitlab.com/demonovel/epub-txt][demonovel / epub-txt · GitLab]]
+* Game 游戏
+:PROPERTIES:
+:collapsed: true
+:heading: true
+:END:
+** [[https://itch.io/][Download the latest indie games]]
+:PROPERTIES:
+:END:
+itch.io is a simple way to find, download and distribute indie games online. Whether you're a developer looking to upload your game or just someone looking for something new to play itch.io has you covered.
+** [[http://qunxing.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5][群星中文维基 | Stellaris 攻略资料指南 - 灰机wiki]]
+:PROPERTIES:
+:END:
+群星（Stellaris）是Paradox出品的太空战略模拟游戏，本维基致力于整理和解析群星的游戏概念与数据。
+** [[https://www.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5][灰机wiki]]
+:PROPERTIES:
+:END:
+灰机wiki是关注动漫游戏影视等领域的兴趣百科社区，追求深度、系统、合作，你也可以来创建和编写。在这里邂逅与你频率相同的“机”友，构建你的专属兴趣世界，不受束缚的热情创造。贴吧大神、微博达人、重度粉、分析狂人、考据党都在这里！
+** [[https://cowlevel.net/][奶牛关 CowLevel]]
+:PROPERTIES:
+:END:
+玩游戏就要有追求，奶牛关是一个游戏狂热者的分享问答社区，在这里可以记录你一生玩过的所有游戏，结识游戏臭味相投的人，分享游戏的文化、知识与乐趣，发现和推荐所有平台的好游戏
+** [[https://www.parawikis.com/wiki/%E9%A6%96%E9%A1%B5][ParaWikis | 游戏维基农场]]
+:PROPERTIES:
+:END:
+主打Paradox作品的游戏中文维基农场
+** [[https://bbs.52pcgame.net/][策略游戏汉化下载修改 - Powered by Discuz!]]
+:PROPERTIES:
+:END:
+原52pcgame.com,华语圈最权威的P社策略游戏论坛
+** [[https://www.eu4cn.com/wiki/%E9%A6%96%E9%A1%B5][欧陆风云4百科，人人可以编辑的欧陆风云4中文百科全书]]
+:PROPERTIES:
+:END:
+欧陆风云4百科是一个人人可以参与编写的wiki百科站点，旨在做最全面的欧陆风云4中文百科全书，欢迎您的光临并诚邀您参与编写！
+** [[https://paratranz.cn/projects][ParaTranz - 通用的游戏翻译平台]]
+** [[https://mgerdes.github.io/minigolf.html][Open Golf]]
+** [[https://pinball.flutter.dev/#/][Google I/O Pinball]]
+:PROPERTIES:
+:END:
+Come play Pinball with your favorite Google Developer Mascots! Built with Flutter & Firebase for Google I/O 2022.
+** [[https://www.taptap.cn/][TapTap | 发现好游戏]]
+#Forum 
+TapTap ，专为中国手游玩家打造的推荐高品质手游的分享社区。我们拥有超过2万款可玩游戏，超过1亿玩家在我们平台上完成了30亿次游戏下载，发布了超过3500万条真实客观的游戏评价，并为玩家提供了50万篇优质内容。目前已有超过10万个游戏开发者入驻了TapTap玩家社区。立即下载TapTap，与我们一起体验最顶级的手游乐趣吧！
+** [[https://game.maj-soul.com/1/][雀魂麻将]]
+* Others
+:PROPERTIES:
+:collapsed: true
+:END:
+** [[https://notion-avatar.vercel.app/zh][Notion 风格头像制作]]
+:PROPERTIES:
+:END:
+一个生成 Notion 风格头像的在线工具。
+** [[https://vue-color-avatar.vercel.app/][Vue Color Avatar]]
+:PROPERTIES:
+:END:
+A pure front-end avatar generator.
+** [[https://www.acg123.co/][二刺螈导航]]
+:PROPERTIES:
+:END:
+二刺螈导航 - 冻鳗导航|动漫导航|ACG导航|二次元导航，是一个整合并收录二刺螈相关网站的导航网站，一个最不懂你、并不属于你的冻鳗导航！若二刺螈是你的人生中的灯塔，那么二刺螈导航便是带你进入米缸的指南针。
+** [[http://www.tsdm.vip/][天使精品网址导航]]

@@ -1,0 +1,72 @@
+* Zotero
+:PROPERTIES:
+:id: 64f02a02-d9fb-41ba-9c71-b5e6b66643a5
+:heading: true
+:END:
+[[https://www.zotero.org/][Zotero | Your personal research assistant]]
+#WebDav
+** https://editor.citationstyles.org/about/
+Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesetting
+** #Article
+*** [[https://sspai.com/prime/story/integrated-academic-reading-writing-in-zotero][如何用 Zotero 统辖文献管理和学术笔记 ｜ 少数派会员 π+Prime]]
+** 插件
+:PROPERTIES:
+:collapsed: true
+:END:
+*** jasminum
+[[https://github.com/l0o0/jasminum][l0o0/jasminum: A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据]]
+*** zotero-pdf-translate
+[[https://github.com/windingwind/zotero-pdf-translate][windingwind/zotero-pdf-translate: Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.]]
+*** zotero-better-notes
+[[https://github.com/windingwind/zotero-better-notes][windingwind/zotero-better-notes: Everything about note management. All in Zotero.]]
+*** ZotCard
+[[https://github.com/018/zotcard][018/zotcard: ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, you can customize other card templates), so you can write cards quickly. In addition, it helps you sort cards and standardize card formats.]]
+* Anki
+:PROPERTIES:
+:heading: true
+:END:
+https://apps.ankiweb.net/
+** 人生苦短，你该用 [[https://github.com/open-spaced-repetition/fsrs4anki][FSRS4Anki]]
+*** [[https://zhuanlan.zhihu.com/p/636564830][FSRS4Anki 使用指北 - 知乎]]
+#Article
+** [[Article]]
+*** [[https://utgd.net/article/9595][越过驾驭 Anki 前的那几道坎儿 - #UNTAG]]
+*** [[https://robertheaton.com/2018/06/25/how-to-read/][How to read | Robert Heaton]]
+**** 译文：[[https://www.zhihu.com/question/616621310/answer/3172266680][在Anki已经有了FSRS这种新的算法后，如何通过Anki做渐进阅读？ - 知乎]]
+*** [[https://www.zhihu.com/people/sun-mo-yu-44][清锡CAE - 知乎]]
+此君把 PDF 逐页导入 Anki 后进行渐进阅读，多少有点主动选择了 /Hard Way/ 的意思，也是我提的 /Anki 笔记软件论/ 的一个生动例证了hhh
+- [[https://zhuanlan.zhihu.com/p/651179506][我的知识笔记系统——答怎样构建自己思维框架形成知识体系 - 知乎]]
+- [[https://zhuanlan.zhihu.com/p/651347017][我的知识笔记系统-anki增量阅读之课程制作方法 - 知乎]]
+** 推荐插件 2055492159 85158043 1087328706 759844606
+:PROPERTIES:
+:collapsed: true
+:END:
+*** [[https://ankiweb.net/shared/info/2055492159][AnkiConnect - AnkiWeb]];
+*** [[https://ankiweb.net/shared/info/85158043][Minimize to tray - AnkiWeb]];
+*** [[https://ankiweb.net/shared/info/1087328706][Markdown and KaTeX Support - AnkiWeb]];
+*** [[https://ankiweb.net/shared/info/759844606][FSRS4Anki Helper - AnkiWeb]];
+** Anki 笔记软件论：自引
+#+BEGIN_QUOTE
+- 能直接编辑 HTML 源码的富文本编辑器
+- 能浏览所有笔记的管理界面
+- 牌组+标签的管理系统
+- 高级搜索语法
+- 自部署同步服务器
+已经比多数纯文本+文件树的笔记软件高到不知道哪里去了（笑
+#+END_QUOTE
+* Calibre
+:PROPERTIES:
+:id: 64f02a02-4cc6-4a18-873b-2f2fb2bff804
+:heading: true
+:END:
+https://calibre-ebook.com/
+单就功能性 Calibre 真无可替代吗？也不完全是，[[https://alfaebooks.com/][Alfa Ebooks Manager]] 也差不多能做个七七八八，可是说到插件联动生态那可就……
+** Calibre 插件
+*** Zotero Metadata Importer
+MobileRead Forums https://www.mobileread.com/forums/showthread.php?p=3339191
+***
+** #Article
+Calibre 的大多数功能还是比较符合直觉的，去设置菜单里逛一圈都能解决，如果懒得下载也可以看下这几篇介绍。
+- [[https://sspai.com/post/43843][最强大的本地电子书管理工具：Calibre 使用指南 - 少数派]]
+- [[https://sspai.com/post/72748][阅读批注样样通，我的 Calibre 书籍库管理方法论 - 少数派]]
+- [[https://sspai.com/post/57005][借助 Calibre 处理电子书的流程和技巧 - 少数派]]
