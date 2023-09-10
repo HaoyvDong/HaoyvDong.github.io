@@ -186,6 +186,8 @@ List of websites and whether or not they support One Time Passwords (OTP) or Uni
 :END:
 中国版的提问的智慧，更懂中国程序员！
 *** [[https://martinrue.com/my-engineering-axioms/][My Engineering Axioms]]
+*** [[https://antonz.org/mastering-curl/][Mastering curl: interactive text guide]]
+#how-to
 ** #Forum
 *** [[http://www.bathome.net/index.php][批处理之家]]
 批处理之家 国内最实用的批处理论坛，讨论和学习 BAT, CMD, PowerShell, VBS, DOS 等脚本，众多高手帮助你及时解决各种问题。
