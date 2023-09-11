@@ -23,7 +23,6 @@ https://szfilehelper.weixin.qq.com/
 *** #Article
 **** [[https://sspai.com/post/82550][每个人都需要的「第三方授权登录」查询与解绑指南 - 少数派]]
 **** [[https://sspai.com/post/82268][接受服务应知应会：从政策到实践，关于「退货」我们应该知道什么？ - 少数派]]
-**** [[https://sspai.com/post/67209][某宝买到扩容 iPad，我让卖家「退一赔三」 - 少数派]]
 ** PDF
 :PROPERTIES:
 :heading: true
@@ -187,8 +186,6 @@ List of websites and whether or not they support One Time Passwords (OTP) or Uni
 :END:
 中国版的提问的智慧，更懂中国程序员！
 *** [[https://martinrue.com/my-engineering-axioms/][My Engineering Axioms]]
-*** [[https://antonz.org/mastering-curl/][Mastering curl: interactive text guide]]
-#how-to
 ** #Forum
 *** [[http://www.bathome.net/index.php][批处理之家]]
 批处理之家 国内最实用的批处理论坛，讨论和学习 BAT, CMD, PowerShell, VBS, DOS 等脚本，众多高手帮助你及时解决各种问题。
