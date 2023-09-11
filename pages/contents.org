@@ -6,7 +6,6 @@
 :PROPERTIES:
 :heading: true
 :END:
-（目前）自己写的内容一点都没有咱就是说。
 *** 无内鬼，来点博客笑话
 [[https://rakhim.org/honestly-undefined/19/][Blogging vs. blog setups - Rakhim.org]]
 ** Why: 瞎折腾啥呢
@@ -21,7 +20,7 @@
 :heading: true
 :id: 64eeeded-de42-4573-a9fd-851202128d8a
 :END:
-未完工，持续施工 ing，浏览器书签解放计划
+浏览器书签解放计划
 ** [[Book]]
 :PROPERTIES:
 :heading: true
@@ -36,10 +35,9 @@
 :END:
 * [[Topics]]
 :PROPERTIES:
-:heading: true
 :id: 64e1667d-c990-434c-b6db-286408974f12
+:heading: true
 :END:
-关注、实践、推荐的事物
 ** [[https://tolkiengateway.net/wiki/Main_Page][Tolkien Gateway]]
 :PROPERTIES:
 :id: 64e0b29b-17ab-49be-a5b5-27806d46d38c
