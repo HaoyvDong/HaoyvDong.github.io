@@ -69,6 +69,13 @@
 :collapsed: true
 :END:
 ** 起因很简单嘛，网文下载下来不排版根本不能看（不会真的有人把一切交给阅读器吧——Kybook 系列停更痛感）。后来网文看得少了，还没有正确上网姿势的时候从公众号资源站下载一些电子书也往往排版粗劣，复杂的图文混排、来回跳转或悬浮窗的脚注且不提，许多书甚至连目录和行距段距都做不好！就算我不要那象牙箸，也不能给我双全是毛刺的吧？
+** #CSS 集锦
+:PROPERTIES:
+:heading: true
+:END:
+*** Worg CSS
+https://orgmode.org/worg/style/worg.css
+***
 ** #Article
 *** [[https://sspai.com/post/75170][一日一技 | 如何给自制电子书添加脚注 - 少数派]]
 - 正则中的tab：\t
