@@ -75,7 +75,8 @@
 :END:
 *** Worg CSS
 https://orgmode.org/worg/style/worg.css
-***
+*** 少数派经典 CSS
+https://cdn.sspai.com/minja/sspai.css.zip
 ** #Article
 *** [[https://sspai.com/post/75170][一日一技 | 如何给自制电子书添加脚注 - 少数派]]
 - 正则中的tab：\t
