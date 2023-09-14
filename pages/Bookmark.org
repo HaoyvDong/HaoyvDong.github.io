@@ -20,6 +20,7 @@
 *** 微信文件传输助手网页版
 https://filehelper.weixin.qq.com/
 https://szfilehelper.weixin.qq.com/
+*** [[https://lqzh.me/Shmily/][Shmily | 聊天记录备份统计]]
 *** #Article
 **** [[https://sspai.com/post/82550][每个人都需要的「第三方授权登录」查询与解绑指南 - 少数派]]
 **** [[https://sspai.com/post/82268][接受服务应知应会：从政策到实践，关于「退货」我们应该知道什么？ - 少数派]]
