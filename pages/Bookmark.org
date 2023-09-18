@@ -266,6 +266,8 @@ FunWorld乐趣世界是服务于互联网内容创作者的数字服务商。
 ** [[https://winworldpc.com/home][WinWorld: Welcome]]
 #Museum 
 WinWorld is an online museum dedicated to providing free and open access to one of the largest archives of abandonware software and information on the web.
+** [[https://www.eso.org/public/images/potw2137a/][North Meets South | ESO]]
+在回归线两侧的天文台拍摄的全天星图进行拼接
 * [[https://www.jetpens.com/][JetPens - The Best Pens & Stationery From Japan & Beyond]]
 :PROPERTIES:
 :id: 64ef1658-60cb-4697-a457-13168ad397cd
