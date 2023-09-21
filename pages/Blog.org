@@ -120,9 +120,9 @@ https://mrcoles.com/demo/markdown-css/
 ** #Article
 *** [[https://sspai.com/post/75170][一日一技 | 如何给自制电子书添加脚注 - 少数派]]
 - 正则中的tab：\t
-*** 正则表达式的 PCRE 写法是指？
+**** 正则表达式的 PCRE 写法是指？
 Perl Compatible Regular Expressions
-*** HTML Tag
+**** HTML Tag
 * 作为阅读批注软件的 Zotero
 :PROPERTIES:
 :id: 64f1aacc-849d-4f99-acda-fc1512312067
