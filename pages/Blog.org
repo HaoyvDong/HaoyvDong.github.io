@@ -1,9 +1,14 @@
 #+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
 
-* #Emacs 中的编辑器
+* #Emacs 中的项目文件管理
 :PROPERTIES:
 :heading: true
 :END:
+或，如何实现/替代侧边栏文件管理
+** 吐槽
+从“现代”软件使用过来的哑炮，在 Emacs 里总是会怀念侧边栏文件管理器的方便。不过一直没有认真考虑解决方案，毕竟还是
+** 参考资料：
+1. [[https://emacs-china.org/t/emacs/22306][Emacs 风格的文件操作和项目文件管理是啥样的？ - Emacs-general - Emacs China]]
 * 易微联WI-FI遥控器设置指南
 :PROPERTIES:
 :heading: true
