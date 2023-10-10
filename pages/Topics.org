@@ -25,12 +25,13 @@ a free, open source, and cross-platform media player
 『在笔记软件里记录笔记软件评测』
 ** Software
 *** Hypothesis https://web.hypothes.is/
-#Browser 
-网页批注定位神中神
-**** [[https://jonudell.info/h/facet/][View and export Hypothesis annotations]]
+网页批注定位神中神的 #Browser 扩展/脚本应用
+**** Hypothesis 的一个前端
+[[https://jonudell.info/h/facet/][View and export Hypothesis annotations]]
 **** [[https://type.cyhsu.xyz/2020/10/hypothesis-tutorial/][开源、可定制的网页批注工具——Hypothesis - neverland]]
 #Article
-*** Logseq https://logseq.com/
+*** Logseq 
+https://logseq.com/
 *** [[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
 *** Writeathon
 - [[https://www.writeathon.cn/share/5b7cc721fbc8882f8738a78c][Writeathon - 更新日志]]
@@ -68,17 +69,21 @@ Unix is like a religion: somehow, it encourages schisms and splinter sects, all 
 * Productivity
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 磨刀不误磨刀磨刀磨刀磨刀磨刀磨刀磨刀磨刀……语义饱和没
 ** File Management
 :PROPERTIES:
 :heading: true
 :END:
-*** [[Article]]
+*** 文件管理思想与实践实例的 #Article
 **** [[https://www.yuque.com/deerain/gannbs/hb0gsd][MOC - 管理链接而非本体]]
 **** [[https://utgd.net/article/4972][macOS 中的阿里阿德涅之线——Deep Link - #UNTAG]]
 *** RoboCopy
-**** [[https://developer.aliyun.com/article/684435][Windows中常用文件拷贝工具的评测和对比-阿里云开发者社区]]
+Windows 自带的高速文件拷贝移动备份软件
+- [[https://developer.aliyun.com/article/684435][Windows中常用文件拷贝工具的评测和对比-阿里云开发者社区]]
+*** [[https://www.nodesoft.com/foldermonitor][Nodesoft Folder Monitor]]
+文件夹修改删除重命名监控
 ** 系统管理
 :PROPERTIES:
 :heading: true
@@ -100,7 +105,6 @@ Unix is like a religion: somehow, it encourages schisms and splinter sects, all 
 *** Software
 :PROPERTIES:
 :heading: true
-:collapsed: true
 :END:
 **** Scoop
 :PROPERTIES:
@@ -112,16 +116,7 @@ Unix is like a religion: somehow, it encourages schisms and splinter sects, all 
 #Mirror 
 文中给出的 Gitee 镜像，推荐使用[[https://mirror.nju.edu.cn][南京大学镜像]]
 **** [[https://portableapps.com/][PortableApps.com - Portable software for USB, portable, and cloud drives]]
-**** [[https://zhs.moo0.com/][Moo0 - Windows有用的免费软件 (not MooO)]]
-我们开发许多简单和有用的软件，目标是使我们的日常生活更方便。我们的大多数软件是免费的。请看一看我们的软件列表并核对列表中是否有任何有用的软件。拥有愉悦的电脑操作！
-**** [[https://www.sordum.org/][Simplify Your computer Usage]]
-:PROPERTIES:
-:END:
-We develop highest quality software to simplify Computer usage
-**** [[https://www.nodesoft.com/][Nodesoft - No Design Software]]
-***** [[https://www.nodesoft.com/foldermonitor][Nodesoft Folder Monitor]]
-文件夹修改删除重命名监控
-*** [[https://www.runningcheese.com/][奔跑中的奶酪 - 有智，有趣，有爱]]
+** [[https://www.runningcheese.com/][奔跑中的奶酪 - 有智，有趣，有爱]]
 :PROPERTIES:
 :END:
 有智，有趣，有爱是世界上最美好的三件事。崇尚科技，网站致力于个人提升和价值分享。—— 奔跑中的奶酪
@@ -182,3 +177,10 @@ This page provides a product summary for each Apple model. The intent is to prov
 欧盟立法侧载，也许很快这也 #RIP
 ** AirPods Desktop
 [[https://github.com/SpriteOvO/AirPodsDesktop/][SpriteOvO/AirPodsDesktop: ☄️ AirPods desktop user experience enhancement program, for Windows and Linux (WIP)]]
+* Tech
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+口袋，还没想好放哪的科技话题
+** #SQL
