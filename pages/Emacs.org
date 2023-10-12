@@ -2,6 +2,10 @@
 ** [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][陈斌：一年成为Emacs高手]]
 ** [[https://book.emacs-china.org/][子龙山人：21 天学会 Emacs]]
 ** [[https://www.bilibili.com/read/cv17903660][使用 org-mode 管理浏览器书签 - 哔哩哔哩]]
+* Notes
+:PROPERTIES:
+:heading: true
+:END:
 * 配置
 :PROPERTIES:
 :collapsed: true
@@ -24,3 +28,7 @@ Prelude is an Emacs distribution that aims to enhance the default Emacs experien
 :END:
 ** Magit
 [[https://magit.vc/][It's Magit! A Git Porcelain inside Emacs]]
+** Vertico
+[[https://github.com/minad/vertico][minad/vertico: 💫 vertico.el - VERTical Interactive COmpletion]]
+** Which-key
+[[https://github.com/justbur/emacs-which-key][justbur/emacs-which-key: Emacs package that displays available keybindings in popup]]
