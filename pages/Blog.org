@@ -24,6 +24,8 @@
 :PROPERTIES:
 :heading: true
 :END:
+*** ROW() 
+返回单元格所在行标
 ***
 * #Emacs 中的项目文件管理
 :PROPERTIES:
