@@ -5,6 +5,7 @@
 :heading: true
 :collapsed: true
 :END:
+[[https://sspai.com/post/54615][Excel 中标记序号的技巧 - 少数派]]
 ** 静态序号
 :PROPERTIES:
 :heading: true
@@ -24,9 +25,16 @@
 :PROPERTIES:
 :heading: true
 :END:
-*** ROW() 
+*** ~ROW() ~
 返回单元格所在行标
-***
+*** 表中表
+#+BEGIN_QUOTE
+在 Excel 中创建了表中表后，这块表格区域在新增行时，会自动在新的一行中，保留上下行中的公式。
+#+END_QUOTE
+*** ~AGGREGATE()~
+#+BEGIN_QUOTE
+它是 Excel 所有函数中，少数几个可以仅对当前没有被隐藏的数据进行运算的函数。
+#+END_QUOTE
 * #Emacs 中的项目文件管理
 :PROPERTIES:
 :heading: true
