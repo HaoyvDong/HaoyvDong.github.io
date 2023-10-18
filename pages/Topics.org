@@ -125,7 +125,14 @@ Windows 自带的高速文件拷贝移动备份软件
 :heading: true
 :END:
 *** #AHK
+:PROPERTIES:
+:heading: true
+:END:
 **** [[https://wyagd001.github.io/v2/docs/index.htm][快速参考 | AutoHotkey v2]]
+*** #VBA
+:PROPERTIES:
+:heading: true
+:END:
 ** [[https://yacreader.com/][YACReader]]
 :PROPERTIES:
 :END:
