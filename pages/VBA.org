@@ -259,3 +259,6 @@ Module Module1
 End Module
 ```
 ** Excel 2019 with VBA
+:PROPERTIES:
+:ISBN:     9787302551959
+:END:
