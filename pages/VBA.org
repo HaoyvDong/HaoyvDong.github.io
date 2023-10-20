@@ -1,6 +1,9 @@
 * #Manual
 ** [[https://learnxinyminutes.com/docs/zh-cn/visualbasic-cn/][Learn Visual Basic in Y Minutes]]
-```VB
+:PROPERTIES:
+:collapsed: true
+:END:
+*** ```VB
 Module Module1
 
     Sub Main()
@@ -255,3 +258,4 @@ Module Module1
 
 End Module
 ```
+**
