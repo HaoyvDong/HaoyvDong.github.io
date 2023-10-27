@@ -166,6 +166,8 @@ https://mrcoles.com/demo/markdown-css/
 - 正则中的tab：\t
 **** 正则表达式的 PCRE 写法是指？
 Perl Compatible Regular Expressions
+***** Perl Python #Emacs RegEx
+#Article: [[https://www.johndcook.com/blog/regex-perl-python-emacs/][Comparing regular expressions in Perl, Python, and Emacs]]
 **** HTML Tag
 * 作为阅读批注软件的 Zotero
 :PROPERTIES:
