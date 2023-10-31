@@ -143,6 +143,9 @@ YACReader is the best comic reader and comic manager with support for cbr cbz zi
 :END:
 Audio Processing and Audio Programming by V.Burel
 ** [[https://pot-app.com/][Pot | 🌈一个跨平台划词翻译软件 | Pot]]
+** [[https://www.privacyguides.org/zh-hant/][Privacy Guides]]
+隐私指南 - [[https://github.com/privacyguides/privacyguides.org][privacyguides/privacyguides.org: Protect your data against global mass surveillance programs.]]
+*** [[https://www.privacyguides.org/zh-hant/tools/][隱私工具 - Privacy Guides]]
 * [[Typesetting]]
 :PROPERTIES:
 :heading: true
