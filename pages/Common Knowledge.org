@@ -18,6 +18,8 @@ Global Sourcebook for International Data Management| 国际时间邮件地址格
 #Law
 ** [[https://www.msdmanuals.cn/home][《默沙东诊疗手册大众版》]]
 现在可免费在线查阅——默沙东诊疗手册大众版（在美国和加拿大称为默克手册）是家庭医学参考书的标准——自 1899 年至今。
+** [[https://cook.yunyoujun.cn/][食用手册]]
+选择食材、得到菜品和食谱
 * [[https://sspai.com/post/73698][听色盲者聊聊五彩斑斓的世界 - 少数派 - sspai.com]]
 :PROPERTIES:
 :id: 64ef1658-de8e-4377-8578-b3e51aecc794
