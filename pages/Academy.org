@@ -4,6 +4,8 @@
 :END:
 ** [[https://kjs.mof.gov.cn/][会计司]]
 ** [[https://www.dongao.com/fgk/qykjzz/zz/][会计准则库_东奥会计在线]]
+** [[http://www.zkemu.com/][找科目-最全企业会计科目-政府会计科目大全]]
+** [[https://wiki.mbalib.com/wiki/%E4%B8%AD%E5%9B%BD%E4%BC%9A%E8%AE%A1%E7%A7%91%E7%9B%AE%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7%EF%BC%88%E5%90%AB%E7%A7%91%E7%9B%AE%E4%BB%A3%E7%A0%81%EF%BC%89][中国会计科目中英文对照（含科目代码） - MBA智库百科]]
 * [[https://chriszheng.science/essentials-of-academic-writing/][学术写作指要——一个技术指导(Essentials of academic writing—A technical approach) | M-x Chris-An-Emacser]]
 #Article
 * 论文 | 期刊
