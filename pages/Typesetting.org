@@ -50,10 +50,12 @@ Easily create even complex LaTeX/HTML/Markdown/Text/MediaWiki tables with our on
 [[https://katex.org/index.html][KaTeX – The fastest math typesetting library for the web]]
 *** [[https://mathpix.com/][Mathpix Snip]]
 Converting images to $\LaTeX$
-* [[https://quarto.org/][Quarto]]
+* CSS
 :PROPERTIES:
+:heading: true
 :END:
-Quarto® is an open-source scientific and technical publishing system built on Pandoc.
+** [[https://sivan.github.io/heti/][赫蹏 - 一个简约又简单的网页中文排版增强]]
+赫hè蹏tí是专为中文网页内容设计的排版样式增强。它基于通行的中文排版规范，可为网站的读者带来更好的内容阅读体验。
 * Font
 :PROPERTIES:
 :heading: 2
@@ -69,4 +71,8 @@ Quarto® is an open-source scientific and technical publishing system built on P
 :heading: true
 :id: 64f02a02-9072-4755-bcd8-aef9b8789080
 :END:
+** [[https://quarto.org/][Quarto]]
+:PROPERTIES:
+:END:
+Quarto® is an open-source scientific and technical publishing system built on Pandoc.
 ** [[https://mermaid.js.org/][Mermaid | Diagramming and charting tool]]

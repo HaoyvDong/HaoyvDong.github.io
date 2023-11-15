@@ -2,7 +2,7 @@
 :PROPERTIES:
 :heading: true
 :END:
-** What: Not a [[Blog]] , yet | 还不是博客
+** What: Already a [[Blog]] , maybe | 是博客,大概
 :PROPERTIES:
 :heading: true
 :END:

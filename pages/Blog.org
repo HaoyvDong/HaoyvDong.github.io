@@ -242,6 +242,9 @@ Perl Compatible Regular Expressions
 *** [[https://omnivore.app/][Omnivore]]
 *** [[https://www.dida365.com/home][滴答清单:一个帮你高效完成任务和规划时间的应用]]
 * 吐槽简悦
+:PROPERTIES:
+:collapsed: true
+:END:
 ** 想添加白名单时
 *** 文档中：
 - "支持minimatch"，点过去看看，好，不会

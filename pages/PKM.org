@@ -5,6 +5,7 @@
 :END:
 [[https://www.zotero.org/][Zotero | Your personal research assistant]]
 #WebDav
+** [[https://zotero-chinese.com/][Zotero 中文小组]]
 ** https://editor.citationstyles.org/about/
 Find and edit [[http://citationstyles.org/][CSL]] citation styles. #Typesetting
 ** #Article
