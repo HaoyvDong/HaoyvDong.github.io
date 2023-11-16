@@ -79,6 +79,7 @@
 :END:
 哔哩轻小说是收录最全更新最快的轻小说文库，动漫sf轻小说网站，提供轻小说在线阅读。
 ** [[https://gitlab.com/demonovel/epub-txt][demonovel / epub-txt · GitLab]]
+** [[https://mobinovels.com/][魔笔小说 | 轻小说 资源收集]]
 * Game 游戏
 :PROPERTIES:
 :collapsed: true
