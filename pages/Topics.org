@@ -194,3 +194,12 @@ This page provides a product summary for each Apple model. The intent is to prov
 :END:
 口袋，还没想好放哪的科技话题
 ** #SQL
+** 笔记本电脑选购指南
+*** 夏蒙乾 - 知乎
+- [[https://zhuanlan.zhihu.com/p/137507566][2023 大学生的笔记本电脑选购指南（前置科普&选购索引）]]
+- [[https://zhuanlan.zhihu.com/p/40181275][【科普】笔记本电脑验机指南/常用软件推荐]]
+- [[https://zhuanlan.zhihu.com/p/137476522][轻薄办公本（3k~5.5k）]]
+- [[https://zhuanlan.zhihu.com/p/348165794][轻薄办公本（5.5k~20k）]]
+- [[https://zhuanlan.zhihu.com/p/137478394][主流游戏本（5k~25k）]]
+- [[https://zhuanlan.zhihu.com/p/137479780][甜品级游戏本（6k~30k）]]
+- [[https://zhuanlan.zhihu.com/p/137480098][高性能游戏本（14k~30k）]]
