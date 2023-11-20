@@ -187,6 +187,7 @@ This page provides a product summary for each Apple model. The intent is to prov
 欧盟立法侧载，也许很快这也 #RIP
 ** AirPods Desktop
 [[https://github.com/SpriteOvO/AirPodsDesktop/][SpriteOvO/AirPodsDesktop: ☄️ AirPods desktop user experience enhancement program, for Windows and Linux (WIP)]]
+** [[https://www.sqlsec.com/macsoft.html][MAC 常用软件清单 | 国光]]
 * Tech
 :PROPERTIES:
 :heading: true
