@@ -113,7 +113,7 @@ Over 1100 graphs with reproducible code divided in 8 big categories and over 50 
 *** [[https://www.statalist.org/][Statalist | The Stata Forum]]
 *** [[http://silencedream.gitee.io/][Silencedream的小站]]
 *** [[https://www.lianxh.cn/index.html][连享会主页]]
-「连享会」由中山大学连玉君老师团队创办，定期分享实证分析经验。连享会每年定期分享实证分析方法的专题推文和课程，包括：Stata 初级班、Stata 高级班、Stata 学术论文班、面板数据专题、内生性专题、空间计量专题、文本分析与爬虫专题等。
+*** [[https://zhuanlan.zhihu.com/p/667511228][Stata学习：章节目录2 - 知乎]]
 ** Python
 :PROPERTIES:
 :heading: true
