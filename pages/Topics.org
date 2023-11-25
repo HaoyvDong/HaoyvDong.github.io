@@ -1,4 +1,4 @@
-* Infrastructure for Digital Life
+* [[DefaultApps]]
 :PROPERTIES:
 :heading: true
 :END:
@@ -7,6 +7,7 @@
 :PROPERTIES:
 :heading: true
 :END:
+**
 ** [[https://vivaldi.com/zh-hans/][Vivaldi 浏览器 | 强大的个性化和私密化的网络浏览器]]
 :PROPERTIES:
 :collapsed: true

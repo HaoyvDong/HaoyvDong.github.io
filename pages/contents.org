@@ -17,10 +17,11 @@
 #+END_QUOTE
 * [[Bookmark]]
 :PROPERTIES:
-:heading: true
 :id: 64eeeded-de42-4573-a9fd-851202128d8a
+:heading: true
 :END:
 浏览器书签解放计划
+基本可以使用 [[https://www.runningcheese.com/pro][奶酪书签专业版 - 奔跑中的奶酪]] 代替自己搜集工具
 ** [[Common knowledge]]
 :PROPERTIES:
 :heading: true
