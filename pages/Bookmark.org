@@ -108,21 +108,6 @@ The ONLY official site for FitGirl Repacks. Every single FG repack installer has
 打造国内NAS网络存储器最活跃的黑群晖论坛，本站是最专业的NAS交流论坛，全部讨论以NAS和PT站邀请码为核心，集聚了最活跃的一部分NAS爱好者和PT网站爱好者,家庭服务器数据中心
 *** [[https://btbtt15.com/][BT之家-分享快乐,如此简单!-BT电影天堂-影视资源交流社区]]
 *** [[https://rargb.to/][RARGB Rargb Index page - RARGB.to - RARGB Proxy]]
-* 导航
-:PROPERTIES:
-:collapsed: true
-:END:
-** [[http://47.113.105.58/][少数派搜索]]
-** [[https://nav.guidebook.top/][Guidebook | 让工作学习生活更高效！]]
-:PROPERTIES:
-:END:
-Guidebook.top，致力于更好的运用互联网工具或科学方法，不断提高信息素养能力，让工作学习生活更高效。
-** https://shuziyimin.org/index.html
-** [[https://www.chongbuluo.com/][虫部落 - 让搜索更简单]]
-:PROPERTIES:
-:END:
-虫部落是一个纯粹的搜索知识、技术和经验分享平台，虫部落快搜、虫部落学术搜索等搜索聚合工具均为虫部落原创出品，搜索世界的乐趣，就在虫部落！
-*** [[https://search.chongbuluo.com/][快搜]]
 * 电子数码
 :PROPERTIES:
 :collapsed: true
