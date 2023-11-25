@@ -21,10 +21,6 @@
 :id: 64eeeded-de42-4573-a9fd-851202128d8a
 :END:
 浏览器书签解放计划
-** [[Tools OL]]
-:PROPERTIES:
-:heading: true
-:END:
 ** [[Common knowledge]]
 :PROPERTIES:
 :heading: true
