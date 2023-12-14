@@ -62,7 +62,6 @@
 * Novel
 :PROPERTIES:
 :heading: true
-:collapsed: true
 :END:
 ** [[https://www.lightnovel.us/cn/][轻之国度-专注分享的NACG社群]]
 我常常疑惑汉化组是怎么忍受轻国的使用体验还不允许转载要别人一起来用的
