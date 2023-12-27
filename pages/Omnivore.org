@@ -1,0 +1,271 @@
+* [[[https://mp.weixin.qq.com/s/n9YxgrFOTj30nD_Sk4ov9w][艺术史的漫游者：散漫式的阅读和笔记工具—E-ink 阅读器]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: 艺术史的图书馆
+:date-published: [[2019/05/05]]
+:END:
+** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+要真正利用这些材料，不断地阅读和笔记就成为必要。但这种阅读不是正襟危坐式的，而是散漫式的，在任何一个合适的地方，尤其是放松的状态下，而不是deadline下的论文写作式的阅读。最新的脑科学证明：大脑原本的设计就是不可能以集中思考的状态工作，而是处在散漫的状态\[https://www.wired.co.uk/article/brain-distraction-procrastination-science\]。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+何为散漫式阅读？
+
+就是没有目的性的，打开一本书，放下，再打开另一本。其实这很像图书馆式的阅读，就是通过现代科技，把地理位置扩大了。
+
+#+END_QUOTE
+* [[[https://mp.weixin.qq.com/s/HnGqiBOTeK0N28QjmFSb5Q][数字人文时代的个人数据库之三：pdf优化工具和OCR工具的选择]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: 艺术史的图书馆
+:date-published: [[2019/05/04]]
+:END:
+** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+#### **OCR 工具的选择**
+
+OCR其实是最麻烦的一个环节，同时又是最重要的。
+
+我用的软件主要有三个：Adobe Acrobat pro XI 、Adobe Acrobat pro DC和ABBYY。Adobe有两个，主要是经验上来说XI效果还好些，但有时候识别错误率偏高，DC 对扫描质量较高的文件友好，但时不时抽风，ABBYY号称很厉害，识别上还不错，就是导出会导致文件质量变差且文件较大。心累。
+
+中文OCR，中文比较简单，因为我基本不检索中文的东西，OCR只是为了高亮，做笔记等。一般用Adobe XI的Exact这种模式就可以，尤其是Boox Max 2 可以对页面进行锐化、加黑之后，就没必要预先处理了。但如果想获得好的效果，用clearscan，对于一些偏淡字体的文件，需要用PS或Comic Enhancer Pro这样的软件将预先导出的图像文件进行黑白化处理。
+ #[[PDF]] 
+#+END_QUOTE
+*** 个人应该有多少藏书？
+:PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+10、100、4000、2万、30万，这是一系列图书数量的数据，10本著作大约可以比较有把握地掌握一个研究主题，100本可以差不多地勾勒出一个研究方向的框架，4000本可以满足一个学者的研究需求和一个私人图书馆的藏书开端，2万本则达到了私人藏书较为完美的状态，30万是一个专门学科的藏书的公共图书馆的量。
+ #[[PKM]] 
+#+END_QUOTE
+* [[[https://utgd.net/article/20459][如何利用纸笔笔记：将其视为阅读笔记的先遣队 - #UNTAG]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: Minja
+:labels: [[PKM]]
+:date-published: [[2023/11/07]]
+:END:
+** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+原研哉曾指出，电脑解放了纸，让设计师可以更关注纸张本身的物理属性，而不必在承载图文信息上和电脑一较高下
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+软件成了第二大脑，负责存储；而**纸笔从存储的巨大压力中解放出来**，回归快速捕捉与初步加工的原始用途。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+纸片上的大纲笔记，并非其他笔记的清单，而是**手头所读材料的索引**。
+
+#+END_QUOTE
+* [[[https://utgd.net/article/20520/][为什么我更喜欢用 Apple Watch 的数字表盘 - #UNTAG]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: 文刀漢三
+:labels: [[RSS]]
+:date-published: [[2023/11/24]]
+:END:
+** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+iOS 经历过从拟物到扁平的转变，事实上我认为“扁平”这个词语是不够贴切的，iOS 7 是放弃了对实体世界一板一眼的模仿，转向在数字世界创造一种新的显示样式和交互形式。它不再拟真实的物，而是创建一种新的质。
+
+#+END_QUOTE
+* [[[https://utgd.net/article/20488/][如何查看 iPhone、iPad 的充电循环次数 - #UNTAG]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: 文刀漢三
+:labels: [[RSS]]
+:date-published: [[2023/11/02]]
+:END:
+** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+macOS 老牌软件 iMazing。不需要付费购买，使用它的免费试用版即可。连上 iPhone 或 iPad，点击右方的“i”按钮，往下滑动，就可以看到“电池充电周期”，即充电循环次数。
+
+#+END_QUOTE
+* [[[https://necromanov.wordpress.com/2010/09/01/victoria2/][维多利亚2（Victoria2）：历史的逻辑 | 旗舰评论——战略航空军元帅的旗舰]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: Necromanov
+:labels: [[Games]]
+:date-published: [[2010/09/01]]
+:END:
+** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+维多利亚2（Victoria2，以下缩写为VIC2）旨在描述从1836年到1935年，从不列颠的正午到大萧条的落日的整个历史。它上承同公司的欧陆风暴3（Europa Universalis 3，以下缩写为EU3），下接钢铁雄心3（Hearts of Iron 3，以下缩写为HOI3），描述了我们的世界是怎样从由王公贵族管理的世界变成由民族国家统治的世界的。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+设计思路就是这些游戏的“历史观”，他们的机制正体现了制作者们对历史的想法。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+“英雄史观”。光荣的思路是“历史就是数值”，而数值的核心就是“英雄”们。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+所有的事件也是“依赖于数值”而进行的，玩家所要做的就是尽量达成事件的前提条件，然后等待着收获报偿。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+本质上那些数值同历史是无关的，只是游戏设计者的设定而已，而且他们只是根据自己的资料来定数值，英雄就是英雄，不做任何解释。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+“制度史观”，主题是“历史就是规则”，上层建筑决定下层基础。
+
+#+END_QUOTE
+*** 这是最好玩的一个类别——但是也最不历史。
+:PROPERTIES:
+:END:
+你的中国很可能没有长城，而是去抢了金字塔。游戏不会告诉你任何“为什么中国要建立长城而不是金字塔”  
+的原因，也不会探讨“为什么德国的特色兵种要到装甲时代才出现”的理由。这些内容是“设计上的解释”，而不是“逻辑上的解释”。  
+玩家想要建立长城是因为设计师说“这个奇迹可以让野蛮人不进入你的国境之内”，而不是因为他玩的是中国，同漫长的草原边境接壤，自己身后又有肥沃的土地。
+#+BEGIN_QUOTE
+历史只是游戏设计师们用来构建规则的小点缀，是他们用来写文档的灵感，却不是他们追求的目标。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+基于“历史决定论”而产生的“历史就是事件”。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+“事件驱动史观”同样不是真正的历史逻辑，它本质上只是一种不断检查历史状态的保险器。
+
+#+END_QUOTE
+* [[[https://necromanov.wordpress.com/2016/05/24/stellaris/][群星（Stellaris）：当文明遇到历史逻辑 | 旗舰评论——战略航空军元帅的旗舰]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: Necromanov
+:labels: [[Games]]
+:date-published: [[2016/05/24]]
+:END:
+** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+席德·梅尔的文明是游戏设计史上一个极为特殊的作品。它从桌游中吸取养分，却做出了完全不同于传统桌游的体验，它所开创的品类就是4X游戏。这个类型被游戏设计师Alan Emrich用四个Ex开头的英文单词定义为“4X”：探索（_Explore_）、扩张（_Expand_）、开发（_Exploit_）、征服（_Exterminate_）。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+即时战略游戏也有“探索、扩张、开发、征服”（有兴趣的读者可以自己观察这四个要素是怎么构成即时战略游戏，甚至英雄联盟这样的MOBA游戏的核心循环的），但即时战略游戏绝不会让人有这种“赶紧我要再建个基地研发个科技”的感觉。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+几乎所有的德式桌游（没错，有一个巨大的桌游分类叫做德式桌游，德意志的桌游世界第一），都有类似的多种资源不同循环机制的设计，大多数并不能做到“再来一回合”的快感。德式桌游的核心乐趣是“估值”，但这种估值负担太重了，重到了玩完一把大家脑内的计算能力都过载的程度。只有那些数学系的高手能沉迷于德式估值当中，我们这些一般人绝对不可能像玩文明一样，一晚又一晚持续进行德式桌游。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+文明类游戏的核心乐趣已经呼之欲出：将多样化的行动和精密的估值结合起来。那就是我们在玩这种战略游戏时，反复操作并获得快感的核心内容：决策。
+
+文明发明，而被群星及其他4X游戏所继承那个核心设计乐趣，是“决策”，以及随之而来的“决策的结果反馈”。
+
+#+END_QUOTE
+* [[[https://necromanov.wordpress.com/2017/01/20/female_market/][女性市场的初啼：为什么阴阳师会有这么多女性玩家？ | 旗舰评论——战略航空军元帅的旗舰]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: Necromanov
+:labels: [[Games]]
+:date-published: [[2017/01/20]]
+:END:
+** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+就算一款游戏看起来再讨女性玩家喜欢，如果生在一个“中国主流女性用户”不感兴趣、没听说过的平台上，它也无法获得大量的女性用户；在这样的平台上，不可能存在真正的“面向中国女性用户的女性向游戏”。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+对于中国来说，“女性游戏市场”直到2015年才开始成为一个主要市场。而在中国女性开始成为游戏的主要市场后，仅仅用了一年半时间，她们就成功地将阴阳师推到了整个游戏市场的顶端
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+传奇通过攻陷网吧用户解决了付费渠道问题，成为第一个主流游戏；征途通过免费游戏模式，掌握住中国贫富差距迅速增大的机会，将中国游戏的主流用户重新定义为“先富起来的人”，极大提高了全行业的预期收入
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+在他们的研究中，证明了家庭财富和结婚概率的相关性，以及中国高性别比率地区未婚男性和未婚女性家庭储蓄率的相对变化：正如我们的常识一般，未婚男性家庭为了结婚，他们的储蓄率更高、消费率更低。
+
+#+END_QUOTE
+*** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+当女性的消费能力在市场中占比越来越大、男性的消费能力受到储蓄率压迫时，面向男性市场进行经营就会变得越来越困难；而储蓄率更低、消费意愿更强的女性用户会开始统治娱乐市场。
+
+#+END_QUOTE

@@ -8,6 +8,10 @@
 :END:
 *** 无内鬼，来点博客笑话
 [[https://rakhim.org/honestly-undefined/19/][Blogging vs. blog setups - Rakhim.org]]
+*** [[Omnivore]]
+:PROPERTIES:
+:heading: true
+:END:
 ** Why: 瞎折腾啥呢
 :PROPERTIES:
 :heading: true

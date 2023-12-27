@@ -113,24 +113,6 @@ The ONLY official site for FitGirl Repacks. Every single FG repack installer has
 :collapsed: true
 :END:
 Keyboard | Radios | Routers | Other hardwares
-** Android
-:PROPERTIES:
-:heading: true
-:END:
-*** [[Forum]]
-**** [[https://bbs.letitfly.me/][LetITFly BBS]]
-LetITFly BBS（中文名: 让技术飞论坛），让 Android 回归它原本的样子。
-LetITFly BBS 的前身是 MAT BBS，但并不局限于 MyAndroidTools。
-我们致力于让 Android 的使用体验更好，同时我们也讨论 Windows 和 GNU/Linux 相关。
-**** [[https://forum.xda-developers.com/][XDA Forums]]
-Android Forum for Mobile Phones, Tablets, Hardware & App Development
-*** [[https://apkpure.com/][Apkpure]]
-*** [[https://twrp.me/Devices/][Devices-Magisk Root]]
-*** [[https://www.apktoy.com/][APK Downloader - Download APK Files Directly From Google Play - APKToy]]
-*** [[https://www.tacit.dk/foldersync][FolderSync]]
-:PROPERTIES:
-:END:
-Developer of FolderSync for Android
 ** [[https://tustation.gitbook.io/tuusermanual/][客制化小站-键盘]]
 ** [[https://config.slicemk.com/ergodox/][SliceMK Configurator]]
 ** [[https://www.slicemk.com/][Premium wireless mechanical keyboard]]
@@ -250,9 +232,6 @@ Global Sequencer by Yuri Suzuki for Hamamatsu UNESCO Creative City of Music.
 ** [[https://www.funworld.fun/][FunWorld乐趣世界-互联网内容创作中心]]
 FunWorld乐趣世界是服务于互联网内容创作者的数字服务商。
 通过提供工具软件、教程视频、内容资源的方式，我们不断地向互联网内容创作者提供帮助与支持，在提高内容生产效率、启蒙和提升用户的创作水平等领域，获得广泛好评。
-** [[https://winworldpc.com/home][WinWorld: Welcome]]
-#Museum 
-WinWorld is an online museum dedicated to providing free and open access to one of the largest archives of abandonware software and information on the web.
 ** [[https://www.eso.org/public/images/potw2137a/][North Meets South | ESO]]
 在回归线两侧的天文台拍摄的全天星图进行拼接
 * Shopping
