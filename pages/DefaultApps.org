@@ -14,3 +14,12 @@
 +（目前）没开发 Org-Mode 以外的用途+ Magit 现已加入日用环节
 * [[https://mpv.io][mpv.io]]
 a free, open source, and cross-platform media player
+* [[https://mcool.appinn.me/][Mcool 音乐播放器]]
+:PROPERTIES:
+:id: 6561893e-325a-419c-b21d-9ca0ebe7238b
+:END:
+* [[https://yacreader.com/][YACReader]]
+:PROPERTIES:
+:id: 6561893e-df9b-46b2-b978-136be50fca7b
+:END:
+YACReader is the best comic reader and comic manager with support for cbr cbz zip rar comic files. It is available for Windows, Linux, Mac OS X

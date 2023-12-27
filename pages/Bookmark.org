@@ -5,14 +5,10 @@
 :heading: true
 :collapsed: true
 :END:
-** Career
+** [[Academy]]
 :PROPERTIES:
 :heading: true
 :END:
-*** [[CPA/Accounting]]
-*** [[CPA/Financial-Management]]
-*** [[Audit]]
-*** [[Academy]]
 ** 简・中・特
 :PROPERTIES:
 :heading: true
@@ -25,7 +21,7 @@ https://szfilehelper.weixin.qq.com/
 **** [[https://sspai.com/post/82550][每个人都需要的「第三方授权登录」查询与解绑指南 - 少数派]]
 **** [[https://sspai.com/post/82268][接受服务应知应会：从政策到实践，关于「退货」我们应该知道什么？ - 少数派]]
 **** [[https://sspai.com/post/67209][某宝买到扩容 iPad，我让卖家「退一赔三」 - 少数派]]
-** PDF
+** #PDF
 :PROPERTIES:
 :heading: true
 :END:
@@ -92,10 +88,6 @@ Search and watch more than 4000 live iptv channels from around the world.
 :PROPERTIES:
 :END:
 PT邀请码网(www.ptyqm.com)，发布高清片源PT站开放邀请注册信息，提供mteam、hdsky、chdbits、hdchina、TTG PT站、hdroad等高清PT邀请码，传授高清片源PT站生存策略，以及过PT站考核技巧。发布家用NAS存储、家庭影院音响、投影等设备资讯。
-*** [[https://thepiratebay.org/index.html][The Pirate Bay - The galaxy's most resilient BitTorrent site. Download music, movies, games, software!]]
-:PROPERTIES:
-:END:
-Download music, movies, games, software and much more. The Pirate Bay is the galaxy's most resilient BitTorrent site.
 *** [[https://fitgirl-repacks.site/][FitGirl Repacks]]
 :PROPERTIES:
 :END:
@@ -175,26 +167,6 @@ IT eBooks - Free Download eBooks Library
 *** [[https://ebookfoundation.github.io/free-programming-books-search/?§=books&file=free-programming-books-zh.md][free-programming-books | Freely available programming books]]
 *** [[https://git-scm.com/book/zh/v2][Git - Book]]
 #Manual
-* Bookmarklet
-:PROPERTIES:
-:collapsed: true
-:END:
-** Org-Mode
-#+BEGIN_SRC javascript
-javascript:(function%20()%20%7B%20var%20selection%20=%20window.getSelection().toString();%20var%20anchor%20=%20selection%20?%20selection%20:%20document.title;%20void(prompt(%27%27,%20%27%5B%5B%27%20+%20location.href%20+%20%27%5D%5B%27%20+%20anchor%20+%20%27%5D%5D%27));%20%7D)();
-#+END_SRC
-** Markdown 格式链接
-#+BEGIN_SRC javascript
-javascript:(function%20()%20%7B%20var%20selection%20=%20window.getSelection().toString();%20var%20anchor%20=%20selection%20?%20selection%20:%20document.title;%20void(prompt(%27%27,%20%27%5B%27%20+%20anchor%20+%20%27%5D(%27%20+%20location.href%20+%20%27)%27));%20%7D)();
-#+END_SRC
-** 网页清理
-#+BEGIN_SRC javascript
-javascript:(function()%7Bvar%20isIe=false;/*@cc_on%20isIe=true;%20@*/function%20fe(a,fn)%7Bvar%20i,l=a.length;for(i=0;i%3Cl;i++)%7Bfn(a%5Bi%5D);%7D%7D;function%20ae(el,n,fn,ix)%7Bfunction%20wfn(ev)%7Bvar%20el=(isIe?window.event.srcElement:ev.target);if(ix%20%7C%7C%20!el.xmt)%20fn(el);%7Dif%20(isIe)%7Bn=%27on%27%20+%20n;el.attachEvent(n,%20wfn);%7D%20else%20%7Bel.addEventListener(n,%20wfn,%20false);%7Dif(!el.es)el.es=%5B%5D;el.es.push(function()%7Bif(isIe)%7Bel.detachEvent(n,wfn);%7D%20else%20%7Bel.removeEventListener(n,%20wfn,%20false);%7D%7D);el.re=function()%7Bfe(el.es,function(f)%7Bf()%7D);%7D;%7Dfunction%20sce(el)%7Bvar%20oldclick=el.onclick,oldmu=el.onmouseup,oldmd=el.onmousedown;el.onclick=function()%7Breturn%20false;%7D;el.onmouseup=function()%7Breturn%20false;%7D;el.onmousedown=function()%7Breturn%20false;%7D;el.rce=function()%7Bel.onclick=oldclick;el.onmouseup=oldmu;el.onmousedown=oldmd;%7D;%7Dif%20(!window.r_)window.r_=%5B%5D;var%20r=window.r_;var%20D=document;ae(D.body,%27mouseover%27,%20function(el)%7Bel.style.backgroundColor=%27#ffff99';%20sce(el)%7D);ae(D.body,'mouseout',%20%20function(el)%7Bel.style.backgroundColor='';if(el.rce)el.rce();%7D);ae(D.body,'click',%20%20%20%20%20function(el)%7Bel.style.display='none';%20r.push(el);%7D);function%20ac(p,tn,ih)%7Bvar%20e=D.createElement(tn);if(ih)e.innerHTML=ih;p.appendChild(e);return%20e;%7Dvar%20p=0;var%20bx=ac(D.body,'div');bx.style.cssText='position:'+(isIe?'absolute':'fixed')+';padding:2px;background-color:#99FF99;border:1px%20solid%20green;z-index:9999;font-family:sans-serif;font-size:10px';function%20sp()%7Bbx.style.top=(p&2)?'':'10px';bx.style.bottom=(p&2)?'10px':'';bx.style.left=(p&1)?'':'10px';bx.style.right=(p&1)?'10px':'';%7Dsp();var%20ul=ac(bx,'a','%20Undo%20%7C');ae(ul,'click',function()%7Bvar%20e=r.pop();%20if(e)e.style.display='';%7D,%20true);var%20ual=ac(bx,'a','%20Undo%20All%20%7C');ae(ual,'click',function()%7Bvar%20e;while(e=r.pop())e.style.display='';%7D,%20true);var%20ml=ac(bx,'a','%20Move%20%7C');ae(ml,'click',function()%7Bp++;sp();%7D,%20true);var%20xl=ac(bx,'a','%20Exit%20');ae(xl,'click',function()%7BD.body.re();bx.parentNode.removeChild(bx);%7D,%20true);fe(%5Bbx,ul,ml,xl,ual%5D,function(e)%7Be.style.cursor='pointer';e.xmt=1;%7D);%7D)()
-#+END_SRC
-** 网址清理
-#+BEGIN_SRC javascript
-javascript:(function()%7Bconst%20rules=%7B'www.bilibili.com':%7BtestReg:/%5Ehttp(?:s)?:\/\/www\.bilibili\.com\/video\/(av\d+).*$/i,replace:%27https://www.bilibili.com/$1%27,query:%5B%27p%27%5D,hash:!0%7D,%27itunes.apple.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/itunes\.apple\.com\/(?:\w%7B2%7D\/)?(%5B%5E\/%5D+)\/(?:%5B%5E\/%5D+\/)?((?:id)\d+).*$/i,replace:%27https://itunes.apple.com/cn/$1/$2%27%7D,%27chrome.google.com/webstore%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/chrome\.google\.com\/webstore\/detail\/%5B%5E\/%5D+\/(%5Ba-z%5D%7B32%7D).*/i,replace:%27https://chrome.google.com/webstore/detail/$1%27%7D,%27s.taobao.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/s\.taobao\.com\/search.*$/i,replace:%27https://s.taobao.com/search%27,query:%5B%27q%27%5D%7D,%27list.tmall.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/list\.tmall\.com\/search_product\.htm.*$/i,replace:%27https://list.tmall.com/search_product.htm%27,query:%5B%27q%27%5D%7D,%27item.taobao.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/item\.taobao\.com\/item\.htm.*$/i,replace:%27https://item.taobao.com/item.htm%27,query:%5B%27id%27%5D%7D,%27detail.tmall.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/detail\.tmall\.com\/item\.htm.*$/i,replace:%27https://detail.tmall.com/item.htm%27,query:%5B%27id%27%5D%7D,%27taobao/tmall.com/shop%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(\w+)\.(taobao%7Ctmall)\.com\/shop\/view_shop\.htm.*$/i,replace:%27https://$1.$2.com/%27%7D,%27c.pc.qq.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/c\.pc\.qq\.com\/middle.html\?.*pfurl=(%5B%5E&%5D*)(?:&.*$%7C$)/i,replace:%27$1%27,query:%5B%5D,methods:%5B%27decodeUrl%27%5D%7D,%27item.m.jd.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/item\.m\.jd\.com\/product\/(\d+)\.html(\?.*)?$/i,replace:%27https://item.jd.com/$1.html%27%7D,%27item.m.jd.com/ware/%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/item\.m\.jd\.com\/ware\/view\.action\?.*wareId=(\d+).*$/i,replace:%27https://item.jd.com/$1.html%27%7D,%27search.jd.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/search\.jd\.com\/Search\?.*$/i,query:%5B%27keyword%27,%27enc%27%5D%7D,%27re.jd.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/re\.jd\.com\/cps\/item\/(\d+)\.html.*$/i,replace:%27https://item.jd.com/$1.html%27%7D,%27weibo.com/u%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(?:www\.)?weibo\.com\/u\/(\d+)(\?.*)?$/i,replace:%27https://m.weibo.cn/$1%27%7D,%27weibo.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(?:www\.)?weibo\.com\/(?:\d+)\/(\w+)(\?.*)?$/i,replace:%27https://m.weibo.cn/status/$1%27%7D,%27greasyfork.org%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(?:www\.)?greasyfork\.org\/(?:%5B\w-%5D*\/)?scripts\/(\d+)-.*$/i,replace:%27https://greasyfork.org/zh-CN/scripts/$1%27%7D,%27store.steampowered.com%7Csteamcommunity.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(store\.steampowered%7Csteamcommunity)\.com\/app\/(\d+).*$/i,replace:%27https://$1.com/app/$2%27%7D,%27meta.appinn.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/meta\.appinn\.net\/t(?:\/%5B%5E/%5D*)*?\/(\d+)(\/.*$%7C$)/i,replace:%27https://meta.appinn.net/t/$1%27%7D,%27amazon.co.jp%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/(?:www\.)?amazon\.co\.jp\/(%5B%5E\/%5D+)\/dp\/(\w+)\/.*$/i,replace:%27https://www.amazon.co.jp/$1/dp/$2%27%7D,%27yangkeduo.com%27:%7BtestReg:/%5Ehttp(?:s)?:\/\/mobile\.yangkeduo\.com\/goods.html\?.*$/i,query:%5B%27goods_id%27%5D%7D,other:%7BtestReg:/%5E(http(?:s)?:\/\/%5B%5E?#%5D*)%5B?#%5D.*$/i,query:%5B'id','tid','uid','q','wd','query','keyword'%5D%7D%7D;const%20pureUrl=function(url=window.location.href)%7Bconst%20hash=url.replace(/%5E%5B%5E#%5D*(#.*)?$/,'$1'),base=url.replace(/(\?%7C#).*$/,'');let%20pureUrl=url;const%20getQueryString=function(key)%7Blet%20ret=url.match(new%20RegExp('(?:\\?%7C&)('+key+'=%5B%5E?#&%5D*)','i'));return%20null===ret?'':ret%5B1%5D%7D,methods=%7BdecodeUrl:function(url)%7Breturn%20decodeURIComponent(url)%7D%7D;for(let%20i%20in%20rules)%7Blet%20rule=rules%5Bi%5D,reg=rule.testReg,replace=rule.replace;if(reg.test(url))%7Blet%20newQuerys='';void%200!==rule.query&&rule.query.length%3E0&&rule.query.map(query=%3E%7Bconst%20ret=getQueryString(query);''!==ret&&(newQuerys+=(newQuerys.length?'&':'?')+ret)%7D),newQuerys+=void%200!==rule.hash&&rule.hash?hash:'',pureUrl=(void%200===replace?base:url.replace(reg,replace))+newQuerys,void%200!==rule.methods&&rule.methods.length%3E0&&rule.methods.map(methodName=%3E%7BpureUrl=methods%5BmethodName%5D(pureUrl)%7D);break%7D%7Dreturn%20pureUrl%7D();let%20newnode=document.createElement('input');newnode.id='pure-url-for-copy',newnode.value=pureUrl,document.body.appendChild(newnode);let%20copyinput=document.getElementById('pure-url-for-copy');copyinput.select();try%7Bdocument.execCommand('copy');window.location.href===pureUrl?window.location.reload():window.location.href=pureUrl%7Dcatch(err)%7Bnull!=prompt('%E5%87%80%E5%8C%96%E5%90%8E%E7%9A%84%E7%BD%91%E5%9D%80%E6%98%AF%EF%BC%9A',pureUrl)&&(window.location.href=pureUrl)%7Ddocument.body.removeChild(copyinput)%7D)();
-#+END_SRC
 * Creativity
 :PROPERTIES:
 :collapsed: true

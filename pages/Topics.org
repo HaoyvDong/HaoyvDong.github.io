@@ -1,6 +1,23 @@
+* [[ACGN]]
+:PROPERTIES:
+:heading: true
+:id: 64eeeded-7034-476b-9d5f-e4a006f3de39
+:END:
+* [[Common knowledge]]
+:PROPERTIES:
+:heading: true
+:id: 6561893c-a0ad-49de-9e2a-8366ec461fc7
+:END:
+* [[DefaultApps]]
+:PROPERTIES:
+:heading: true
+:id: 6561893e-0d0b-41b8-91a4-62d301713263
+:END:
+数字生活的基础设施。目前选入浏览器、编辑器、多媒体播放器，文件管理器、电子书阅读器暂缺
 * [[PKM]]
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 『在笔记软件里记录笔记软件评测』
 ** Software
@@ -16,36 +33,6 @@ https://logseq.com/
 [[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
 *** Writeathon
 - [[https://www.writeathon.cn/share/64e0718b26625042ba9a0a18][Writeathon - 更新日志 - 3.0]]
-* Year of /you know the system/ desktop
-:PROPERTIES:
-:heading: true
-:collapsed: true
-:END:
-不要预设我在用哪个操作系统！（逃
-** Hardware
-:PROPERTIES:
-:heading: true
-:END:
-*** [[https://bsd-hardware.info/][BSD Hardware Database]]
-*** [[https://linux-hardware.org/][Linux Hardware Database]]
-*** [[https://hackaday.io/project/179539-hardware-boot-selection-switch][Hardware boot selection switch]]
-:PROPERTIES:
-:END:
-After a decade of dual-booting Linux, I got tired of waiting around to change the GRUB boot selection any time I wanted to boot Windows. With a little tinkering, here's a physical switch that determines the OS to boot each time the computer is turned on.
-** [[https://i-bsd.com/][iBSD | Proving that BSD is a great alternative to Linux]]
-** [[https://bsdmag.org/][Home - BSD MAG]]
-** [[Article]]
-*** [[https://blog.lishun.me/openwrt-mega-post][Openwrt 路由总结：自动编译固件、正确设置旁路网关，破解迷思…… - 川叶 :: 不舍昼夜]]
-*** [[https://netnewswire.blog/2021/12/28/on-not-being.html][NetNewsWire - On Not Being the Free Alternative]]
-- 为什么许多自由软件让人提不起兴趣：没有灵魂
-- 不要重复造（有名的）轮子
-#+BEGIN_QUOTE
-We realize that free and open source apps often do have the mission of mimicking the features of some one or several commercial apps, as if they’re Prometheus bringing features to the common computer user — but that is not our mission.
-#+END_QUOTE
-*** [[https://www.theregister.com/2023/07/18/linux_desktop_debate/][Linux has nearly half of the desktop OS Linux market • The Register]]
-#+BEGIN_QUOTE
-Unix is like a religion: somehow, it encourages schisms and splinter sects, all of whom deny that the others are legitimate. It's almost a defining characteristic.
-#+END_QUOTE
 * Productivity
 :PROPERTIES:
 :heading: true
@@ -65,7 +52,7 @@ Windows 自带的高速文件拷贝移动备份软件
 - [[https://developer.aliyun.com/article/684435][Windows中常用文件拷贝工具的评测和对比-阿里云开发者社区]]
 *** [[https://www.nodesoft.com/foldermonitor][Nodesoft Folder Monitor]]
 文件夹修改删除重命名监控
-** 系统管理
+** 系统&软件管理
 :PROPERTIES:
 :heading: true
 :collapsed: true
@@ -107,6 +94,7 @@ Windows 自带的高速文件拷贝移动备份软件
 ** 自动化 Automation
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 *** #AHK
 :PROPERTIES:
@@ -114,19 +102,6 @@ Windows 自带的高速文件拷贝移动备份软件
 :END:
 **** [[https://wyagd001.github.io/v2/docs/index.htm][快速参考 | AutoHotkey v2]]
 *** #VBA
-:PROPERTIES:
-:heading: true
-:END:
-** [[https://yacreader.com/][YACReader]]
-:PROPERTIES:
-:END:
-YACReader is the best comic reader and comic manager with support for cbr cbz zip rar comic files. It is available for Windows, Linux, Mac OS X
-** [[https://mcool.appinn.me/][Mcool 音乐播放器]]
-** [[https://vb-audio.com/][VB-Audio home page]]
-:PROPERTIES:
-:END:
-Audio Processing and Audio Programming by V.Burel
-** [[https://pot-app.com/][Pot | 🌈一个跨平台划词翻译软件 | Pot]]
 ** [[https://www.privacyguides.org/zh-hant/][Privacy Guides]]
 隐私指南 - [[https://github.com/privacyguides/privacyguides.org][privacyguides/privacyguides.org: Protect your data against global mass surveillance programs.]]
 *** [[https://www.privacyguides.org/zh-hant/tools/][隱私工具 - Privacy Guides]]
@@ -141,11 +116,6 @@ This document summarizes text composition requirements in the Chinese writing sy
 ** [[https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7E77CD3A7E05397BE0A0AB82A][党政机关公文格式]]
 - 标准号 :: GB/T 9704-2012
 ** [[https://github.com/sparanoid/chinese-copywriting-guidelines][sparanoid/chinese-copywriting-guidelines: Chinese copywriting guidelines for better written communication／中文文案排版指北]]
-* [[ACGN]]
-:PROPERTIES:
-:heading: true
-:id: 64eeeded-7034-476b-9d5f-e4a006f3de39
-:END:
 * Apple Inc.
 :PROPERTIES:
 :heading: true
@@ -188,3 +158,33 @@ This page provides a product summary for each Apple model. The intent is to prov
 - [[https://zhuanlan.zhihu.com/p/137478394][主流游戏本（5k~25k）]]
 - [[https://zhuanlan.zhihu.com/p/137479780][甜品级游戏本（6k~30k）]]
 - [[https://zhuanlan.zhihu.com/p/137480098][高性能游戏本（14k~30k）]]
+* Year of /you know the system/ desktop
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+不要预设我在用哪个操作系统！（逃
+** Hardware
+:PROPERTIES:
+:heading: true
+:END:
+*** [[https://bsd-hardware.info/][BSD Hardware Database]]
+*** [[https://linux-hardware.org/][Linux Hardware Database]]
+*** [[https://hackaday.io/project/179539-hardware-boot-selection-switch][Hardware boot selection switch]]
+:PROPERTIES:
+:END:
+After a decade of dual-booting Linux, I got tired of waiting around to change the GRUB boot selection any time I wanted to boot Windows. With a little tinkering, here's a physical switch that determines the OS to boot each time the computer is turned on.
+** [[https://i-bsd.com/][iBSD | Proving that BSD is a great alternative to Linux]]
+** [[https://bsdmag.org/][Home - BSD MAG]]
+** [[Article]]
+*** [[https://blog.lishun.me/openwrt-mega-post][Openwrt 路由总结：自动编译固件、正确设置旁路网关，破解迷思…… - 川叶 :: 不舍昼夜]]
+*** [[https://netnewswire.blog/2021/12/28/on-not-being.html][NetNewsWire - On Not Being the Free Alternative]]
+- 为什么许多自由软件让人提不起兴趣：没有灵魂
+- 不要重复造（有名的）轮子
+#+BEGIN_QUOTE
+We realize that free and open source apps often do have the mission of mimicking the features of some one or several commercial apps, as if they’re Prometheus bringing features to the common computer user — but that is not our mission.
+#+END_QUOTE
+*** [[https://www.theregister.com/2023/07/18/linux_desktop_debate/][Linux has nearly half of the desktop OS Linux market • The Register]]
+#+BEGIN_QUOTE
+Unix is like a religion: somehow, it encourages schisms and splinter sects, all of whom deny that the others are legitimate. It's almost a defining characteristic.
+#+END_QUOTE
