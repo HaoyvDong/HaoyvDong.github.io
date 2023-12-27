@@ -8,10 +8,6 @@
 :END:
 *** 无内鬼，来点博客笑话
 [[https://rakhim.org/honestly-undefined/19/][Blogging vs. blog setups - Rakhim.org]]
-*** [[Omnivore]]
-:PROPERTIES:
-:heading: true
-:END:
 ** Why: 瞎折腾啥呢
 :PROPERTIES:
 :heading: true
@@ -30,11 +26,22 @@
 :PROPERTIES:
 :heading: true
 :END:
+** [[Omnivore]]
+:PROPERTIES:
+:heading: true
+:END:
+稍后不读的网页阅读摘录
 * [[Topics]]
 :PROPERTIES:
 :id: 64e1667d-c990-434c-b6db-286408974f12
 :heading: true
 :END:
+** [[DefaultApps]]
+:PROPERTIES:
+:heading: true
+:id: 6561893e-0d0b-41b8-91a4-62d301713263
+:END:
+数字生活的基础设施。目前选入浏览器、编辑器、多媒体播放器，文件管理器、电子书阅读器暂缺
 ** [[https://tolkiengateway.net/wiki/Main_Page][Tolkien Gateway]]
 :PROPERTIES:
 :id: 64e0b29b-17ab-49be-a5b5-27806d46d38c
