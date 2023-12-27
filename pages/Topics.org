@@ -12,9 +12,9 @@
 #Article
 *** Logseq 
 https://logseq.com/
-*** [[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
+*** 思源笔记 § SiYuan-Note
+[[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
 *** Writeathon
-- [[https://www.writeathon.cn/share/5b7cc721fbc8882f8738a78c][Writeathon - 更新日志]]
 - [[https://www.writeathon.cn/share/64e0718b26625042ba9a0a18][Writeathon - 更新日志 - 3.0]]
 * Year of /you know the system/ desktop
 :PROPERTIES:
@@ -55,6 +55,7 @@ Unix is like a religion: somehow, it encourages schisms and splinter sects, all 
 ** File Management
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 *** 文件管理思想与实践实例的 #Article
 **** [[https://www.yuque.com/deerain/gannbs/hb0gsd][MOC - 管理链接而非本体]]
@@ -67,12 +68,14 @@ Windows 自带的高速文件拷贝移动备份软件
 ** 系统管理
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 *** Hardware & PE
 :PROPERTIES:
 :heading: true
 :collapsed: true
 :END:
+其实不怎么折腾系统，毕竟能跑就别动，纯备用
 **** [[http://www.tbtool.cn/][图吧工具箱 - 最纯净的硬件工具箱]]
 **** [[https://www.hirensbootcd.org/][Hiren's BootCD PE]]
 **** [[https://www.wepe.com.cn/][微PE工具箱 - 超好用的装机维护工具]]
@@ -89,6 +92,7 @@ Windows 自带的高速文件拷贝移动备份软件
 **** Scoop
 :PROPERTIES:
 :id: 64eff0ef-c0a0-496e-a27e-140a12f5570d
+:collapsed: true
 :END:
 [[https://scoop.sh/][Get Scoop]]
 ***** [[Article]]
