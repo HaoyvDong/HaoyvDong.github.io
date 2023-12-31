@@ -2,23 +2,6 @@
 :PROPERTIES:
 :heading:  true
 :END:
-** [[[https://www.thepaper.cn/newsDetail_forward_14590173][游戏论·文化的逻辑︱当代电子游戏“国潮”的四十年流变_思想市场_澎湃新闻-The Paper]]
-:PROPERTIES:
-:heading: true
-:collapsed: true
-:labels: [[Games]]
-:date-published: [[2021/09/25]]
-:END:
-*** ### 高亮
-:PROPERTIES:
-:collapsed: true
-:END:
-**** :PROPERTIES:
-:END:
-
-#+BEGIN_QUOTE
-
-#+END_QUOTE
 ** [[[https://utgd.net/article/20107][一种低技术的阅读批注思路 - #UNTAG]]
 :PROPERTIES:
 :heading: true
