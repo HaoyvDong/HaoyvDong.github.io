@@ -1,3 +1,149 @@
+* * [[[https://www.thepaper.cn/newsDetail_forward_14590173][游戏论·文化的逻辑︱当代电子游戏“国潮”的四十年流变_思想市场_澎湃新闻-The Paper]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:labels: [[Games]]
+:date-published: [[2021/09/25]]
+:END:
+** * ### 高亮
+collapsed:: true
+*** * 
+id:: 715fb57f-1920-43ab-a66e-fcccbc976641
+#+BEGIN_QUOTE
+
+
+#+END_QUOTE
+* * [[[https://utgd.net/article/20107][一种低技术的阅读批注思路 - #UNTAG]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: Minja
+:labels: [[PKM]]
+:date-published: [[2023/12/06]]
+:END:
+** * ### 高亮
+collapsed:: true
+*** * 
+id:: f87f0361-3f5c-4020-bd55-19a351ea99e9
+#+BEGIN_QUOTE
+阅读活动的私人化，常常陷入对工具的过度崇拜，就像古代奴隶主失饪不食、割不正不食、不得其酱不食一样，笔墨稍有不顺，阅读器略有卡顿，则弃之不用。如此读书，惟读者自己损失大矣。
+
+#+END_QUOTE
+*** * 
+id:: 20b7de3f-7cd6-4fd2-a01a-99b07499786c
+#+BEGIN_QUOTE
+几乎所有阅读器都能够满足阅读需要，真正要调整的，不是工具，而是使用标注工具的习惯。
+
+#+END_QUOTE
+*** * 
+id:: 0faa3fd6-81d1-4c65-9b72-07fba178e469
+#+BEGIN_QUOTE
+沉心阅读之人，则以笔为武器，剑及履及之处，削下真知灼识，吞之为自己血肉——而批注时的刀光剑影，则无需见于将来。
+
+#+END_QUOTE
+*** * 
+id:: 3cca7b6a-654b-486a-a50e-4f5be2e1a2e7
+#+BEGIN_QUOTE
+* 红色，主语，关键词；
+* 蓝色，谓语，理论；
+* 黄色，宾语，案例；
+* 紫色，强调
+
+#+END_QUOTE
+*** * 
+id:: b2782797-9905-45cb-b26c-b6923c2bc3c8
+#+BEGIN_QUOTE
+阅读判决书，可划出事实、法律、说理和判决结果；琢磨推理小说，可区分证词、证据和推论；研读方法论著作，又需注意历史事实、作者观点和批评对象……不同情景，几种基础颜色均能应对。重要的不是选出一套颜色，而是留意自己涉猎的内容类型，然后量身打造几套标注方案。
+
+#+END_QUOTE
+*** * 
+id:: 1c1ed695-6d47-4952-8d36-07cb0b9fb979
+#+BEGIN_QUOTE
+* 高亮线：主语，关键词；
+* 下划线：谓语，理论；
+* 波浪线：宾语，案例。
+
+#+END_QUOTE
+*** * 
+id:: 2710f685-0f4e-4779-9898-2f557d4f7043
+#+BEGIN_QUOTE
+需要强调与亟待处理之处，则尽可能融入任务管理工具（即便只是抄到便签上），总之不将后续需要整理的段落留在原始文件中。
+
+#+END_QUOTE
+*** * 
+id:: 556fe5ff-5b6f-4bba-b5be-e42b16898607
+#+BEGIN_QUOTE
+下划线边缘直接标明段落属性，就能区分语义。如有存档需要，则随后再依据标注提示，把划线部分誊到电脑上。
+
+#+END_QUOTE
+*** * 
+id:: 68b23c47-d229-447f-b9a3-752be3f63d45
+#+BEGIN_QUOTE
+若愿意同时使用高亮划线与文字标注，则可绕过高亮之顽疾：无法搜索。
+
+#+END_QUOTE
+*** * 
+id:: f8f88c0e-4678-4b0e-bcf4-b01ff4dc1767
+#+BEGIN_QUOTE
+之所以选取 `FCT` 这等晦涩拼写，并非给自己没事找事，而是为与原文区分，不得已选用英文中几不可能出现的拼写组合。
+
+#+END_QUOTE
+* * [[[https://utgd.net/article/20459][如何利用纸笔笔记：将其视为阅读笔记的先遣队 - #UNTAG]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: Minja
+:labels: [[PKM]]
+:date-published: [[2023/11/07]]
+:END:
+** * ### 高亮
+collapsed:: true
+*** * 
+id:: 7b7aa153-70a3-4db2-ae53-8d129cff68e5
+#+BEGIN_QUOTE
+原研哉曾指出，电脑解放了纸，让设计师可以更关注纸张本身的物理属性，而不必在承载图文信息上和电脑一较高下
+ #[[VPT]] 
+#+END_QUOTE
+*** * 
+id:: 308df3cc-0bfd-4771-9882-5980943cf589
+#+BEGIN_QUOTE
+软件成了第二大脑，负责存储；而**纸笔从存储的巨大压力中解放出来**，回归快速捕捉与初步加工的原始用途。
+
+#+END_QUOTE
+*** * 
+id:: f4a16759-10a3-4b5c-9fc9-d4369d4e6560
+#+BEGIN_QUOTE
+从先遣队或者游击队的隐喻出发，管见以为，最合适的书写介质是**未经装订的纸片**，比如可以轻松放进口袋的索引卡（Index Card）、可贴在墙上的便利贴[\[1\]](#fn1)，或者将普通A4纸对折裁开后得到的纸片（具体对折几次，端视你用来记录哪类内容）。
+ #[[VPT]] 
+#+END_QUOTE
+*** * 
+id:: 8476ea15-6d75-434d-81ab-5a0680211226
+#+BEGIN_QUOTE
+纸片上的大纲笔记，并非其他笔记的清单，而是**手头所读材料的索引**。
+
+#+END_QUOTE
+*** * 
+id:: 9d61b928-6640-40cc-82c4-92370e69d08a
+#+BEGIN_QUOTE
+具体到操作细节上，我使用两种方式的编码指出。一种是单纯**页码加位置**，比如第42页从上往下数第三段，编码就是`42C`，要是自然段太多，那就从下往上数，比如用`42（-1）`表示第四十二页最后一段。
+
+#+END_QUOTE
+* * [[[https://utgd.net/article/20409][Osprey 工具收纳包｜URBAN TOOL - #UNTAG]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: Minja
+:labels: [[GDS]]
+:date-published: [[2023/12/06]]
+:END:
+** * ### 高亮
+collapsed:: true
+*** * 
+id:: ea5938ef-03a3-4810-85fb-9c0ac517a0f4
+#+BEGIN_QUOTE
+工程师J· E·戈登曾指出，这种以厚重为可靠的设计思路并不可取，最终往往既笨重又不牢靠。
+
+#+END_QUOTE
 * [[[https://utgd.net/article/20510/][Calibre 巴别图书馆计划（六）：用书目降低阅读负担 - #UNTAG]]
 :PROPERTIES:
 :heading: true
