@@ -18,7 +18,7 @@ Note:
 阅读活动的私人化，常常陷入对工具的过度崇拜，就像古代奴隶主失饪不食、割不正不食、不得其酱不食一样，笔墨稍有不顺，阅读器略有卡顿，则弃之不用。如此读书，惟读者自己损失大矣。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -27,7 +27,7 @@ Note:
 几乎所有阅读器都能够满足阅读需要，真正要调整的，不是工具，而是使用标注工具的习惯。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -36,7 +36,7 @@ Note:
 沉心阅读之人，则以笔为武器，剑及履及之处，削下真知灼识，吞之为自己血肉——而批注时的刀光剑影，则无需见于将来。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -48,7 +48,7 @@ Note:
 * 紫色，强调
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -57,7 +57,7 @@ Note:
 阅读判决书，可划出事实、法律、说理和判决结果；琢磨推理小说，可区分证词、证据和推论；研读方法论著作，又需注意历史事实、作者观点和批评对象……不同情景，几种基础颜色均能应对。重要的不是选出一套颜色，而是留意自己涉猎的内容类型，然后量身打造几套标注方案。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -68,7 +68,7 @@ Note:
 * 波浪线：宾语，案例。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -77,7 +77,7 @@ Note:
 需要强调与亟待处理之处，则尽可能融入任务管理工具（即便只是抄到便签上），总之不将后续需要整理的段落留在原始文件中。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -86,7 +86,7 @@ Note:
 下划线边缘直接标明段落属性，就能区分语义。如有存档需要，则随后再依据标注提示，把划线部分誊到电脑上。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -95,7 +95,7 @@ Note:
 若愿意同时使用高亮划线与文字标注，则可绕过高亮之顽疾：无法搜索。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -104,7 +104,7 @@ Note:
 之所以选取 `FCT` 这等晦涩拼写，并非给自己没事找事，而是为与原文区分，不得已选用英文中几不可能出现的拼写组合。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/31]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;31]]
 :labels: 
 :END:
 ** [[[https://utgd.net/article/20459][如何利用纸笔笔记：将其视为阅读笔记的先遣队 - #UNTAG]]
@@ -126,7 +126,7 @@ Note:
 原研哉曾指出，电脑解放了纸，让设计师可以更关注纸张本身的物理属性，而不必在承载图文信息上和电脑一较高下
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: [[VPT]]
 :END:
 **** :PROPERTIES:
@@ -135,7 +135,7 @@ Note:
 软件成了第二大脑，负责存储；而**纸笔从存储的巨大压力中解放出来**，回归快速捕捉与初步加工的原始用途。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -144,7 +144,7 @@ Note:
 从先遣队或者游击队的隐喻出发，管见以为，最合适的书写介质是**未经装订的纸片**，比如可以轻松放进口袋的索引卡（Index Card）、可贴在墙上的便利贴[\[1\]](#fn1)，或者将普通A4纸对折裁开后得到的纸片（具体对折几次，端视你用来记录哪类内容）。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/28]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;28]]
 :labels: [[VPT]]
 :END:
 **** :PROPERTIES:
@@ -153,7 +153,7 @@ Note:
 纸片上的大纲笔记，并非其他笔记的清单，而是**手头所读材料的索引**。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -162,9 +162,10 @@ Note:
 具体到操作细节上，我使用两种方式的编码指出。一种是单纯**页码加位置**，比如第42页从上往下数第三段，编码就是`42C`，要是自然段太多，那就从下往上数，比如用`42（-1）`表示第四十二页最后一段。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/28]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;28]]
 :labels: 
 :END:
+*****
 ** [[[https://utgd.net/article/20409][Osprey 工具收纳包｜URBAN TOOL - #UNTAG]]
 :PROPERTIES:
 :heading: true
@@ -184,7 +185,7 @@ Note:
 工程师J· E·戈登曾指出，这种以厚重为可靠的设计思路并不可取，最终往往既笨重又不牢靠。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/30]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;30]]
 :labels: 
 :END:
 ** [[[https://necromanov.wordpress.com/2010/09/01/victoria2/][维多利亚2（Victoria2）：历史的逻辑 | 旗舰评论——战略航空军元帅的旗舰]]
@@ -206,7 +207,7 @@ Note:
 维多利亚2（Victoria2，以下缩写为VIC2）旨在描述从1836年到1935年，从不列颠的正午到大萧条的落日的整个历史。它上承同公司的欧陆风暴3（Europa Universalis 3，以下缩写为EU3），下接钢铁雄心3（Hearts of Iron 3，以下缩写为HOI3），描述了我们的世界是怎样从由王公贵族管理的世界变成由民族国家统治的世界的。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/22]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;22]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -215,7 +216,7 @@ Note:
 设计思路就是这些游戏的“历史观”，他们的机制正体现了制作者们对历史的想法。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/22]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;22]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -224,7 +225,7 @@ Note:
 “英雄史观”。光荣的思路是“历史就是数值”，而数值的核心就是“英雄”们。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/22]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;22]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -233,7 +234,7 @@ Note:
 所有的事件也是“依赖于数值”而进行的，玩家所要做的就是尽量达成事件的前提条件，然后等待着收获报偿。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/23]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;23]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -242,7 +243,7 @@ Note:
 本质上那些数值同历史是无关的，只是游戏设计者的设定而已，而且他们只是根据自己的资料来定数值，英雄就是英雄，不做任何解释。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/23]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;23]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -251,7 +252,7 @@ Note:
 “制度史观”，主题是“历史就是规则”，上层建筑决定下层基础。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/22]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;22]]
 :labels: 
 :END:
 **** 这是最好玩的一个类别——但是也最不历史。
@@ -264,7 +265,7 @@ Note:
 历史只是游戏设计师们用来构建规则的小点缀，是他们用来写文档的灵感，却不是他们追求的目标。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/23]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;23]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -273,7 +274,7 @@ Note:
 基于“历史决定论”而产生的“历史就是事件”。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/23]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;23]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -282,7 +283,7 @@ Note:
 “事件驱动史观”同样不是真正的历史逻辑，它本质上只是一种不断检查历史状态的保险器。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/23]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;23]]
 :labels: 
 :END:
 ** [[[https://necromanov.wordpress.com/2016/05/24/stellaris/][群星（Stellaris）：当文明遇到历史逻辑 | 旗舰评论——战略航空军元帅的旗舰]]
@@ -304,7 +305,7 @@ Note:
 席德·梅尔的文明是游戏设计史上一个极为特殊的作品。它从桌游中吸取养分，却做出了完全不同于传统桌游的体验，它所开创的品类就是4X游戏。这个类型被游戏设计师Alan Emrich用四个Ex开头的英文单词定义为“4X”：探索（_Explore_）、扩张（_Expand_）、开发（_Exploit_）、征服（_Exterminate_）。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/22]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;22]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -313,7 +314,7 @@ Note:
 即时战略游戏也有“探索、扩张、开发、征服”（有兴趣的读者可以自己观察这四个要素是怎么构成即时战略游戏，甚至英雄联盟这样的MOBA游戏的核心循环的），但即时战略游戏绝不会让人有这种“赶紧我要再建个基地研发个科技”的感觉。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/22]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;22]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -322,7 +323,7 @@ Note:
 几乎所有的德式桌游（没错，有一个巨大的桌游分类叫做德式桌游，德意志的桌游世界第一），都有类似的多种资源不同循环机制的设计，大多数并不能做到“再来一回合”的快感。德式桌游的核心乐趣是“估值”，但这种估值负担太重了，重到了玩完一把大家脑内的计算能力都过载的程度。只有那些数学系的高手能沉迷于德式估值当中，我们这些一般人绝对不可能像玩文明一样，一晚又一晚持续进行德式桌游。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/22]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;22]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -333,7 +334,7 @@ Note:
 文明发明，而被群星及其他4X游戏所继承那个核心设计乐趣，是“决策”，以及随之而来的“决策的结果反馈”。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/22]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;22]]
 :labels: 
 :END:
 ** [[[https://necromanov.wordpress.com/2023/10/23/%E9%80%89%E6%8B%A9%E7%9A%84%E8%83%9C%E5%88%A9%EF%BC%9A%E5%8D%9A%E5%BE%B73%EF%BC%8C%E6%98%9F%E7%A9%BA%E4%B8%8E%E8%A7%86%E9%A2%91%E4%BC%A0%E6%92%AD%E6%97%B6%E4%BB%A3%E7%9A%84rpg%E8%AE%BE%E8%AE%A1/][选择的胜利：博德3，星空与视频传播时代的RPG设计 | 旗舰评论——战略航空军元帅的旗舰]]
@@ -355,7 +356,7 @@ Note:
 核心玩家喜欢的那些元素：宏大复杂的世界观和对话任务树，还有高度自由充满脑洞的玩法和复杂的系统。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -364,7 +365,7 @@ Note:
 正如游戏行业的任何时候一样。人们追逐的流行概念如梦幻泡影，而坚守的核心玩法价值则在技术背景的飞速变幻之中，成为了新时代所召唤的选民。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -373,7 +374,7 @@ Note:
 在这个视频和直播决定命运的新时代里，正确的游戏设计将会是什么样的——而博德3与星空，Todd与Swen，Bethesda与Larian多年来的兴衰，恰巧是当下讨论这一问题最好的分析对象。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -382,7 +383,7 @@ Note:
 “小众品类爆卖”才是游戏行业真正成功的秘诀，“跟风当下流行”反而不是。MOBA可追溯到即时策略游戏的MOD，BR可追溯到ARMA3，生存可追溯到DayZ，沙盒可追溯到矮人要塞，撤离可追溯到塔科夫，现代开放世界可追溯到莎木，没有一个不是“小众核心”到相当程度的起源。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -393,7 +394,7 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 上古卷轴1和2可以是CRPG，上古卷轴4和5当然就不是；辐射1和2可以是CRPG，辐射3、4当然就不是；龙腾世纪1可以是CRPG，质量效应3当然就不是；巫师1可以是CRPG，但巫师3和赛博朋克2077当然就不是。同样，这个规律放在神界原罪和博得之门3上也是有效的：当玩家们发现博得之门3大卖了以后，类似“Tactical RPG”、“Turn-based Strategy”这些“小众”品类标签的票数权重大减，被大家冷酷的抛弃了……
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -402,7 +403,7 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 整个第一章的每一场战斗、每一个小任务，几乎都有这样密集的选择和毫无顾忌的分支设计，完全不在乎玩家杀掉的角色是否有10万字后续对话，或者他们的决策是否会导致占全游戏几分之一的重要NPC全军覆没。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -411,7 +412,7 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 如果在十年前，我可能会认为，这样大胆而多变的选择设计是有一定危险性的。这一方面会极大增加内容工作量，同时也不一定能讨到好：错误的选项可能意味着对玩家连续几十个小时的惩罚，也意味着团队花费了无数个小时做出的内容会被玩家完全错过，更可能因为任务状况互相覆盖产生数不清的Bug（如果你尝试过博德3的知名BUG“善良明萨拉路线”，就会明白这些任务判定条件互相影响造成的Bug是多么复杂）。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -420,7 +421,7 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 在这样的传播环境中，玩家们是能够互相交流，从而意识到这些选择背后的工作量的。当一个任务拥有多个甚至是不合常理的选择时，玩家们就真的会体会到“啊，这个游戏的内容量真的非常丰富”。甚至就连只看直播的云玩家，很多也能体会到这些选择背后内容量的厉害。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -429,7 +430,7 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 每一个有意义的选择设计，价值都可能相当于数十万美元的宣发投放和口碑。做有意义的选择、做值得传播的故事不再是可有可无、锦上添花的投入了，它将是2020年代性价比最高的成本投入点之一，是未来十年游戏行业最重要的内容竞争重点。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -438,7 +439,7 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 一个好的设计框架本身，必须要能容纳多种多样的解决方式，设计师才能面对这些解决方式设计出有趣的选择，同时满足“有传播性”和“不套路”的需求。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -447,7 +448,7 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 RPG在历史上留下了无数成功和失败的设计经验，其中只有五个主要玩法策略，历经历史考验留存至今：战斗、交易、交涉、潜行（偷窃）和解谜。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
 **** :PROPERTIES:
@@ -456,6 +457,6 @@ RPG在历史上留下了无数成功和失败的设计经验，其中只有五�
 框架搞定了，接下来就进入第二个更难的要点：基于设计框架来创造富有变化性的选择。如果只是每个敌人都可以偷窃，每个非敌对的战斗都可以交涉，每个战斗都可以上元素反应，这不过是另外一种套路化的罐头而已，玩家很快就会腻了。好游戏和不好的游戏，甚至一个游戏内好的设计和不那么好的设计，都体现在这一层面。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2023/12/26]]
+:dateHighlighted: [[2023&#x2F;12&#x2F;26]]
 :labels: 
 :END:
