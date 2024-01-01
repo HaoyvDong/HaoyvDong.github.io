@@ -7,7 +7,6 @@
 :labels: [[PKM]]
 :date-published: [[2023/12/06]]
 :END:
-Note:
 *** ### 高亮
 :PROPERTIES:
 :collapsed: true
@@ -19,7 +18,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -28,7 +26,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -37,7 +34,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -49,7 +45,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -58,7 +53,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -69,7 +63,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -78,7 +71,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -87,7 +79,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -96,7 +87,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -105,7 +95,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
-:labels: 
 :END:
 ** [[[https://utgd.net/article/20459][如何利用纸笔笔记：将其视为阅读笔记的先遣队 - #UNTAG]]
 :PROPERTIES:
@@ -115,7 +104,6 @@ Note:
 :labels: [[PKM]]
 :date-published: [[2023/11/07]]
 :END:
-Note:
 *** ### 高亮
 :PROPERTIES:
 :collapsed: true
@@ -136,7 +124,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -154,7 +141,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -163,7 +149,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/28]]
-:labels: 
 :END:
 ** [[[https://utgd.net/article/20409][Osprey 工具收纳包｜URBAN TOOL - #UNTAG]]
 :PROPERTIES:
@@ -173,7 +158,6 @@ Note:
 :labels: [[GDS]]
 :date-published: [[2023/12/06]]
 :END:
-Note:
 *** ### 高亮
 :PROPERTIES:
 :collapsed: true
@@ -185,7 +169,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/30]]
-:labels: 
 :END:
 ** [[[https://necromanov.wordpress.com/2010/09/01/victoria2/][维多利亚2（Victoria2）：历史的逻辑 | 旗舰评论——战略航空军元帅的旗舰]]
 :PROPERTIES:
@@ -195,7 +178,6 @@ Note:
 :labels: [[Games]]
 :date-published: [[2010/09/01]]
 :END:
-Note:
 *** ### 高亮
 :PROPERTIES:
 :collapsed: true
@@ -207,7 +189,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/22]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -216,7 +197,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/22]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -225,7 +205,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/22]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -234,7 +213,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/23]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -243,7 +221,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/23]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -252,21 +229,19 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/22]]
-:labels: 
 :END:
-**** 这是最好玩的一个类别——但是也最不历史。
-:PROPERTIES:
+**** :PROPERTIES:
 :END:
-你的中国很可能没有长城，而是去抢了金字塔。游戏不会告诉你任何“为什么中国要建立长城而不是金字塔”  
-的原因，也不会探讨“为什么德国的特色兵种要到装甲时代才出现”的理由。这些内容是“设计上的解释”，而不是“逻辑上的解释”。  
-玩家想要建立长城是因为设计师说“这个奇迹可以让野蛮人不进入你的国境之内”，而不是因为他玩的是中国，同漫长的草原边境接壤，自己身后又有肥沃的土地。
 #+BEGIN_QUOTE
 历史只是游戏设计师们用来构建规则的小点缀，是他们用来写文档的灵感，却不是他们追求的目标。
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/23]]
-:labels: 
 :END:
+这是最好玩的一个类别——但是也最不历史。
+你的中国很可能没有长城，而是去抢了金字塔。游戏不会告诉你任何“为什么中国要建立长城而不是金字塔”  
+的原因，也不会探讨“为什么德国的特色兵种要到装甲时代才出现”的理由。这些内容是“设计上的解释”，而不是“逻辑上的解释”。  
+玩家想要建立长城是因为设计师说“这个奇迹可以让野蛮人不进入你的国境之内”，而不是因为他玩的是中国，同漫长的草原边境接壤，自己身后又有肥沃的土地。
 **** :PROPERTIES:
 :END:
 #+BEGIN_QUOTE
@@ -274,7 +249,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/23]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -283,7 +257,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/23]]
-:labels: 
 :END:
 ** [[[https://necromanov.wordpress.com/2016/05/24/stellaris/][群星（Stellaris）：当文明遇到历史逻辑 | 旗舰评论——战略航空军元帅的旗舰]]
 :PROPERTIES:
@@ -293,7 +266,6 @@ Note:
 :labels: [[Games]]
 :date-published: [[2016/05/24]]
 :END:
-Note:
 *** ### 高亮
 :PROPERTIES:
 :collapsed: true
@@ -305,7 +277,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/22]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -314,7 +285,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/22]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -323,7 +293,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/22]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -334,17 +303,15 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/22]]
-:labels: 
 :END:
 ** [[[https://necromanov.wordpress.com/2023/10/23/%E9%80%89%E6%8B%A9%E7%9A%84%E8%83%9C%E5%88%A9%EF%BC%9A%E5%8D%9A%E5%BE%B73%EF%BC%8C%E6%98%9F%E7%A9%BA%E4%B8%8E%E8%A7%86%E9%A2%91%E4%BC%A0%E6%92%AD%E6%97%B6%E4%BB%A3%E7%9A%84rpg%E8%AE%BE%E8%AE%A1/][选择的胜利：博德3，星空与视频传播时代的RPG设计 | 旗舰评论——战略航空军元帅的旗舰]]
 :PROPERTIES:
 :heading: true
 :collapsed: true
 :author: 发表于
-:labels: [[Games]][[RSS]]
+:labels: [[Games]]:labels: [[RSS]]
 :date-published: [[2023/10/23]]
 :END:
-Note:
 *** ### 高亮
 :PROPERTIES:
 :collapsed: true
@@ -356,7 +323,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -365,7 +331,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -374,7 +339,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -383,7 +347,6 @@ Note:
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -394,7 +357,6 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -403,7 +365,6 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -412,7 +373,6 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -421,7 +381,6 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -430,7 +389,6 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -439,7 +397,6 @@ CRPG这一个品类的奇妙历史，你都能感觉到在这其中的讽刺性�
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -448,7 +405,6 @@ RPG在历史上留下了无数成功和失败的设计经验，其中只有五�
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
 **** :PROPERTIES:
 :END:
@@ -457,5 +413,4 @@ RPG在历史上留下了无数成功和失败的设计经验，其中只有五�
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/26]]
-:labels: 
 :END:
