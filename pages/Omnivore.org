@@ -1,24 +1,4 @@
 * Articles
-** [[[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
-:PROPERTIES:
-:heading: true
-:collapsed: true
-:author: Minja
-:labels: [[RSS]]:labels: [[PKM]]
-:date-published: [[2023/11/01]]
-:END:
-*** ### 高亮
-:PROPERTIES:
-:collapsed: true
-:END:
-**** :PROPERTIES:
-:END:
-#+BEGIN_QUOTE
-汉隆剃刀（Hanlon’s Razor）：用愚蠢足以解释，便不要用恶意去揣测。
-#+END_QUOTE
-:PROPERTIES:
-:dateHighlighted: [[2024/01/01]]
-:END:
 ** [[[https://utgd.net/article/20107][一种低技术的阅读批注思路 - #UNTAG]]
 :PROPERTIES:
 :heading: true
@@ -115,6 +95,26 @@
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
+:END:
+** [[[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: Minja
+:labels: [[RSS]][[PKM]]
+:date-published: [[2023/11/01]]
+:END:
+*** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+**** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+汉隆剃刀（Hanlon’s Razor）：用愚蠢足以解释，便不要用恶意去揣测。
+#+END_QUOTE
+:PROPERTIES:
+:dateHighlighted: [[2024/01/01]]
 :END:
 ** [[[https://utgd.net/article/20459][如何利用纸笔笔记：将其视为阅读笔记的先遣队 - #UNTAG]]
 :PROPERTIES:
@@ -329,7 +329,7 @@
 :heading: true
 :collapsed: true
 :author: 发表于
-:labels: [[Games]]:labels: [[RSS]]
+:labels: [[Games]][[RSS]]
 :date-published: [[2023/10/23]]
 :END:
 *** ### 高亮
