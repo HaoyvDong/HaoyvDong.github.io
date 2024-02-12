@@ -1,11 +1,11 @@
 * Articles
-** [[[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
+** [[[https://utgd.net/article/20459][如何利用纸笔笔记：将其视为阅读笔记的先遣队 - #UNTAG]]
 :PROPERTIES:
 :heading: true
-:author: Minja
-:labels: [[RSS]]  [[PKM]]
-:date-published: [[2023/11/01]]
 :collapsed: true
+:author: Minja
+:labels: [[PKM]]
+:date-published: [[2023/11/07]]
 :END:
 *** ### 高亮
 :PROPERTIES:
@@ -14,30 +14,44 @@
 **** :PROPERTIES:
 :END:
 #+BEGIN_QUOTE
-汉隆剃刀（Hanlon’s Razor）：用愚蠢足以解释，便不要用恶意去揣测。
+原研哉曾指出，电脑解放了纸，让设计师可以更关注纸张本身的物理属性，而不必在承载图文信息上和电脑一较高下
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2024/01/01]]
-:END:
-** [[[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
-:PROPERTIES:
-:heading: true
-:author: Minja
-:labels: [[RSS]] [[PKM]]
-:date-published: [[2023/11/01]]
-:collapsed: true
-:END:
-*** ### 高亮
-:PROPERTIES:
-:collapsed: true
+:dateHighlighted: [[2023/12/26]]
+:labels: [[VPT]]
 :END:
 **** :PROPERTIES:
 :END:
 #+BEGIN_QUOTE
-汉隆剃刀（Hanlon’s Razor）：用愚蠢足以解释，便不要用恶意去揣测。
+软件成了第二大脑，负责存储；而**纸笔从存储的巨大压力中解放出来**，回归快速捕捉与初步加工的原始用途。
 #+END_QUOTE
 :PROPERTIES:
-:dateHighlighted: [[2024/01/01]]
+:dateHighlighted: [[2023/12/26]]
+:END:
+**** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+从先遣队或者游击队的隐喻出发，管见以为，最合适的书写介质是**未经装订的纸片**，比如可以轻松放进口袋的索引卡（Index Card）、可贴在墙上的便利贴[\[1\]](#fn1)，或者将普通A4纸对折裁开后得到的纸片（具体对折几次，端视你用来记录哪类内容）。
+#+END_QUOTE
+:PROPERTIES:
+:dateHighlighted: [[2023/12/28]]
+:labels: [[VPT]]
+:END:
+**** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+纸片上的大纲笔记，并非其他笔记的清单，而是**手头所读材料的索引**。
+#+END_QUOTE
+:PROPERTIES:
+:dateHighlighted: [[2023/12/26]]
+:END:
+**** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+具体到操作细节上，我使用两种方式的编码指出。一种是单纯**页码加位置**，比如第42页从上往下数第三段，编码就是`42C`，要是自然段太多，那就从下往上数，比如用`42（-1）`表示第四十二页最后一段。
+#+END_QUOTE
+:PROPERTIES:
+:dateHighlighted: [[2023/12/28]]
 :END:
 ** [[[https://utgd.net/article/20107][一种低技术的阅读批注思路 - #UNTAG]]
 :PROPERTIES:
@@ -135,6 +149,26 @@
 #+END_QUOTE
 :PROPERTIES:
 :dateHighlighted: [[2023/12/31]]
+:END:
+** [[[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:author: Minja
+:labels: [[RSS]][[PKM]]
+:date-published: [[2023/11/01]]
+:END:
+*** ### 高亮
+:PROPERTIES:
+:collapsed: true
+:END:
+**** :PROPERTIES:
+:END:
+#+BEGIN_QUOTE
+汉隆剃刀（Hanlon’s Razor）：用愚蠢足以解释，便不要用恶意去揣测。
+#+END_QUOTE
+:PROPERTIES:
+:dateHighlighted: [[2024/01/01]]
 :END:
 ** [[[https://utgd.net/article/20459][如何利用纸笔笔记：将其视为阅读笔记的先遣队 - #UNTAG]]
 :PROPERTIES:
@@ -347,10 +381,10 @@
 ** [[[https://necromanov.wordpress.com/2023/10/23/%E9%80%89%E6%8B%A9%E7%9A%84%E8%83%9C%E5%88%A9%EF%BC%9A%E5%8D%9A%E5%BE%B73%EF%BC%8C%E6%98%9F%E7%A9%BA%E4%B8%8E%E8%A7%86%E9%A2%91%E4%BC%A0%E6%92%AD%E6%97%B6%E4%BB%A3%E7%9A%84rpg%E8%AE%BE%E8%AE%A1/][选择的胜利：博德3，星空与视频传播时代的RPG设计 | 旗舰评论——战略航空军元帅的旗舰]]
 :PROPERTIES:
 :heading: true
-:author: 发表于
-:labels: [[Games]]  [[RSS]]
-:date-published: [[2023/10/23]]
 :collapsed: true
+:author: 发表于
+:labels: [[Games]][[RSS]]
+:date-published: [[2023/10/23]]
 :END:
 *** ### 高亮
 :PROPERTIES:
