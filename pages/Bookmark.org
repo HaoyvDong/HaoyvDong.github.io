@@ -125,7 +125,7 @@ HamCQ为国内业余无线电爱好者社区，一起来共建业余无线电生
 :END:
 This is a discussion forum of China Amateur Radios. 这是一个中国业余无线电爱好者的论坛.
 ** [[https://endoflife.date/][End-Of-Life, support schedule of products.]]
-#Museum 
+
 Check end-of-life, support schedule, and release timelines for more than 200 products at one place.
 ** [[https://www.dongleauth.com/][USB Dongle Authentication]]
 :PROPERTIES:
@@ -207,4 +207,4 @@ FunWorld乐趣世界是服务于互联网内容创作者的数字服务商。
 ** [[https://www.eso.org/public/images/potw2137a/][North Meets South | ESO]]
 在回归线两侧的天文台拍摄的全天星图进行拼接
 * [[https://www.nytimes.com/wirecutter/][Wirecutter: New Product Reviews, Deals, and Buying Advice]]
-#Shopping
+#GDS

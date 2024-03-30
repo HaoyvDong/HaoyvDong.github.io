@@ -36,7 +36,7 @@ This document summarizes text composition requirements in the Chinese writing sy
 :END:
 其实唯一用到的地方是在思源笔记或 Anki 里写 $\KaTeX$
 [[https://www.latex-project.org/][LaTeX - A document preparation system]]
-** [[Tools OL]]
+** Tools OL
 :PROPERTIES:
 :collapsed: true
 :END:

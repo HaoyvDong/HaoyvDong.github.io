@@ -66,7 +66,6 @@
 [[https://scoop.sh/][Get Scoop]]
 ***** [[Article]]
 ****** [[https://zhuanlan.zhihu.com/p/594363658][Scoop 安装、配置国内镜像、备份与迁移 - 知乎]]
-#Mirror 
 文中给出的 Gitee 镜像，推荐使用[[https://mirror.nju.edu.cn][南京大学镜像]]
 **** [[https://portableapps.com/][PortableApps.com - Portable software for USB, portable, and cloud drives]]
 ** [[https://www.runningcheese.com/][奔跑中的奶酪 - 有智，有趣，有爱]]
@@ -107,7 +106,7 @@ The BIG list of games with MFi controller support. Find the latest games that su
 :END:
 *** [[http://mactracker.ca/][Mactracker]]
 *** [[https://buyersguide.macrumors.com/][MacRumors Buyer's Guide: Know When to Buy iPhone, Mac, iPad]]
-#shopping
+#GDS
 This page provides a product summary for each Apple model. The intent is to provide our best recommendations regarding current product cycles, and to provide a summary of currently available rumors for each model. This page is based on rumors and speculation and we provide no guarantee to its accuracy.
 *** [[https://everymac.com/][Mac Specs, Prices, Answers and Comparison: EveryMac.com, Est. 1996]]
 *** [[https://everyi.com/][iPod, iPhone & iPad Specs, Answers, Help, Troubleshooting & More: Everyi.com]]
