@@ -20,7 +20,7 @@
 10. F10：Shift+F10显示选定项目的快捷菜单；Ctrl+F10最大化或还原工作簿窗口。
 11. F11：单按F11创建图表；Shift+F11插入一个新的工作表；Alt+F11打开Microsoft Visual Basic编辑器。
 ** 这些功能在很多应用程序中都存在，但具体的功能可能因程序的不同而有所差异。至于是否遵循较早的规定，这可能因不同的操作系统和应用程序而有所不同。对于具体的规定和历史背景，建议查阅相关的技术文档或历史资料。
-** 不同 Sheet 间切换：Ctrl+PgUp/Pgdn
+** 不同 Sheet 间切换： ~Ctrl+PgUp/Pgdn~
 * #Excel 序号
 :PROPERTIES:
 :heading: true
@@ -243,25 +243,6 @@ Perl Compatible Regular Expressions
 *** 过程中的新知：
 - SSH Key：[[https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5][Git - 生成 SSH 公钥]]
 *** Magit, 用过都说好！ #Emacs
-* 信息收集方案
-:PROPERTIES:
-:heading: true
-:collapsed: true
-:END:
-** 需求整理
-:PROPERTIES:
-:heading: true
-:END:
-|*输入*|*整理*|*输出*|
-|全平台|搜索筛选语法|批量导出|
-*** 因为是输入端，不做储存信息的考虑，所以不用顾及商业产品生命周期，可以放心使用云服务
-*** 导出可就麻烦了，Org-Mode 生态目前只有 Logseq 能打啊，这个问题几乎就是问哪个稍后读的 Logseq 插件做得好
-** 候选分析
-:PROPERTIES:
-:heading: true
-:END:
-*** [[https://omnivore.app/][Omnivore]]
-*** [[https://www.dida365.com/home][滴答清单:一个帮你高效完成任务和规划时间的应用]]
 * 吐槽简悦
 :PROPERTIES:
 :collapsed: true
