@@ -67,12 +67,27 @@ https://calibre-ebook.com/
 ** Calibre 插件
 *** Zotero Metadata Importer
 MobileRead Forums https://www.mobileread.com/forums/showthread.php?p=3339191
-***
 ** #Article
 Calibre 的大多数功能还是比较符合直觉的，去设置菜单里逛一圈都能解决，如果懒得下载也可以看下这几篇介绍。
 - [[https://sspai.com/post/43843][最强大的本地电子书管理工具：Calibre 使用指南 - 少数派]]
 - [[https://sspai.com/post/72748][阅读批注样样通，我的 Calibre 书籍库管理方法论 - 少数派]]
 - [[https://sspai.com/post/57005][借助 Calibre 处理电子书的流程和技巧 - 少数派]]
+* Software
+:PROPERTIES:
+:id: 658b95c7-e2a9-4526-b367-a784a69a21de
+:END:
+** Hypothesis https://web.hypothes.is/
+网页批注定位神中神的 #Browser 扩展/脚本应用
+*** Hypothesis 的一个前端
+[[https://jonudell.info/h/facet/][View and export Hypothesis annotations]]
+*** [[https://type.cyhsu.xyz/2020/10/hypothesis-tutorial/][开源、可定制的网页批注工具——Hypothesis - neverland]]
+#Article
+** Logseq 
+https://logseq.com/
+** 思源笔记 | SiYuan-Note
+[[https://b3log.org/siyuan/][思源笔记 - 隐私优先的个人知识管理系统，支持 Markdown 排版、块级引用和双向链接]]
+** Writeathon
+- [[https://www.writeathon.cn/share/64e0718b26625042ba9a0a18][Writeathon - 更新日志 - 3.0]]
 * #Article
 :PROPERTIES:
 :heading: true
@@ -90,10 +105,3 @@ Calibre 的大多数功能还是比较符合直觉的，去设置菜单里逛一
 - RSS→浏览器→存档本地。
 - 浏览器的功能超越了所有阅读器。
 - PDF 良好的生态让其成为优秀的存档格式，至于换行导致难以搜索的缺点，可以通过及时做笔记弥补。
-** [[https://www.yuque.com/deerain/gannbs/ffqk2e][双向链接时代的快速无压记录]]
-** [[https://utgd.net/article/20159][功能和软件的解耦：以卡片笔记为例 - #UNTAG]]
-** [[https://sspai.com/post/78133][把阅读作为方法：从选书到笔记的经验分享 - 少数派]]
-** [[https://noteapps.info/][NoteApps.info: 32 best note taking apps analyzed over 289 features]]
-:PROPERTIES:
-:id: 64defcdc-7160-43d6-88d9-e7fea8cc9394
-:END:

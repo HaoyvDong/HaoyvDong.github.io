@@ -1,3 +1,17 @@
+* Reference
+:PROPERTIES:
+:heading: true
+:id: 6607c21f-7bdd-49c5-b802-abaf9779a1c5
+:END:
+** [[https://www.w3.org/TR/clreq/][Requirements for Chinese Text Layout - 中文排版需求]]
+:PROPERTIES:
+:id: 658b95c7-299d-4bce-855a-b46e6ae8478d
+:END:
+#Manual #CJK 
+This document summarizes text composition requirements in the Chinese writing system. One of the goals of the task force is to describe issues for Chinese layout, another is to describe correspondences with existing standards (such as Unicode), as well as to encourage vendors to implement relevant features correctly.
+** [[https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7E77CD3A7E05397BE0A0AB82A][党政机关公文格式]]
+- 标准号 :: GB/T 9704-2012
+** [[https://github.com/sparanoid/chinese-copywriting-guidelines][sparanoid/chinese-copywriting-guidelines: Chinese copywriting guidelines for better written communication／中文文案排版指北]]
 * 排版单位
 [[https://www.zhihu.com/question/333715057/answer/2751287261][有什么奇怪的单位制？ - 知乎]]
 * #Article

@@ -62,6 +62,7 @@
 * Novel
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 ** [[https://www.lightnovel.us/cn/][轻之国度-专注分享的NACG社群]]
 我常常疑惑汉化组是怎么忍受轻国的使用体验还不允许转载要别人一起来用的
@@ -113,11 +114,6 @@ itch.io is a simple way to find, download and distribute indie games online. Whe
 :END:
 欧陆风云4百科是一个人人可以参与编写的wiki百科站点，旨在做最全面的欧陆风云4中文百科全书，欢迎您的光临并诚邀您参与编写！
 ** [[https://paratranz.cn/projects][ParaTranz - 通用的游戏翻译平台]]
-** [[https://mgerdes.github.io/minigolf.html][Open Golf]]
-** [[https://pinball.flutter.dev/#/][Google I/O Pinball]]
-:PROPERTIES:
-:END:
-Come play Pinball with your favorite Google Developer Mascots! Built with Flutter & Firebase for Google I/O 2022.
 ** [[https://www.taptap.cn/][TapTap | 发现好游戏]]
 #Forum 
 TapTap ，专为中国手游玩家打造的推荐高品质手游的分享社区。我们拥有超过2万款可玩游戏，超过1亿玩家在我们平台上完成了30亿次游戏下载，发布了超过3500万条真实客观的游戏评价，并为玩家提供了50万篇优质内容。目前已有超过10万个游戏开发者入驻了TapTap玩家社区。立即下载TapTap，与我们一起体验最顶级的手游乐趣吧！
