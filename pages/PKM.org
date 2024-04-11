@@ -105,3 +105,5 @@ https://logseq.com/
 - RSS→浏览器→存档本地。
 - 浏览器的功能超越了所有阅读器。
 - PDF 良好的生态让其成为优秀的存档格式，至于换行导致难以搜索的缺点，可以通过及时做笔记弥补。
+** [[https://karl-voit.at/tags/pim/][The Tag «pim»]]
+此兄的 PhD thses 标题就是 /TagTrees: Improving Personal Information Management Using Associative Navigation/ ，还是个 Emacser ，这下不得不狠狠看了
