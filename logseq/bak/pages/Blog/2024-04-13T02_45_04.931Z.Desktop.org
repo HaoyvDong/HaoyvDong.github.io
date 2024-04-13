@@ -1,33 +1,32 @@
 #+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
 
-* #Emacs Org-Mode 列编辑
+* Org-Mode 列编辑
 :PROPERTIES:
 :heading: true
-:collapsed: true
 :END:
 来自 ChatGPT 3.5
 ** GPT 的回复
 *** In Emacs org-mode, you can edit the same column in multiple lines using the rectangular selection feature. Here's how you can do it:
 
 1. Move the cursor to the beginning of the column you want to edit.
-2. Press ~C-SPC~ (~Ctrl~ + ~Space~) to set the mark at the current cursor position.
+2. Press `C-SPC` (`Ctrl` + `Space`) to set the mark at the current cursor position.
 3. Move the cursor to the end of the column you want to edit. You can use the arrow keys or any other movement commands.
 4. Now you have a rectangular region selected. You can see it visually as a highlighted rectangle.
 5. Perform the editing operation you want. You can type, delete, or replace text as usual.
-6. Press ~C-g~ (~Ctrl~ + ~g~) to deactivate the rectangular region selection.
+6. Press `C-g` (`Ctrl` + `g`) to deactivate the rectangular region selection.
 *** Alternatively, you can use the rectangle commands in Emacs. Here are the steps:
 
 1. Move the cursor to one corner of the rectangle you want to edit.
-2. Press ~C-SPC~ (~Ctrl~ + ~Space~) to set the mark at the current cursor position.
+2. Press `C-SPC` (`Ctrl` + `Space`) to set the mark at the current cursor position.
 3. Move the cursor to the opposite corner of the rectangle. This will highlight the rectangle.
 4. Use one of the following commands to perform the editing operation you want:
-   - ~C-x r k~: Kill (delete) the text in the rectangle.
-   - ~C-x r d~: Delete the text in the rectangle, but don't kill it (can be yanked later).
-   - ~C-x r y~: Yank (paste) the text from the rectangle.
-   - ~C-x r t~: Replace the text in the rectangle with a string you type.
-   - ~C-x r o~: Open a blank rectangle, shifting text to the right.
-   - ~C-x r c~: Clear (blank out) the rectangle.
-5. Press ~C-g~ (~Ctrl~ + ~g~) to deactivate the rectangle editing mode.
+   - `C-x r k`: Kill (delete) the text in the rectangle.
+   - `C-x r d`: Delete the text in the rectangle, but don't kill it (can be yanked later).
+   - `C-x r y`: Yank (paste) the text from the rectangle.
+   - `C-x r t`: Replace the text in the rectangle with a string you type.
+   - `C-x r o`: Open a blank rectangle, shifting text to the right.
+   - `C-x r c`: Clear (blank out) the rectangle.
+5. Press `C-g` (`Ctrl` + `g`) to deactivate the rectangle editing mode.
 
 Using these techniques, you can easily edit the same column in multiple lines in Emacs org-mode.
 * #Excel 功能键
@@ -154,7 +153,7 @@ https://cloud.video.taobao.com//play/u/2998787772/p/1/e/6/t/1/294032869022.mp4
 - 原理：Excel 在合并单元格时，默认都是会只保留左上角单元格的值，而清空其它剩下的单元格，只有一种情况存在例外：当使用格式刷来创建合并单元格时，所有原始数据都会被保留下来。
 - 操作：
   1. 在「数据」选项卡中，打开「分类汇总」，选定汇总项
-  2. 利用空白值定位法（~Ctrl+G~），合并空白格
+  2. 利用空白值定位法（`Ctrl+G`），合并空白格
   3. 全选表格删除分类汇总
   4. 格式刷将合并列格式应用到明细列
 * 如何批注
