@@ -6,16 +6,6 @@
 :PROPERTIES:
 :heading: true
 :END:
-* 配置
-:PROPERTIES:
-:collapsed: true
-:END:
-[[https://github.com/caisah/emacs.dz][caisah/emacs.dz: Awesome emacs config files]]
-** [[https://github.com/purcell/emacs.d][purcell/emacs.d: An Emacs configuration bundle with batteries included]]
-** [[https://github.com/bbatsov/prelude][bbatsov/prelude: Prelude is an enhanced Emacs 25.1+ distribution that should make your experience with Emacs both more pleasant and more powerful.]]
-Prelude is an Emacs distribution that aims to enhance the default Emacs experience. Prelude alters a lot of the default settings, bundles a plethora of additional packages and adds its own core library to the mix. The final product offers an easy to use Emacs configuration for Emacs newcomers and lots of additional power for Emacs power users.
-** [[https://github.com/rougier/nano-emacs][rougier/nano-emacs: GNU Emacs / N Λ N O - Emacs made simple]]
-*GNU Emacs / N Λ N O* is a set of configuration files for GNU Emacs such as to provide a nice and consistent look and feel as shown below.
 * 插件
 ** Org-Mode
 :PROPERTIES:
