@@ -7,3 +7,8 @@ curl -L http://i.ohmydeck.net | sh
 sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
 https://mirror.sjtu.edu.cn/flathub/flathub.flatpakrepo
 #+end_src
+* 常用资源
+- [[https://help.steampowered.com/zh-cn/faqs/view/69E3-14AF-9764-4C28][Steam 客服 Steam Deck - 基本使用及故障排除指南]] 官方
+- [[https://sjtug.org/post/mirror-help/flathub/][flathub · SJTUG - A Joyful Techie User Group]]  更换 Flathub 源
+- [[https://github.com/SteamDeckHomebrew/decky-loader][SteamDeckHomebrew/decky-loader: A plugin loader for the Steam Deck.]]
+- [[https://github.com/YukiCoco/ToMoon][YukiCoco/ToMoon: 基于 SteamOS 定制的网络工具，自动配置 TUN 模式加速游戏，网络代理。]]    
