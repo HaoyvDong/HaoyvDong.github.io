@@ -1,5 +1,14 @@
 #+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
 
+* ~ROBOCOPY  /MIR~ 命令系统权限解决
+:PROPERTIES:
+:heading: true
+:END:
+** ~ROBOCOPY /MIR~ 会字面意义上地“镜像”一份文件，所以使用这个命令直接将整个盘符复制到某个文件夹下并且没有提前创建那个文件夹的时候，就会找不到那个文件夹：
+- ls 命令不会列出
+- 文件管理器无法查看
+- 只能通过直接在地址栏输入路径访问
+** 访问后内部文件是可以正常移动出来的，然后使用管理员权限强制删除就好： ~sudo Remove-Item -Force -Recurse~
 * #Emacs Org-Mode 列编辑
 :PROPERTIES:
 :heading: true
