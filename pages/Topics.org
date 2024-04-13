@@ -17,7 +17,6 @@
 * [[PKM]]
 :PROPERTIES:
 :heading: true
-:collapsed: true
 :END:
 『在笔记软件里记录笔记软件评测』
 * Productivity
@@ -138,6 +137,11 @@ This page provides a product summary for each Apple model. The intent is to prov
 :collapsed: true
 :END:
 不要预设我在用哪个操作系统！（逃
+** [[SteamDeck]]
+:PROPERTIES:
+:heading: true
+:END:
+Steam OS 应当是 Linux（阵营九宫格口吻
 ** Hardware
 :PROPERTIES:
 :heading: true

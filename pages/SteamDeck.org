@@ -1,0 +1,7 @@
+* [[https://sspai.com/post/79793][一日一技 | 如何用坚果云在 Steam Deck 和 PC 之间同步存档 - 少数派]]
+- 各个游戏的存档位置： ~/home/.local/share/Steam/steamapps/compatdata~
+* 重置吟唱：
+* curl -L [[https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh][https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh]] | sh
+* curl -L [[http://i.ohmydeck.net][http://i.ohmydeck.net]] | sh
+* sudo flatpak remote-modify flathub --url=[[https://mirror.sjtu.edu.cn/flathub][https://mirror.sjtu.edu.cn/flathub]]
+* [[https://mirror.sjtu.edu.cn/flathub/flathub.flatpakrepo][https://mirror.sjtu.edu.cn/flathub/flathub.flatpakrepo]]
