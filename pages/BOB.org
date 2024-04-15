@@ -4,11 +4,6 @@
 :PROPERTIES:
 :heading: true
 :END:
-** 庇护所
-:PROPERTIES:
-:heading: true
-:END:
-***
 ** 水源
 :PROPERTIES:
 :heading: true
@@ -29,11 +24,6 @@
 :PROPERTIES:
 :heading: true
 :END:
-** 庇护所
-:PROPERTIES:
-:heading: true
-:END:
-***
 ** 水源
 :PROPERTIES:
 :heading: true
