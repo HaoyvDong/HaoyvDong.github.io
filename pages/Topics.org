@@ -3,6 +3,10 @@
 :heading: true
 :id: 64eeeded-7034-476b-9d5f-e4a006f3de39
 :END:
+* [[BOB]]
+:PROPERTIES:
+:heading: true
+:END:
 * [[Common knowledge]]
 :PROPERTIES:
 :heading: true
