@@ -1,22 +1,52 @@
-#+DESCRIPTION: BOB, 此处指 Bug Out Bag，即跑路包，本页面主要收录低体力低技术的脆皮年轻人在赛里斯境内面临公共卫生事件与重大自然灾害时等待救援的准备。
+#+DESCRIPTION: BOB, 此处指 Bug Out Bag，即跑路包，本页面主要收录低体力低技术的脆皮年轻人在赛里斯境内城市环境面临公共卫生事件与重大自然灾害时等待救援的准备。
 
-* 庇护所
+* 背包级
 :PROPERTIES:
 :heading: true
 :END:
-* 水源
+** 庇护所
 :PROPERTIES:
 :heading: true
 :END:
-* 食物
+***
+** 水源
 :PROPERTIES:
 :heading: true
 :END:
-* 火源
+** 食物
 :PROPERTIES:
 :heading: true
 :END:
-* 工具
+** 火源
+:PROPERTIES:
+:heading: true
+:END:
+** 工具
+:PROPERTIES:
+:heading: true
+:END:
+* 胸包/挎包级 贴身物品
+:PROPERTIES:
+:heading: true
+:END:
+** 庇护所
+:PROPERTIES:
+:heading: true
+:END:
+***
+** 水源
+:PROPERTIES:
+:heading: true
+:END:
+** 食物
+:PROPERTIES:
+:heading: true
+:END:
+** 火源
+:PROPERTIES:
+:heading: true
+:END:
+** 工具
 :PROPERTIES:
 :heading: true
 :END:
