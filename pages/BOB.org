@@ -8,14 +8,20 @@
 :PROPERTIES:
 :heading: true
 :END:
+*** 矿泉水 500ml ✖️ 4
 ** 食物
 :PROPERTIES:
 :heading: true
 :END:
+*** 压缩饼干 ✖️ 6
+*** 适量药用维生素
 ** 火源
 :PROPERTIES:
 :heading: true
 :END:
+*** 一次性打火机
+*** 三芯蜡烛
+*** 卡片炉
 ** 工具
 :PROPERTIES:
 :heading: true
@@ -28,15 +34,26 @@
 :PROPERTIES:
 :heading: true
 :END:
+*** 净水吸管
 ** 食物
 :PROPERTIES:
 :heading: true
 :END:
+*** 奶糖
+注意巧克力会化
+*** 固体运动饮料
 ** 火源
 :PROPERTIES:
 :heading: true
 :END:
+*** 打火机
+*** 打火石
 ** 工具
 :PROPERTIES:
 :heading: true
 :END:
+** 睡眠
+:PROPERTIES:
+:heading: true
+:END:
+*** 铝箔三件套：雨披、帐篷、睡袋
