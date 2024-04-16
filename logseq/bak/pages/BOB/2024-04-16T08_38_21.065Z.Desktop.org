@@ -13,23 +13,22 @@
 :PROPERTIES:
 :heading: true
 :END:
-- 压缩饼干 ✖️ 6
-- 适量药用维生素
-- 金属饭盒
+*** 压缩饼干 ✖️ 6
+*** 适量药用维生素
+*** 金属饭盒
 ** 火源
 :PROPERTIES:
 :heading: true
 :END:
-- 一次性打火机
-- 三芯蜡烛
-- 卡片炉
-- 固体燃料块
+*** 一次性打火机
+*** 三芯蜡烛
+*** 卡片炉
+*** 固体燃料块
 ** 个人卫生
 :PROPERTIES:
 :heading: true
 :END:
 - 换洗衣物
-- 毛巾牙刷
 - 应急尿袋
 ** 医疗
 :PROPERTIES:
@@ -45,7 +44,7 @@
 :PROPERTIES:
 :heading: true
 :END:
-- 应急收音机
+*** 应急收音机
 * 胸包/挎包级 贴身物品
 :PROPERTIES:
 :heading: true
@@ -54,26 +53,27 @@
 :PROPERTIES:
 :heading: true
 :END:
-- 净水吸管
+*** 净水吸管
 ** 食物
 :PROPERTIES:
 :heading: true
 :END:
-- 奶糖、水果糖（巧克力会化
-- 固体运动饮料
+*** 奶糖
+注意巧克力会化
+*** 固体运动饮料
 ** 火源
 :PROPERTIES:
 :heading: true
 :END:
-- 打火机
-- 打火石
+*** 打火机
+*** 打火石
 ** 工具
 :PROPERTIES:
 :heading: true
 :END:
-- 头灯
+*** 头灯
 ** 睡眠
 :PROPERTIES:
 :heading: true
 :END:
-- 铝箔三件套：雨披、帐篷、睡袋
+*** 铝箔三件套：雨披、帐篷、睡袋
