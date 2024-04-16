@@ -45,7 +45,9 @@
 :PROPERTIES:
 :heading: true
 :END:
-- 应急收音机
+- 应急收音机 :GDS:
+  德生 GR-98
+- 电源：充电宝
 * 胸包/挎包级 贴身物品
 :PROPERTIES:
 :heading: true
