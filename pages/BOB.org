@@ -1,4 +1,5 @@
 #+DESCRIPTION: BOB, 此处指 Bug Out Bag，即跑路包，本页面主要收录低体力低技术的脆皮年轻人在赛里斯境内城市环境面临公共卫生事件与重大自然灾害时等待救援的准备。
+#+TAGS: GDS
 
 * 背包级
 :PROPERTIES:
@@ -15,15 +16,14 @@
 :END:
 - 压缩饼干 ✖️ 6
 - 适量药用维生素
-- 金属饭盒
+- 金属老式饭盒
 ** 火源
 :PROPERTIES:
 :heading: true
 :END:
 - 一次性打火机
 - 三芯蜡烛
-- 卡片炉
-- 固体燃料块
+- 卡片炉+固体燃料块
 ** 个人卫生
 :PROPERTIES:
 :heading: true
@@ -45,9 +45,11 @@
 :PROPERTIES:
 :heading: true
 :END:
-- 应急收音机 :GDS:
+- 多功能收音机
   德生 GR-98
-- 电源：充电宝
+- 充电宝
+- 多功能钳子
+- 工兵铲（205、A3）
 * 胸包/挎包级 贴身物品
 :PROPERTIES:
 :heading: true
@@ -73,7 +75,7 @@
 :PROPERTIES:
 :heading: true
 :END:
-- 头灯
+- 干电池头灯
 ** 睡眠
 :PROPERTIES:
 :heading: true
