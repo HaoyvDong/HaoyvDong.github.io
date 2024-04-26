@@ -1,0 +1,20 @@
+* [[https://sspai.com/post/79793][一日一技 | 如何用坚果云在 Steam Deck 和 PC 之间同步存档 - 少数派]]
+- 各个游戏的存档位置： ~/home/.local/share/Steam/steamapps/compatdata~
+* 重置吟唱
+#+begin_src bash
+  passwd
+  curl -L https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sh
+  curl -L http://i.ohmydeck.net | sh
+  sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
+  https://mirror.sjtu.edu.cn/flathub/flathub.flatpakrepo
+  sudo steamos-readonly disable
+  pacman-key --init
+  pacman-key --populate
+  
+#+end_src
+* 常用资源
+- [[https://help.steampowered.com/zh-cn/faqs/view/69E3-14AF-9764-4C28][Steam 客服 Steam Deck - 基本使用及故障排除指南]] 官方
+- [[https://help.steampowered.com/zh-cn/faqs/view/671A-4453-E8D2-323C][Steam 客服 :: Steam Deck 桌面模式：常见问题]]
+- [[https://sjtug.org/post/mirror-help/flathub/][flathub · SJTUG - A Joyful Techie User Group]]  更换 Flathub 源
+- [[https://github.com/SteamDeckHomebrew/decky-loader][SteamDeckHomebrew/decky-loader: A plugin loader for the Steam Deck.]]
+- [[https://github.com/YukiCoco/ToMoon][YukiCoco/ToMoon: 基于 SteamOS 定制的网络工具，自动配置 TUN 模式加速游戏，网络代理。]]    
