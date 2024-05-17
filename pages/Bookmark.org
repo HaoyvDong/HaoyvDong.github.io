@@ -33,51 +33,10 @@ https://szfilehelper.weixin.qq.com/
 :heading: true
 :collapsed: true
 :END:
-** Podcast | 播客
-:PROPERTIES:
-:heading: true
-:END:
-*** [[https://xyzrank.com/#/][中文播客榜]]
-:PROPERTIES:
-:END:
-榜单只是一种维度，愿你找到喜欢的节目
-*** [[https://pod.link/][pod.link | Share a Podcast]]
-:PROPERTIES:
-:END:
-Share a Podcast
-*** [[https://tech-podcasts.github.io/it-technology-podcast/][Hello from IT 技术相关播客 | IT 技术相关播客]]
-** 音乐 | Music
-:PROPERTIES:
-:heading: true
-:collapsed: true
-:END:
-*** [[http://music.zhuolin.wang/][VIP会员付费音乐解析下载网]]
-:PROPERTIES:
-:END:
-一款在线免费下载付费VIP音乐的网站。具有音乐搜索、播放、下载、歌词同步显示、个人音乐播放列表同步等功能。
-*** [[https://i.oppsu.cn/][iSearch 4.5 - iTunes搜索从此变得如此简单]]
-:PROPERTIES:
-:END:
-iSearch 是一个提供iTunes搜索,试听,高清专辑封面获取,查看最新音乐动态等综合性平台!
-*** [[https://chinesealbumart.com/][Chinese Album Art – The Best Album Art Covers Web Site for Chinese Music]]
-*** [[https://www.cdbao.net/][CD包音乐网]]
-CD包音乐网 - 专业的无损音乐分享论坛，分享高音质无损音乐免费下载。提供ape、flac、wav、mp3、aac等格式专辑，汽车CD、慢摇DJ、影视原声等打包CD下载以及音乐资讯、乐评、在线试听及歌曲推荐。 APE,FLAC,WAV,CD,MP3专辑网站！
-*** [[https://www.cdhires.com/][醉音论坛]]
-:PROPERTIES:
-:END:
-CdHires音乐论坛提供WAV,APE,FLAC,DTS等优质真实的高采样Hires音乐资源分享！
-*** [[https://www.allmusic.com/][AllMusic | Record Reviews, Streaming Songs, Genres & Bands]]
-音乐数据库
-*** [[https://pan.xunlei.com/s/VMfr1EAQOMKGRvxTjj_4F85JA1?password=4mdx&path=%2F][陈奕迅迅雷网盘]]
-:PROPERTIES:
-:END:
-迅雷云盘
 ** [[https://eja.tv/][eja.tv - Search and watch more than 4000 live iptv channels from around the world.]]
 :PROPERTIES:
 :END:
 Search and watch more than 4000 live iptv channels from around the world.
-** [[https://pan.baidu.com/s/1F1IUXVZ9c5dfuPHPi6zEmw?pwd=1o22][EpicRapBattle 补档]]
-[[https://space.bilibili.com/5943503/][Torchwaver的个人空间_哔哩哔哩_bilibili]]
 ** [[http://www.549.tv/][影视森林——观影第一站]]
 ** BT
 :PROPERTIES:
