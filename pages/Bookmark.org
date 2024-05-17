@@ -66,11 +66,6 @@ The ONLY official site for FitGirl Repacks. Every single FG repack installer has
 Keyboard | Radios | Routers | Other hardwares
 ** [[https://tustation.gitbook.io/tuusermanual/][客制化小站-键盘]]
 ** [[https://config.slicemk.com/ergodox/][SliceMK Configurator]]
-** [[https://www.slicemk.com/][Premium wireless mechanical keyboard]]
-** [[https://www.right.com.cn/forum/][恩山无线论坛]]
-:PROPERTIES:
-:END:
-恩山无线论坛,无线路由器爱好者的乐园
 ** [[https://www.panelook.cn/][【全球液晶屏交易中心 - 屏库】]]
 :PROPERTIES:
 :END:
@@ -83,14 +78,10 @@ HamCQ为国内业余无线电爱好者社区，一起来共建业余无线电生
 :PROPERTIES:
 :END:
 This is a discussion forum of China Amateur Radios. 这是一个中国业余无线电爱好者的论坛.
-** [[https://endoflife.date/][End-Of-Life, support schedule of products.]]
-
-Check end-of-life, support schedule, and release timelines for more than 200 products at one place.
 ** [[https://www.dongleauth.com/][USB Dongle Authentication]]
 :PROPERTIES:
 :END:
 List of websites and whether or not they support One Time Passwords (OTP) or Universal 2nd Factor (U2F).
-** [[https://meta.appinn.net/][小众软件论坛]]
 * Programming
 :PROPERTIES:
 :collapsed: true

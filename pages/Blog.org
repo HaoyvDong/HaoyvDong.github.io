@@ -221,7 +221,8 @@ https://cdn.sspai.com/minja/sspai.css.zip
 *** Markdown.css
 CSS to make HTML markup look like plain-text markdown.
 https://mrcoles.com/demo/markdown-css/
-***
+*** 赫蹏
+[[https://github.com/sivan/heti][sivan/heti: 赫蹏（hètí）是专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以为网站的读者带来更好的文章阅读体验。]]
 ** #Article
 *** [[https://sspai.com/post/75170][一日一技 | 如何给自制电子书添加脚注 - 少数派]]
 - 正则中的tab： ~\t~
