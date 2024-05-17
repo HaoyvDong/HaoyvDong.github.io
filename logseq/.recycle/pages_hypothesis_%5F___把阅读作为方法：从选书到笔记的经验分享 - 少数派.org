@@ -1,0 +1,82 @@
+:PROPERTIES:
+:hypothesis-uri: https://sspai.com/post/78133
+:hypothesis-title: 把阅读作为方法：从选书到笔记的经验分享 - 少数派
+:hypothesis-naming-scheme: 0.2.0
+:END:
+
+* 📌 慎重选择核心应用。首尾两端的应用，即管理所有书目的「首」和管理所有笔记的「尾」，是这套系统的核心。因为一旦改弦易辙，极有可能涉及核心数据迁移，导致系统短期内失效；但是只要两端是稳定的，中间即便发散些、偶尔尝尝鲜，也总能收拢回来。
+:PROPERTIES:
+:hid: b-47dO7NEe2yTGdu6f2Rig
+:updated: 2023-05-10T00:56:03.164626+00:00
+:END:
+* 📌 Know Thyself 没有捷径，他人经验能提供的帮助也很有限。
+:PROPERTIES:
+:hid: 8bKWSu7OEe27lbfnrmKuaA
+:updated: 2023-05-10T01:06:50.386327+00:00
+:END:
+* 📌 与书交流是一种相当棒的方式：与线上信息相比，书籍系统而深刻；与找到合适的人相比，找到适合自己的书更加方便经济。
+:PROPERTIES:
+:hid: EWoApO7PEe2DZQuq2YO5mQ
+:updated: 2023-05-10T01:07:43.593139+00:00
+:END:
+* 📌 我如今的一些阅读方向，其实是小时候所看漫画的延伸（感谢当年父母的开明）：《交响情人梦》是我的古典乐启蒙，《P. A. 替身天使》让我意识到人性的复杂，《凡尔赛玫瑰》激起我对法国大革命的兴趣，而《玩偶游戏》《来自远方》是我依然会推荐给孩子的漫画，并且强烈推荐家长可以和孩子一起讨论。
+:PROPERTIES:
+:hid: PpXBJu7PEe2Y5tfmxudXbg
+:updated: 2023-05-10T01:08:59.376276+00:00
+:END:
+* 📌 积累、维护自己关于阅读的信息渠道。如果发现有篇书评写得不错，可以试着找找出处：是谁写的？能不能找到他的豆瓣页面？他推荐的书我感兴趣的多么？要不要订阅他的豆瓣动态（这是我有很多 RSS 信息源的原因之一😁）？如果发现有本书非常喜欢，可以看看：这是谁出品的，属于哪个丛书，这个系列的其他图书是否喜欢？它有没有获过图书奖项，该奖项的历年获奖作品我是否同样喜欢？
+:PROPERTIES:
+:hid: YwCC2u7PEe2f0Cvtf9iQRg
+:updated: 2023-05-10T01:10:00.468513+00:00
+:END:
+* 📌 我会定期（通常每月）将豆瓣中的「想读」通过 Zotero translator 批量保存到 Zotero。从 Zotero 导出 csv 后，略加处理再通过 Import List 插件导入到 calibre
+:PROPERTIES:
+:hid: kl11EO7PEe2TzRtXYEEpBg
+:updated: 2023-05-10T01:11:19.912781+00:00
+:END:
+* 📌 私人图书馆并不是一个用来自我膨胀的装饰，而是研究工具。读过的书远远不如未读的书有价值。随着年岁的增长，你会积累越来越多的知识和书，而书架上越来越多的你还没读的书会让你产生紧迫感。实际上，你知道得越多，未读的书占据的书架也越多。塔勒布的《黑天鹅》：
+:PROPERTIES:
+:hid: FrkgYO7REe2y6CMzUejwrw
+:updated: 2023-05-10T01:22:11.477736+00:00
+:END:
+* 📌 书籍不只是用来阅读的，也是日后查阅资料的重要方式。
+:PROPERTIES:
+:hid: LMjjIu7REe2XTQOWzzUv7Q
+:updated: 2023-05-10T01:22:48.506490+00:00
+:END:
+* 📌 处理不只是事务性活动，更是认知活动。 
+:PROPERTIES:
+:hid: Xmf6lO7REe2BvW_-G6uKsA
+:updated: 2023-05-10T01:25:01.775039+00:00
+:END:
+📝 分类就是知识本身！分类的过程也是在训练自己的信息抽取和处理能力。
+* 📌 标签使用一定要克制，用词应统一、准确、有代表性，不能想到什么就加什么，否则与其花费时间去打标签，不如直接使用搜索。
+:PROPERTIES:
+:hid: rkD5Eu7REe2j7IfOVicQ3w
+:updated: 2023-05-10T01:26:25.724607+00:00
+:END:
+* 📌 在规范用词的基础上，标签使用有两个改良方向：一是限制，使用有限的标签，辅助检索；二是深化，贴近树形结构的实现，辅助导航。
+:PROPERTIES:
+:hid: twS2Bu7REe20NivQ-it1lg
+:updated: 2023-05-10T01:26:40.426968+00:00
+:END:
+* 📌 1 收集：汇总所有感兴趣的书
+:PROPERTIES:
+:hid: wyvBIO7TEe2EyZuP1J05fg
+:updated: 2023-05-10T01:41:19.813286+00:00
+:END:
+* 📌 2 处理：打造你的未读书库
+:PROPERTIES:
+:hid: 4TPqRO7TEe27qA9RI2wJXw
+:updated: 2023-05-10T01:42:10.199344+00:00
+:END:
+* 📌 3 计划：通往主题阅读
+:PROPERTIES:
+:hid: 56m1_O7TEe2yaP-3HyVBaw
+:updated: 2023-05-10T01:42:21.033708+00:00
+:END:
+* 📌 书籍阅读通常需要必要的前置知识，这就意味着阅读需要安排合适的顺序。
+:PROPERTIES:
+:hid: fGntEPlMEe2SOY8T6sI9yg
+:updated: 2023-05-23T09:30:41.808453+00:00
+:END:
