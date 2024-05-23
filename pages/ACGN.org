@@ -67,9 +67,6 @@
 ** [[https://www.lightnovel.us/cn/][轻之国度-专注分享的NACG社群]]
 我常常疑惑汉化组是怎么忍受轻国的使用体验还不允许转载要别人一起来用的
 ** [[https://www.wenku8.net/index.php][轻小说文库 - 最新最全的日本动漫轻小说在线阅读与下载基地]]
-:PROPERTIES:
-:END:
-轻小说文库(www.wenku8.com)是收录最全更新最快的动漫sf轻小说网站,提供轻小说在线阅读,TXT与电子书下载,支持手机WAP访问.
 ** [[http://ritdon.com/forum.php][深夜读书会]]
 :PROPERTIES:
 :END:
@@ -78,7 +75,6 @@
 :PROPERTIES:
 :END:
 哔哩轻小说是收录最全更新最快的轻小说文库，动漫sf轻小说网站，提供轻小说在线阅读。
-** [[https://gitlab.com/demonovel/epub-txt][demonovel / epub-txt · GitLab]]
 ** [[https://mobinovels.com/][魔笔小说 | 轻小说 资源收集]]
 * Game 游戏
 :PROPERTIES:
