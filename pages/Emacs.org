@@ -22,3 +22,7 @@
 [[https://github.com/minad/vertico][minad/vertico: 💫 vertico.el - VERTical Interactive COmpletion]]
 ** Which-key
 [[https://github.com/justbur/emacs-which-key][justbur/emacs-which-key: Emacs package that displays available keybindings in popup]]
+** Orderless
+[[https://github.com/oantolin/orderless][oantolin/orderless: Emacs completion style that matches multiple regexps in any order]]
+** Markdown-Mode
+[[https://jblevins.org/projects/markdown-mode/][Markdown Mode for Emacs]]
