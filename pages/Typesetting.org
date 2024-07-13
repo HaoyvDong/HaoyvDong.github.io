@@ -68,6 +68,8 @@ Converting images to $\LaTeX$
 :PROPERTIES:
 :heading: true
 :END:
+** [[https://github.com/sofish/typo.css][sofish/typo.css: 中文网页重设与排版]]
+目标：一致化浏览器排版效果，构建最适合中文阅读的网页排版。包括桌面和移动平台。
 ** [[https://sivan.github.io/heti/][赫蹏 - 一个简约又简单的网页中文排版增强]]
 赫hè蹏tí是专为中文网页内容设计的排版样式增强。它基于通行的中文排版规范，可为网站的读者带来更好的内容阅读体验。
 * Font
