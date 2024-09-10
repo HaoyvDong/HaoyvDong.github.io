@@ -59,6 +59,29 @@ The ONLY official site for FitGirl Repacks. Every single FG repack installer has
 打造国内NAS网络存储器最活跃的黑群晖论坛，本站是最专业的NAS交流论坛，全部讨论以NAS和PT站邀请码为核心，集聚了最活跃的一部分NAS爱好者和PT网站爱好者,家庭服务器数据中心
 *** [[https://btbtt15.com/][BT之家-分享快乐,如此简单!-BT电影天堂-影视资源交流社区]]
 *** [[https://rargb.to/][RARGB Rargb Index page - RARGB.to - RARGB Proxy]]
+* 电子数码
+:PROPERTIES:
+:collapsed: true
+:END:
+Keyboard | Radios | Routers | Other hardwares
+** [[https://tustation.gitbook.io/tuusermanual/][客制化小站-键盘]]
+** [[https://config.slicemk.com/ergodox/][SliceMK Configurator]]
+** [[https://www.panelook.cn/][【全球液晶屏交易中心 - 屏库】]]
+:PROPERTIES:
+:END:
+4万个液晶屏型号供选型、4万个液晶屏规格书下载、千万片液晶屏现货、340多个液晶屏尺寸、100多项液晶屏性能参数、90多个液晶屏品牌、40多种液晶屏应用产品。
+** [[https://forum.hamcq.cn/][HamCQ 社区]]
+:PROPERTIES:
+:END:
+HamCQ为国内业余无线电爱好者社区，一起来共建业余无线电生态吧~
+** [[https://www.hellocq.net/forum/][哈罗CQ火腿社区]]
+:PROPERTIES:
+:END:
+This is a discussion forum of China Amateur Radios. 这是一个中国业余无线电爱好者的论坛.
+** [[https://www.dongleauth.com/][USB Dongle Authentication]]
+:PROPERTIES:
+:END:
+List of websites and whether or not they support One Time Passwords (OTP) or Universal 2nd Factor (U2F).
 * Programming
 :PROPERTIES:
 :collapsed: true
