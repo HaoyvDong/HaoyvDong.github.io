@@ -1,25 +1,24 @@
-#+PROPERTY: header-args:emacs-lisp :results silent :tangle "~/.emacs.d/init.el"
+
 * early-init
-#+begin_src  emacs-lisp :tangle "~/.emacs.d/early-init.el"
+#+begin_src
   ;;; early-init.el --- Early initialization. -*- lexical-binding: t -*-
-  
-  ;; Faster to disable these here (before they've been initialized)
-  (push '(menu-bar-lines . 0) default-frame-alist)
-  (push '(tool-bar-lines . 0) default-frame-alist)
-  (push '(vertical-scroll-bars) default-frame-alist)
-  (push '(fullscreen . maximized) default-frame-alist)
-  
-  ;; (setq-default mode-line-format nil)
-  
-  
-  (provide 'early-init)
-  
-  ;;; early-init.el ends here
-  
+
+;; Faster to disable these here (before they've been initialized)
+(push '(menu-bar-lines . 0) default-frame-alist)
+(push '(tool-bar-lines . 0) default-frame-alist)
+(push '(vertical-scroll-bars) default-frame-alist)
+(push '(fullscreen . maximized) default-frame-alist)
+
+;; (setq-default mode-line-format nil)
+
+
+(provide 'early-init)
+
+;;; early-init.el ends here
+
 #+end_src
 * Init.el
-
-#+begin_src emacs-lisp
+#+BEGIN_SRC elisp
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -207,4 +206,4 @@
 
 (desktop-save-mode 1)
 
-#+end_src
+#+END_SRC

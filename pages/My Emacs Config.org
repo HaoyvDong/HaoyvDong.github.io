@@ -1,24 +1,25 @@
-
+#+PROPERTY: header-args:emacs-lisp :results silent :tangle "~/.emacs.d/init.el"
 * early-init
-#+begin_src
+#+begin_src  emacs-lisp :tangle "~/.emacs.d/early-init.el"
   ;;; early-init.el --- Early initialization. -*- lexical-binding: t -*-
-
-;; Faster to disable these here (before they've been initialized)
-(push '(menu-bar-lines . 0) default-frame-alist)
-(push '(tool-bar-lines . 0) default-frame-alist)
-(push '(vertical-scroll-bars) default-frame-alist)
-(push '(fullscreen . maximized) default-frame-alist)
-
-;; (setq-default mode-line-format nil)
-
-
-(provide 'early-init)
-
-;;; early-init.el ends here
-
+  
+  ;; Faster to disable these here (before they've been initialized)
+  (push '(menu-bar-lines . 0) default-frame-alist)
+  (push '(tool-bar-lines . 0) default-frame-alist)
+  (push '(vertical-scroll-bars) default-frame-alist)
+  (push '(fullscreen . maximized) default-frame-alist)
+  
+  ;; (setq-default mode-line-format nil)
+  
+  
+  (provide 'early-init)
+  
+  ;;; early-init.el ends here
+  
 #+end_src
 * Init.el
-#+BEGIN_SRC elisp
+
+#+begin_src emacs-lisp
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -41,15 +42,30 @@
  '(default ((t (:family "Sarasa Term Slab SC" :foundry "outline" :slant normal :weight regular :height 161 :width normal)))))
 
 (server-mode t)
+(desktop-save-mode 1)
 
-(prefer-coding-system 'utf-8)          ; pretty
-(setq selection-coding-system 'utf-8)  ; pretty
-(setq locale-coding-system 'utf-8)     ; please
-(setq file-name-coding-system 'chinese-gb18030)
-(set-clipboard-coding-system 'chinese-gb18030)
+#+end_src
 
+** localization
+#+begin_src emacs-lisp
+  (prefer-coding-system 'utf-8)          ; pretty
+  (setq selection-coding-system 'utf-8)  ; pretty
+  (setq locale-coding-system 'utf-8)     ; please
+  (setq file-name-coding-system 'chinese-gb18030)
+  (set-clipboard-coding-system 'chinese-gb18030)
+    
+  (setq system-time-locale "C")
+  (format-time-string "%Y-%m-%d")
+  
+#+end_src
+
+** use-package
+#+begin_src emacs-lisp
 (require 'use-package)
+#+end_src
 
+*** vertico orderless marginalia which-key
+#+begin_src emacs-lisp
 (use-package vertico
   :ensure t
   :hook (after-init . vertico-mode))
@@ -69,7 +85,9 @@
 (use-package which-key
   :ensure t
   :hook (after-init . which-key-mode))
-
+#+end_src
+*** treemacs
+#+begin_src emacs-lisp
 (use-package treemacs
   :ensure t
   :defer t
@@ -165,7 +183,9 @@
   :ensure t)
 
 (treemacs-start-on-boot)
-
+#+end_src
+*** Org-Mode
+#+begin_src emacs-lisp
 (use-package org
   :pin melpa
   :ensure t
@@ -178,11 +198,9 @@
 
 (keymap-global-set "<f10>" #'tmm-menubar)
 (advice-add #'tmm-add-prompt :after #'minibuffer-hide-completions)
-
-
-(setq system-time-locale "C")
-(format-time-string "%Y-%m-%d")
-
+#+end_src
+*** conda beancount
+#+begin_src emacs-lisp
 (use-package conda
   :ensure t
   :custom
@@ -196,7 +214,8 @@
      (conda-env-activate "bean") ; 激活conda环境
      (beancount-fava)  
      )))
-
+*** themes
+#+begin_src emacs-lisp
 (use-package auto-dark
   :ensure t
   :custom
@@ -204,6 +223,4 @@
   :init (auto-dark-mode))
 (define-key global-map (kbd "<f5>") #'modus-themes-toggle)
 
-(desktop-save-mode 1)
-
-#+END_SRC
+#+end_src
