@@ -419,7 +419,7 @@
  :default-home {:page "Contents"}
  :feature/enable-flashcards? false
  :feature/enable-whiteboards? false
- :journal/page-title-format "yyyy/MM/dd"
+ :journal/page-title-format "yyyyMMdd"
  :ui/show-brackets? true
  :graph/settings {:journal? true
  :builtin-pages? true}}

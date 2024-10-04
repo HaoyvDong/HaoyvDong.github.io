@@ -6,6 +6,7 @@
 :PROPERTIES:
 :heading: true
 :END:
+** [[My Emacs Config]]
 * 插件
 ** Org-Mode
 :PROPERTIES:

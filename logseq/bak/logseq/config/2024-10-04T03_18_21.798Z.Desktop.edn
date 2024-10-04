@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites []
+ :favorites ["Contents"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -419,4 +419,7 @@
  :default-home {:page "Contents"}
  :feature/enable-flashcards? false
  :feature/enable-whiteboards? false
- :journal/page-title-format "yyyy-MM-dd EEEE"}
+ :journal/page-title-format "yyyy/MM/dd"
+ :ui/show-brackets? true
+ :graph/settings {:journal? true
+ :builtin-pages? true}}
