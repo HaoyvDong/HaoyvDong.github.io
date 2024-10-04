@@ -25,7 +25,6 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(column-number-mode t)
  '(initial-buffer-choice 'eshell)
  '(make-backup-files nil)
  '(package-archives
@@ -58,7 +57,16 @@
   (format-time-string "%Y-%m-%d")
   
 #+end_src
+** ui
+#+begin_src emacs-lisp
+  (column-number-mode t)
+  (global-display-line-numbers-mode t)
+  (setq display-line-numbers-type 'relative)
+  
+  (keymap-global-set "<f10>" #'tmm-menubar)
+  (advice-add #'tmm-add-prompt :after #'minibuffer-hide-completions)
 
+#+end_src
 ** use-package
 #+begin_src emacs-lisp
 (require 'use-package)
@@ -192,12 +200,6 @@
   :custom
   (org-agenda-files "c:/Users/Randir/configBackup/org/")
   (org-directory "c:/Users/Randir/configBackup/org"))
-
-(global-display-line-numbers-mode t)
-(setq display-line-numbers-type 'relative)
-
-(keymap-global-set "<f10>" #'tmm-menubar)
-(advice-add #'tmm-add-prompt :after #'minibuffer-hide-completions)
 #+end_src
 *** conda beancount
 #+begin_src emacs-lisp
