@@ -1,5 +1,11 @@
 #+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
 
+* Czkawka-GUI 调整字体大小
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+** 浏览过[[https://meta.appinn.net/t/52330/12][文件去重软件对比]]后决定保留功能相对齐全的 Czkawka 作为去重软件，但是默认 UI 实在字号过小，在 Windows 上没有跟随系统设置，好在[[https://github.com/qarmin/czkawka/issues/787#issuecomment-1292253437][网友给出了解决方案]]。
 * ~ROBOCOPY  /MIR~ 命令系统权限解决
 :PROPERTIES:
 :heading: true
