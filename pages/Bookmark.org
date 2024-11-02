@@ -28,45 +28,10 @@ https://szfilehelper.weixin.qq.com/
 *** [[https://meta.appinn.net/t/topic/383][Pdf 工具收集 - 大家的板块 / 网络黄页 - 小众软件官方论坛]]
 *** [[https://pan.baidu.com/s/1PnpZ3Bk-lTArrajva7EVzQ?pwd=4hie][老马的原创空间 | strnghrs]]
 ** [[https://meta.appinn.net/t/topic/17302][Adobe桌面软件的替代品 - 大家的板块 / 网络黄页 - 小众软件官方论坛]]
-* Media Consumption
-:PROPERTIES:
-:heading: true
-:collapsed: true
-:END:
-** [[https://eja.tv/][eja.tv - Search and watch more than 4000 live iptv channels from around the world.]]
-:PROPERTIES:
-:END:
-Search and watch more than 4000 live iptv channels from around the world.
-** [[http://www.549.tv/][影视森林——观影第一站]]
-** BT
-:PROPERTIES:
-:heading: true
-:collapsed: true
-:END:
-*** [[http://www.ptyqm.com/][PT邀请码网 - mteam,ttg,hdsky,chdbits,hdchina,cmct高清电影pt站,群晖家用nas,智能家庭影院音响交流]]
-:PROPERTIES:
-:END:
-PT邀请码网(www.ptyqm.com)，发布高清片源PT站开放邀请注册信息，提供mteam、hdsky、chdbits、hdchina、TTG PT站、hdroad等高清PT邀请码，传授高清片源PT站生存策略，以及过PT站考核技巧。发布家用NAS存储、家庭影院音响、投影等设备资讯。
-*** [[https://fitgirl-repacks.site/][FitGirl Repacks]]
-:PROPERTIES:
-:END:
-The ONLY official site for FitGirl Repacks. Every single FG repack installer has a link inside, which leads here. Do not fall for fake and scam sites, which are using my name.
-*** [[https://www.d211.cc/][磁力搜索 - 专业的磁力,磁力链接搜索引擎]]
-:PROPERTIES:
-:END:
-磁力链接搜索引擎d211磁力(d211.cc)索引了全球最新最热门的BT种子信息和磁力链接，提供磁力链接搜索、BT搜索、种子搜索等强大功能。
-*** [[http://www.gebi1.com/][隔壁网]]
-打造国内NAS网络存储器最活跃的黑群晖论坛，本站是最专业的NAS交流论坛，全部讨论以NAS和PT站邀请码为核心，集聚了最活跃的一部分NAS爱好者和PT网站爱好者,家庭服务器数据中心
-*** [[https://btbtt15.com/][BT之家-分享快乐,如此简单!-BT电影天堂-影视资源交流社区]]
-*** [[https://rargb.to/][RARGB Rargb Index page - RARGB.to - RARGB Proxy]]
 * Programming
 :PROPERTIES:
 :collapsed: true
 :END:
-** [[https://code.org/][学习计算机科学，改变世界！]]  K-12 计算机教育
-每个学校的每个学生都应该有学习计算机科学的机会。计算机科学正在改变所有的东西。
-*** [[https://hourofcode.com/cn/cn][编程一小时：任何人都可以学习]]
-使用计算机科学来探索、玩耍和创造！
 ** [[https://hackway.org/docs/cs/intro][计算机专业学习路线 | HackWay技术学习路线]] 大学计算机自学
 ** #Article
 *** GitHub 初次使用
@@ -82,11 +47,6 @@ The ONLY official site for FitGirl Repacks. Every single FG repack installer has
 *** [[http://www.bathome.net/index.php][批处理之家]]
 批处理之家 国内最实用的批处理论坛，讨论和学习 BAT, CMD, PowerShell, VBS, DOS 等脚本，众多高手帮助你及时解决各种问题。
 ** #Book
-*** [[https://pimbook.org/][A Programmer's Introduction to Mathematics]]
-*** [[https://www.packtpub.com/][Packt | Programming Books, eBooks & Videos for Developers]]
-:PROPERTIES:
-:END:
-Packt is the online library and learning platform for professional developers. Learn Python, JavaScript, Angular and more with eBooks, videos and courses
 *** [[https://it-ebooks.info/][IT Free eBooks]]
 :PROPERTIES:
 :END:
@@ -128,9 +88,6 @@ Public Domain, copyleft, copyright
 :END:
 Global Sequencer by Yuri Suzuki for Hamamatsu UNESCO Creative City of Music.
 ** [[http://datav.aliyun.com/tools/atlas/index.html][地图选择器]]
-** [[https://www.funworld.fun/][FunWorld乐趣世界-互联网内容创作中心]]
-FunWorld乐趣世界是服务于互联网内容创作者的数字服务商。
-通过提供工具软件、教程视频、内容资源的方式，我们不断地向互联网内容创作者提供帮助与支持，在提高内容生产效率、启蒙和提升用户的创作水平等领域，获得广泛好评。
 ** [[https://www.eso.org/public/images/potw2137a/][North Meets South | ESO]]
 在回归线两侧的天文台拍摄的全天星图进行拼接
 * [[https://www.nytimes.com/wirecutter/][Wirecutter: New Product Reviews, Deals, and Buying Advice]]

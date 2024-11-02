@@ -5,6 +5,7 @@
 ** What: Already a [[Blog]] , maybe | 是博客,大概
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 *** 无内鬼，来点博客笑话
 [[https://rakhim.org/honestly-undefined/19/][Blogging vs. blog setups - Rakhim.org]]
@@ -27,14 +28,19 @@
 :id: 64e1667d-c990-434c-b6db-286408974f12
 :heading: true
 :END:
+** [[F279.23 企业管理]]
 ** [[https://tolkiengateway.net/wiki/Main_Page][Tolkien Gateway]]
 :PROPERTIES:
 :id: 64e0b29b-17ab-49be-a5b5-27806d46d38c
+:collapsed: true
 :END:
 the J.R.R. Tolkien encyclopedia that anyone can edit.
 *** [[https://ardalambion.net/][Ardalambion]]
 One of the most comprehensive sites about Tolkien's invented languages that you are likely to find on the net.
 ** [[https://bgm.tv/user/760218][Bangumi 番组计划 我的时光机]]
+:PROPERTIES:
+:collapsed: true
+:END:
 *** [[https://sspai.com/post/70438][你的 Bangumi 番组计划增强版｜用户脚本与组件合集]]
 #Article
 * Referral

@@ -3,6 +3,7 @@
 * ~ROBOCOPY  /MIR~ 命令系统权限解决
 :PROPERTIES:
 :heading: true
+:collapsed: true
 :END:
 ** ~ROBOCOPY /MIR~ 会字面意义上地“镜像”一份文件，所以使用这个命令直接将整个盘符复制到某个文件夹下并且没有提前创建那个文件夹的时候，就会找不到那个文件夹：
 - ls 命令不会列出
