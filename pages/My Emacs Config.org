@@ -149,7 +149,8 @@ vertico orderless marginalia which-key
   :pin melpa
   :custom
   (org-agenda-files '("~/../../configBackup/org"))
-  (org-directory "~/../../configBackup/org"))
+  (org-directory "~/../../configBackup/org")
+  (org-use-sub-superscripts "{}"))
 #+end_src
 *** conda beancount
 #+begin_src emacs-lisp
