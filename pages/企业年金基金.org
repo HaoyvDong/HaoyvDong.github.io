@@ -1,15 +1,18 @@
-* [[企业会计准则第1号──存货]]
+* [[保险法]]
 :PROPERTIES:
-:id: 672484b7-a75a-4086-9f3b-2526a56436f8
+:id: 673aaf2c-5f3c-4aa4-bff7-b738746cc43e
+:heading: true
+:END:
+* [[企业年金基金管理办法]]
+:PROPERTIES:
+:id: 673ab239-f30e-4090-b0aa-03aeae695a47
 :heading: true
 :END:
 * [[企业会计准则第10号——企业年金基金]]
 :PROPERTIES:
 :heading: true
-:id: 673aaf2d-1510-4b4e-bbac-69d42d4d3948
 :END:
 ** [[《企业会计准则第 10 号——企业年金基金》应用指南]]
-* [[企业会计准则第25号──保险合同]]
 :PROPERTIES:
 :heading: true
 :END:

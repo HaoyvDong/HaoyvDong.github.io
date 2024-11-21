@@ -29,8 +29,11 @@
 :heading: true
 :END:
 ** [[F279.23 企业管理]]
-** [[保险法]]
-** [[企业年金基金管理办法]]
+** [[企业年金基金]]
+:PROPERTIES:
+:heading: true
+:id: 673f74cf-830d-4c6d-9061-8f3b933d74d5
+:END:
 ** [[https://tolkiengateway.net/wiki/Main_Page][Tolkien Gateway]]
 :PROPERTIES:
 :id: 64e0b29b-17ab-49be-a5b5-27806d46d38c
