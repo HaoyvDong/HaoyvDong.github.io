@@ -2,6 +2,7 @@
 ** [[https://github.com/redguardtoo/mastering-emacs-in-one-year-guide][陈斌：一年成为Emacs高手]]
 ** [[https://book.emacs-china.org/][子龙山人：21 天学会 Emacs]]
 ** [[https://www.bilibili.com/read/cv17903660][使用 org-mode 管理浏览器书签 - 哔哩哔哩]]
+** [[https://pavinberg.github.io/emacs-book/zh/][专业 Emacs 入门]]
 * Notes
 :PROPERTIES:
 :heading: true

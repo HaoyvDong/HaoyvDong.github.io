@@ -287,7 +287,7 @@ Perl Compatible Regular Expressions
 *** #Article
 - [[https://zhuanlan.zhihu.com/p/138305054][初次使用git上传代码到github远程仓库 - 知乎]]
 - [[https://zhuanlan.zhihu.com/p/467192292][简悦 + Logseq + Github Page 无代码全自动化知识管理发布方案 - 知乎]]，文中介绍的 Action 已经停更了，可以用官方的 
- [https://github.com/logseq/publish-spa][logseq/publish-spa]]
+ [[https://github.com/logseq/publish-spa][logseq/publish-spa]]
 *** 过程中的新知：
 - SSH Key：[[https://git-scm.com/book/zh/v2/%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84-Git-%E7%94%9F%E6%88%90-SSH-%E5%85%AC%E9%92%A5][Git - 生成 SSH 公钥]]
 *** Magit, 用过都说好！ #Emacs

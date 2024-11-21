@@ -7,6 +7,7 @@
 :PROPERTIES:
 :heading: true
 :END:
+** [[《企业会计准则第 10 号——企业年金基金》应用指南]]
 * [[企业会计准则第25号──保险合同]]
 :PROPERTIES:
 :heading: true
