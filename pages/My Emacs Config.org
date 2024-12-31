@@ -107,7 +107,7 @@ vertico orderless marginalia which-key
 *** File Manager
 **** Dired
 Hide all the information about files and folders except their names.
-#+begin_src emacs-lisp
+#+begin_src emacs-lisp :tangle no
 (use-package dired
   :hook
   (auto-revert-mode . dired-mode)
@@ -119,7 +119,7 @@ Hide all the information about files and folders except their names.
 #+end_src
 **** Dired Subtree
 [[https://github.com/Fuco1/dired-hacks#dired-subtree][Dired Subtree]] can list subdirectories with ~Tab~.
-#+begin_src emacs-lisp
+#+begin_src emacs-lisp :tangle no
 (use-package dired-subtree
   :after dired
   :bind
@@ -128,7 +128,7 @@ Hide all the information about files and folders except their names.
    ("<backtab>" . dired-subtree-cycle)))
 #+end_src
 **** Treemacs
-#+begin_src emacs-lisp
+#+begin_src emacs-lisp :tangle no
   (use-package treemacs
     :defer t
     :init
@@ -171,16 +171,64 @@ Hide all the information about files and folders except their names.
     :ensure t)
 
 #+end_src
-** Window Management
-#+begin_src emacs-lisp
-  (use-package dashboard
-    :ensure t
-    :config
-    (dashboard-setup-startup-hook)
-    :custom
-    (initial-buffer-choice '(lambda () (get-buffer-create dashboard-buffer-name))))
-
+**** Dirvish
+[[https://github.com/alexluigit/dirvish][dirvish: A polished Dired with batteries included.]]
+#+begin_src emacs-lisp 
+  ;; Try to replace the treemacs as my scenario is quite simple.
+  (use-package dirvish
+  :init
+  (dirvish-override-dired-mode)
+  :custom
+  (dirvish-quick-access-entries ; It's a custom option, `setq' won't work
+   '(("h" "~/"                          "Home")))
+  :config
+  ;; (dirvish-peek-mode) ; Preview files in minibuffer
+  (dirvish-side-follow-mode) ; similar to `treemacs-follow-mode'
+  (setq dirvish-mode-line-format
+        '(:left (sort symlink) :right (omit yank index)))
+  (setq dirvish-attributes
+        '(file-time file-size collapse subtree-state vc-state))
+  (setq delete-by-moving-to-trash t)
+  (setq dired-listing-switches
+        "-l --almost-all --human-readable --group-directories-first --no-group")
+  :bind ; Bind `dirvish|dirvish-side|dirvish-dwim' as you see fit
+  (("M-0" . dirvish-side)
+   :map dirvish-mode-map ; Dirvish inherits `dired-mode-map'
+   ("a"   . dirvish-quick-access)
+   ("f"   . dirvish-file-info-menu)
+   ("y"   . dirvish-yank-menu)
+   ("N"   . dirvish-narrow)
+   ("^"   . dirvish-history-last)
+   ("h"   . dirvish-history-jump) ; remapped `describe-mode'
+   ("s"   . dirvish-quicksort)    ; remapped `dired-sort-toggle-or-edit'
+   ("v"   . dirvish-vc-menu)      ; remapped `dired-view-file'
+   ("TAB" . dirvish-subtree-toggle)
+   ("M-f" . dirvish-history-go-forward)
+   ("M-b" . dirvish-history-go-backward)
+   ("M-l" . dirvish-ls-switches-menu)
+   ("M-m" . dirvish-mark-menu)
+   ("M-t" . dirvish-layout-toggle)
+   ("M-s" . dirvish-setup-menu)
+   ("M-e" . dirvish-emerge-menu)
+   ("M-j" . dirvish-fd-jump)))
 #+end_src
+** Window Management
+*** Initial Dashboard
+#+begin_src emacs-lisp
+(use-package dashboard
+  :ensure t
+  :config
+  (dashboard-setup-startup-hook)
+  :custom
+  (initial-buffer-choice '(lambda () (get-buffer-create dashboard-buffer-name)))
+  (dashboard-startup-banner 'logo))
+#+end_src
+*** Session
+[[https://github.com/iqbalansari/restart-emacs][restart-emacs]] offers a command ~restart-emacs~.
+#+begin_src emacs-lisp
+(use-package restart-emacs)
+#+end_src
+
 ** Word Processing
 #+begin_src emacs-lisp
     (use-package hl-line
@@ -244,8 +292,7 @@ Hide all the information about files and folders except their names.
   :after conda
   :hook
   (beancount-mode . (lambda ()  
-     (outline-minor-mode t)
-     (conda-env-activate "bean") ; 激活conda环境
-     (beancount-fava)  
-     )))
+                      (outline-minor-mode t)
+                      (conda-env-activate "bean") ; 激活conda环境
+                      (beancount-fava))))
 #+end_src
