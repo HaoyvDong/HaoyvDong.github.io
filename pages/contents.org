@@ -28,12 +28,8 @@
 :id: 64e1667d-c990-434c-b6db-286408974f12
 :heading: true
 :END:
+** [[Emacs]]
 ** [[F279.23 企业管理]]
-** [[企业年金基金]]
-:PROPERTIES:
-:heading: true
-:id: 673f74cf-830d-4c6d-9061-8f3b933d74d5
-:END:
 ** [[https://tolkiengateway.net/wiki/Main_Page][Tolkien Gateway]]
 :PROPERTIES:
 :id: 64e0b29b-17ab-49be-a5b5-27806d46d38c

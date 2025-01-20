@@ -1,21 +1,28 @@
 #+PROPERTY: header-args:emacs-lisp :results silent :tangle "~/.emacs.d/init.el"
 
+* References
+- https://github.com/willbchang/ward-emacs
+- https://github.com/pprevos/emacs-writing-studio/
+- https://github.com/condy0919/emacs-newbie
+- https://github.com/jamescherti/minimal-emacs.d
+- https://github.com/MatthewZMD/.emacs.d
+
 * early-init
 #+begin_src  emacs-lisp :tangle "~/.emacs.d/early-init.el"
   ;;; early-init.el --- Early initialization. -*- lexical-binding: t -*-
-  
+
   ;; Faster to disable these here (before they've been initialized)
   (push '(menu-bar-lines . 0) default-frame-alist)
   (push '(tool-bar-lines . 0) default-frame-alist)
   (push '(vertical-scroll-bars) default-frame-alist)
   (push '(fullscreen . maximized) default-frame-alist)
-  
+  ;; Prevent Emacs from initializing packages before loading user-init-file
+  (setq package-enable-at-startup nil)
   ;; (setq-default mode-line-format nil)
-  
-  (provide 'early-init)
-  
+   (provide 'early-init)
+
   ;;; early-init.el ends here
-  
+
 #+end_src
 * Init.el
 ** Lexical Binding
@@ -32,8 +39,6 @@ In order to enable lexical binding in the config, this must be the first line of
 (when (file-exists-p custom-file)
   (load custom-file))
 
-(server-mode 1)
-
 #+end_src
 ** Package Manager
 #+begin_src emacs-lisp
@@ -43,6 +48,7 @@ In order to enable lexical binding in the config, this must be the first line of
               '(("gnu" . "https://mirrors.ustc.edu.cn/elpa/gnu/")
                 ("melpa" . "https://mirrors.ustc.edu.cn/elpa/melpa/")
                 ("nongnu" . "https://mirrors.ustc.edu.cn/elpa/nongnu/")))
+    :config
     (package-initialize))
   (use-package use-package
     :custom
@@ -59,195 +65,155 @@ In order to enable lexical binding in the config, this must be the first line of
     
   (setq system-time-locale "C")
   (format-time-string "%Y-%m-%d")
-  
+  (use-package cnfonts)
+  (use-package cal-china-x
+    :after cnfonts
+    :custom
+    (calendar-mark-holidays-flag t)
+    (cal-china-x-force-chinese-week-day t)
+    (cal-china-x-always-show-jieqi t))
 #+end_src
 ** UI
 #+begin_src emacs-lisp
   (column-number-mode t)
-  (global-display-line-numbers-mode t)
-  (setq display-line-numbers-type 'relative)
-  
-  (keymap-global-set "<f10>" #'tmm-menubar)
+  (use-package display-line-numbers
+    :hook (after-init . global-display-line-numbers-mode)
+    :custom (display-line-numbers-type 'visual))
+
+ ;; (keymap-global-set "<f10>" #'tmm-menubar)
   (advice-add #'tmm-add-prompt :after #'minibuffer-hide-completions)
   ;; Window management
   ;; Split windows sensibly
-  
+
   (setq split-width-threshold 120
         split-height-threshold nil)
-  
+
 #+end_src
 *** Themes
 #+begin_src emacs-lisp
-(use-package auto-dark
-  :custom
-  (auto-dark-themes '((modus-vivendi) (modus-oprendi)))
-  :init (auto-dark-mode))
-(define-key global-map (kbd "<f5>") #'modus-themes-toggle)
+ (use-package modus-themes
+   :pin melpa
+   :bind
+   (:map global-map
+	      ("<f5>" . modus-themes-toggle))
+   :config
+   (load-theme 'modus-operandi-deuteranopia :no-confim))
+ (use-package auto-dark
+   :custom
+   (auto-dark-themes '((modus-vivendi-deuteranopia) (modus-operandi-deuteranopia)))
+   :init (auto-dark-mode))
 #+end_src
 ** UX
 *** Completion & Prompt
 vertico orderless marginalia which-key
 #+begin_src emacs-lisp
-(use-package vertico
-  :hook (after-init . vertico-mode))
-(use-package savehist
-  :hook (vertico-mode . savehist-mode))
-(use-package orderless
-  :custom
-  (completion-styles '(orderless basic))
-  (completion-category-defaults nil)
-  (completion-category-overrides '((file (styles partial-completion)))))
-(use-package marginalia
-  :bind (:map minibuffer-local-map
-         ("M-A" . marginalia-cycle))
-  :hook (vertico-mode . marginalia-mode))
-(use-package which-key
-  :hook (after-init . which-key-mode))
+    (use-package vertico
+      :hook (after-init . vertico-mode)
+            (vertico-mode . vertico-multiform-mode)
+      :custom (vertico-multiform-commands '((tmm-menubar flat))))
+    (use-package savehist
+      :hook (vertico-mode . savehist-mode))
+    (use-package orderless
+      :custom
+      (completion-styles '(orderless basic))
+      (completion-category-defaults nil)
+      (completion-category-overrides '((file (styles partial-completion)))))
+    (use-package marginalia
+      :bind (:map minibuffer-local-map
+             ("M-A" . marginalia-cycle))
+      :hook (vertico-mode . marginalia-mode))
+    (use-package which-key
+      :hook (after-init . which-key-mode))
 #+end_src
 *** File Manager
-**** Dired
-Hide all the information about files and folders except their names.
-#+begin_src emacs-lisp :tangle no
-(use-package dired
-  :hook
-  (auto-revert-mode . dired-mode)
-  :custom
-  (dired-use-ls-dired nil)
-  (dired-kill-when-opening-new-dired-buffer t)
-  :config
-  (add-hook 'dired-mode-hook (lambda () (dired-hide-details-mode))))
-#+end_src
-**** Dired Subtree
-[[https://github.com/Fuco1/dired-hacks#dired-subtree][Dired Subtree]] can list subdirectories with ~Tab~.
-#+begin_src emacs-lisp :tangle no
-(use-package dired-subtree
-  :after dired
-  :bind
-  (:map  dired-mode-map
-   ("<tab>"     . dired-subtree-toggle)
-   ("<backtab>" . dired-subtree-cycle)))
-#+end_src
-**** Treemacs
-#+begin_src emacs-lisp :tangle no
-  (use-package treemacs
-    :defer t
-    :init
-    (with-eval-after-load 'winum
-      (define-key winum-keymap (kbd "M-0") #'treemacs-select-window))
-    :config
-    (progn
-      (treemacs-resize-icons 24)
-
-      (treemacs-follow-mode t)
-      (treemacs-filewatch-mode t)
-      (treemacs-fringe-indicator-mode 'always)
-      (when treemacs-python-executable
-        (treemacs-git-commit-diff-mode t))
-
-      (pcase (cons (not (null (executable-find "git")))
-                   (not (null treemacs-python-executable)))
-        (`(t . t)
-         (treemacs-git-mode 'deferred))
-        (`(t . _)
-         (treemacs-git-mode 'simple)))
-
-      (treemacs-hide-gitignored-files-mode nil))
-    :bind
-    (:map global-map
-          ("M-0"       . treemacs-select-window)
-          ("C-x t 1"   . treemacs-delete-other-windows)
-          ("C-x t t"   . treemacs)
-          ("C-x t d"   . treemacs-select-directory)
-          ("C-x t B"   . treemacs-bookmark)
-          ("C-x t C-t" . treemacs-find-file)
-          ("C-x t M-t" . treemacs-find-tag)))
-
-  (use-package treemacs-icons-dired
-    :hook (dired-mode . treemacs-icons-dired-enable-once)
-    :ensure t)
-  
-  (use-package treemacs-magit
-    :after (treemacs magit)
-    :ensure t)
-
-#+end_src
 **** Dirvish
 [[https://github.com/alexluigit/dirvish][dirvish: A polished Dired with batteries included.]]
 #+begin_src emacs-lisp 
-  ;; Try to replace the treemacs as my scenario is quite simple.
-  (use-package dirvish
-  :init
-  (dirvish-override-dired-mode)
-  :custom
-  (dirvish-quick-access-entries ; It's a custom option, `setq' won't work
-   '(("h" "~/"                          "Home")))
-  :config
-  ;; (dirvish-peek-mode) ; Preview files in minibuffer
-  (dirvish-side-follow-mode) ; similar to `treemacs-follow-mode'
-  (setq dirvish-mode-line-format
-        '(:left (sort symlink) :right (omit yank index)))
-  (setq dirvish-attributes
-        '(file-time file-size collapse subtree-state vc-state))
-  (setq delete-by-moving-to-trash t)
-  (setq dired-listing-switches
-        "-l --almost-all --human-readable --group-directories-first --no-group")
-  :bind ; Bind `dirvish|dirvish-side|dirvish-dwim' as you see fit
-  (("M-0" . dirvish-side)
-   :map dirvish-mode-map ; Dirvish inherits `dired-mode-map'
-   ("a"   . dirvish-quick-access)
-   ("f"   . dirvish-file-info-menu)
-   ("y"   . dirvish-yank-menu)
-   ("N"   . dirvish-narrow)
-   ("^"   . dirvish-history-last)
-   ("h"   . dirvish-history-jump) ; remapped `describe-mode'
-   ("s"   . dirvish-quicksort)    ; remapped `dired-sort-toggle-or-edit'
-   ("v"   . dirvish-vc-menu)      ; remapped `dired-view-file'
-   ("TAB" . dirvish-subtree-toggle)
-   ("M-f" . dirvish-history-go-forward)
-   ("M-b" . dirvish-history-go-backward)
-   ("M-l" . dirvish-ls-switches-menu)
-   ("M-m" . dirvish-mark-menu)
-   ("M-t" . dirvish-layout-toggle)
-   ("M-s" . dirvish-setup-menu)
-   ("M-e" . dirvish-emerge-menu)
-   ("M-j" . dirvish-fd-jump)))
+    ;; Try to replace the treemacs as my scenario is quite simple.
+    (use-package dirvish
+      :init
+        (dirvish-override-dired-mode)
+      :custom
+        (dirvish-quick-access-entries ; It's a custom option, `setq' won't work
+         '(("h" "~/"                          "Home")))
+      :config
+        ;; (dirvish-peek-mode) ; Preview files in minibuffer
+        (dirvish-side-follow-mode) ; similar to `treemacs-follow-mode'
+        (setq dirvish-mode-line-format
+              '(:left (sort symlink) :right (omit yank index)))
+        (setq dirvish-attributes
+              '(file-time file-size collapse subtree-state vc-state))
+        (setq delete-by-moving-to-trash t)
+        (setq dired-listing-switches
+              "-l --almost-all --human-readable --group-directories-first --no-group")
+      :bind ; Bind `dirvish|dirvish-side|dirvish-dwim' as you see fit
+        (("M-0" . dirvish-side)
+         :map dirvish-mode-map ; Dirvish inherits `dired-mode-map'
+           ("a"   . dirvish-quick-access)
+           ("f"   . dirvish-file-info-menu)
+           ("y"   . dirvish-yank-menu)
+           ("N"   . dirvish-narrow)
+           ("^"   . dirvish-history-last)
+           ("h"   . dirvish-history-jump) ; remapped `describe-mode'
+           ("s"   . dirvish-quicksort)    ; remapped `dired-sort-toggle-or-edit'
+           ("v"   . dirvish-vc-menu)      ; remapped `dired-view-file'
+           ("TAB" . dirvish-subtree-toggle)
+           ("M-f" . dirvish-history-go-forward)
+           ("M-b" . dirvish-history-go-backward)
+           ("M-l" . dirvish-ls-switches-menu)
+           ("M-m" . dirvish-mark-menu)
+           ("M-t" . dirvish-layout-toggle)
+           ("M-s" . dirvish-setup-menu)
+           ("M-e" . dirvish-emerge-menu)
+           ("M-j" . dirvish-fd-jump)
+  	 ("M-u" . dired-up-directory)))
 #+end_src
 ** Window Management
 *** Initial Dashboard
 #+begin_src emacs-lisp
-(use-package dashboard
-  :ensure t
-  :config
-  (dashboard-setup-startup-hook)
-  :custom
-  (initial-buffer-choice '(lambda () (get-buffer-create dashboard-buffer-name)))
-  (dashboard-startup-banner 'logo))
+  (use-package dashboard
+    :ensure t
+    :config
+    (dashboard-setup-startup-hook)
+    :custom
+    (initial-buffer-choice '(lambda () (get-buffer-create dashboard-buffer-name)))
+    (dashboard-startup-banner 2)
+    (dashboard-center-content t))
 #+end_src
 *** Session
 [[https://github.com/iqbalansari/restart-emacs][restart-emacs]] offers a command ~restart-emacs~.
 #+begin_src emacs-lisp
-(use-package restart-emacs)
+  (use-package restart-emacs)
+  (server-start)
 #+end_src
-
-** Word Processing
+*** Buffer
 #+begin_src emacs-lisp
-    (use-package hl-line
-      :hook (after-init . global-hl-line-mode)
-      :config
-      (setq hl-line-sticky-flag nil)
-      ;; Highlight starts from EOL, to avoid conflicts with other overlays
-      (setq hl-line-range-function (lambda () (cons (line-end-position)
-                                               (line-beginning-position 2)))))
-    (use-package markdown-mode)
-    ;;; Text mode settings
+  (use-package saveplace
+  :ensure nil
+  :hook (after-init . save-place-mode))
+#+end_src
+*** Window Tab Line
+#+begin_src emacs-lisp
+(use-package tab-line
+  :config
+  (global-tab-line-mode t))
+#+end_src
+** Word Processing
 
+*** Basic Text-Mode
+#+begin_src emacs-lisp
+  (use-package hl-line
+    :hook (after-init . global-hl-line-mode)
+    :config
+    (setq hl-line-sticky-flag nil)
+    ;; Highlight starts from EOL, to avoid conflicts with other overlays
+    (setq hl-line-range-function (lambda () (cons (line-end-position)
+                                             (line-beginning-position 2)))))
+;;; Text mode settings
   (use-package text-mode
-    :ensure
-    nil
-    :hook
-    (text-mode . visual-line-mode)
-    :init
-    (delete-selection-mode t)
+    :ensure nil
+    :hook  (text-mode . visual-line-mode)
+    :init  (delete-selection-mode t)
     :custom
     (sentence-end-double-space nil)
     (scroll-error-top-bottom t)
@@ -255,15 +221,16 @@ Hide all the information about files and folders except their names.
 #+end_src
 *** Org-Mode
 #+begin_src emacs-lisp
-    (use-package org
-      :pin melpa
-      :custom
-      (org-agenda-files '("~/../../configBackup/org/Inbox.org"))
-      (org-directory "~/../../configBackup/org")
-      (org-use-sub-superscripts "{}"))
-    (use-package org-tempo)
-    ;; Org modern: Most features are disabled for beginning users
+  (use-package org
+    :pin melpa
+    :custom
+    (org-agenda-files '("~/../../configBackup/org/Inbox.org"))
+    (org-directory "~/../../configBackup/org")
+    (org-use-sub-superscripts "{}"))
+  (use-package org-tempo
+    :ensure nil)
 
+;; Org modern: Most features are disabled for beginning users
   (use-package org-modern
     :hook
     (org-mode . org-modern-mode)
@@ -272,8 +239,8 @@ Hide all the information about files and folders except their names.
     (org-modern-keyword nil)
     (org-modern-timestamp nil)
     (org-modern-priority nil)
-    (org-modern-checkbox nil)
-    (org-modern-tag nil)
+    ;;(org-modern-checkbox nil)
+    (org-modern-tag t)
     (org-modern-block-name nil)
     (org-modern-keyword nil)
     (org-modern-footnote nil)
@@ -281,6 +248,13 @@ Hide all the information about files and folders except their names.
     (org-modern-radio-target nil)
     (org-modern-statistics nil)
     (org-modern-progress nil))
+#+end_src
+*** Markdown
+#+begin_src emacs-lisp
+ (use-package markdown-mode
+   :mode (("README\\.md\\'" . gfm-mode)
+      ("\\.md\\'" . markdown-mode)
+      ("\\.markdown\\'" . markdown-mode)))
 #+end_src
 ** Beancount
 #+begin_src emacs-lisp
