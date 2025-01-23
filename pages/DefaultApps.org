@@ -1,8 +1,55 @@
+#+Abstract: Windows 平台为主
 * [[CJK]]
 :PROPERTIES:
 :heading: true
 :END:
-*
+* Multimedia
+:PROPERTIES:
+:heading: true
+:END:
+
+| Category/类别 | Browser/浏览器  | Editor/编辑器 | Manager/管理器 |
+|---------------+-----------------+---------------+----------------|
+| Books/图书    | [[https://yacreader.com/][YACReader]]       | [[https://sigil-ebook.com][Sigil]]         | [[https://calibre-ebook.com][Calibre]]        |
+| Pictures/图片 | [[https://www.irfanview.com][IrfanView]]       | [[https://getsharex.com][ShareX]]        | [[https://www.digikam.org][digiKam]]        |
+| Music/音乐    | [[https://github.com/zhongyang219/MusicPlayer2][MusicPlayer2]]    | [[https://www.mp3tag.de/en][Mp3tag]]        | [[https://www.foobar2000.org][Foobar2000]]     |
+| Videos/视频   | [[https://mpv.io][mpv.io]] [fn:mpv] | [[https://ffmpeg.org][FFmpeg]]        | ----           |
+
+
+* File Management
+:PROPERTIES:
+:heading: true
+:END:
+
+- 下载
+  - [[https://aria2.github.io][aria2]] :: 通用下载工具，我起步使用了[[https://github.com/P3TERX/aria2.conf/blob/master/aria2.conf][这份带中文注释的配置]]
+  - [[https://github.com/c0re100/qBittorrent-Enhanced-Edition][qBittorrent Enhanced Edition]] :: 配合蜜柑计划看新番嗷，或者用末日動漫資源庫的国内镜像
+- 搜索
+  - [[https://www.voidtools.com][Everything]] :: 1.5a 起支持拼音搜索，然而我还没吃上
+- 压缩
+  - 7-Zip :: Scoop 依赖项，基本不用 GUI 了
+  - [[https://peazip.github.io][PeaZip]] :: 智能解压新文件夹、压缩后删除两个功能
+- 备份
+  - [[https://freefilesync.org/][FreeFileSync]] :: 捐了点钱买了便携版
+  - [[https://github.com/Cinchoo/ChoEazyCopy][ChoEazyCopy]] :: [[https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/robocopy][RoboCopy]] 的 GUI 前端，给我等不习惯命令行的凡人使用（
+  - [[https://github.com/Yutaka-Sawada/MultiPar][MultiPar]] :: 其实没在用……类似于 WinRAR 恢复记录，不过是单独创建了恢复文件，个人备份可用吧。
+- 同步
+  - [[https://github.com/kapitainsky/RcloneBrowser][Rclone Browser]] :: 主要用于同步到 WebDAV 盘使用
+  - [[https://github.com/Martchus/syncthingtray][Syncthing Tray]] :: Syncthing 收纳到系统托盘
+- [[https://localsend.org][LocalSend]] :: 局域网设备间传输
+- [[https://github.com/qarmin/czkawka][Czkawka]] :: 文件去重
+
+* Information/Knowledge Management
+
+- [[https://apps.ankiweb.net][Anki]] :: 使用 FSRS
+- [[https://hluk.github.io/CopyQ][CopyQ]] :: 剪贴板管理
+- [[https://www.freeplane.org][Freeplane]] :: 思维导图，不咋用
+- [[https://keepassxc.org][KeePassXC]] :: 密码管理
+- [[https://logseq.com][Logseq]] :: 目前博客使用，准备换
+- [[https://b3log.org/siyuan][SiYuan Note]] :: 当初买了永久会员，目前偶尔用下
+- [[https://www.thunderbird.net][Thunderbird ESR]] :: 邮箱、RSS
+- [[https://www.zotero.org/][Zotero]] :: 网页摘录、RSS
+
 * 浏览器 § Browser
 :PROPERTIES:
 :END:
@@ -14,14 +61,10 @@
 :heading: true
 :END:
 +（目前）没开发 Org-Mode 以外的用途+ Magit 现已加入日用环节
-* [[https://mpv.io][mpv.io]]
-a free, open source, and cross-platform media player
-* [[https://mcool.appinn.me/][Mcool 音乐播放器]]
+
+* Footnotes
 :PROPERTIES:
-:id: 6561893e-325a-419c-b21d-9ca0ebe7238b
+:heading: true
 :END:
-* [[https://yacreader.com/][YACReader]]
-:PROPERTIES:
-:id: 6561893e-df9b-46b2-b978-136be50fca7b
-:END:
-YACReader is the best comic reader and comic manager with support for cbr cbz zip rar comic files. It is available for Windows, Linux, Mac OS X
+
+[fn:mpv] Anki 的 Windows 版自带了一个 mpv ，我在直接使用那个（笑

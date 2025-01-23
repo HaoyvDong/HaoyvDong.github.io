@@ -95,9 +95,7 @@ In order to enable lexical binding in the config, this must be the first line of
    :pin melpa
    :bind
    (:map global-map
-	      ("<f5>" . modus-themes-toggle))
-   :config
-   (load-theme 'modus-operandi-deuteranopia :no-confim))
+	      ("<f5>" . modus-themes-toggle)))
  (use-package auto-dark
    :custom
    (auto-dark-themes '((modus-vivendi-deuteranopia) (modus-operandi-deuteranopia)))
