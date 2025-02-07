@@ -1,19 +1,15 @@
 #+Abstract: Windows 平台为主
-* [[CJK]]
-:PROPERTIES:
-:heading: true
-:END:
 * Multimedia
 :PROPERTIES:
 :heading: true
 :END:
 
-| Category/类别 | Browser/浏览器  | Editor/编辑器 | Manager/管理器 |
-|---------------+-----------------+---------------+----------------|
-| Books/图书    | [[https://yacreader.com/][YACReader]]       | [[https://sigil-ebook.com][Sigil]]         | [[https://calibre-ebook.com][Calibre]]        |
-| Pictures/图片 | [[https://www.irfanview.com][IrfanView]]       | [[https://getsharex.com][ShareX]]        | [[https://www.digikam.org][digiKam]]        |
-| Music/音乐    | [[https://github.com/zhongyang219/MusicPlayer2][MusicPlayer2]]    | [[https://www.mp3tag.de/en][Mp3tag]]        | [[https://www.foobar2000.org][Foobar2000]]     |
-| Videos/视频   | [[https://mpv.io][mpv.io]] [fn:mpv] | [[https://ffmpeg.org][FFmpeg]]        | ----           |
+| Category/类别 | Browser/浏览器        | Editor/编辑器 | Manager/管理器 |
+|---------------+-----------------------+---------------+----------------|
+| Books/图书    | [[https://yacreader.com/][YACReader]]、[[https://www.sumatrapdfreader.org/][SumatraPDF]] | [[https://sigil-ebook.com][Sigil]]         | [[https://calibre-ebook.com][Calibre]]        |
+| Pictures/图片 | [[https://www.irfanview.com][IrfanView]]             | [[https://getsharex.com][ShareX]]        | [[https://www.digikam.org][digiKam]]        |
+| Music/音乐    | [[https://github.com/zhongyang219/MusicPlayer2][MusicPlayer2]]          | [[https://www.mp3tag.de/en][Mp3tag]]        | [[https://www.foobar2000.org][Foobar2000]]     |
+| Videos/视频   | [[https://mpv.io][mpv.io]][fn:mpv]        | [[https://ffmpeg.org][FFmpeg]]        | ----           |
 
 
 * File Management
@@ -21,27 +17,23 @@
 :heading: true
 :END:
 
-- 下载
-  - [[https://aria2.github.io][aria2]] :: 通用下载工具，我起步使用了[[https://github.com/P3TERX/aria2.conf/blob/master/aria2.conf][这份带中文注释的配置]]
-  - [[https://github.com/c0re100/qBittorrent-Enhanced-Edition][qBittorrent Enhanced Edition]] :: 配合蜜柑计划看新番嗷，或者用末日動漫資源庫的国内镜像
-- 搜索
-  - [[https://www.voidtools.com][Everything]] :: 1.5a 起支持拼音搜索，然而我还没吃上
-- 压缩
-  - 7-Zip :: Scoop 依赖项，基本不用 GUI 了
-  - [[https://peazip.github.io][PeaZip]] :: 智能解压新文件夹、压缩后删除两个功能
-- 备份
-  - [[https://freefilesync.org/][FreeFileSync]] :: 捐了点钱买了便携版
-  - [[https://github.com/Cinchoo/ChoEazyCopy][ChoEazyCopy]] :: [[https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/robocopy][RoboCopy]] 的 GUI 前端，给我等不习惯命令行的凡人使用（
-  - [[https://github.com/Yutaka-Sawada/MultiPar][MultiPar]] :: 其实没在用……类似于 WinRAR 恢复记录，不过是单独创建了恢复文件，个人备份可用吧。
-- 同步
-  - [[https://github.com/kapitainsky/RcloneBrowser][Rclone Browser]] :: 主要用于同步到 WebDAV 盘使用
-  - [[https://github.com/Martchus/syncthingtray][Syncthing Tray]] :: Syncthing 收纳到系统托盘
+- [[https://aria2.github.io][aria2]] :: 通用下载工具，我起步使用了[[https://github.com/P3TERX/aria2.conf/blob/master/aria2.conf][这份带中文注释的配置]]
+- [[https://github.com/c0re100/qBittorrent-Enhanced-Edition][qBittorrent Enhanced Edition]] :: 配合蜜柑计划看新番嗷，或者用末日動漫資源庫的国内镜像
+- [[https://www.voidtools.com][Everything]] :: 1.5a 起支持拼音搜索，然而我还没吃上
+- 7-Zip :: Scoop 依赖项，基本不用 GUI 了
+- [[https://peazip.github.io][PeaZip]] :: 智能解压新文件夹、压缩后删除两个功能
+- [[https://freefilesync.org/][FreeFileSync]] :: 捐了点钱买了便携版
+- [[https://github.com/Cinchoo/ChoEazyCopy][ChoEazyCopy]] :: [[https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/robocopy][RoboCopy]] 的 GUI 前端，给我等不习惯命令行的凡人使用（
+- [[https://github.com/Yutaka-Sawada/MultiPar][MultiPar]] :: 其实没在用……类似于 WinRAR 恢复记录，不过是单独创建了恢复文件，个人备份可用吧。
+- [[https://github.com/kapitainsky/RcloneBrowser][Rclone Browser]] :: 主要用于同步到 WebDAV 盘使用
+- [[https://github.com/Martchus/syncthingtray][Syncthing Tray]] :: Syncthing 收纳到系统托盘
 - [[https://localsend.org][LocalSend]] :: 局域网设备间传输
 - [[https://github.com/qarmin/czkawka][Czkawka]] :: 文件去重
+- [[https://windirstat.net][WinDirStat]] :: 分析磁盘占用情况，观察文件夹大小
 
 * Information/Knowledge Management
 
-- [[https://apps.ankiweb.net][Anki]] :: 使用 FSRS
+- [[https://apps.ankiweb.net][Anki]] :: 考试用之外，也可以考虑拿来熟悉下水洗标、塑料标的含义或者
 - [[https://hluk.github.io/CopyQ][CopyQ]] :: 剪贴板管理
 - [[https://www.freeplane.org][Freeplane]] :: 思维导图，不咋用
 - [[https://keepassxc.org][KeePassXC]] :: 密码管理
@@ -50,17 +42,26 @@
 - [[https://www.thunderbird.net][Thunderbird ESR]] :: 邮箱、RSS
 - [[https://www.zotero.org/][Zotero]] :: 网页摘录、RSS
 
-* 浏览器 § Browser
-:PROPERTIES:
-:END:
-[[https://vivaldi.com/zh-hans/][Vivaldi 浏览器 | 强大的个性化和私密化的网络浏览器]]
-#Browser
-** [[https://zhuanlan.zhihu.com/p/92618817][为什么 Vivaldi 是最好用的桌面浏览器 - 知乎]]
-* [[Emacs]]
+* Web Browser 网络浏览器
 :PROPERTIES:
 :heading: true
 :END:
-+（目前）没开发 Org-Mode 以外的用途+ Magit 现已加入日用环节
+- [[https://floorp.app/zh/][Floorp]] :: 目前的主力浏览器，使用 [[https://github.com/cascadefox/cascade/][CascadeFox]] 作为 userChrome
+- [[https://vivaldi.com/zh-hans/][Vivaldi]] :: [[https://zhuanlan.zhihu.com/p/92618817][为什么 Vivaldi 是最好用的桌面浏览器 - 知乎]]
+- [[https://www.microsoft.com/zh-cn/edge][Microsoft Edge]] :: 系统预装，反正 Tauri 也要用 Webview2 的就不删了，保持零插件配置在学校政府网站用。
+
+* Utility
+
+- [[https://github.com/RamonUnch/AltSnap][AltSnap]] :: 按下 `Alt` 键快速调节窗口位置、大小、透明度等
+- [[https://www.bcuninstaller.com][Bulk Crap Uninstaller]] :: 卸载软件
+- [[https://crystalmark.info/en/software/crystaldiskinfo][CrystalDiskInfo]] :: 磁盘健康查看
+- [[https://www.diskgenius.com][DiskGenius]] :: 磁盘分区格式化用
+- [[https://github.com/Chuyu-Team/Dism-Multi-language][DISM++]] :: 
+- [[https://github.com/File-New-Project/EarTrumpet][EarTrumpet]] :: 单独调整每个应用的音量
+- [[https://kdeconnect.kde.org][KDEConnect]] :: 局域网手机互通，远程输入、通知共享、文件传输
+- [[https://mularahul.github.io/keyviz][Keyviz]] :: 在屏幕显示击键情况，远程演示、网课使用
+- [[https://github.com/zhongyang219/TrafficMonitor/][TrafficMonitor]] :: 任务栏展示信息，用来看个网速自我安慰，也观察 CPU 、内存占用是否异常
+- [[https://www.ventoy.net][Ventoy]] :: 启动盘制作工具
 
 * Footnotes
 :PROPERTIES:

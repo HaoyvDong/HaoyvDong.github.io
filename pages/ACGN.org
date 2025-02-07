@@ -9,16 +9,9 @@
 :heading: true
 :END:
 *** [[https://bbs.saraba1st.com/2b/forum.php][论坛 - stage1/s1 游戏动漫论坛]]
-:PROPERTIES:
-:id: 64defcdc-5fa8-470c-a5a6-73d262bca50a
-:END:
 **** [[http://s1vote.com/][S1漫区投票统计]]
 *** [[https://www.tsdm39.com/forum.php][天使动漫论坛-Angel Beats|TSDM字幕组|天使动漫网]]
-天使动漫论坛-梦开始的地方 一个能轻松聊天结识同好的温馨小论坛  Angel Beats|TSDM字幕组|天使动漫网
-*** [[https://bbs.acgrip.com/][Anime字幕论坛]]
-:PROPERTIES:
-:END:
-动画字幕共享站
+*** [[https://bbs.acgrip.com/][Anime字幕论坛]]  动画字幕共享站
 *** [[https://bangumi.tv/][Bangumi 番组计划]]
 ** BT
 :PROPERTIES:
@@ -29,9 +22,6 @@
 *** [[https://bangumi.moe/][萌番组]]
 *** [[https://dongmanhuayuan.myheartsite.com/#][动漫花园资源网-动漫花园镜像站~ 動漫花園資源網镜像站 - 動漫愛好者的自由交流平台]]
 *** [[https://www.huayuandm.com/][动漫花园资源网-动漫花园镜像站~動漫花園資源網 - 動漫愛好者的自由交流平台]]
-:PROPERTIES:
-:END:
-動漫花園資源網,動漫愛好者的自由交流平台，本站为动漫花园镜像站，本站不存储发布任何种子资源，仅提供搜索及动漫花园快照内容
 *** [[https://mikanani.me/][蜜柑计划 - Mikan Project]]
 订阅链接要在 https://mikanani.me/Home/MyBangumi 页面，将“我的字幕组订阅更新”列表调整至有内容的状态，才能在右下角发现个人 RSS 地址，我已经有两次找半天找不到地址了……
 *** [[https://acg.rip/][ACG.RIP]]
