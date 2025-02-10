@@ -1,5 +1,4 @@
 #+DESCRIPTION: BOB, 此处指 Bug Out Bag，即跑路包，本页面主要收录低体力低技术的脆皮年轻人在赛里斯境内城市环境面临公共卫生事件与重大自然灾害时等待救援的准备。
-#+TAGS: GDS
 
 * 背包级
 :PROPERTIES:

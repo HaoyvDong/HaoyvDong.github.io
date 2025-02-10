@@ -20,7 +20,7 @@
 - [[https://github.com/YukiCoco/ToMoon][YukiCoco/ToMoon: 基于 SteamOS 定制的网络工具，自动配置 TUN 模式加速游戏，网络代理。]]    
 * Nix 安装包
 #+begin_src bash
-  sudo chown deck:deck /nix
+  sudo chown deck:deck /nix # CHangOWNer
   sh <(curl https://mirrors.tuna.tsinghua.edu.cn/nix/latest/install) 
   nix-channel --add https://mirrors.ustc.edu.cn/nix-channels/nixpkgs-unstable nixpkgs
   nix-channel --update

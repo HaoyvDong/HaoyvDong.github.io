@@ -4,11 +4,6 @@
 :id: 6607c21f-7bdd-49c5-b802-abaf9779a1c5
 :END:
 ** [[https://www.w3.org/TR/clreq/][Requirements for Chinese Text Layout - 中文排版需求]]
-:PROPERTIES:
-:id: 658b95c7-299d-4bce-855a-b46e6ae8478d
-:END:
-#Manual #CJK 
-This document summarizes text composition requirements in the Chinese writing system. One of the goals of the task force is to describe issues for Chinese layout, another is to describe correspondences with existing standards (such as Unicode), as well as to encourage vendors to implement relevant features correctly.
 ** [[https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7E77CD3A7E05397BE0A0AB82A][党政机关公文格式]]
 - 标准号 :: GB/T 9704-2012
 ** [[https://github.com/sparanoid/chinese-copywriting-guidelines][sparanoid/chinese-copywriting-guidelines: Chinese copywriting guidelines for better written communication／中文文案排版指北]]
@@ -24,12 +19,7 @@ This document summarizes text composition requirements in the Chinese writing sy
 ** [[https://sspai.com/post/75217][数字文具盒｜Word 写论文，也可以很好用 - 少数派]]
 ** 为什么你不该用 Markdown：或者说你该用 CommonMark, Pandoc’s Markdown, R Markdown or GitHub-Flavored Markdown, etc.
 [[https://yihui.org/cn/2017/08/markdown-flavors/][混乱的 Markdown 世界 - Yihui Xie | 谢益辉]]
-** [[https://zhuanlan.zhihu.com/p/29954562][《ePub指南——从入门到放弃》编著：赤霓（第2版） - 知乎]]
-*** [[https://pan.baidu.com/s/1bpQBQph?pwd=b3p1][赤霓的ePub入门指南]]
-:PROPERTIES:
-:id: 64f02a02-685f-4734-a76e-8593424dd55d
-:END:
-#Book
+** [[https://zhuanlan.zhihu.com/p/29954562][《ePub指南——从入门到放弃》编著：赤霓（第2版） - 知乎]]  [[https://pan.baidu.com/s/1bpQBQph?pwd=b3p1][赤霓的ePub入门指南]]
 * $\LaTeX$
 :PROPERTIES:
 :heading: true
@@ -40,14 +30,6 @@ This document summarizes text composition requirements in the Chinese writing sy
 :PROPERTIES:
 :collapsed: true
 :END:
-*** [[https://www.texpage.com/][TeXPage - LaTeX 在线编辑器 | LaTeX 在线编译]]
-:PROPERTIES:
-:END:
-打造好用的在线 LaTeX 写作工具，TeXPage 主要特性：1.  LaTeX 在线编辑器; 2. 在线编译 LaTeX 文档; 3. 在线协作。
-*** [[https://www.overleaf.com/][Overleaf, Online LaTeX Editor]]
-:PROPERTIES:
-:END:
-An online LaTeX editor that’s easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more.
 *** [[https://tablesgenerator.com/][TablesGenerator.com]]
 Easily create even complex LaTeX/HTML/Markdown/Text/MediaWiki tables with our online generator – you can paste data from a spreadsheet, merge cells, edit borders and more.
 *** [[https://tableconvert.com/zh-cn/][在线表格转换工具 - 让表格转换变得更容易]]
@@ -62,8 +44,7 @@ Easily create even complex LaTeX/HTML/Markdown/Text/MediaWiki tables with our on
 *** [[https://www.mathjax.org/][MathJax | Beautiful math in all browsers.]]
 *** $\KaTeX$
 [[https://katex.org/index.html][KaTeX – The fastest math typesetting library for the web]]
-*** [[https://mathpix.com/][Mathpix Snip]]
-Converting images to $\LaTeX$
+
 * CSS
 :PROPERTIES:
 :heading: true
@@ -74,21 +55,15 @@ Converting images to $\LaTeX$
 赫hè蹏tí是专为中文网页内容设计的排版样式增强。它基于通行的中文排版规范，可为网站的读者带来更好的内容阅读体验。
 * Font
 :PROPERTIES:
-:heading: 2
+:heading: true
 :END:
 #CJK
 ** [[https://font.gentleflow.tech/index.html][中文开源字体]]
 一个开源字体列表
 ** [[http://wenq.org/wqy2/index.cgi][文泉驿]]
-** Unifont
-[[https://savannah.gnu.org/projects/unifont][Unifont - Summary [Savannah]]]
 * Markup
 :PROPERTIES:
 :heading: true
 :id: 64f02a02-9072-4755-bcd8-aef9b8789080
 :END:
-** [[https://quarto.org/][Quarto]]
-:PROPERTIES:
-:END:
-Quarto® is an open-source scientific and technical publishing system built on Pandoc.
 ** [[https://mermaid.js.org/][Mermaid | Diagramming and charting tool]]

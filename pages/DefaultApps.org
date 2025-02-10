@@ -1,4 +1,22 @@
 #+Abstract: Windows 平台为主
+
+* CJK
+#+Description: Chinese-Japanese-Korea
+
+CJK 需要单独对待的理由：
+#+BEGIN_QUOTE
+根据我的经验，如果一个外国软件的中文支持有问题，基本上是没什么改善希望的——背后的团队再强大、经费再充足也很难改善，因为很多发达国家的开发者根本就无法想象世界上竟然存在不用空格分隔单词的语言。
+──[[https://www.yuque.com/deerain/gannbs/kbczzv#26d7c1b78bedd0e182b204d04c888ea9][锐评 RemNote]] 
+#+END_QUOTE
+注意以上还没有考虑 CJK 的字体和 Unicode 编码问题。
+** RIME
+- [[https://rime.im/][RIME | 中州韻輸入法引擎]] :: RIME 和 [[https://simpread.pro/][简悦 SimpRead]] 处在两个极端，一个文档写得太少以至于[[https://github.com/rime/squirrel/issues/421][功能要去 issue 找]]，一个文档写得太多以至于完全不知道需要的东西去哪查只能开 issue。
+- 安装开始使用 :: [[https://sspai.com/post/84373][自由输入法 RIME 简明配置指南（2023 版） - 少数派]]
+- 比较深入的自定义 :: [[https://github.com/LEOYoon-Tsaw/Rime_collections][Rime Collections: Deligate works for Rime IME]]
+- 安卓平台 Trime :: 我现在其实更推荐[[https://fcitx5-android.github.io/][小企鹅输入法]]，不过那个目前还没看到不错的文章，先保留这篇 [[https://sspai.com/post/77499][App +1 | 同文输入法：把 RIME 装进 Android 手机 - 少数派]]
+- Apple 系统 :: [[https://utgd.net/article/20231][高效同步，便捷备份：我的 Rime 输入法 Mac 与 i(Pad)OS 多设备使用方案 - #UNTAG]]
+  我的观点是不要在 i(Pad)OS 上尝试任何涉及文件的自动化，容易变得不幸，不过如果你一定要的话就是这篇文章咯
+- 美化资源 :: [[https://wubi98.github.io/][五笔小筑]]
 * Multimedia
 :PROPERTIES:
 :heading: true
@@ -10,7 +28,6 @@
 | Pictures/图片 | [[https://www.irfanview.com][IrfanView]]             | [[https://getsharex.com][ShareX]]        | [[https://www.digikam.org][digiKam]]        |
 | Music/音乐    | [[https://github.com/zhongyang219/MusicPlayer2][MusicPlayer2]]          | [[https://www.mp3tag.de/en][Mp3tag]]        | [[https://www.foobar2000.org][Foobar2000]]     |
 | Videos/视频   | [[https://mpv.io][mpv.io]][fn:mpv]        | [[https://ffmpeg.org][FFmpeg]]        | ----           |
-
 
 * File Management
 :PROPERTIES:
@@ -33,16 +50,80 @@
 
 * Information/Knowledge Management
 
-- [[https://apps.ankiweb.net][Anki]] :: 考试用之外，也可以考虑拿来熟悉下水洗标、塑料标的含义或者
 - [[https://hluk.github.io/CopyQ][CopyQ]] :: 剪贴板管理
 - [[https://www.freeplane.org][Freeplane]] :: 思维导图，不咋用
 - [[https://keepassxc.org][KeePassXC]] :: 密码管理
 - [[https://logseq.com][Logseq]] :: 目前博客使用，准备换
 - [[https://b3log.org/siyuan][SiYuan Note]] :: 当初买了永久会员，目前偶尔用下
 - [[https://www.thunderbird.net][Thunderbird ESR]] :: 邮箱、RSS
-- [[https://www.zotero.org/][Zotero]] :: 网页摘录、RSS
+** Anki
+https://apps.ankiweb.net/
+- 人生苦短，你该用 [[https://github.com/open-spaced-repetition/fsrs4anki][FSRS4Anki]]
+  - [[https://zhuanlan.zhihu.com/p/636564830][FSRS4Anki 使用指北 - 知乎]]
 
-* Web Browser 网络浏览器
+- [[https://utgd.net/article/9595][越过驾驭 Anki 前的那几道坎儿 - #UNTAG]]
+- [[https://robertheaton.com/2018/06/25/how-to-read/][How to read | Robert Heaton]]
+- 译文：[[https://www.zhihu.com/question/616621310/answer/3172266680][在Anki已经有了FSRS这种新的算法后，如何通过Anki做渐进阅读？ - 知乎]]
+- [[https://www.zhihu.com/people/sun-mo-yu-44][清锡CAE - 知乎]]
+  此君把 PDF 逐页导入 Anki 后进行渐进阅读，多少有点主动选择了 /Hard Way/ 的意思，也是我提的 /Anki 笔记软件论/ 的一个生动例证了hhh
+  - [[https://zhuanlan.zhihu.com/p/651179506][我的知识笔记系统——答怎样构建自己思维框架形成知识体系 - 知乎]]
+  - [[https://zhuanlan.zhihu.com/p/651347017][我的知识笔记系统-anki增量阅读之课程制作方法 - 知乎]]
+*** Anki 插件
+  2055492159 85158043 1087328706 759844606
+  - [[https://ankiweb.net/shared/info/2055492159][AnkiConnect - AnkiWeb]];
+  - [[https://ankiweb.net/shared/info/85158043][Minimize to tray - AnkiWeb]];
+  - [[https://ankiweb.net/shared/info/1087328706][Markdown and KaTeX Support - AnkiWeb]];
+  - [[https://ankiweb.net/shared/info/759844606][FSRS4Anki Helper - AnkiWeb]];
+*** Anki 笔记软件论
+#+BEGIN_QUOTE
+- 能直接编辑 HTML 源码的富文本编辑器
+- 能浏览所有笔记的管理界面
+- 牌组+标签的管理系统
+- 高级搜索语法
+- 自部署同步服务器
+已经比多数纯文本+文件树的笔记软件高到不知道哪里去了（笑
+#+END_QUOTE
+** Calibre
+https://calibre-ebook.com/
+单就功能性 Calibre 真无可替代吗？也不完全是，[[https://alfaebooks.com/][Alfa Ebooks Manager]] 也差不多能做个七七八八，可是说到插件联动生态那可就……
+
+Calibre 的大多数功能还是比较符合直觉的，去设置菜单里逛一圈都能解决，如果懒得下载也可以看下这几篇介绍。
+- [[https://sspai.com/post/43843][最强大的本地电子书管理工具：Calibre 使用指南 - 少数派]]
+- [[https://sspai.com/post/72748][阅读批注样样通，我的 Calibre 书籍库管理方法论 - 少数派]]
+- [[https://sspai.com/post/57005][借助 Calibre 处理电子书的流程和技巧 - 少数派]]
+*** Calibre 插件
+- Zotero Metadata Importer :: https://www.mobileread.com/forums/showthread.php?p=3339191
+** Hypothesis
+https://web.hypothes.is/ ，网页批注定位很强的扩展/小书签应用
+- Hypothesis 的一个前端：[[https://jonudell.info/h/facet/][View and export Hypothesis annotations]]
+- [[https://type.cyhsu.xyz/2020/10/hypothesis-tutorial/][开源、可定制的网页批注工具——Hypothesis - neverland]]
+
+** Zotero
+[[https://www.zotero.org/][Zotero | Your personal research assistant]]
+
+- [[https://zotero-chinese.com/][Zotero 中文小组]]
+- https://editor.citationstyles.org/about/ Find and edit [[http://citationstyles.org/][CSL]] citation styles. 
+- [[https://sspai.com/prime/story/integrated-academic-reading-writing-in-zotero][如何用 Zotero 统辖文献管理和学术笔记 ｜ 少数派会员 π+Prime]]
+*** Zotero 插件
+- jasminum :: [[https://github.com/l0o0/jasminum][l0o0/jasminum: A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据]]
+- zotero-pdf-translate :: [[https://github.com/windingwind/zotero-pdf-translate][windingwind/zotero-pdf-translate: Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.]]
+- zotero-better-notes :: [[https://github.com/windingwind/zotero-better-notes][windingwind/zotero-better-notes: Everything about note management. All in Zotero.]]
+- ZotCard :: [[https://github.com/018/zotcard][018/zotcard: ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, you can customize other card templates), so you can write cards quickly. In addition, it helps you sort cards and standardize card formats.]]
+
+** Article & Notes
+
+- [[https://sspai.com/post/77144][找笔记方便、写作又给力的知识库，我是这么搭建出来的 - 少数派]] 操作手册与参考指南需要更细致的分类
+  重读这篇文章前我对参考类的文章乃至书籍只是粗略打上 Manual 的标签，并未考虑到二者的微妙区别，本文中提到的 How-to 和 Reference 分类也许可以帮助我更加精准地看待二者的重要性。
+  | 文档如何分类 | 学习用      | 干活用    |
+  |--------------+-------------+-----------|
+  | 实践向       | Tutorials   | How-to    |
+  | 理论向       | Explanation | Reference |
+- [[https://utgd.net/article/9653][当代人的丛林狩猎：在线阅读 | 专栏导读]]
+  - RSS→浏览器→存档本地。
+  - 浏览器的功能超越了所有阅读器。
+  - PDF 良好的生态让其成为优秀的存档格式，至于换行导致难以搜索的缺点，可以通过及时做笔记弥补。
+- [[https://karl-voit.at/tags/pim/][The Tag «pim»]] 此兄的 PhD thses 标题就是 /TagTrees: Improving Personal Information Management Using Associative Navigation/ ，还是个 Emacser ，这下不得不狠狠看了
+* Web Browser
 :PROPERTIES:
 :heading: true
 :END:
@@ -52,7 +133,7 @@
 
 * Utility
 
-- [[https://github.com/RamonUnch/AltSnap][AltSnap]] :: 按下 `Alt` 键快速调节窗口位置、大小、透明度等
+- [[https://github.com/RamonUnch/AltSnap][AltSnap]] :: 按下 ~Alt~ 键快速调节窗口位置、大小、透明度等
 - [[https://www.bcuninstaller.com][Bulk Crap Uninstaller]] :: 卸载软件
 - [[https://crystalmark.info/en/software/crystaldiskinfo][CrystalDiskInfo]] :: 磁盘健康查看
 - [[https://www.diskgenius.com][DiskGenius]] :: 磁盘分区格式化用

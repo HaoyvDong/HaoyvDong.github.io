@@ -73,8 +73,6 @@
 **** [[https://portableapps.com/][PortableApps.com - Portable software for USB, portable, and cloud drives]]
 ** [[https://www.runningcheese.com/][奔跑中的奶酪 - 有智，有趣，有爱]]
 :PROPERTIES:
-:END:
-有智，有趣，有爱是世界上最美好的三件事。崇尚科技，网站致力于个人提升和价值分享。—— 奔跑中的奶酪
 ** 自动化 Automation
 :PROPERTIES:
 :heading: true
@@ -99,11 +97,6 @@
 :id: 64ef1658-a1e2-4646-bded-a78084f27191
 :collapsed: true
 :END:
-** [[https://iosmfi.cn/][苹果手柄游戏  iosmfi.cn]]
-** [[https://mfigames.com/][MFi Games - Games with Controller support for iOS and Apple TV]]
-:PROPERTIES:
-:END:
-The BIG list of games with MFi controller support. Find the latest games that support MFi Game Controllers on iOS for iPhone, iPad, and Apple TV
 ** 硬件参数
 :PROPERTIES:
 :END:
@@ -115,7 +108,6 @@ This page provides a product summary for each Apple model. The intent is to prov
 *** [[https://everyi.com/][iPod, iPhone & iPad Specs, Answers, Help, Troubleshooting & More: Everyi.com]]
 *** [[https://hubapple.cn/][Apple 苹果产品参数中心 / HubApple.cn]]
 ** [[https://altstore.io/][Welcome to AltStore]]
-欧盟立法侧载，也许很快这也
 ** AirPods Desktop
 [[https://github.com/SpriteOvO/AirPodsDesktop/][SpriteOvO/AirPodsDesktop: ☄️ AirPods desktop user experience enhancement program, for Windows and Linux (WIP)]]
 ** [[https://www.sqlsec.com/macsoft.html][MAC 常用软件清单 | 国光]]
@@ -145,7 +137,6 @@ This page provides a product summary for each Apple model. The intent is to prov
 :PROPERTIES:
 :heading: true
 :END:
-Steam OS 应当是 Linux（阵营九宫格口吻
 ** Hardware
 :PROPERTIES:
 :heading: true
