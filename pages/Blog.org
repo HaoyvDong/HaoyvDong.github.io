@@ -1,5 +1,31 @@
 #+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
 
+* Zotero 的全局标识符 20250211
+
+此前导出时看到了每个条目是有个整数编码的，但是没有看到明显的方式获取这个值，一番查找结果如下
+#+begin_quote
+Zotero is a distributed tool. It's not possible to use sequential integers as global ids without the possibility of conflicts.
+Zotero 是一个分布式工具。不可能在没有冲突的情况下使用连续整数作为全局 ID。
+
+(None of the discussion above is actually about "item ids". Every item in a Zotero database has an itemID, which is a sequential integer, but those are for internal use in the local database. The 8-character string that's exposed to users and synced between devices is the "item key".)
+（上面的讨论实际上都不是关于“项目 ID”的。Zotero 数据库中的每个项目都有一个 itemID，这是一个连续整数，但这些是在本地数据库中内部使用的。向用户公开并在设备之间同步的 8 个字符的字符串是“item key”。
+
+https://forums.zotero.org/discussion/106183/zotero-item-id-numbers
+#+end_quote
+
+* 彻底卸载坚果云 20250211
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
+
+在使用 [[https://www.bcuninstaller.com][Bulk Crap Uninstaller]] 卸载坚果云后发现快速访问列表、回收站的坚果云痕迹完全没有删除，上网搜索发现大家苦此久矣，方法也是多种多样，在此记录我这里适用的：
+
+1. 重新安装坚果云（如果你已经卸载的话） ：https://www.jianguoyun.com/s/downloads
+2. 下载微软疑难解答程序： [[https://support.microsoft.com/zh-cn/windows/%E4%BF%AE%E5%A4%8D%E9%98%BB%E6%AD%A2%E7%A8%8B%E5%BA%8F%E5%AE%89%E8%A3%85%E6%88%96%E5%88%A0%E9%99%A4%E7%9A%84%E9%97%AE%E9%A2%98-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d][修复阻止程序安装或删除的问题 - Microsoft 支持]]
+3. 打开疑难解答程序，选择卸载，在应用列表里找到坚果云卸载之
+4. 搞定！
+
 * Czkawka-GUI 调整字体大小
 :PROPERTIES:
 :heading: true
@@ -23,15 +49,6 @@
 :END:
 来自 ChatGPT 3.5
 ** GPT 的回复
-*** In Emacs org-mode, you can edit the same column in multiple lines using the rectangular selection feature. Here's how you can do it:
-
-1. Move the cursor to the beginning of the column you want to edit.
-2. Press ~C-SPC~ (~Ctrl~ + ~Space~) to set the mark at the current cursor position.
-3. Move the cursor to the end of the column you want to edit. You can use the arrow keys or any other movement commands.
-4. Now you have a rectangular region selected. You can see it visually as a highlighted rectangle.
-5. Perform the editing operation you want. You can type, delete, or replace text as usual.
-6. Press ~C-g~ (~Ctrl~ + ~g~) to deactivate the rectangular region selection.
-*** Alternatively, you can use the rectangle commands in Emacs. Here are the steps:
 
 1. Move the cursor to one corner of the rectangle you want to edit.
 2. Press ~C-SPC~ (~Ctrl~ + ~Space~) to set the mark at the current cursor position.
@@ -45,7 +62,6 @@
    - ~C-x r c~: Clear (blank out) the rectangle.
 5. Press ~C-g~ (~Ctrl~ + ~g~) to deactivate the rectangle editing mode.
 
-Using these techniques, you can easily edit the same column in multiple lines in Emacs org-mode.
 * #Excel 功能键
 :PROPERTIES:
 :heading: true
@@ -109,7 +125,8 @@ Using these techniques, you can easily edit the same column in multiple lines in
 :END:
 或，如何实现/替代侧边栏文件管理
 ** 吐槽
-从“现代”软件使用过来的哑炮，在 Emacs 里总是会怀念侧边栏文件管理器的方便。不过一直没有认真考虑解决方案，毕竟操作纯文本还没有那么多嘛。不过看到这篇[[https://emacs-china.org/t/emacs/22306/][讨论]]还是激起了继续折腾的好奇心，总之先码住作为备选学习话题好了。
++从“现代”软件使用过来的哑炮，在 Emacs 里总是会怀念侧边栏文件管理器的方便。不过一直没有认真考虑解决方案，毕竟操作纯文本还没有那么多嘛。不过看到这篇[[https://emacs-china.org/t/emacs/22306/][讨论]]还是激起了继续折腾的好奇心，总之先码住作为备选学习话题好了。+
+直接 Dirvish 一把梭！[2025-02-11 Tue] edited
 ** 参考资料：
 1. [[https://emacs-china.org/t/emacs/22306][Emacs 风格的文件操作和项目文件管理是啥样的？ - Emacs-general - Emacs China]]
 * 易微联WI-FI遥控器设置指南

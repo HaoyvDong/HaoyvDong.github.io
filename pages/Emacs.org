@@ -60,6 +60,18 @@ In order to enable lexical binding in the config, this must be the first line of
     (warning-minimum-level :emergency))
 #+end_src
 ** Localization
+*** Platform
+#+begin_quote
+home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~ ，其中 xxx 表示用户名字，所以，在 Linux 下将 .emacs 和 .emacs.d 放到这个目录下就行了，但 windows 没有 home 目录的概念，所以，Emacs 就按如下方式来查找配置文件：
+
+    1. 如果设置了 ~HOME~ 环境变量，那么就用它的值作为home目录
+    2. 如果存在注册表键值 ~HKCU\SOFTWARE\GNU\Emacs\HOME~ ，就用它的值作为home目录
+    3. 如果存在注册表键值 ~HKLM\SOFTWARE\GNU\Emacs\HOME~ ，就用它的值作为home目录（和2的区别是，2只是针对当前用户的注册表路径，3则是针对所有用户）
+    4. 如果存在 ~C:\.emacs~ ，就用 ~C:\~ 作为home目录
+    5. 如果以上都不存在的话，就使用 ~\Users<user name>\AppData\Roaming~ 作为home目录~（对于XP和较早windows用户，需要到 ~Documents and Settings~ 目录下去找）
+
+来源： https://emacs-china.org/t/windows-spacemacs-home/13435/3?u=randir
+#+end_quote
 *** Coding
 - https://github.com/purcell/emacs.d/blob/7a725b2e20155b1686830430e56104c449f4ecec/lisp/init-locales.el#L18-L23
 #+begin_src emacs-lisp
@@ -227,16 +239,18 @@ vertico orderless marginalia which-key
     (scroll-error-top-bottom t)
     (save-interprogram-paste-before-kill t))
 #+end_src
+
+** Markup Languages
 *** Org-Mode
 #+begin_src emacs-lisp
   (use-package org
     :pin melpa
     :custom
-    (org-agenda-files '("~/../../configBackup/org/Inbox.org"))
-    (org-directory "~/../../configBackup/org")
-    (org-use-sub-superscripts "{}"))
-  (use-package org-tempo
-    :ensure nil)
+    (org-agenda-files '("~/configBackup/org/Inbox.org"))
+    (org-directory "~/configBackup/org")
+    (org-use-sub-superscripts "{}")
+    :config
+    (require 'org-tempo))
 
   ;; Org modern: Most features are disabled for beginning users
   (use-package org-modern
@@ -246,11 +260,11 @@ vertico orderless marginalia which-key
     (org-modern-keyword nil)
     (org-modern-timestamp nil)
     (org-modern-priority nil)
-    (org-modern-checkbox t)
+    ;;(org-modern-checkbox nil)
     (org-modern-tag t)
     (org-modern-block-name nil)
     (org-modern-keyword nil)
-    (org-modern-footnote t)
+    (org-modern-footnote nil) ;; effect table align
     (org-modern-internal-target nil)
     (org-modern-radio-target nil)
     (org-modern-statistics nil)
@@ -260,6 +274,8 @@ vertico orderless marginalia which-key
   (use-package ox-html
     :after org
     :custom
+    (org-html-doctype "html5")
+    (org-html-html5-fancy t)
     (org-html-head-extra "<style>/* TOC inspired by http://jashkenas.github.com/coffee-script */ #table-of-contents { z-index: 1; margin-top: 105px; font-size: 10pt; font-family:sans-serif; position: fixed; right: 0em; top: 0em; background: white; line-height: 12pt; text-align: right; box-shadow: 0 0 1em #777777; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } /* Hide when screen is too narrow */ @media only screen and (max-width: 67em) { #table-of-contents { display: none; } } #table-of-contents h2 { font-size: 13pt; max-width: 9em; border: 0; font-weight: normal; margin-top: 0.75em; padding-left: 0.5em; padding-right: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents { display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents { display: block; padding: 0.5em; margin-top: -1.5em; }</style>"))
 #+end_src
 *** Markdown
@@ -269,7 +285,21 @@ vertico orderless marginalia which-key
   	 ("\\.md\\'" . markdown-mode)
   	 ("\\.markdown\\'" . markdown-mode)))
 #+end_src
-** Beancount
+** Data Format
+*** YAML
+#+begin_src emacs-lisp
+(use-package yaml-mode
+  :mode
+  (("\\.yaml\\'" . yaml-mode)
+   ("\\.yml\\'" . yaml-mode)))
+#+end_src
+*** JSON
+#+begin_src emacs-lisp
+(use-package json-mode
+  :defer t)
+#+end_src
+
+*** Beancount
 #+begin_src emacs-lisp
   (use-package conda
     :custom
@@ -284,4 +314,10 @@ vertico orderless marginalia which-key
   		      (outline-minor-mode t)
   		      (conda-env-activate "bean") ; 激活conda环境
   		      (beancount-fava))))
+#+end_src
+
+** Version Control
+#+begin_src emacs-lisp
+    (use-package magit
+      :defer t)
 #+end_src

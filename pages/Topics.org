@@ -72,7 +72,8 @@
 文中给出的 Gitee 镜像，推荐使用[[https://mirror.nju.edu.cn][南京大学镜像]]
 **** [[https://portableapps.com/][PortableApps.com - Portable software for USB, portable, and cloud drives]]
 ** [[https://www.runningcheese.com/][奔跑中的奶酪 - 有智，有趣，有爱]]
-:PROPERTIES:
+
+
 ** 自动化 Automation
 :PROPERTIES:
 :heading: true

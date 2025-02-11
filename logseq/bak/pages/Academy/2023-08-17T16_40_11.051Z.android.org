@@ -1,1 +1,0 @@
-* [[https://chriszheng.science/essentials-of-academic-writing/][学术写作指要——一个技术指导(Essentials of academic writing—A technical approach) | M-x Chris-An-Emacser]]

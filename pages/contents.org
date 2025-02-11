@@ -29,6 +29,13 @@
 :heading: true
 :END:
 ** [[Emacs]]
+:PROPERTIES:
+:heading: true
+:END:
+** [[SteamDeck]]
+:PROPERTIES:
+:heading: true
+:END:
 ** [[https://tolkiengateway.net/wiki/Main_Page][Tolkien Gateway]]
 :PROPERTIES:
 :id: 64e0b29b-17ab-49be-a5b5-27806d46d38c

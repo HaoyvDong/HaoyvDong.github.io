@@ -1,50 +1,5 @@
-* Account
-:PROPERTIES:
-:heading: true
-:END:
-** [[https://kjs.mof.gov.cn/][会计司]]
-** [[https://www.dongao.com/fgk/qykjzz/zz/][会计准则库_东奥会计在线]]
-** [[http://www.zkemu.com/][找科目-最全企业会计科目-政府会计科目大全]]
-** [[https://wiki.mbalib.com/wiki/%E4%B8%AD%E5%9B%BD%E4%BC%9A%E8%AE%A1%E7%A7%91%E7%9B%AE%E4%B8%AD%E8%8B%B1%E6%96%87%E5%AF%B9%E7%85%A7%EF%BC%88%E5%90%AB%E7%A7%91%E7%9B%AE%E4%BB%A3%E7%A0%81%EF%BC%89][中国会计科目中英文对照（含科目代码） - MBA智库百科]]
 * [[https://chriszheng.science/essentials-of-academic-writing/][学术写作指要——一个技术指导(Essentials of academic writing—A technical approach) | M-x Chris-An-Emacser]]
 #Article
-* Statistics
-:PROPERTIES:
-:id: 64e0b29b-909e-4fde-acac-5374d555d85e
-:heading: true
-:collapsed: true
-:END:
-** R Language
-:PROPERTIES:
-:heading: true
-:END:
-*** [[https://d.cosx.org/][COS论坛 | 统计之都 | 统计与数据科学论坛]]
-#Forum
-*** [[https://www.r-graph-gallery.com/][R Graph Gallery]]
-:PROPERTIES:
-:END:
-The R graph gallery displays hundreds of charts made with R, always providing the reproducible code.
-*** [[https://r-charts.com/][R CHARTS]]
-:PROPERTIES:
-:END:
-Over 1100 graphs with reproducible code divided in 8 big categories and over 50 chart types, in addition of tools to choose and create colors and color palettes
-*** [[https://bookdown.org/yihui/r-ninja/][R语言忍者秘笈]]
-*** [[https://gexijin.github.io/learnR/][Learn R through examples]]
-*** [[https://bookdown.org/wshuyi/dive-into-data-science-practically/][文科生数据科学上手指南]]
-** Stata
-:PROPERTIES:
-:heading: true
-:END:
-*** [[https://www.statalist.org/][Statalist | The Stata Forum]]
-*** [[http://silencedream.gitee.io/][Silencedream的小站]]
-*** [[https://www.lianxh.cn/index.html][连享会主页]]
-*** [[https://zhuanlan.zhihu.com/p/667511228][Stata学习：章节目录2 - 知乎]]
-** Python
-:PROPERTIES:
-:heading: true
-:END:
-*** [[https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html][Python Programming And Numerical Methods: A Guide For Engineers And Scientists]]
-*** [[https://wesmckinney.com/book/][Python for Data Analysis, 3E]]
 * English Learning
 :PROPERTIES:
 :heading: true
