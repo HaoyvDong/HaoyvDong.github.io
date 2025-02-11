@@ -17,12 +17,6 @@
 :heading: true
 :id: 6561893e-0d0b-41b8-91a4-62d301713263
 :END:
-数字生活的基础设施。
-* [[PKM]]
-:PROPERTIES:
-:heading: true
-:END:
-『在笔记软件里记录笔记软件评测』
 * Productivity
 :PROPERTIES:
 :heading: true

@@ -238,15 +238,11 @@ https://cloud.video.taobao.com//play/u/2998787772/p/1/e/6/t/1/294032869022.mp4
 :PROPERTIES:
 :heading: true
 :END:
-*** Worg CSS
-https://orgmode.org/worg/style/worg.css
-*** 少数派经典 CSS
-https://cdn.sspai.com/minja/sspai.css.zip
-*** Markdown.css
-CSS to make HTML markup look like plain-text markdown.
-https://mrcoles.com/demo/markdown-css/
-*** 赫蹏
-[[https://github.com/sivan/heti][sivan/heti: 赫蹏（hètí）是专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以为网站的读者带来更好的文章阅读体验。]]
+- Worg CSS :: https://orgmode.org/worg/style/worg.css
+- 少数派经典 CSS :: https://cdn.sspai.com/minja/sspai.css.zip
+- Markdown.css :: CSS to make HTML markup look like plain-text markdown. https://mrcoles.com/demo/markdown-css/
+- 赫蹏 :: [[https://github.com/sivan/heti][sivan/heti: 赫蹏（hètí）是专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以为网站的读者带来更好的文章阅读体验。]]
+- Typo.css :: [[https://github.com/sofish/typo.css][sofish/typo.css: 中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版]]
 ** #Article
 *** [[https://sspai.com/post/75170][一日一技 | 如何给自制电子书添加脚注 - 少数派]]
 - 正则中的tab： ~\t~
@@ -261,12 +257,12 @@ Perl Compatible Regular Expressions
 :heading: true
 :collapsed: true
 :END:
-** 自 6.0 的 PDF 阅读器支持以及将至的 7.0[fn:1] 的 EPUB/Webpage 批注[fn:2]，  Zotero 已经真正成为一款可以取代 MarginNote, LiquidText 等软件的阅读批注软件，而在 Zotero Metadata Importer[fn:3] 加持下与 Calibre 联动，书籍的元数据管理是完全不用操心的了。
-当然，要想真正用好还是免不了一番折腾，例如针对知网豆瓣等书籍信息来源的 Translator、批注完成后的整理导出，需要用到各种插件，我就放到 #PKM 这一页的资源里了。 
+** 自 6.0 的 PDF 阅读器支持以及将至的 7.0[fn:7-beta] 的 EPUB/Webpage 批注[fn:epub-anno]，  Zotero 已经真正成为一款可以取代 MarginNote, LiquidText 等软件的阅读批注软件，而在 Zotero Metadata Importer[fn:zmi] 加持下与 Calibre 联动，书籍的元数据管理是完全不用操心的了。
+当然，要想真正用好还是免不了一番折腾，例如针对知网豆瓣等书籍信息来源的 Translator、批注完成后的整理导出，需要用到各种插件，我就放到 #DefaultApps 这一页的资源里了。 
 
-[fn:1] [[https://forums.zotero.org/discussion/105094/announcing-the-zotero-7-beta][Announcing the Zotero 7 Beta - Zotero Forums]]
-[fn:2] [[https://forums.zotero.org/discussion/106716/available-for-beta-testing-updated-reader-with-epub-snapshot-support-and-new-annotation-types/p1][Available for beta testing: Updated reader with EPUB/snapshot support and new annotation types - Zotero Forums]]
-[fn:3] [[https://www.mobileread.com/forums/showthread.php?p=3339191][[GUI Plugin] Zotero Metadata Importer - MobileRead Forums]]
+[fn:7-beta] [[https://forums.zotero.org/discussion/105094/announcing-the-zotero-7-beta][Announcing the Zotero 7 Beta - Zotero Forums]]
+[fn:epub-anno] [[https://forums.zotero.org/discussion/106716/available-for-beta-testing-updated-reader-with-epub-snapshot-support-and-new-annotation-types/p1][Available for beta testing: Updated reader with EPUB/snapshot support and new annotation types - Zotero Forums]]
+[fn:zmi] [[https://www.mobileread.com/forums/showthread.php?p=3339191][[GUI Plugin] Zotero Metadata Importer - MobileRead Forums]]
 * #AHK 发送按键
 :PROPERTIES:
 :heading: true
