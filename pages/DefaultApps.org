@@ -109,6 +109,8 @@ https://web.hypothes.is/ ，网页批注定位很强的扩展/小书签应用
 - [[https://www.zotero.org/][Zotero | Your personal research assistant]]
 - [[https://zotero-chinese.com/][Zotero 中文小组]]
 - https://editor.citationstyles.org/about/ Find and edit [[http://citationstyles.org/][CSL]] citation styles. 
+- [[https://emacs-china.org/t/zotero-note-quick-copy-org-mode/25574][zotero note quick copy如何输出为org mode能打开的格式 - 闲聊灌水 - Emacs China]]
+  - https://github.com/ybyygu/zotero/blob/master/translator/org-mode.js
 
   
 - Zotero 插件 ::

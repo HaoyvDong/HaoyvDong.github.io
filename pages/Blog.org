@@ -61,7 +61,7 @@ https://forums.zotero.org/discussion/106183/zotero-item-id-numbers
    - ~C-x r o~: Open a blank rectangle, shifting text to the right.
    - ~C-x r c~: Clear (blank out) the rectangle.
 5. Press ~C-g~ (~Ctrl~ + ~g~) to deactivate the rectangle editing mode.
-
+** 20250212 Emacs 中的鼠标列编辑： ~C-M-Mouse1~
 * #Excel 功能键
 :PROPERTIES:
 :heading: true
@@ -173,10 +173,10 @@ https://cloud.video.taobao.com//play/u/2998787772/p/1/e/6/t/1/294032869022.mp4
 #Article [[https://sspai.com/post/53098][玩转 Excel 中的合并单元格 - 少数派]]
 ** 行单元格 标题居中
 右键选中区域，选择「设置单元格格式」，进入到「对齐」选项卡，将「水平对齐方式」设置为「跨列居中」
-| 方法 | 在现有表格内插入列 | 在现有表格后插入列 |
-|----+----+----|
-| 合并单元格 | 自动居中对齐 | 需要手动取消合并，重新选定区域合并单元格 |
-| 使用跨列居中对齐 | 自动居中对齐 | 自动居中对齐 |
+| 方法             | 在现有表格内插入列 | 在现有表格后插入列                       |
+|------------------+--------------------+------------------------------------------|
+| 合并单元格       | 自动居中对齐       | 需要手动取消合并，重新选定区域合并单元格 |
+| 使用跨列居中对齐 | 自动居中对齐       | 自动居中对齐                             |
 ** 列单元格 取消合并 补全空白值
 - 场景：VLookup 查找内容
 - 操作

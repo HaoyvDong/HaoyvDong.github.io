@@ -37,7 +37,7 @@ In order to enable lexical binding in the config, this must be the first line of
 #+begin_src emacs-lisp
   ;; Custom settings in a separate file and load the custom settings
 
-  (setq-default custom-file (expand-file-name "custom.el" user-emacs-directory))
+  (setq custom-file (locate-user-emacs-file "custom.el"))
 
   (when (file-exists-p custom-file)
     (load custom-file))
@@ -56,7 +56,7 @@ In order to enable lexical binding in the config, this must be the first line of
   (use-package use-package
     :custom
     (use-package-always-ensure t)
-    ;; (use-package-always-defer t)
+    ;;(use-package-always-defer t)
     (warning-minimum-level :emergency))
 #+end_src
 ** Localization
@@ -64,11 +64,11 @@ In order to enable lexical binding in the config, this must be the first line of
 #+begin_quote
 home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~ ，其中 xxx 表示用户名字，所以，在 Linux 下将 .emacs 和 .emacs.d 放到这个目录下就行了，但 windows 没有 home 目录的概念，所以，Emacs 就按如下方式来查找配置文件：
 
-    1. 如果设置了 ~HOME~ 环境变量，那么就用它的值作为home目录
-    2. 如果存在注册表键值 ~HKCU\SOFTWARE\GNU\Emacs\HOME~ ，就用它的值作为home目录
-    3. 如果存在注册表键值 ~HKLM\SOFTWARE\GNU\Emacs\HOME~ ，就用它的值作为home目录（和2的区别是，2只是针对当前用户的注册表路径，3则是针对所有用户）
-    4. 如果存在 ~C:\.emacs~ ，就用 ~C:\~ 作为home目录
-    5. 如果以上都不存在的话，就使用 ~\Users<user name>\AppData\Roaming~ 作为home目录~（对于XP和较早windows用户，需要到 ~Documents and Settings~ 目录下去找）
+1. 如果设置了 ~HOME~ 环境变量，那么就用它的值作为home目录
+2. 如果存在注册表键值 ~HKCU\SOFTWARE\GNU\Emacs\HOME~ ，就用它的值作为home目录
+3. 如果存在注册表键值 ~HKLM\SOFTWARE\GNU\Emacs\HOME~ ，就用它的值作为home目录（和2的区别是，2只是针对当前用户的注册表路径，3则是针对所有用户）
+4. 如果存在 ~C:\.emacs~ ，就用 ~C:\~ 作为home目录
+5. 如果以上都不存在的话，就使用 ~\Users<user name>\AppData\Roaming~ 作为home目录~（对于XP和较早windows用户，需要到 ~Documents and Settings~ 目录下去找）
 
 来源： https://emacs-china.org/t/windows-spacemacs-home/13435/3?u=randir
 #+end_quote
@@ -87,17 +87,24 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
   ;;(format-time-string "%Y-%m-%d")
 #+end_src
 *** CNFonts Cal-China-X
+
 #+begin_src emacs-lisp
-  (use-package cnfonts)
+
+  (use-package cnfonts
+    :defer t)
   (use-package cal-china-x
     :after cnfonts
     :custom
     (calendar-mark-holidays-flag t)
     (cal-china-x-force-chinese-week-day t)
     (cal-china-x-always-show-jieqi t))
+
 #+end_src
+
 ** UI
+
 #+begin_src emacs-lisp
+
   (column-number-mode t)
   (use-package display-line-numbers
     :hook (after-init . global-display-line-numbers-mode)
@@ -105,40 +112,46 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
   (use-package hl-line
     :hook (after-init . global-hl-line-mode)
     :config
-    (setq hl-line-sticky-flag nil)
     ;; Highlight starts from EOL, to avoid conflicts with other overlays
     (setq hl-line-range-function (lambda () (cons (line-end-position)
-  						(line-beginning-position 2)))))
-  ;; (keymap-global-set "<f10>" #'tmm-menubar)
-  (advice-add #'tmm-add-prompt :after #'minibuffer-hide-completions)
+						  (line-beginning-position 2))))
+    :custom
+    (hl-line-sticky-flag nil))
   ;; Window management
   ;; Split windows sensibly
 
   (setq split-width-threshold 120
-        split-height-threshold nil)
+	split-height-threshold nil)
 
 #+end_src
+
 *** Themes
+
 #+begin_src emacs-lisp
+
   (use-package modus-themes
     :pin melpa
     :bind
     (:map global-map
-  	("<f5>" . modus-themes-toggle)))
+	  ("<f5>" . modus-themes-toggle)))
   (use-package auto-dark
     :custom
     (auto-dark-themes '((modus-vivendi-deuteranopia) (modus-operandi-deuteranopia)))
     :init (auto-dark-mode))
+
 #+end_src
+
 ** UX
 *** Completion & Prompt
-vertico orderless marginalia which-key
 #+begin_src emacs-lisp
   (use-package vertico
     :hook after-init
     (vertico-mode . vertico-multiform-mode)
     :custom
-    (vertico-multiform-commands '((tmm-menubar flat))))
+    (vertico-multiform-commands '((tmm-menubar flat)))
+    :config
+    ;; (keymap-global-set "<f10>" #'tmm-menubar)
+    (advice-add #'tmm-add-prompt :after #'minibuffer-hide-completions))
   (use-package savehist
     :hook vertico-mode)
   (use-package orderless
@@ -148,14 +161,13 @@ vertico orderless marginalia which-key
     (completion-category-overrides '((file (styles partial-completion)))))
   (use-package marginalia
     :bind (:map minibuffer-local-map
-                ("M-A" . marginalia-cycle))
+		("M-A" . marginalia-cycle))
     :hook vertico-mode)
   (use-package which-key
     :hook after-init)
 #+end_src
 *** File Manager
-**** Dirvish
-[[https://github.com/alexluigit/dirvish][dirvish: A polished Dired with batteries included.]]
+**** Dirvish [[https://github.com/alexluigit/dirvish][A polished Dired with batteries included.]]
 #+begin_src emacs-lisp
   ;; Try to replace the treemacs as my scenario is quite simple.
   (use-package dirvish
@@ -168,12 +180,12 @@ vertico orderless marginalia which-key
     ;; (dirvish-peek-mode) ; Preview files in minibuffer
     (dirvish-side-follow-mode) ; similar to `treemacs-follow-mode'
     (setq dirvish-mode-line-format
-  	'(:left (sort symlink) :right (omit yank index)))
+	  '(:left (sort symlink) :right (omit yank index)))
     (setq dirvish-attributes
-  	'(file-time file-size collapse subtree-state vc-state))
+	  '(file-time file-size collapse subtree-state vc-state))
     (setq delete-by-moving-to-trash t)
     (setq dired-listing-switches
-  	"-l --almost-all --human-readable --group-directories-first --no-group")
+	  "-l --almost-all --human-readable --group-directories-first --no-group")
     :bind ; Bind `dirvish|dirvish-side|dirvish-dwim' as you see fit
     (("M-0" . dirvish-side)
      :map dirvish-mode-map ; Dirvish inherits `dired-mode-map'
@@ -194,7 +206,8 @@ vertico orderless marginalia which-key
      ("M-s" . dirvish-setup-menu)
      ("M-e" . dirvish-emerge-menu)
      ("M-j" . dirvish-fd-jump)
-     ("M-u" . dired-up-directory)))
+     ("M-u" . dired-up-directory)
+     ("M-w" . wdired-change-to-wdired-mode)))
 #+end_src
 ** Window Management
 *** Initial Dashboard
@@ -210,7 +223,8 @@ vertico orderless marginalia which-key
 *** Session
 [[https://github.com/iqbalansari/restart-emacs][restart-emacs]] offers a command ~restart-emacs~.
 #+begin_src emacs-lisp
-  (use-package restart-emacs)
+  (use-package restart-emacs
+    :defer t)
   (server-start)
 #+end_src
 *** Buffer
@@ -245,12 +259,16 @@ vertico orderless marginalia which-key
 #+begin_src emacs-lisp
   (use-package org
     :pin melpa
-    :custom
-    (org-agenda-files '("~/configBackup/org/Inbox.org"))
-    (org-directory "~/configBackup/org")
-    (org-use-sub-superscripts "{}")
     :config
-    (require 'org-tempo))
+    (require 'org-tempo)
+    :custom
+    (org-use-sub-superscripts "{}")
+    (org-directory "~/configBackup/org")
+    (org-agenda-files '("Inbox.org"))
+    ;; TOC CSS from Worg
+    (org-html-doctype "html5")
+    (org-html-html5-fancy t)
+    (org-html-head-extra "<style>/* TOC inspired by http://jashkenas.github.com/coffee-script */ #table-of-contents { z-index: 1; margin-top: 105px; font-size: 10pt; font-family:sans-serif; position: fixed; right: 0em; top: 0em; background: white; line-height: 12pt; text-align: right; box-shadow: 0 0 1em #777777; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } /* Hide when screen is too narrow */ @media only screen and (max-width: 67em) { #table-of-contents { display: none; } } #table-of-contents h2 { font-size: 13pt; max-width: 9em; border: 0; font-weight: normal; margin-top: 0.75em; padding-left: 0.5em; padding-right: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents { display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents { display: block; padding: 0.5em; margin-top: -1.5em; }</style>"))
 
   ;; Org modern: Most features are disabled for beginning users
   (use-package org-modern
@@ -269,38 +287,31 @@ vertico orderless marginalia which-key
     (org-modern-radio-target nil)
     (org-modern-statistics nil)
     (org-modern-progress nil))
-
-  ;; TOC CSS from Worg
-  (use-package ox-html
-    :after org
-    :custom
-    (org-html-doctype "html5")
-    (org-html-html5-fancy t)
-    (org-html-head-extra "<style>/* TOC inspired by http://jashkenas.github.com/coffee-script */ #table-of-contents { z-index: 1; margin-top: 105px; font-size: 10pt; font-family:sans-serif; position: fixed; right: 0em; top: 0em; background: white; line-height: 12pt; text-align: right; box-shadow: 0 0 1em #777777; -webkit-box-shadow: 0 0 1em #777777; -moz-box-shadow: 0 0 1em #777777; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomleft: 5px; /* ensure doesn't flow off the screen when expanded */ max-height: 80%; overflow: auto; } /* Hide when screen is too narrow */ @media only screen and (max-width: 67em) { #table-of-contents { display: none; } } #table-of-contents h2 { font-size: 13pt; max-width: 9em; border: 0; font-weight: normal; margin-top: 0.75em; padding-left: 0.5em; padding-right: 0.5em; padding-top: 0.05em; padding-bottom: 0.05em; } #table-of-contents #text-table-of-contents { display: none; text-align: left; } #table-of-contents:hover #text-table-of-contents { display: block; padding: 0.5em; margin-top: -1.5em; }</style>"))
 #+end_src
 *** Markdown
 #+begin_src emacs-lisp
   (use-package markdown-mode
     :mode (("README\\.md\\'" . gfm-mode)
-  	 ("\\.md\\'" . markdown-mode)
-  	 ("\\.markdown\\'" . markdown-mode)))
+	   ("\\.md\\'" . markdown-mode)
+	   ("\\.markdown\\'" . markdown-mode)))
 #+end_src
 ** Data Format
 *** YAML
 #+begin_src emacs-lisp
-(use-package yaml-mode
-  :mode
-  (("\\.yaml\\'" . yaml-mode)
-   ("\\.yml\\'" . yaml-mode)))
+  (use-package yaml-mode
+    :mode
+    (("\\.yaml\\'" . yaml-mode)
+     ("\\.yml\\'" . yaml-mode)))
 #+end_src
 *** JSON
 #+begin_src emacs-lisp
-(use-package json-mode
-  :defer t)
+  (use-package json-mode
+    :defer t)
 #+end_src
 
 *** Beancount
 #+begin_src emacs-lisp
+
   (use-package conda
     :custom
     (conda-anaconda-home "d:/Applications/Scoop/apps/miniconda3/current/"))
@@ -309,15 +320,33 @@ vertico orderless marginalia which-key
     :after conda
     :custom
     (beancount-number-alignment-column 60)
+    :config
+    (conda-env-activate "bean")
+    (defun my/beancount-auto-fava ()
+      "`beancount-fava` only when open `ledger.beancount`"
+      (when (string-equal (file-name-nondirectory buffer-file-name) "Ledger.beancount")
+	(beancount-fava)))
+    (defun my/beancount-kill-buffer ()
+      (interactive)
+      (if (string-equal (file-name-nondirectory buffer-file-name) "Ledger.beancount")
+	  (progn
+	    (beancount-fava)
+	    (when (get-buffer "*fava*")
+	      (kill-buffer "*fava*"))
+	    (kill-buffer (current-buffer)))
+	(kill-buffer (current-buffer)))) ;; 其他文件正常关闭
+    :bind
+    (:map beancount-mode-map
+	  ("C-x k" . my/beancount-kill-buffer))
     :hook
-    (beancount-mode . (lambda ()
-  		      (outline-minor-mode t)
-  		      (conda-env-activate "bean") ; 激活conda环境
-  		      (beancount-fava))))
+    (beancount-mode . outline-minor-mode)
+    (beancount-mode . my/beancount-auto-fava))
+
 #+end_src
 
 ** Version Control
+
 #+begin_src emacs-lisp
-    (use-package magit
-      :defer t)
+  (use-package magit
+    :defer t)
 #+end_src
