@@ -1,5 +1,15 @@
 #+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
 
+* 制作对照翻译网页 20250301
+
+来自 [[https://utgd.net/article/4991][一种几乎永不失效的网页中英对照翻译方案 | #UNTAG]] ，以下小书签用于复写各段落，随后使用浏览器自带翻译即可
+
+#+begin_src javascript
+
+  javascript:(function()%7Bfor%20(var%20node%20of%20document.querySelectorAll(%27p%2C%20li%2C%20h1%2C%20h2%2C%20h3%2C%20h4%27))%20%7B%20var%20copy%20%3D%20document.createElement(node.nodeName)%3B%20copy.textContent%20%3D%20node.textContent%3B%20node.parentElement.insertBefore(copy%2C%20node.nextElementSibling)%3B%20node.setAttribute(%27translate%27%2C%20%27no%27)%3B%20node.setAttribute(%27class%27%2C%20%27notranslate%27)%7D%20%7D)()%3B
+
+#+end_src
+
 * Zotero 的全局标识符 20250211
 
 此前导出时看到了每个条目是有个整数编码的，但是没有看到明显的方式获取这个值，一番查找结果如下
@@ -233,7 +243,7 @@ https://cloud.video.taobao.com//play/u/2998787772/p/1/e/6/t/1/294032869022.mp4
 :heading: true
 :collapsed: true
 :END:
-** 起因很简单嘛，网文下载下来不排版根本不能看（不会真的有人把一切交给阅读器吧——Kybook 系列停更痛感）。后来网文看得少了，还没有正确上网姿势的时候从公众号资源站下载一些电子书也往往排版粗劣，复杂的图文混排、来回跳转或悬浮窗的脚注且不提，许多书甚至连目录和行距段距都做不好！就算我不要那象牙箸，也不能给我双全是毛刺的吧？
+** 起因很简单嘛，网文下载下来不排版根本不能看（不会真的有人把一切交给阅读器吧—— Kybook 系列停更痛感）。后来网文看得少了，还没有正确上网姿势的时候从公众号资源站下载一些电子书也往往排版粗劣，复杂的图文混排、来回跳转或悬浮窗的脚注且不提，许多书甚至连目录和行距段距都做不好！
 ** #CSS 集锦
 :PROPERTIES:
 :heading: true
@@ -244,13 +254,21 @@ https://cloud.video.taobao.com//play/u/2998787772/p/1/e/6/t/1/294032869022.mp4
 - 赫蹏 :: [[https://github.com/sivan/heti][sivan/heti: 赫蹏（hètí）是专为中文内容展示设计的排版样式增强。它基于通行的中文排版规范而来，可以为网站的读者带来更好的文章阅读体验。]]
 - Typo.css :: [[https://github.com/sofish/typo.css][sofish/typo.css: 中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版]]
 ** #Article
-*** [[https://sspai.com/post/75170][一日一技 | 如何给自制电子书添加脚注 - 少数派]]
-- 正则中的tab： ~\t~
-**** 正则表达式的 PCRE 写法是指？
-Perl Compatible Regular Expressions
-***** Perl Python #Emacs RegEx
-#Article: [[https://www.johndcook.com/blog/regex-perl-python-emacs/][Comparing regular expressions in Perl, Python, and Emacs]]
-**** HTML Tag
+- [[https://sspai.com/post/75170][一日一技 | 如何给自制电子书添加脚注 - 少数派]]
+  - 正则中的tab： ~\t~
+- PCRE :: Perl Compatible Regular Expressions
+- Perl Python #Emacs RegEx :: [[https://www.johndcook.com/blog/regex-perl-python-emacs/][Comparing regular expressions in Perl, Python, and Emacs]]
+
+*** Designing ebooks with Free Software
+:PROPERTIES:
+:ID:       832cb35c-2e23-4d5f-9d4f-894bf451aeae
+:CREATED:  [2025-02-27 Thu 01:16]
+:END:
+
+- [[https://designingebooks.com/][Designing ebooks with Free Software]] :: 介绍使用 Calibre 和 LibreOffice 制作电子书的电子书
+
+
+*** HTML Tag
 * 作为阅读批注软件的 Zotero
 :PROPERTIES:
 :id: 64f1aacc-849d-4f99-acda-fc1512312067

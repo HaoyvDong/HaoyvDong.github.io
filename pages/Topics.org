@@ -3,10 +3,6 @@
 :heading: true
 :id: 64eeeded-7034-476b-9d5f-e4a006f3de39
 :END:
-* [[BOB]]
-:PROPERTIES:
-:heading: true
-:END:
 * [[Common knowledge]]
 :PROPERTIES:
 :heading: true
@@ -55,33 +51,8 @@
 :PROPERTIES:
 :heading: true
 :END:
-**** Scoop
-:PROPERTIES:
-:id: 64eff0ef-c0a0-496e-a27e-140a12f5570d
-:collapsed: true
-:END:
-[[https://scoop.sh/][Get Scoop]]
-***** [[Article]]
-****** [[https://zhuanlan.zhihu.com/p/594363658][Scoop 安装、配置国内镜像、备份与迁移 - 知乎]]
-文中给出的 Gitee 镜像，推荐使用[[https://mirror.nju.edu.cn][南京大学镜像]]
-**** [[https://portableapps.com/][PortableApps.com - Portable software for USB, portable, and cloud drives]]
 ** [[https://www.runningcheese.com/][奔跑中的奶酪 - 有智，有趣，有爱]]
 
-
-** 自动化 Automation
-:PROPERTIES:
-:heading: true
-:collapsed: true
-:END:
-*** #AHK
-:PROPERTIES:
-:heading: true
-:END:
-**** [[https://wyagd001.github.io/v2/docs/index.htm][快速参考 | AutoHotkey v2]]
-*** #VBA
-** [[https://www.privacyguides.org/zh-hant/][Privacy Guides]]
-隐私指南 - [[https://github.com/privacyguides/privacyguides.org][privacyguides/privacyguides.org: Protect your data against global mass surveillance programs.]]
-*** [[https://www.privacyguides.org/zh-hant/tools/][隱私工具 - Privacy Guides]]
 * [[Typesetting]]
 :PROPERTIES:
 :heading: true
@@ -142,8 +113,17 @@ This page provides a product summary for each Apple model. The intent is to prov
 :PROPERTIES:
 :END:
 After a decade of dual-booting Linux, I got tired of waiting around to change the GRUB boot selection any time I wanted to boot Windows. With a little tinkering, here's a physical switch that determines the OS to boot each time the computer is turned on.
-** [[https://i-bsd.com/][iBSD | Proving that BSD is a great alternative to Linux]]
-** [[https://bsdmag.org/][Home - BSD MAG]]
+
+** SDF中文站
+SCHEDULED: <2025-10-01 Wed>
+:PROPERTIES:
+:CREATED:  [2024-09-25 Wed 15:41]
+:END:
+
+https://sdfcn.org
+Super Dimension Fortress，为全球用户提供公共 UNIX 访问
+
+
 ** [[Article]]
 *** [[https://blog.lishun.me/openwrt-mega-post][Openwrt 路由总结：自动编译固件、正确设置旁路网关，破解迷思…… - 川叶 :: 不舍昼夜]]
 *** [[https://netnewswire.blog/2021/12/28/on-not-being.html][NetNewsWire - On Not Being the Free Alternative]]

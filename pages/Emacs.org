@@ -1,6 +1,7 @@
 #+PROPERTY: header-args:emacs-lisp :results silent :tangle "~/.emacs.d/init.el"
 
 * References
+
 - https://github.com/willbchang/ward-emacs
 - https://github.com/pprevos/emacs-writing-studio/
 - https://github.com/condy0919/emacs-newbie
@@ -11,7 +12,9 @@
 - [[https://pavinberg.github.io/emacs-book/zh/][专业 Emacs 入门]]
 
 * early-init
+
 #+begin_src  emacs-lisp :tangle "~/.emacs.d/early-init.el"
+  
   ;;; early-init.el --- Early initialization. -*- lexical-binding: t -*-
 
   ;; Faster to disable these here (before they've been initialized)
@@ -19,22 +22,34 @@
   (push '(tool-bar-lines . 0) default-frame-alist)
   (push '(vertical-scroll-bars) default-frame-alist)
   (push '(fullscreen . maximized) default-frame-alist)
+
   ;; Prevent Emacs from initializing packages before loading user-init-file
-  (setq package-enable-at-startup nil)
+  ;;(setq package-enable-at-startup nil)
+  (setq package-archives '(("gnu" . "https://mirrors.ustc.edu.cn/elpa/gnu/")
+  			   ("melpa" . "https://mirrors.ustc.edu.cn/elpa/melpa/")
+  			   ("nongnu" . "https://mirrors.ustc.edu.cn/elpa/nongnu/")))
+
   ;; (setq-default mode-line-format nil)
   (provide 'early-init)
 
   ;;; early-init.el ends here
 
 #+end_src
+
 * Init.el
+
 ** Lexical Binding
+
 In order to enable lexical binding in the config, this must be the first line of Emacs Lisp.
+
 #+begin_src emacs-lisp
   ;;; init.el -*- lexical-binding: t -*-
 #+end_src
+
 ** Custom
+
 #+begin_src emacs-lisp
+  
   ;; Custom settings in a separate file and load the custom settings
 
   (setq custom-file (locate-user-emacs-file "custom.el"))
@@ -43,24 +58,27 @@ In order to enable lexical binding in the config, this must be the first line of
     (load custom-file))
 
 #+end_src
+
 ** Package Manager
+
 #+begin_src emacs-lisp
-  (use-package package
-    :custom
-    (package-archives
-     '(("gnu" . "https://mirrors.ustc.edu.cn/elpa/gnu/")
-       ("melpa" . "https://mirrors.ustc.edu.cn/elpa/melpa/")
-       ("nongnu" . "https://mirrors.ustc.edu.cn/elpa/nongnu/")))
-    :config
-    (package-initialize))
+
   (use-package use-package
     :custom
     (use-package-always-ensure t)
-    ;;(use-package-always-defer t)
+    (use-package-always-defer t)
     (warning-minimum-level :emergency))
+  
 #+end_src
+
 ** Localization
+
 *** Platform
+
+**** Windows
+
+***** home 目录
+
 #+begin_quote
 home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~ ，其中 xxx 表示用户名字，所以，在 Linux 下将 .emacs 和 .emacs.d 放到这个目录下就行了，但 windows 没有 home 目录的概念，所以，Emacs 就按如下方式来查找配置文件：
 
@@ -68,24 +86,43 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
 2. 如果存在注册表键值 ~HKCU\SOFTWARE\GNU\Emacs\HOME~ ，就用它的值作为home目录
 3. 如果存在注册表键值 ~HKLM\SOFTWARE\GNU\Emacs\HOME~ ，就用它的值作为home目录（和2的区别是，2只是针对当前用户的注册表路径，3则是针对所有用户）
 4. 如果存在 ~C:\.emacs~ ，就用 ~C:\~ 作为home目录
-5. 如果以上都不存在的话，就使用 ~\Users<user name>\AppData\Roaming~ 作为home目录~（对于XP和较早windows用户，需要到 ~Documents and Settings~ 目录下去找）
+5. 如果以上都不存在的话，就使用 ~C:\Users\<user name>\AppData\Roaming~ 作为home目录（对于XP和较早windows用户，需要到 ~Documents and Settings~ 目录下去找）
 
-来源： https://emacs-china.org/t/windows-spacemacs-home/13435/3?u=randir
+来源： https://emacs-china.org/t/windows-spacemacs-home/13435/3
 #+end_quote
+
+***** 右键菜单
+
+在 ~HKEY_CLASSES_ROOT\*\shell\~ 下新建 ~HKEY_CLASSES_ROOT\*\shell\openwemacs\command~ 值设置为 ~PATH-TO-EMACS\emacsclientw.exe  --alternate-editor="" -c -n "%1"~ ，在右键编辑时自动调用 daemon、新建一个 frame、执行完后立刻退出。
+
+参考资料：
+- [[https://book.emacs-china.org/#orgc9b305f][第二天：打造属于你的记事本 | Master Emacs in 21 Days]]
+- [[https://emacs.liujiacai.net/post/020/][Emacs Server 启动方式探讨 | EmacsTalk]]
+
+#+begin_src emacs-lisp
+
+  ; Windows 右键菜单编辑含中文路径文件需调整
+  (when (eq system-type 'windows-nt)
+    (setq file-name-coding-system 'chinese-gb18030))
+
+#+end_src
+
 *** Coding
 - https://github.com/purcell/emacs.d/blob/7a725b2e20155b1686830430e56104c449f4ecec/lisp/init-locales.el#L18-L23
+   
 #+begin_src emacs-lisp
+
   (when (fboundp 'set-charset-priority)
     (set-charset-priority 'unicode))
   (prefer-coding-system 'utf-8)
   (setq locale-coding-system 'utf-8)
   (unless (eq system-type 'windows-nt)
     (set-selection-coding-system 'utf-8))
-  (when (eq system-type 'windows-nt)
-    (setq file-name-coding-system 'chinese-gb18030))
   (setq system-time-locale "C")
   ;;(format-time-string "%Y-%m-%d")
+  
 #+end_src
+
 *** CNFonts Cal-China-X
 
 #+begin_src emacs-lisp
@@ -93,6 +130,7 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
   (use-package cnfonts
     :defer t)
   (use-package cal-china-x
+    :defer t
     :after cnfonts
     :custom
     (calendar-mark-holidays-flag t)
@@ -105,7 +143,8 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
 
 #+begin_src emacs-lisp
 
-  (column-number-mode t)
+  (use-package simple
+    :hook (after-init . column-number-mode))
   (use-package display-line-numbers
     :hook (after-init . global-display-line-numbers-mode)
     :custom (display-line-numbers-type 'visual))
@@ -114,14 +153,14 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
     :config
     ;; Highlight starts from EOL, to avoid conflicts with other overlays
     (setq hl-line-range-function (lambda () (cons (line-end-position)
-						  (line-beginning-position 2))))
+  						(line-beginning-position 2))))
     :custom
     (hl-line-sticky-flag nil))
   ;; Window management
   ;; Split windows sensibly
 
   (setq split-width-threshold 120
-	split-height-threshold nil)
+        split-height-threshold nil)
 
 #+end_src
 
@@ -137,20 +176,24 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
   (use-package auto-dark
     :custom
     (auto-dark-themes '((modus-vivendi-deuteranopia) (modus-operandi-deuteranopia)))
-    :init (auto-dark-mode))
+    :hook after-init)
 
 #+end_src
 
 ** UX
-*** Completion & Prompt
+*** Completion
+**** Vertico Orderless Marginalia Which-Key
+
 #+begin_src emacs-lisp
+
   (use-package vertico
-    :hook after-init
+    :hook
+    (after-init . vertico-mode)
     (vertico-mode . vertico-multiform-mode)
     :custom
     (vertico-multiform-commands '((tmm-menubar flat)))
     :config
-    ;; (keymap-global-set "<f10>" #'tmm-menubar)
+    (keymap-global-set "<f10>" #'tmm-menubar)
     (advice-add #'tmm-add-prompt :after #'minibuffer-hide-completions))
   (use-package savehist
     :hook vertico-mode)
@@ -161,18 +204,50 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
     (completion-category-overrides '((file (styles partial-completion)))))
   (use-package marginalia
     :bind (:map minibuffer-local-map
-		("M-A" . marginalia-cycle))
+  		("M-A" . marginalia-cycle))
     :hook vertico-mode)
   (use-package which-key
     :hook after-init)
+  
 #+end_src
-*** File Manager
-**** Dirvish [[https://github.com/alexluigit/dirvish][A polished Dired with batteries included.]]
+
+**** Corfu
+
 #+begin_src emacs-lisp
+
+  (use-package corfu
+    ;; Optional customizations
+    :custom
+    (corfu-cycle t)                ;; Enable cycling for `corfu-next/previous'
+    ;; (corfu-quit-at-boundary nil)   ;; Never quit at completion boundary
+    ;; (corfu-quit-no-match nil)      ;; Never quit, even if there is no match
+    ;; (corfu-preview-current nil)    ;; Disable current candidate preview
+    ;; (corfu-preselect 'prompt)      ;; Preselect the prompt
+    ;; (corfu-on-exact-match nil)     ;; Configure handling of exact matches
+
+    ;; Enable Corfu only for certain modes. See also `global-corfu-modes'.
+    ;; :hook ((prog-mode . corfu-mode)
+    ;;        (shell-mode . corfu-mode)
+    ;;        (eshell-mode . corfu-mode))
+
+    ;; Recommended: Enable Corfu globally.  This is recommended since Dabbrev can
+    ;; be used globally (M-/).  See also the customization variable
+    ;; `global-corfu-modes' to exclude certain modes.
+    :hook 
+    (after-init . global-corfu-mode))
+
+
+#+end_src
+
+*** File Manager :: Dirvish
+**** Dirvish [[https://github.com/alexluigit/dirvish][A polished Dired with batteries included.]]
+
+#+begin_src emacs-lisp
+
   ;; Try to replace the treemacs as my scenario is quite simple.
   (use-package dirvish
-    :init
-    (dirvish-override-dired-mode)
+    :hook
+    (after-init . dirvish-override-dired-mode)
     :custom
     (dirvish-quick-access-entries ; It's a custom option, `setq' won't work
      '(("h" "~/"                          "Home")))
@@ -180,12 +255,12 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
     ;; (dirvish-peek-mode) ; Preview files in minibuffer
     (dirvish-side-follow-mode) ; similar to `treemacs-follow-mode'
     (setq dirvish-mode-line-format
-	  '(:left (sort symlink) :right (omit yank index)))
+  	'(:left (sort symlink) :right (omit yank index)))
     (setq dirvish-attributes
-	  '(file-time file-size collapse subtree-state vc-state))
+  	'(file-time file-size collapse subtree-state vc-state))
     (setq delete-by-moving-to-trash t)
     (setq dired-listing-switches
-	  "-l --almost-all --human-readable --group-directories-first --no-group")
+  	"-l --almost-all --human-readable --group-directories-first --no-group")
     :bind ; Bind `dirvish|dirvish-side|dirvish-dwim' as you see fit
     (("M-0" . dirvish-side)
      :map dirvish-mode-map ; Dirvish inherits `dired-mode-map'
@@ -208,57 +283,173 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
      ("M-j" . dirvish-fd-jump)
      ("M-u" . dired-up-directory)
      ("M-w" . wdired-change-to-wdired-mode)))
+
 #+end_src
-** Window Management
-*** Initial Dashboard
+
+*** Prompt :: Embark
+
 #+begin_src emacs-lisp
-  (use-package dashboard
+
+  (use-package embark
+    :bind
+    (("C-." . embark-act)         ;; pick some comfortable binding
+     ("C-;" . embark-dwim)        ;; good alternative: M-.
+     ("C-h B" . embark-bindings)) ;; alternative for `describe-bindings'
     :init
-    (dashboard-setup-startup-hook)
-    :custom
-    (initial-buffer-choice '(lambda () (get-buffer-create dashboard-buffer-name)))
-    (dashboard-startup-banner 2)
-    (dashboard-center-content t))
+    ;; Optionally replace the key help with a completing-read interface
+    (setq prefix-help-command #'embark-prefix-help-command)
+    :config
+    ;; Hide the mode line of the Embark live/completions buffers
+    (add-to-list 'display-buffer-alist
+                 '("\\`\\*Embark Collect \\(Live\\|Completions\\)\\*"
+                   nil
+                   (window-parameters (mode-line-format . none)))))
+
+  ;; Consult users will also want the embark-consult package.
+  (use-package embark-consult
+    :after (embark consult)
+    :demand t ; only necessary if you have the hook below
+    ;; if you want to have consult previews as you move around an
+    ;; auto-updating embark collect buffer
+    :hook
+    (embark-collect-mode . consult-preview-at-point-mode))
+
 #+end_src
-*** Session
-[[https://github.com/iqbalansari/restart-emacs][restart-emacs]] offers a command ~restart-emacs~.
+
+*** Search :: Consult
+
 #+begin_src emacs-lisp
-  (use-package restart-emacs
-    :defer t)
-  (server-start)
+
+  ;; Example configuration for Consult
+  (use-package consult
+    ;; Replace bindings. Lazily loaded by `use-package'.
+    :bind (;; C-c bindings in `mode-specific-map'
+           ("C-c M-x" . consult-mode-command)
+           ("C-c h" . consult-history)
+           ("C-c k" . consult-kmacro)
+           ("C-c m" . consult-man)
+           ("C-c i" . consult-info)
+           ([remap Info-search] . consult-info)
+           ;; C-x bindings in `ctl-x-map'
+           ("C-x M-:" . consult-complex-command)     ;; orig. repeat-complex-command
+           ("C-x b" . consult-buffer)                ;; orig. switch-to-buffer
+           ("C-x 4 b" . consult-buffer-other-window) ;; orig. switch-to-buffer-other-window
+           ("C-x 5 b" . consult-buffer-other-frame)  ;; orig. switch-to-buffer-other-frame
+           ("C-x t b" . consult-buffer-other-tab)    ;; orig. switch-to-buffer-other-tab
+           ("C-x r b" . consult-bookmark)            ;; orig. bookmark-jump
+           ("C-x p b" . consult-project-buffer)      ;; orig. project-switch-to-buffer
+           ;; Custom M-# bindings for fast register access
+           ("M-#" . consult-register-load)
+           ("M-'" . consult-register-store)          ;; orig. abbrev-prefix-mark (unrelated)
+           ("C-M-#" . consult-register)
+           ;; Other custom bindings
+           ("M-y" . consult-yank-pop)                ;; orig. yank-pop
+           ;; M-g bindings in `goto-map'
+           ("M-g e" . consult-compile-error)
+           ("M-g f" . consult-flymake)               ;; Alternative: consult-flycheck
+           ("M-g g" . consult-goto-line)             ;; orig. goto-line
+           ("M-g M-g" . consult-goto-line)           ;; orig. goto-line
+           ("M-g o" . consult-outline)               ;; Alternative: consult-org-heading
+           ("M-g m" . consult-mark)
+           ("M-g k" . consult-global-mark)
+           ("M-g i" . consult-imenu)
+           ("M-g I" . consult-imenu-multi)
+           ;; M-s bindings in `search-map'
+           ("M-s d" . consult-find)                  ;; Alternative: consult-fd
+           ("M-s c" . consult-locate)
+           ("M-s g" . consult-grep)
+           ("M-s G" . consult-git-grep)
+           ("M-s r" . consult-ripgrep)
+           ("M-s l" . consult-line)
+           ("M-s L" . consult-line-multi)
+           ("M-s k" . consult-keep-lines)
+           ("M-s u" . consult-focus-lines)
+           ;; Isearch integration
+           ("M-s e" . consult-isearch-history)
+           :map isearch-mode-map
+           ("M-e" . consult-isearch-history)         ;; orig. isearch-edit-string
+           ("M-s e" . consult-isearch-history)       ;; orig. isearch-edit-string
+           ("M-s l" . consult-line)                  ;; needed by consult-line to detect isearch
+           ("M-s L" . consult-line-multi)            ;; needed by consult-line to detect isearch
+           ;; Minibuffer history
+           :map minibuffer-local-map
+           ("M-s" . consult-history)                 ;; orig. next-matching-history-element
+           ("M-r" . consult-history))                ;; orig. previous-matching-history-element
+
+    ;; Enable automatic preview at point in the *Completions* buffer. This is
+    ;; relevant when you use the default completion UI.
+    :hook (completion-list-mode . consult-preview-at-point-mode)
+
+    ;; The :init configuration is always executed (Not lazy)
+    :init
+
+    ;; Tweak the register preview for `consult-register-load',
+    ;; `consult-register-store' and the built-in commands.  This improves the
+    ;; register formatting, adds thin separator lines, register sorting and hides
+    ;; the window mode line.
+    (advice-add #'register-preview :override #'consult-register-window)
+    (setq register-preview-delay 0.5)
+
+    ;; Use Consult to select xref locations with preview
+    (setq xref-show-xrefs-function #'consult-xref
+          xref-show-definitions-function #'consult-xref)
+
+    ;; Configure other variables and modes in the :config section,
+    ;; after lazily loading the package.
+    :config
+
+    ;; Optionally configure preview. The default value
+    ;; is 'any, such that any key triggers the preview.
+    ;; (setq consult-preview-key 'any)
+    ;; (setq consult-preview-key "M-.")
+    ;; (setq consult-preview-key '("S-<down>" "S-<up>"))
+    ;; For some commands and buffer sources it is useful to configure the
+    ;; :preview-key on a per-command basis using the `consult-customize' macro.
+    (consult-customize
+     consult-theme :preview-key '(:debounce 0.2 any)
+     consult-ripgrep consult-git-grep consult-grep consult-man
+     consult-bookmark consult-recent-file consult-xref
+     consult--source-bookmark consult--source-file-register
+     consult--source-recent-file consult--source-project-recent-file
+     ;; :preview-key "M-."
+     :preview-key '(:debounce 0.4 any))
+
+    ;; Optionally configure the narrowing key.
+    ;; Both < and C-+ work reasonably well.
+    (setq consult-narrow-key "<") ;; "C-+"
+
+    ;; Optionally make narrowing help available in the minibuffer.
+    ;; You may want to use `embark-prefix-help-command' or which-key instead.
+    ;; (keymap-set consult-narrow-map (concat consult-narrow-key " ?") #'consult-narrow-help)
+    )
+
 #+end_src
-*** Buffer
-#+begin_src emacs-lisp
-  (use-package saveplace
-    :ensure nil
-    :hook (after-init . save-place-mode))
-#+end_src
-*** Window Tab Line
-#+begin_src emacs-lisp
-  (use-package tab-line
-    :config (global-tab-line-mode t)
-    :hook after-init)
-#+end_src
-** Word Processing
+
+** Text Processing
 
 *** Basic Text-Mode
+
 #+begin_src emacs-lisp
+
   ;;; Text mode settings
   (use-package text-mode
-    :ensure nil
     :hook  (text-mode . visual-line-mode)
     :init  (delete-selection-mode t)
     :custom
     (sentence-end-double-space nil)
     (scroll-error-top-bottom t)
     (save-interprogram-paste-before-kill t))
+  
 #+end_src
 
-** Markup Languages
-*** Org-Mode
+*** Markup Languages
+
+**** Org-Mode
+
 #+begin_src emacs-lisp
+
   (use-package org
-    :pin melpa
+    :pin gnu
     :config
     (require 'org-tempo)
     :custom
@@ -287,32 +478,28 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
     (org-modern-radio-target nil)
     (org-modern-statistics nil)
     (org-modern-progress nil))
-#+end_src
-*** Markdown
-#+begin_src emacs-lisp
-  (use-package markdown-mode
-    :mode (("README\\.md\\'" . gfm-mode)
-	   ("\\.md\\'" . markdown-mode)
-	   ("\\.markdown\\'" . markdown-mode)))
-#+end_src
-** Data Format
-*** YAML
-#+begin_src emacs-lisp
-  (use-package yaml-mode
-    :mode
-    (("\\.yaml\\'" . yaml-mode)
-     ("\\.yml\\'" . yaml-mode)))
-#+end_src
-*** JSON
-#+begin_src emacs-lisp
-  (use-package json-mode
-    :defer t)
+
 #+end_src
 
-*** Beancount
+**** Markdown
+
+#+begin_src emacs-lisp
+
+  (use-package markdown-mode
+    :mode (("README\\.md\\'" . gfm-mode)
+  	   ("\\.md\\'" . markdown-mode)
+  	   ("\\.markdown\\'" . markdown-mode)))
+  
+#+end_src
+
+*** Data Format
+
+**** Beancount
+
 #+begin_src emacs-lisp
 
   (use-package conda
+    :defer 1 ; 设置为 t 时 beancount 函数启动异常
     :custom
     (conda-anaconda-home "d:/Applications/Scoop/apps/miniconda3/current/"))
 
@@ -325,28 +512,142 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
     (defun my/beancount-auto-fava ()
       "`beancount-fava` only when open `ledger.beancount`"
       (when (string-equal (file-name-nondirectory buffer-file-name) "Ledger.beancount")
-	(beancount-fava)))
+  	(beancount-fava)))
     (defun my/beancount-kill-buffer ()
       (interactive)
       (if (string-equal (file-name-nondirectory buffer-file-name) "Ledger.beancount")
-	  (progn
-	    (beancount-fava)
-	    (when (get-buffer "*fava*")
-	      (kill-buffer "*fava*"))
-	    (kill-buffer (current-buffer)))
-	(kill-buffer (current-buffer)))) ;; 其他文件正常关闭
+  	  (progn
+  	    (beancount-fava)
+  	    (when (get-buffer "*fava*")
+  	      (kill-buffer "*fava*"))
+  	    (kill-buffer (current-buffer)))
+  	(kill-buffer (current-buffer)))) ;; 其他文件正常关闭
     :bind
     (:map beancount-mode-map
-	  ("C-x k" . my/beancount-kill-buffer))
+  	  ("C-x k" . my/beancount-kill-buffer))
     :hook
     (beancount-mode . outline-minor-mode)
     (beancount-mode . my/beancount-auto-fava))
 
 #+end_src
 
+**** CSV
+
+#+begin_src emacs-lisp
+
+  (use-package csv-mode
+    :defer t)
+
+#+end_src
+
+**** JSON
+#+begin_src emacs-lisp
+  (use-package json-mode
+    :defer t)
+#+end_src
+
+**** YAML
+#+begin_src emacs-lisp
+  (use-package yaml-mode
+    :mode
+    (("\\.yaml\\'" . yaml-mode)
+     ("\\.yml\\'" . yaml-mode)))
+#+end_src
+
+*** Script Languages
+
+#+begin_src emacs-lisp
+
+  (use-package elvish-mode
+    :defer 3)
+
+#+end_src
+
+** Window Management
+*** Initial Dashboard
+
+#+begin_src emacs-lisp
+
+  (use-package dashboard
+    :init
+    (dashboard-setup-startup-hook)
+    :custom
+    ;;(initial-buffer-choice '(lambda () (get-buffer-create dashboard-buffer-name)))
+    (dashboard-startup-banner '(official logo 1 2 3))
+    (dashboard-center-content t)
+    (dashboard-items '((recents . 8) (bookmarks . 7) (agenda . 3)))
+    :bind
+    (:map dashboard-mode-map ; set emacs-style hotkeys
+  	  ("n" . dashboard-next-line)
+  	  ("p" . dashboard-previous-line)
+  	  ("f" . dashboard-next-section)
+  	  ("b" . dashboard-previous-section)))
+
+#+end_src
+
+*** Session
+[[https://github.com/iqbalansari/restart-emacs][restart-emacs]] offers a command ~restart-emacs~.
+#+begin_src emacs-lisp
+  (use-package restart-emacs
+    :defer t)
+  (server-start)
+#+end_src
+*** Buffer
+#+begin_src emacs-lisp
+  (use-package saveplace
+    :ensure nil
+    :hook (after-init . save-place-mode))
+#+end_src
+*** Window Tab Line
+#+begin_src emacs-lisp
+  (use-package tab-line
+    :hook (after-init . global-tab-line-mode))
+#+end_src
 ** Version Control
 
 #+begin_src emacs-lisp
   (use-package magit
     :defer t)
 #+end_src
+
+** End
+
+#+begin_src emacs-lisp
+
+  (provide 'init)
+
+  ;;; init.el ends here
+
+#+end_src
+* TODO [#C] Emacs Reading
+SCHEDULED: <2025-06-04 Wed>
+:PROPERTIES:
+:CREATED:  [2024-08-24 Sat 01:28]
+:END:
+
+- [ ] https://unifreak.github.io/ref/ref-emacs
+- [ ] https://github.com/Kungsgeten/hypothesis
+- [ ] [[https://www.bilibili.com/read/cv17903660][使用 org-mode 管理浏览器书签 - 哔哩哔哩]]
+  - https://github.com/include-yy/yyorg-bookmark
+- 专业 Emacs 入门 https://pavinberg.github.io/emacs-book/zh/
+
+** Personal Configs
+
+- [ ] https://github.com/novoid/dot-emacs 使用 Org-Mode + tangle
+- [ ] https://emacs.nasy.moe/ 
+- [ ] https://github.com/gynamics/koishimacs/
+- [ ] https://github.com/11111000000/pro Tao themes 主题作者的个人配置 俄文需翻译
+- [ ] [[https://gist.github.com/rougier/8d5a712aa43e3cc69e7b0e325c84eab4][NANO Emacs (minimal version: 256 lines) · GitHub]]
+
+** Org to Website
+
+- [ ] https://elilif.github.io/articles/2024-02-21-all-in-emacs-blog.html
+- [ ] https://gongzhitaao.org/orgcss/
+- [ ] https://loomcom.com/blog/0110_emacs_blogging_for_fun_and_profit.html
+- [ ] GitHub - SystemCrafters/org-website-example: An example of a website published with Org Mode and Emacs! https://github.com/SystemCrafters/org-website-example
+- Automated Org Mode Website Publishing with GitHub or SourceHut - System Crafters https://systemcrafters.net/publishing-websites-with-org-mode/automated-site-publishing/
+-  GitHub - fniessen/org-html-themes https://github.com/fniessen/org-html-themes
+- Building a Emacs Org-Mode Blog https://taingram.org/blog/org-mode-blog.html
+- 使用 Emacs and Org-Mode 发布静态站点 [[https://ogbe.net/blog/emacs_org_static_site][Using Emacs and Org-mode as a static site generator]]
+- 对 Org 导出管理工具 yynt 的介绍与实现注解 https://egh0bww1.com/posts/2024-12-11-54-yynt-notes/
+

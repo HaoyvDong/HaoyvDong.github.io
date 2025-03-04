@@ -1,0 +1,22 @@
+#+ABSTRACT: 使用的 CLI 应用的参数记录，设置
+
+* Elvish
+
+* FFmpeg
+
+#+begin_src sh
+
+  ffmpeg -i "" -codec copy -ss 00:00:00 -to 01:00:00 "" # 不编解码，截取第一个小时的视频
+
+#+end_src
+
+* Pandoc
+
+#+begin_src sh
+
+  pandoc -f html -t org --wrap=none # 关闭 Org-Mode 换行
+  pandoc -o x.epub --css="" --split-level=2 # 指定 CSS 文件，EPUB 以二级标题分页
+
+#+end_src
+
+* Rclone

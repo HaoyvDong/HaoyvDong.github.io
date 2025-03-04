@@ -1,5 +1,34 @@
 #+description: 各种网站，从未使用，仓鼠症剪藏公墓
 
+* Book
+
+码住等于读了
+
+** 经史子集
+
+- [[https://new.shuge.org/][书格]] :: 自由开放的在线古籍善本，鼓励将文化艺术作品数字化归档。倾向于：艺术类、影像类、珍稀类以及部分刊印水平较高的书籍。
+- [[https://ctext.org/zhs][中国哲学书电子化计划]] :: 线上开放电子图书馆。
+- [[http://www.nlc.cn/pcab/][中国古籍保护网]] :: 国家图书馆下辖项目
+- [[https://www.shidianguji.com/][识典古籍]] ::  抖音公益与北大合作共建的古籍阅读平台。致力于为用户提供免费公开、稳定、快速、方便的检索和阅读古籍的服务。
+- [[https://wenyuan.aliyun.com/home][汉典重光]] ::  古籍数字化平台，收录海外回归古籍，基于达摩院文字识别技术进行数字化古籍识别，方便古籍爱好者查阅使用
+
+** 图书馆 | Libraries
+
+- [[https://ebook.dswxyjy.org.cn/][中共中央党史和文献研究院 - 成果总库]] :: 
+- [[http://www.nlc.cn/][中国国家图书馆]] :: 
+- [[https://pdc.capub.cn/][中国版本图书馆]] :: 
+- [[https://www.wdl.org/zh/][世界数字图书馆主页]] :: 
+- [[https://www.ncpssd.org/][国家哲学社会科学文献中心]] :: 
+- [[https://www.marxists.org/][Marxists Internet Archive]] :: 
+
+** 待整理
+
+- [[https://www.haodoo.net/][首頁- 好讀]] :: 繁体中文书籍，超过 3,300 本 EPUB 及有声书.
+- [[https://bookfere.com/][书伴: 为静心阅读而生]] :: 帮助您更便捷、深入地使用手中的Kindle阅读器。
+- [[https://github.com/404-novel-project/novel-downloader][404-novel-project/novel-downloader: 一个可扩展的通用型小说下载器。]] :: 多数网络小说/网络文学使用本脚本支持的网站即可找到
+- [[https://it-ebooks.info/][IT Free eBooks]] :: Free Download eBooks Library
+- [[https://ebookfoundation.github.io/free-programming-books-search/?§=books&file=free-programming-books-zh.md][free-programming-books]] :: Freely available programming books
+
 * 一切麻烦的事
 :PROPERTIES:
 :heading: true
@@ -24,37 +53,13 @@ https://szfilehelper.weixin.qq.com/
 *** [[https://meta.appinn.net/t/topic/383][Pdf 工具收集 - 大家的板块 / 网络黄页 - 小众软件官方论坛]]
 *** [[https://pan.baidu.com/s/1PnpZ3Bk-lTArrajva7EVzQ?pwd=4hie][老马的原创空间 | strnghrs]]
 ** [[https://meta.appinn.net/t/topic/17302][Adobe桌面软件的替代品 - 大家的板块 / 网络黄页 - 小众软件官方论坛]]
-* Programming
-:PROPERTIES:
-:collapsed: true
-:END:
-** [[https://hackway.org/docs/cs/intro][计算机专业学习路线 | HackWay技术学习路线]] 大学计算机自学
-** #Article
-*** GitHub 初次使用
-[[https://zhuanlan.zhihu.com/p/138305054][初次使用git上传代码到github远程仓库 - 知乎]]
-*** [[https://mp.weixin.qq.com/s/q461so9lWk4FKJGZ-p7Vcg][​提问的智慧-中国版]]
-:PROPERTIES:
-:END:
-中国版的提问的智慧，更懂中国程序员！
-*** [[https://martinrue.com/my-engineering-axioms/][My Engineering Axioms]]
-*** [[https://antonz.org/mastering-curl/][Mastering curl: interactive text guide]]
-#how-to
-** #Forum
-*** [[http://www.bathome.net/index.php][批处理之家]]
-批处理之家 国内最实用的批处理论坛，讨论和学习 BAT, CMD, PowerShell, VBS, DOS 等脚本，众多高手帮助你及时解决各种问题。
-** #Book
-*** [[https://it-ebooks.info/][IT Free eBooks]]
-:PROPERTIES:
-:END:
-IT eBooks - Free Download eBooks Library
-*** [[https://ebookfoundation.github.io/free-programming-books-search/?§=books&file=free-programming-books-zh.md][free-programming-books | Freely available programming books]]
-*** [[https://git-scm.com/book/zh/v2][Git - Book]]
-#Manual
+
 * Creativity
 :PROPERTIES:
 :collapsed: true
 :heading: true
 :END:
+
 ** 室内设计
 :PROPERTIES:
 :collapsed: true
@@ -62,29 +67,25 @@ IT eBooks - Free Download eBooks Library
 *** [[https://www.yinjispace.com/][印际-发现全球室内设计之美]]
 *** [[https://www.wallpaper.com/][Wallpaper*: design, interiors, architecture, fashion, art]]
 *** [[https://www.adstyle.com.cn/][安邸AD家居生活网-创意家居,时尚生活|时尚家居生活杂志《安邸AD》官方网站]]
+*** 装修容易踩坑？这是我的避坑方法论 - 少数派
+:PROPERTIES:
+:ID:       f6381b27-4a3e-4680-bb71-524348e551bd
+:CREATED:  [2025-02-18 Tue 21:36]
+:END:
+
+[[https://sspai.com/post/96168][装修容易踩坑？这是我的避坑方法论 - 少数派]]
+
 ** 素材
 Public Domain, copyleft, copyright
 *** [[https://meta.appinn.net/t/topic/12250][免费资源网站 - 小众软件官方论坛]]
-*** [[https://naldc.nal.usda.gov/][NALDC]]
-:PROPERTIES:
-:END:
-美国农业部水果水彩画图片
+*** [[https://naldc.nal.usda.gov/][NALDC]] :: 美国农业部水果水彩画图片
 ** 色彩
 *** [[https://nipponcolors.com/][日本の伝統色]]
 *** [[http://zhongguose.com/][中国色 － 中国传统颜色]]
 *** [[https://paletton.com/][Paletton - The Color Scheme Designer]]
 ** 赛博旅行
-*** [[http://www.bigpixel.cn/][千亿像素看中国]]
-:PROPERTIES:
-:END:
-放大万倍体验中国城市，展现城市特色，讲好中华文化。
+*** [[http://www.bigpixel.cn/][千亿像素看中国]] :: 放大万倍体验中国城市，展现城市特色，讲好中华文化。
 *** [[https://www.airpano.com/][Virtual Travels, 360° Aerial Panoramas, 360° Virtual Tours Around the World, Photos of the Most Interesting Places on the Earth]]
-*** [[https://globalsequencer.com/][Global Sequencer | 世界角落的声音]]
-:PROPERTIES:
-:END:
-Global Sequencer by Yuri Suzuki for Hamamatsu UNESCO Creative City of Music.
 ** [[http://datav.aliyun.com/tools/atlas/index.html][地图选择器]]
-** [[https://www.eso.org/public/images/potw2137a/][North Meets South | ESO]]
-在回归线两侧的天文台拍摄的全天星图进行拼接
 * [[https://www.nytimes.com/wirecutter/][Wirecutter: New Product Reviews, Deals, and Buying Advice]]
 #GDS

@@ -1,4 +1,4 @@
-#+Abstract: Windows 平台为主
+#+Abstract: GUI 应用
 
 * CJK
 
@@ -16,6 +16,28 @@ Chinese-Japanese-Korea，CJK 需要单独对待的理由：
 - Apple 系统 :: [[https://utgd.net/article/20231][高效同步，便捷备份：我的 Rime 输入法 Mac 与 i(Pad)OS 多设备使用方案 - #UNTAG]]
   我的观点是不要在 i(Pad)OS 上尝试任何涉及文件的自动化，容易变得不幸，不过如果你一定要的话就是这篇文章咯
 - 美化资源 :: [[https://wubi98.github.io/][五笔小筑]]
+* Apps Management
+** Scoop
+:PROPERTIES:
+:id: 64eff0ef-c0a0-496e-a27e-140a12f5570d
+:collapsed: true
+:END:
+
+- 官网 :: [[https://scoop.sh/][Get Scoop]]
+- 经典博客 :: [[https://chawyehsu.com/blog/talk-about-scoop-the-package-manager-for-windows-again][再谈谈 Scoop 这个 Windows 下的软件包管理器 - Chawye Hsu]] 简要介绍+对比 Chocolatey 
+
+
+官方目前不推荐使用修改环境变量的方法安装，但是目前官方仓库报告新方法安装错误的 [[https://github.com/ScoopInstaller/Install/issues/94][issue]] 也没关闭，所以还是先使用旧方法吧
+#+begin_src powershell
+
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+  $env:SCOOP='C:\scoop'
+  [environment]::setEnvironmentVariable('SCOOP',$env:SCOOP,'User')
+  Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+  
+#+end_src
+** [[https://portableapps.com/][PortableApps.com - Portable software for USB, portable, and cloud drives]]
+
 * Multimedia
 :PROPERTIES:
 :heading: true
@@ -155,6 +177,9 @@ https://web.hypothes.is/ ，网页批注定位很强的扩展/小书签应用
 - [[https://github.com/zhongyang219/TrafficMonitor/][TrafficMonitor]] :: 任务栏展示信息，用来看个网速自我安慰，也观察 CPU 、内存占用是否异常
 - [[https://www.ventoy.net][Ventoy]] :: 启动盘制作工具
 
+
+
+- [[http://www.bathome.net/index.php][批处理之家]] :: 批处理之家 国内最实用的批处理论坛，讨论和学习 BAT, CMD, PowerShell, VBS, DOS 等脚本，众多高手帮助你及时解决各种问题。
 * Footnotes
 :PROPERTIES:
 :heading: true
