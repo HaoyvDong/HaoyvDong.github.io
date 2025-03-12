@@ -144,6 +144,7 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
 #+begin_src emacs-lisp
 
   (use-package simple
+    :ensure nil
     :hook (after-init . column-number-mode))
   (use-package display-line-numbers
     :hook (after-init . global-display-line-numbers-mode)
@@ -433,13 +434,14 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
 
   ;;; Text mode settings
   (use-package text-mode
+    :ensure nil
     :hook  (text-mode . visual-line-mode)
     :init  (delete-selection-mode t)
     :custom
     (sentence-end-double-space nil)
     (scroll-error-top-bottom t)
     (save-interprogram-paste-before-kill t))
-  
+
 #+end_src
 
 *** Markup Languages
