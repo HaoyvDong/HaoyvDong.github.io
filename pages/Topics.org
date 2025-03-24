@@ -8,7 +8,7 @@
 :heading: true
 :id: 6561893c-a0ad-49de-9e2a-8366ec461fc7
 :END:
-* [[DefaultApps]]
+* [[WindowsApps]]
 :PROPERTIES:
 :heading: true
 :id: 6561893e-0d0b-41b8-91a4-62d301713263

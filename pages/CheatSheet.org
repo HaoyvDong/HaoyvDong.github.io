@@ -15,7 +15,7 @@
 #+begin_src sh
 
   pandoc -f html -t org --wrap=none # 关闭 Org-Mode 换行
-  pandoc -o x.epub --css="" --split-level=2 # 指定 CSS 文件，EPUB 以二级标题分页
+  pandoc -o x.epub --css "" --split-level 2 # 指定 CSS 文件，EPUB 以二级标题分页
 
 #+end_src
 

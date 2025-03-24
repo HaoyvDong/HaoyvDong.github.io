@@ -14,8 +14,8 @@
 * early-init
 
 #+begin_src  emacs-lisp :tangle "~/.emacs.d/early-init.el"
-  
-  ;;; early-init.el --- Early initialization. -*- lexical-binding: t -*-
+
+   ;;; early-init.el --- Early initialization. -*- lexical-binding: t -*-
 
   ;; Faster to disable these here (before they've been initialized)
   (push '(menu-bar-lines . 0) default-frame-alist)
@@ -26,13 +26,21 @@
   ;; Prevent Emacs from initializing packages before loading user-init-file
   ;;(setq package-enable-at-startup nil)
   (setq package-archives '(("gnu" . "https://mirrors.ustc.edu.cn/elpa/gnu/")
-  			   ("melpa" . "https://mirrors.ustc.edu.cn/elpa/melpa/")
-  			   ("nongnu" . "https://mirrors.ustc.edu.cn/elpa/nongnu/")))
+   			 ("melpa" . "https://mirrors.ustc.edu.cn/elpa/melpa/")
+   			 ("nongnu" . "https://mirrors.ustc.edu.cn/elpa/nongnu/")))
 
   ;; (setq-default mode-line-format nil)
+
+  ;; Custom settings in a separate file and load the custom settings
+
+  (setq custom-file (locate-user-emacs-file "custom.el"))
+
+  (when (file-exists-p custom-file)
+    (load custom-file))
+
   (provide 'early-init)
 
-  ;;; early-init.el ends here
+   ;;; early-init.el ends here
 
 #+end_src
 
@@ -46,29 +54,46 @@ In order to enable lexical binding in the config, this must be the first line of
   ;;; init.el -*- lexical-binding: t -*-
 #+end_src
 
-** Custom
-
-#+begin_src emacs-lisp
-  
-  ;; Custom settings in a separate file and load the custom settings
-
-  (setq custom-file (locate-user-emacs-file "custom.el"))
-
-  (when (file-exists-p custom-file)
-    (load custom-file))
-
-#+end_src
-
 ** Package Manager
 
+- Use-Package 与 package-selected-packages 变量 :: https://emacs-china.org/t/package-autoremove-use-package/18578/16
+
+
 #+begin_src emacs-lisp
+
+  ;; package.el updates the saved version of package-selected-packages correctly only
+  ;; after custom-file has been loaded, which is a bug. We work around this by adding
+  ;; the required packages to package-selected-packages after startup is complete.
+  ;; Make `package-autoremove' work with `use-package'
+
+  (defvar use-package-selected-packages '(use-package)
+    "Packages pulled in by use-package.")
+
+  (eval-and-compile
+    (define-advice use-package-handler/:ensure (:around (fn name-symbol keyword args rest state) select)
+      (let ((items (funcall fn name-symbol keyword args rest state)))
+        (dolist (ensure args items)
+          (let ((package
+                 (or (and (eq ensure t) (use-package-as-symbol name-symbol))
+                     ensure)))
+            (when package
+              (when (consp package)
+                (setq package (car package)))
+              (push `(add-to-list 'use-package-selected-packages ',package) items)))))))
+
+  (when (fboundp 'package--save-selected-packages)
+    (add-hook 'after-init-hook
+              (lambda ()
+                (package--save-selected-packages
+                 (seq-uniq (append use-package-selected-packages package-selected-packages))))))
 
   (use-package use-package
     :custom
     (use-package-always-ensure t)
-    (use-package-always-defer t)
+    ; (use-package-always-defer t)
+    (use-package-check-before-init t)
     (warning-minimum-level :emergency))
-  
+
 #+end_src
 
 ** Localization
@@ -489,9 +514,9 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
 
   (use-package markdown-mode
     :mode (("README\\.md\\'" . gfm-mode)
-  	   ("\\.md\\'" . markdown-mode)
-  	   ("\\.markdown\\'" . markdown-mode)))
-  
+  	 ("\\.md\\'" . markdown-mode)
+  	 ("\\.markdown\\'" . markdown-mode)))
+
 #+end_src
 
 *** Data Format
@@ -514,19 +539,19 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
     (defun my/beancount-auto-fava ()
       "`beancount-fava` only when open `ledger.beancount`"
       (when (string-equal (file-name-nondirectory buffer-file-name) "Ledger.beancount")
-  	(beancount-fava)))
+        (beancount-fava)))
     (defun my/beancount-kill-buffer ()
       (interactive)
       (if (string-equal (file-name-nondirectory buffer-file-name) "Ledger.beancount")
-  	  (progn
-  	    (beancount-fava)
-  	    (when (get-buffer "*fava*")
-  	      (kill-buffer "*fava*"))
-  	    (kill-buffer (current-buffer)))
-  	(kill-buffer (current-buffer)))) ;; 其他文件正常关闭
+  	(progn
+  	  (beancount-fava)
+  	  (when (get-buffer "*fava*")
+  	    (kill-buffer "*fava*"))
+  	  (kill-buffer (current-buffer)))
+        (kill-buffer (current-buffer)))) ;; 其他文件正常关闭
     :bind
     (:map beancount-mode-map
-  	  ("C-x k" . my/beancount-kill-buffer))
+  	("C-x k" . my/beancount-kill-buffer))
     :hook
     (beancount-mode . outline-minor-mode)
     (beancount-mode . my/beancount-auto-fava))
@@ -562,6 +587,79 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
 
   (use-package elvish-mode
     :defer 3)
+
+#+end_src
+
+** Information Management
+
+#+begin_src emacs-lisp
+
+  (use-package denote
+    :defer 1
+    :ensure t  :hook
+    ( ;; If you use Markdown or plain text files, then you want to make
+     ;; the Denote links clickable (Org renders links as buttons right
+     ;; away)
+     (text-mode . denote-fontify-links-mode-maybe)
+     ;; Apply colours to Denote names in Dired.  This applies to all
+     ;; directories.  Check `denote-dired-directories' for the specific
+     ;; directories you may prefer instead.  Then, instead of
+     ;; `denote-dired-mode', use `denote-dired-mode-in-directories'.
+     (dired-mode . denote-dired-mode))
+    :bind
+    ;; Denote DOES NOT define any key bindings.  This is for the user to
+    ;; decide.  For example:
+    ( :map global-map
+      ("C-c n n" . denote)
+      ("C-c n d" . denote-sort-dired)
+      ;; If you intend to use Denote with a variety of file types, it is
+      ;; easier to bind the link-related commands to the `global-map', as
+      ;; shown here.  Otherwise follow the same pattern for `org-mode-map',
+      ;; `markdown-mode-map', and/or `text-mode-map'.
+      ("C-c n l" . denote-link)
+      ("C-c n L" . denote-add-links)
+      ("C-c n b" . denote-backlinks)
+      ;; Note that `denote-rename-file' can work from any context, not just
+      ;; Dired bufffers.  That is why we bind it here to the `global-map'.
+      ("C-c n r" . denote-rename-file)
+      ("C-c n R" . denote-rename-file-using-front-matter)
+
+      ;; Key bindings specifically for Dired.
+      :map dired-mode-map
+      ("C-c C-d C-i" . denote-dired-link-marked-notes)
+      ("C-c C-d C-r" . denote-dired-rename-files)
+      ("C-c C-d C-k" . denote-dired-rename-marked-files-with-keywords)
+      ("C-c C-d C-R" . denote-dired-rename-marked-files-using-front-matter))
+
+    :config
+    ;; Automatically rename Denote buffers using the `denote-rename-buffer-format'.
+    (denote-rename-buffer-mode 1)
+    
+    :custom
+    ;; Remember to check the doc string of each of those variables.
+    ;(setq denote-directory (expand-file-name "~/Documents/notes/"))
+    (denote-save-buffers nil)
+    ;(setq denote-known-keywords '("emacs" "philosophy" "politics" "economics"))
+    (denote-infer-keywords t)
+    (denote-sort-keywords t)
+    (denote-prompts '(title keywords))
+    (denote-excluded-directories-regexp nil)
+    (denote-excluded-keywords-regexp nil)
+    (denote-rename-confirmations '(rewrite-front-matter modify-file-name))
+
+    ;; Pick dates, where relevant, with Org's advanced interface:
+    (denote-date-prompt-use-org-read-date t)
+
+    ;; By default, we do not show the context of links.  We just display
+    ;; file names.  This provides a more informative view.
+    (denote-backlinks-show-context t)
+    )
+
+  (use-package denote-org
+    :after denote org)
+
+  (use-package consult-denote
+    :after denote consult)
 
 #+end_src
 

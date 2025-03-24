@@ -42,6 +42,16 @@ https://forums.zotero.org/discussion/106183/zotero-item-id-numbers
 :collapsed: true
 :END:
 ** 浏览过[[https://meta.appinn.net/t/52330/12][文件去重软件对比]]后决定保留功能相对齐全的 Czkawka 作为去重软件，但是默认 UI 实在字号过小，在 Windows 上没有跟随系统设置，好在[[https://github.com/qarmin/czkawka/issues/787#issuecomment-1292253437][网友给出了解决方案]]。
+  Go to: ~[CzkawkaDir]\share\themes\WhiteSur-dark\gtk-4.0~ Modify gtk.css to:
+#+begin_src css
+
+  @import url("resource:///org/gnome/theme/gtk.css");
+
+  * { -gtk-dpi: 150; }
+
+#+end_src
+
+Substitute 150 with whichever DPI you want to use.
 * ~ROBOCOPY  /MIR~ 命令系统权限解决
 :PROPERTIES:
 :heading: true
