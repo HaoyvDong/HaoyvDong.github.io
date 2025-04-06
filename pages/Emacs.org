@@ -88,6 +88,7 @@ In order to enable lexical binding in the config, this must be the first line of
                  (seq-uniq (append use-package-selected-packages package-selected-packages))))))
 
   (use-package use-package
+    :ensure nil
     :custom
     (use-package-always-ensure t)
     ; (use-package-always-defer t)
@@ -126,7 +127,7 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
 
 #+begin_src emacs-lisp
 
-  ; Windows 右键菜单编辑含中文路径文件需调整
+  					; Windows 右键菜单编辑含中文路径文件需调整
   (when (eq system-type 'windows-nt)
     (setq file-name-coding-system 'chinese-gb18030))
 
@@ -145,7 +146,7 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
     (set-selection-coding-system 'utf-8))
   (setq system-time-locale "C")
   ;;(format-time-string "%Y-%m-%d")
-  
+
 #+end_src
 
 *** CNFonts Cal-China-X
@@ -170,23 +171,35 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
 
   (use-package simple
     :ensure nil
-    :hook (after-init . column-number-mode))
+    :hook (after-init . column-number-mode)
+    :custom
+    (blink-matching-paren-highlight-offscreen t))
+
   (use-package display-line-numbers
+    :ensure nil
     :hook (after-init . global-display-line-numbers-mode)
     :custom (display-line-numbers-type 'visual))
+
   (use-package hl-line
+    :ensure nil
     :hook (after-init . global-hl-line-mode)
     :config
     ;; Highlight starts from EOL, to avoid conflicts with other overlays
     (setq hl-line-range-function (lambda () (cons (line-end-position)
-  						(line-beginning-position 2))))
+    						(line-beginning-position 2))))
     :custom
     (hl-line-sticky-flag nil))
-  ;; Window management
-  ;; Split windows sensibly
 
-  (setq split-width-threshold 120
-        split-height-threshold nil)
+  (use-package paren
+    :ensure nil
+    :custom
+    (show-paren-context-when-offscreen t))
+
+  (use-package window
+    :ensure nil
+    :custom
+    (split-width-threshold 120)
+    (split-height-threshold nil))
 
 #+end_src
 
@@ -222,6 +235,7 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
     (keymap-global-set "<f10>" #'tmm-menubar)
     (advice-add #'tmm-add-prompt :after #'minibuffer-hide-completions))
   (use-package savehist
+    :ensure nil
     :hook vertico-mode)
   (use-package orderless
     :custom
@@ -233,8 +247,9 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
   		("M-A" . marginalia-cycle))
     :hook vertico-mode)
   (use-package which-key
+    :ensure nil
     :hook after-init)
-  
+
 #+end_src
 
 **** Corfu
@@ -701,6 +716,7 @@ home 目录，简单的用 ~~~ 表示，或者用全路径表示为 ~/home/xxx/~
 *** Window Tab Line
 #+begin_src emacs-lisp
   (use-package tab-line
+    :ensure nil
     :hook (after-init . global-tab-line-mode))
 #+end_src
 ** Version Control

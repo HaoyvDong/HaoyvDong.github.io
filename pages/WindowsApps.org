@@ -1,13 +1,16 @@
 #+Abstract: GUI 应用
 
 * CJK
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
 
 Chinese-Japanese-Korea，CJK 需要单独对待的理由：
 #+BEGIN_QUOTE
 根据我的经验，如果一个外国软件的中文支持有问题，基本上是没什么改善希望的——背后的团队再强大、经费再充足也很难改善，因为很多发达国家的开发者根本就无法想象世界上竟然存在不用空格分隔单词的语言。
 ──[[https://www.yuque.com/deerain/gannbs/kbczzv#26d7c1b78bedd0e182b204d04c888ea9][锐评 RemNote]] 
 #+END_QUOTE
-
 ** RIME
 - [[https://rime.im/][RIME | 中州韻輸入法引擎]] :: RIME 和 [[https://simpread.pro/][简悦 SimpRead]] 处在两个极端，一个文档写得太少以至于[[https://github.com/rime/squirrel/issues/421][功能要去 issue 找]]，一个文档写得太多以至于完全不知道需要的东西去哪查只能开 issue。
 - 安装开始使用 :: [[https://sspai.com/post/84373][自由输入法 RIME 简明配置指南（2023 版） - 少数派]]
@@ -17,6 +20,10 @@ Chinese-Japanese-Korea，CJK 需要单独对待的理由：
   我的观点是不要在 i(Pad)OS 上尝试任何涉及文件的自动化，容易变得不幸，不过如果你一定要的话就是这篇文章咯
 - 美化资源 :: [[https://wubi98.github.io/][五笔小筑]]
 * Apps Management
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
 ** Scoop
 :PROPERTIES:
 :id: 64eff0ef-c0a0-496e-a27e-140a12f5570d
@@ -37,7 +44,6 @@ Chinese-Japanese-Korea，CJK 需要单独对待的理由：
   
 #+end_src
 ** [[https://portableapps.com/][PortableApps.com - Portable software for USB, portable, and cloud drives]]
-
 * Multimedia
 :PROPERTIES:
 :heading: true
@@ -49,7 +55,6 @@ Chinese-Japanese-Korea，CJK 需要单独对待的理由：
 | Pictures/图片 | [[https://www.irfanview.com][IrfanView]]             | [[https://getsharex.com][ShareX]]        | [[https://www.digikam.org][digiKam]]        |
 | Music/音乐    | [[https://github.com/zhongyang219/MusicPlayer2][MusicPlayer2]]          | [[https://www.mp3tag.de/en][Mp3tag]]        | [[https://www.foobar2000.org][Foobar2000]]     |
 | Videos/视频   | [[https://mpv.io][mpv.io]][fn:mpv]        | [[https://ffmpeg.org][FFmpeg]]        | ----           |
-
 * File Management
 :PROPERTIES:
 :heading: true
@@ -68,8 +73,10 @@ Chinese-Japanese-Korea，CJK 需要单独对待的理由：
 - [[https://localsend.org][LocalSend]] :: 局域网设备间传输
 - [[https://github.com/qarmin/czkawka][Czkawka]] :: 文件去重
 - [[https://windirstat.net][WinDirStat]] :: 分析磁盘占用情况，观察文件夹大小
-
 * Information/Knowledge Management
+:PROPERTIES:
+:heading: true
+:END:
 
 - [[https://hluk.github.io/CopyQ][CopyQ]] :: 剪贴板管理
 - [[https://www.freeplane.org][Freeplane]] :: 思维导图，不咋用
@@ -78,23 +85,23 @@ Chinese-Japanese-Korea，CJK 需要单独对待的理由：
 - [[https://b3log.org/siyuan][SiYuan Note]] :: 当初买了永久会员，目前偶尔用下
 - [[https://www.thunderbird.net][Thunderbird ESR]] :: 邮箱、RSS
 ** Anki
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
 https://apps.ankiweb.net/
-- 人生苦短，你该用 [[https://github.com/open-spaced-repetition/fsrs4anki][FSRS4Anki]]
-  - [[https://zhuanlan.zhihu.com/p/636564830][FSRS4Anki 使用指北 - 知乎]]
+- [[https://github.com/open-spaced-repetition/fsrs4anki][FSRS4Anki]] :: [[https://zhuanlan.zhihu.com/p/664758200][Anki 新算法 FSRS 配置指南 - 知乎]]
 - [[https://utgd.net/article/9595][越过驾驭 Anki 前的那几道坎儿 - #UNTAG]]
-- [[https://robertheaton.com/2018/06/25/how-to-read/][How to read | Robert Heaton]]
-- 译文：[[https://www.zhihu.com/question/616621310/answer/3172266680][在Anki已经有了FSRS这种新的算法后，如何通过Anki做渐进阅读？ - 知乎]]
-- [[https://www.zhihu.com/people/sun-mo-yu-44][清锡CAE - 知乎]]
-  此君把 PDF 逐页导入 Anki 后进行渐进阅读，多少有点主动选择了 /Hard Way/ 的意思，也是我提的 /Anki 笔记软件论/ 的一个生动例证了hhh
-  - [[https://zhuanlan.zhihu.com/p/651179506][我的知识笔记系统——答怎样构建自己思维框架形成知识体系 - 知乎]]
-  - [[https://zhuanlan.zhihu.com/p/651347017][我的知识笔记系统-anki增量阅读之课程制作方法 - 知乎]]
+   - [[https://utgd.net/course/20005][Anki 进阶手册（增订版） | 教程详情 | #UNTAG]]
 *** Anki 插件
+
 2055492159 85158043 1087328706 759844606
   - [[https://ankiweb.net/shared/info/2055492159][AnkiConnect - AnkiWeb]];
   - [[https://ankiweb.net/shared/info/85158043][Minimize to tray - AnkiWeb]];
   - [[https://ankiweb.net/shared/info/1087328706][Markdown and KaTeX Support - AnkiWeb]];
   - [[https://ankiweb.net/shared/info/759844606][FSRS4Anki Helper - AnkiWeb]];
 *** Anki 笔记软件论
+
 #+BEGIN_QUOTE
 - 能直接编辑 HTML 源码的富文本编辑器
 - 能浏览所有笔记的管理界面
@@ -104,8 +111,12 @@ https://apps.ankiweb.net/
 已经比多数纯文本+文件树的笔记软件高到不知道哪里去了（笑
 #+END_QUOTE
 ** Calibre
-https://calibre-ebook.com/
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
 
+https://calibre-ebook.com/
 
 #+begin_details
  #+begin_summary
@@ -115,9 +126,7 @@ https://calibre-ebook.com/
 - [[https://sspai.com/post/72748][阅读批注样样通，我的 Calibre 书籍库管理方法论 - 少数派]]
 - [[https://sspai.com/post/57005][借助 Calibre 处理电子书的流程和技巧 - 少数派]]
 #+end_details
-
-
-- Calibre 插件 ::
+*** Calibre 插件
   - DeDRM :: https://github.com/noDRM/DeDRM_tools
   - NLCISBN Plugin :: https://github.com/DoiiarX/NLCISBNPlugin
   - Zotero Metadata Importer :: https://www.mobileread.com/forums/showthread.php?p=3339191
@@ -125,25 +134,28 @@ https://calibre-ebook.com/
 https://web.hypothes.is/ ，网页批注定位很强的扩展/小书签应用
 - Hypothesis 的一个前端：[[https://jonudell.info/h/facet/][View and export Hypothesis annotations]]
 - [[https://type.cyhsu.xyz/2020/10/hypothesis-tutorial/][开源、可定制的网页批注工具——Hypothesis - neverland]]
-
 ** Zotero
+:PROPERTIES:
+:heading: true
+:collapsed: true
+:END:
 
 - [[https://www.zotero.org/][Zotero | Your personal research assistant]]
 - [[https://zotero-chinese.com/][Zotero 中文小组]]
 - https://editor.citationstyles.org/about/ Find and edit [[http://citationstyles.org/][CSL]] citation styles. 
 - [[https://emacs-china.org/t/zotero-note-quick-copy-org-mode/25574][zotero note quick copy如何输出为org mode能打开的格式 - 闲聊灌水 - Emacs China]]
   - https://github.com/ybyygu/zotero/blob/master/translator/org-mode.js
-
-  
-- Zotero 插件 ::
+*** Zotero 插件
   - jasminum :: [[https://github.com/l0o0/jasminum][l0o0/jasminum: A Zotero add-on to retrive CNKI meta data. 一个简单的Zotero 插件，用于识别中文元数据]]
   - Tara :: [[https://github.com/l0o0/tara#readme][l0o0/tara: A Zotero add-on for backup and restore preferences, add-ons, translators, styles, and locate between two machines]]
   - Action Tags :: [[https://github.com/windingwind/zotero-actions-tags#readme][windingwind/zotero-actions-tags: Customize your Zotero workflow.]]
   - better-notes :: [[https://github.com/windingwind/zotero-better-notes][windingwind/zotero-better-notes: Everything about note management. All in Zotero.]]
   - pdf-translate :: [[https://github.com/windingwind/zotero-pdf-translate][windingwind/zotero-pdf-translate: Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.]]
   - ZotCard :: [[https://github.com/018/zotcard][018/zotcard: Card note-taking enhancement tool. templates, sort cards and standardize card formats.]]
-
 ** Article & Notes
+:PROPERTIES:
+:heading: true
+:END:
 
 - [[https://sspai.com/post/77144][找笔记方便、写作又给力的知识库，我是这么搭建出来的 - 少数派]] 操作手册与参考指南需要更细致的分类
   重读这篇文章前我对参考类的文章乃至书籍只是粗略打上 Manual 的标签，并未考虑到二者的微妙区别，本文中提到的 How-to 和 Reference 分类也许可以帮助我更加精准地看待二者的重要性。
@@ -163,8 +175,10 @@ https://web.hypothes.is/ ，网页批注定位很强的扩展/小书签应用
 - [[https://floorp.app/zh/][Floorp]] :: 目前的主力浏览器，使用 [[https://github.com/cascadefox/cascade/][CascadeFox]] 作为 userChrome
 - [[https://vivaldi.com/zh-hans/][Vivaldi]] :: [[https://zhuanlan.zhihu.com/p/92618817][为什么 Vivaldi 是最好用的桌面浏览器 - 知乎]]
 - [[https://www.microsoft.com/zh-cn/edge][Microsoft Edge]] :: 系统预装，反正 Tauri 也要用 Webview2 的就不删了，保持零插件配置在学校政府网站用。
-
 * Utility
+:PROPERTIES:
+:heading: true
+:END:
 
 - [[https://github.com/RamonUnch/AltSnap][AltSnap]] :: 按下 ~Alt~ 键快速调节窗口位置、大小、透明度等
 - [[https://www.bcuninstaller.com][Bulk Crap Uninstaller]] :: 卸载软件

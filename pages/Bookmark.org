@@ -26,6 +26,8 @@
 - [[https://www.haodoo.net/][首頁- 好讀]] :: 繁体中文书籍，超过 3,300 本 EPUB 及有声书.
 - [[https://bookfere.com/][书伴: 为静心阅读而生]] :: 帮助您更便捷、深入地使用手中的Kindle阅读器。
 - [[https://github.com/404-novel-project/novel-downloader][404-novel-project/novel-downloader: 一个可扩展的通用型小说下载器。]] :: 多数网络小说/网络文学使用本脚本支持的网站即可找到
+   - 
+[[https://www.10000txt.com/][万本txt小说下载网]]
 - [[https://it-ebooks.info/][IT Free eBooks]] :: Free Download eBooks Library
 - [[https://ebookfoundation.github.io/free-programming-books-search/?§=books&file=free-programming-books-zh.md][free-programming-books]] :: Freely available programming books
 

@@ -1,5 +1,46 @@
 #+Description: 被你发现了！你看确实没写什么东西，话说如果以记录知识的角度，网上最多的“迁移到 Hugo”真的有反复写的必要吗？不如把搜过的教程链接搜集下完事。所以你可以点击 #Article 查看我的剪藏库！
 
+* 用 Anki-Connect 实现桌面端 Anki 内部双向链接 20250406
+
+- 需要安装 [[https://git.sr.ht/~foosoft/anki-connect/][Anki-Connect]] 在桌面端的 Anki （插件 ID：[[https://ankiweb.net/shared/info/2055492159][2055492159]]），所以移动端是不行的。
+- 本人不懂 JavaScript or HTTP ，一开始还以为可以直接通过浏览器链接的方式搞定，总之感谢 DeepSeek 大力支持
+
+读完 [[https://utgd.net/course/20005/lesson/20068][4-3 模板：半桶水的双向链接 - Anki 进阶手册（增订版） | #UNTAG]] 苦于使用 Windows 而无 Keyboard Maestro ，好在 Anki 自有插件来通过 HTTP API 操作 Anki 自身，结合其 HTML 编辑器，即可达成搜索指定内容的效果。
+
+具体来说：
+
+1. 安装 Anki-Connect
+
+2. 新建笔记模板，将以下内容复制到卡片的样式中（我是以默认 Cloze 挖空为母本复制了一个笔记模板出来测试的）
+
+   #+begin_src html
+     <style>
+       .query-btn { padding: 8px 16px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; margin: 5px; }
+       .query-btn:hover { background: #45a049; }
+     </style>
+     <script>
+       function runAnkiQuery(button) {
+       // 从按钮文本中获取查询关键词
+       const query = button.innerText.trim();      
+       // 发送请求到 AnkiConnect
+       fetch('http://localhost:8765', {
+       method: 'POST',
+       headers: { 'Content-Type': 'application/json' },
+       body: JSON.stringify({
+       action: 'guiBrowse',
+       version: 6,
+       params: { query: `${query}` }
+       })
+       });
+       }
+     </script>
+
+   #+end_src
+   
+3. 在卡片背面或者新建字段中添加 HTML： =<button class="query-btn" onclick="runAnkiQuery(this)">查询内容</button>= 即可在卡片浏览器中搜索 =查询内容=
+
+
+
 * 制作对照翻译网页 20250301
 
 来自 [[https://utgd.net/article/4991][一种几乎永不失效的网页中英对照翻译方案 | #UNTAG]] ，以下小书签用于复写各段落，随后使用浏览器自带翻译即可
